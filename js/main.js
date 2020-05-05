@@ -322,3 +322,48 @@ function magnifylong(imgID, zoom) {
     return {x : x, y : y};
   }
 }
+
+
+function openMobileNav() {
+  // declare variables by creating elements for menu nav
+  var headermenu = document.getElementsByClassName('header-container')[0];
+  var row = document.createElement('div');
+  var column = document.createElement('div');
+  var shoplink = document.createElement('a');
+  var poemslink = document.createElement('a');
+  var musiclink = document.createElement('a');
+
+  // check to see if mobile-menu-items exists
+  var mobilemenu = document.getElementsByClassName('mobile-menu-items')[0];
+  if (typeof(mobilemenu) != 'undefined' && mobilemenu != null) {
+    mobilemenu.remove();
+  } else {
+    headermenu.appendChild(row);
+    row.appendChild(column);
+    row.classList.add('row')
+    column.classList.add('col-sm-12');
+    column.classList.add('mobile-menu-items');
+
+    shoplink.innerText = 'Shop';
+    shoplink.setAttribute('href', 'mobileshop.html');
+    shoplink.classList.add('mobile-menu-item');
+    column.appendChild(shoplink);
+    var breaktag = document.createElement('br');
+    column.appendChild(breaktag);
+
+    poemslink.innerText = 'Poems';
+    poemslink.setAttribute('href', 'mobilepoems.html');
+    poemslink.classList.add('mobile-menu-item');
+    column.appendChild(poemslink);
+    var breaktag = document.createElement('br');
+    column.appendChild(breaktag);
+
+    musiclink.innerText = 'Music';
+    musiclink.setAttribute('href', 'mobilemusic.html');
+    musiclink.classList.add('mobile-menu-item')
+    column.appendChild(musiclink);
+    var breaktag = document.createElement('br');
+    column.appendChild(breaktag);
+  }
+
+}

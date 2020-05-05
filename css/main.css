@@ -42,8 +42,10 @@ a:hover {
   text-align: center;
 }
 
-.home-menu.col-xs-12 {
-  display: none;
+@media (max-width: 768px) {
+  .home-menu {
+    display: none;
+  }
 }
 
 .menuLinkText {
@@ -419,6 +421,31 @@ body{
 .item p {
   display: none;
 }
+
+
+
+
+
+/*MOBILE*/
+.mobileicons {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.mobile-menu-items {
+  height: 66px;
+  background-color: grey;
+  margin-left:10px;
+}
+
+.mobile-menu-item {
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+
+
 
 
 /* speciic poems */
