@@ -42,6 +42,10 @@ a:hover {
   text-align: center;
 }
 
+.home-menu.col-xs-12 {
+  display: none;
+}
+
 .menuLinkText {
   font-size: 24px;
   font-family: inherit;
