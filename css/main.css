@@ -198,6 +198,10 @@ a:hover {
   color: black;
 }
 
+.poembanner {
+  height: 32px;
+}
+
 
 /* END Poems Search */
 
@@ -444,8 +448,32 @@ body{
   font-weight: 500;
 }
 
+/* Mothers Day */
+.mothersdaybanner {
+  background-color: purple;
+  text-align: center;
+}
 
+.md-background-img {
+  background: url("../img/mothersday.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.mothersdayparallax {
+  color: purple;
+  background-color: white;
+  opacity: 50%;
+  padding: 10px 20px;
+}
+
+.mothersdayletter {
+  min-height: 325px;
+  background-color: grey;
+}
 
 
 /* speciic poems */
@@ -686,4 +714,9 @@ body{
 
 #o062 {
   background: url("../img/actatmadCOVER.jpg")
+}
+
+#o063 {
+  background: url("../img/mothersdaysmall.jpg");
+  background-position: bottom;
 }
