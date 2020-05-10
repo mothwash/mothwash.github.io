@@ -367,3 +367,7 @@ function openMobileNav() {
   }
 
 }
+
+function openregistration() {
+  
+}
