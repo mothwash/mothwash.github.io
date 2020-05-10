@@ -60,6 +60,18 @@ a:hover {
 }
 
 /* home main page */
+.quiznotice {
+  min-height: 96px;
+  background-color: black;
+  color: lightgrey;
+  text-align: center;
+}
+
+.quizlink {
+  font-size: 18px;
+  color: lightgrey;
+}
+
 .mp-background-img {
   background: url("../img/collage-home1.png");
   min-height: 400px;
@@ -391,6 +403,12 @@ body{
 
 
 /* SHOP */
+.shopnotice {
+  background-color: hotpink;
+  min-height: 96px;
+  text-align: center;
+}
+
 .shopsidebar {
   padding-top: 15px;
 }
@@ -428,6 +446,31 @@ body{
 
 
 
+/* chapquiz */
+.quiz-head-background {
+  background: url("../img/analoganalog.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.qcontainer {
+  background-color: grey;
+}
+
+.highlightAnswer {
+  background-color: lightgrey;
+}
+
+#submitbutton {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 8px 24px;
+  text-align: center;
+}
 
 
 /*MOBILE*/
