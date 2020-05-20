@@ -86,143 +86,12 @@
             <h1>the having-less album</h1>
             <p>produced on audiotool.com by brennanmcmullen</p>
 
-            <div id="error">
-            	<h2>Sorry!</h2>
-
-            	<p>SoundJS or Web Audio is not currently supported in your browser.
-            		Either you are using a browser that does not support web audio, or you
-            		are trying to open this locally.
-            		Because web audio uses XHR, it cannot be opened as a local file and must
-            		be hosted on a server.</p>
-
-            	<p>Please <a href="http://github.com/CreateJS/SoundJS/issues" target="_blank">log a bug</a>
-            		if you are not opening this locally and your browser supports web audio.
-            		Thank you.</p>
-            </div>
-
-          <!-- having-less years track 1 -->
-          <div class = "row songrow">
-            <div class = "col-md-6 col-xs-12">
-              <audio controls>
-                <source src="mp3/havinglessyears/SheepPackt.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-              </audio>
-            </div>
-            <div class = "col-md-6 col-xs-12">
-              <h2> SheepPackt </h2>
-            </div>
-          </div>
-
           <div><canvas style="background: black" id="testCanvas" width="960" height="400"></canvas></div>
 
           <script type="text/javascript" src="js/easeljs-NEXT.min.js"></script>
           <script type="text/javascript" src="js/soundjs-NEXT.js"></script>
 
-          <!-- having-less years track 2 -->
-          <div class = "row songrow">
-            <div class = "col-md-6 col-xs-12">
-              <audio controls>
-                <source src="mp3/havinglessyears/treevenge.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-              </audio>
-            </div>
-            <div class = "col-md-6 col-xs-12">
-              <h2> treevenge </h2>
-            </div>
-          </div>
 
-          <!-- having-less years track 3 -->
-          <div class = "row songrow">
-            <div class = "col-md-6 col-xs-12">
-              <audio controls>
-                <source src="mp3/havinglessyears/SchizoSleep.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-              </audio>
-            </div>
-            <div class = "col-md-6 col-xs-12">
-              <h2> SchizoSleep </h2>
-            </div>
-          </div>
-
-          <!-- having-less years track 4 -->
-          <div class = "row songrow">
-            <div class = "col-md-6 col-xs-12">
-              <audio controls>
-                <source src="mp3/havinglessyears/hexxed.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-              </audio>
-            </div>
-            <div class = "col-md-6 col-xs-12">
-              <h2> hexxed </h2>
-            </div>
-          </div>
-
-          <!-- having-less years track 5 -->
-          <div class = "row songrow">
-            <div class = "col-md-6 col-xs-12">
-              <audio controls>
-                <source src="mp3/havinglessyears/return.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-              </audio>
-            </div>
-            <div class = "col-md-6 col-xs-12">
-              <h2> return </h2>
-            </div>
-          </div>
-
-          <!-- having-less years track 6 -->
-          <div class = "row songrow">
-            <div class = "col-md-6 col-xs-12">
-              <audio controls>
-                <source src="mp3/havinglessyears/diaphramicdyad.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-              </audio>
-            </div>
-            <div class = "col-md-6 col-xs-12">
-              <h2> diaphramicdyad </h2>
-            </div>
-          </div>
-
-          <!-- having-less years track 7 -->
-          <div class = "row songrow">
-            <div class = "col-md-6 col-xs-12">
-              <audio controls>
-                <source src="mp3/havinglessyears/berrysong.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-              </audio>
-            </div>
-            <div class = "col-md-6 col-xs-12">
-              <h2> berrysong </h2>
-            </div>
-          </div>
-
-          <!-- having-less years track 8 -->
-          <div class = "row songrow">
-            <div class = "col-md-6 col-xs-12">
-              <audio controls>
-                <source src="mp3/havinglessyears/tiredalot.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-              </audio>
-            </div>
-            <div class = "col-md-6 col-xs-12">
-              <h2> tiredalot </h2>
-            </div>
-          </div>
-
-          <!-- having-less years track 9 -->
-          <div class = "row songrow">
-            <div class = "col-md-6 col-xs-12">
-              <audio controls>
-                <source src="mp3/havinglessyears/OceanPillow.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-                </audio>
-              </div>
-              <div class = "col-md-6 col-xs-12">
-                <h2> OceanPillow </h2>
-              </div>
-            </div>
-        <!-- end of audio -->
-      </div>
 
       <script id="editable">
       	// global constants
@@ -242,8 +111,8 @@
       	var w, h;               // store the width and height of the canvas
       	var centerX, centerY;   // variables to hold the center point, so that tick is quicker
       	var messageField;       // Message display field
-      	var assetsPath = "mp3/havinglessyears/";   // Create a single item to load.
-      	var src = assetsPath + "SheepPackt.mp3";  // set up our source
+      	var assetsPath = "mp3/";   // Create a single item to load.
+      	var src = assetsPath + "havinglessyears.mp3";  // set up our source
       	var soundInstance;      // the sound instance we create
       	var analyserNode;       // the analyser node that allows us to visualize the audio
       	var freqFloatData, freqByteData, timeByteData;  // arrays to retrieve data from analyserNode
