@@ -401,6 +401,25 @@ body{
 }
 
 
+/* Music */
+/* Animation */
+
+.content {
+	width: 960px;
+	height: 400px;
+	overflow: hidden;
+	padding: 1em;
+	box-sizing: border-box;
+}
+
+#error, #mobile {
+	width: 960px;
+	height: 400px;
+	display:none;
+	text-align: left;
+	padding: 1em;
+}
+
 
 /* SHOP */
 .shopnotice {
