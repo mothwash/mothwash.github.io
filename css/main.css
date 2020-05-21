@@ -405,6 +405,7 @@ body{
 /* Animation */
 .animationbox {
   height: 1000px;
+  background-color: grey;
 }
 .content {
 	width: 960px;

@@ -85,6 +85,9 @@
           <div class="row home-about-row">
             <h1>the having-less album</h1>
             <p>produced on audiotool.com by brennanmcmullen</p>
+          </div>
+
+          <button onclick="resumeAnimation">resume</button>
 
           <div><canvas style="background: black" id="testCanvas" width="960" height="400"></canvas></div>
 
@@ -105,6 +108,7 @@
           <script type="text/javascript" src="js/easeljs-NEXT.min.js"></script>
           <script type="text/javascript" src="js/soundjs-NEXT.js"></script>
 
+        </div>
 
 
       <script id="editable">
@@ -259,6 +263,7 @@
            createjs.Ticker.removeEventListener("tick", tick);
            createjs.Sound.stop();
            });
+
            //MOTH OUT
 
       		// create circles so they are persistent
@@ -276,6 +281,13 @@
       		createjs.Ticker.addEventListener("tick", tick);
       		createjs.Ticker.setInterval(TICK_FREQ);
       	}
+
+        // MOTH HERE
+        function resumeAnimation() {
+          createjs.Ticker.addEventListener("tick", tick);
+          createjs.Sound.play();
+        }
+        // MOTH OUT
 
       	function tick(evt) {
       		analyserNode.getFloatFrequencyData(freqFloatData);  // this gives us the dBs
