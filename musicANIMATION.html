@@ -83,8 +83,10 @@
           <!-- HTML music? -->
           <!-- intro to having-less albume -->
           <div class="row home-about-row">
-            <h1>the having-less album</h1>
-            <p>produced on audiotool.com by brennanmcmullen</p>
+            <div class="col-md-12">
+              <h1>the having-less album</h1>
+              <p>produced on audiotool.com by brennanmcmullen</p>
+            </div>
           </div>
 
           <button onclick="resumeAnimation">resume</button>
@@ -129,7 +131,7 @@
       	var w, h;               // store the width and height of the canvas
       	var centerX, centerY;   // variables to hold the center point, so that tick is quicker
       	var messageField;       // Message display field
-      	var assetsPath = "mp3/";   // Create a single item to load.
+      	var assetsPath = "mp3/havinglessyears/";   // Create a single item to load.
       	var src = assetsPath + "havinglessyears.mp3";  // set up our source
       	var soundInstance;      // the sound instance we create
       	var analyserNode;       // the analyser node that allows us to visualize the audio
