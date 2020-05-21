@@ -79,7 +79,7 @@
 
         </header>
 
-        <div class="container-fluid">
+        <div class="container-fluid animationbox">
           <!-- HTML music? -->
           <!-- intro to having-less albume -->
           <div class="row home-about-row">
@@ -242,14 +242,24 @@
       		// we're starting, so we can remove the message
       		stage.removeChild(messageField);
 
+          // MOTH HERE - let's have it play only once through
       		// start playing the sound we just loaded, looping indefinitely
-      		soundInstance = createjs.Sound.play(src, {loop: -1});
+      		//soundInstance = createjs.Sound.play(src, {loop: -1});
+          // start playing the sound we just loaded, no looping (MOTH)
+          soundInstance = createjs.Sound.play(src, {loop: 0}); // (MOTH)
+          // MOTH OUT
 
+          // MOTH HERE - let's test it...
       		// testing function that allows a quick stop
       		/*stage.addEventListener("stagemousedown", function(){
       		 createjs.Ticker.removeEventListener("tick", tick);
       		 createjs.Sound.stop();
       		 });*/
+           stage.addEventListener("stagemousedown", function(){
+           createjs.Ticker.removeEventListener("tick", tick);
+           createjs.Sound.stop();
+           });
+           //MOTH OUT
 
       		// create circles so they are persistent
       		for (var i = 0; i < CIRCLES; i++) {

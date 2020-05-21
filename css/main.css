@@ -403,7 +403,9 @@ body{
 
 /* Music */
 /* Animation */
-
+.animationbox {
+  height: 1000px;
+}
 .content {
 	width: 960px;
 	height: 400px;
