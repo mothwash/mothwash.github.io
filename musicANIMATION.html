@@ -88,6 +88,20 @@
 
           <div><canvas style="background: black" id="testCanvas" width="960" height="400"></canvas></div>
 
+          <div id="error">
+          	<h2>Sorry!</h2>
+
+          	<p>SoundJS or Web Audio is not currently supported in your browser.
+          		Either you are using a browser that does not support web audio, or you
+          		are trying to open this locally.
+          		Because web audio uses XHR, it cannot be opened as a local file and must
+          		be hosted on a server.</p>
+
+          	<p>Please <a href="http://github.com/CreateJS/SoundJS/issues" target="_blank">log a bug</a>
+          		if you are not opening this locally and your browser supports web audio.
+          		Thank you.</p>
+          </div>
+
           <script type="text/javascript" src="js/easeljs-NEXT.min.js"></script>
           <script type="text/javascript" src="js/soundjs-NEXT.js"></script>
 
@@ -215,8 +229,11 @@
 
       	// this will start our playback in response to a user click, allowing this demo to work on mobile devices
       	function startPlayback(evt) {
+
+          // MOTH HERE - we actually want to keep this listener in place until i can replace it...
       		// we only start once, so remove the click/touch listener
-      		stage.removeEventListener("stagemousedown", startPlayback);
+      		//stage.removeEventListener("stagemousedown", startPlayback);
+          // MOTH OUT
 
       		if (soundInstance) {
       			return;
