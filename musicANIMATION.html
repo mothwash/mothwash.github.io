@@ -287,7 +287,7 @@
         // MOTH HERE
         function resumeAnimation() {
           createjs.Ticker.addEventListener("tick", tick);
-          createjs.Sound.play();
+          createjs.Sound.play(src, {loop: 0});
         }
         // MOTH OUT
 
