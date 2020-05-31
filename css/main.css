@@ -540,6 +540,12 @@ body{
   background-color: grey;
 }
 
+.floyd-home {
+  background-color: yellow;
+  color: black;
+  text-align: center;
+}
+
 .floyd-title {
   background-color: black;
   color: white;
