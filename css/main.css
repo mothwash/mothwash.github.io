@@ -540,6 +540,37 @@ body{
   background-color: grey;
 }
 
+.floyd-title {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.floyd-title:hover {
+  color: black;
+}
+
+.floyd-intro {
+  background: url("../img/stepless.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: yellow;
+}
+
+.floyd-essay {
+  color: black;
+  background-color: yellow;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.floyd-essay h3:hover {
+  color: grey;
+}
+
 
 /* speciic poems */
 
