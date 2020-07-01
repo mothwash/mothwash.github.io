@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- font-awesome -->
-    <meta name="viewport" content="width = 1050, user-scalable = no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- google fonts -->
@@ -33,6 +33,11 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <!-- Java Script -->
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="js/extras/modernizr.2.5.3.min.js"></script>
+
 
     <!-- icon and browser heading -->
     <!-- IMG SRC BROKEN -->
@@ -41,11 +46,9 @@
 
     <!-- Link CC, Flexboxx, and Javascript to site -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/flexbox.css">
+    <link rel="stylesheet" type="text/css" href="css/flexboxgrid.css">
     <script src="js/main.js"></script>
-    <script type="text/javascript" src="js/extras/jquery.min.1.7.js"></script>
-    <script type="text/javascript" src="js/extras/modernizr.2.5.3.min.js"></script>
-
+    <link type="text/javascript" hreft="js/bootstrap.js">
 
   </head>
 
@@ -62,13 +65,8 @@
             <div class="col-md-6 col-sm-12 home-menu">
               <!-- menu items -->
               <div class="row">
-                <!--
                 <div class="col-md-3 menu-item menuLinkText">
                   <a href="shop.html">shop</a>
-                </div>
-              -->
-                <div class="col-md-3 menu-item menuLinkText">
-                  <a href="activism.html">activism</a>
                 </div>
                 <div class="col-md-3 menu-item menuLinkText">
                     <a href="poems_3.html">poems</a>
@@ -90,67 +88,13 @@
         </div>
         <!-- end of header -->
 
-        <div class="flipbook-viewport">
-        	<div class="container">
-        		<div class="flipbook">
-        			<div class="page" style="background-image:url(pages/ergotnothingCOVER.jpg)"></div>
-        			<div class="double" style="background-image:url(/pages/ergotnothing1_2.JPG)"></div>
-        			<div class="double" style="background-image:url(/pages/ergotnothing3_4.JPG)"></div>
-        			<div class="double" style="background-image:url(/pages/ergotnothing5_6.JPG)"></div>
-        			<div class="double" style="background-image:url(../pages/ergotnothing7_8.JPG)"></div>
-        			<div class="double" style="background-image:url(/../pages/ergotnothing9_10.JPG)"></div>
-              <div class="double" style="background-image:url(/../pages/ergotnothing11_12.JPG)"></div>
-              <div class="double" style="background-image:url(/../pages/ergotnothing13_14.JPG)"></div>
-        			<div class="page" style="background-image:url(pages/ergotnothingback.jpg)"></div>
-        		</div>
-        	</div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg">
+              <img src="../img/antiracismArguments2.jfif"></img>
+            </div>
+          </div>
         </div>
 
-
-        <script type="text/javascript">
-
-        function loadApp() {
-
-        	var flipbook = $('.flipbook');
-
-         	// Check if the CSS was already loaded
-
-        	if (flipbook.width()==0 || flipbook.height()==0) {
-        		setTimeout(loadApp, 10);
-        		return;
-        	}
-
-        	$('.flipbook .double').scissor();
-
-        	// Create the flipbook
-
-        	$('.flipbook').turn({
-        			// Elevation
-
-        			elevation: 50,
-
-        			// Enable gradients
-
-        			gradients: true,
-
-        			// Auto center this flipbook
-
-        			autoCenter: true
-
-        	});
-        }
-
-        // Load the HTML4 version if there's not CSS transform
-
-        yepnope({
-        	test : Modernizr.csstransforms,
-        	yep: ['js/turn.min.js'],
-        	nope: ['js/lib/turn.html4.min.js'],
-        	both: ['js/scissor.min.js', 'css/main.css'],
-        	complete: loadApp
-        });
-
-        </script>
-
-        </body>
-        </html>
+    </body>
+  </html>

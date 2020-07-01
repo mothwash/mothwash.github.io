@@ -400,6 +400,16 @@ body{
   height: 80px;
 }
 
+.img-magnifier-glass-longer {
+  position: absolute;
+  border: 1px solid #000;
+  border-radius: 20%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 275px;
+  height: 100px;
+}
+
 
 /* Music */
 /* Animation */
@@ -540,6 +550,46 @@ body{
   background-color: grey;
 }
 
+/*Activism */
+.blm-col {
+  text-align: center;
+  height: 100%;
+  background: url("../img/tealpot.jpg")
+}
+
+.bds-col {
+  text-align: center;
+  height: 100%;
+  background: url("../img/spots.jpg")
+}
+
+.bds-about1 {
+  background-color: green;
+  color: grey;
+}
+
+.bds-about2 {
+  background-color: red;
+  color: grey;
+}
+
+.bds-about3 {
+  background-color: black;
+  color: grey;
+}
+
+.bds-actioncall {
+  background: url("../img/technopriest.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: grey;
+  text-align: center;
+}
+
+/* MOVEMENT FOR BLACK LIVES */
 .floyd-home {
   background-color: yellow;
   color: black;
@@ -585,6 +635,58 @@ body{
   font-size: larger;
 }
 
+
+.m4blRESRC {
+  background-color: yellow;
+
+}
+
+.m4blRESRCicon {
+  border-radius: 90px;
+}
+
+.magpadding {
+  margin: 2.5% 5%;
+}
+
+.imposter-intro {
+  background: url("../img/pulmonology.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: yellow;
+}
+
+.imposterpoem {
+  background-color: grey;
+  padding: 35px 40px;
+  margin: 20 25;
+  text-align: center;
+}
+
+.impostertext {
+  font-size: 20px;
+}
+
+/* BDS Movement */
+.bds-index {
+  background-color: grey;
+  text-align: center;
+}
+
+.bds-word1 {
+  color: green;
+}
+
+.bds-word2 {
+  color: red;
+}
+
+.bds-word3 {
+  color: black;
+}
 
 /* speciic poems */
 
@@ -1154,4 +1256,8 @@ body{
 
 #o145 {
   background: url("../img/ekwusCosmoCOVERsmall.jpg")
+}
+
+#o146 {
+  background: url("../img/beepboopfortsmall.jpg")
 }
