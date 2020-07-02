@@ -568,14 +568,26 @@ body{
   color: grey;
 }
 
+.bds-about1 :hover {
+  color:white;
+}
+
 .bds-about2 {
   background-color: red;
   color: grey;
 }
 
+.bds-about2 :hover {
+  color:white;
+}
+
 .bds-about3 {
   background-color: black;
   color: grey;
+}
+
+.bds-about3 :hover {
+  color:white;
 }
 
 .bds-actioncall {

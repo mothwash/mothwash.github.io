@@ -493,7 +493,7 @@ function openMobileNav() {
     //column.appendChild(breaktag);
 
     activlink.innerText = 'Activism';
-    activlink.setAttribute('href', 'activism.html');
+    activlink.setAttribute('href', 'mobileactivism.html');
     activlink.classList.add('mobile-menu-item');
     column.appendChild(activlink);
     var breaktag = document.createElement('br');
