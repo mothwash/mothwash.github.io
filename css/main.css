@@ -554,15 +554,18 @@ body{
 .blm-col {
   text-align: center;
   height: 100%;
+  width: 100%;
   background: url("../img/tealpot.jpg")
 }
 
 .bds-col {
   text-align: center;
   height: 100%;
+  width: 100%;
   background: url("../img/spots.jpg")
 }
 
+/* BDS Movement for Palestine */
 .bds-about1 {
   background-color: green;
   color: grey;
