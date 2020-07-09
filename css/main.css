@@ -565,6 +565,46 @@ body{
   background: url("../img/spots.jpg")
 }
 
+.covid-col {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: url("../img/metalbouquet.jpg");
+  background-position: right;
+}
+
+/* Covid unemployment crises */
+.covid-alert {
+  text-align: center;
+  background: url("../img/jadedprey.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: hotpink;
+}
+
+.covid-alert :hover {
+  color: red;
+}
+
+.covid-nelp {
+  text-align: center;
+  background-color: grey;
+}
+
+.covid-action {
+  text-align: center;
+  background-color: red;
+  color: grey;
+}
+
+.covid-donate {
+  text-align: center;
+  background-color: white;
+  color: grey;
+}
+
 /* BDS Movement for Palestine */
 .bds-about1 {
   background-color: green;
