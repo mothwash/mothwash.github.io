@@ -433,6 +433,26 @@ body{
 	padding: 1em;
 }
 
+.fragvalent-album-bg {
+  background: url("../img/chapbooksLANDING.jpg")
+}
+
+.fragvalent-album-bg :hover {
+  color: teal;
+}
+
+.havingless-album-bg {
+  background: url("../img/horizonsludge.jpeg")
+}
+
+.havingless-album-bg :hover {
+  color: teal;
+}
+
+.songrow :hover {
+  color: teal;
+}
+
 
 /* SHOP */
 .shopnotice {
