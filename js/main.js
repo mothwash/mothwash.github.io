@@ -515,3 +515,50 @@ function openMobileNav() {
   }
 
 }
+
+function filterPres() {
+  // declare variables
+  var input = document.getElementById('searchinput');
+  input = input.value.toUpperCase();
+  var i;
+  var j;
+  // declare and separate poems
+  var allpoemsUL = document.getElementById('poemset');
+  var poemtitles = document.getElementsByTagName('li');
+  var metatags = document.getElementsByClassName('keywords');
+
+  for (i = 0; i < poemtitles.length; i++) {
+    poemtitle = poemtitles[i];
+    poemcontent = poemtitle.textContent;
+
+    if (poemcontent.toUpperCase().indexOf(input) > -1) {
+      poemtitles[i].style.display = "";
+      poem = poemtitles[i].getElementsByTagName('p');
+      for (a = 0; a < poem.length; a++) {
+        poem[a].style.display = "";
+      }
+
+    } else {
+
+      for (j = 0; j < metatags.length; j++) {
+        metatagline = metatags[j];
+        metaValue = metatagline.textContent;
+
+        if(metaValue.toUpperCase().indexOf(input) > -1) {
+          poemtitles[i].style.display = "";
+          poem = poemtitles[i].getElementsByTagName('p');
+          for (a = 0; a < poem.length; a++) {
+            poem[a].style.display = "";
+          }
+
+        } else {
+          poemtitles[i].style.display = "none";
+          poem = poemtitles[i].getElementsByTagName('p');
+          for (a = 0; a < poem.length; a++) {
+            poem[a].style.display = "none";
+          }
+        }
+      }
+    }
+  }
+}

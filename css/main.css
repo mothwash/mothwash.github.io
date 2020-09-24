@@ -763,6 +763,150 @@ body{
   color: black;
 }
 
+
+/* president 45 */
+.journalisthonors45 {
+  text-align: center;
+  padding: 100px 50px 100px 50px;
+  background-color: orange;
+}
+
+
+/* Pres45 Search*/
+#searchinput {
+  width: 70%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  margin-left: 30%;
+}
+
+#presset {
+  /* Remove default list styling */
+  /*text-align: right;*/
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px; /* Increase font-size */
+  text-align: right;
+
+}
+
+#presset li {
+  border: 1px solid #ddd; /* Add a border to all links */
+  width: 70%;
+  margin-left: 30%;
+  background-color: white;
+  margin-bottom: 12px;
+}
+
+#presset p {
+  width: 70%;
+  margin-left: 30%;
+  background-color: white;
+  opacity: 72%;
+  display: none; /*collapsed by default*/
+}
+
+#presset br {
+  display: none;
+}
+
+/* always hides keywords */
+.keywords {
+  display: none;
+}
+
+#presset li:hover {
+  color: hotpink; /* Add a hover effect to all links, except for headers */
+}
+#presset p:hover {
+  color: black;
+}
+
+.poembanner {
+  height: 32px;
+}
+/* End pres set */
+
+
+.pres45notification {
+  min-height: 96px;
+  background-color: black;
+  color: lightgrey;
+  text-align: center;
+}
+
+
+/* END Poems Search */
+
+/* Collapsible Code */
+.poemcontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.2sease-out;
+}
+
+.collapsible {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  width: 70%;
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+  margin-left: 30%;
+}
+
+.active, .collapsible:hover {
+  background-color: #eee;
+}
+
+/*Poems scroll*/
+.poemsBody {
+  background-color: grey;
+}
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: grey;
+border-radius: 10px; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+width: 12px;
+background-color: grey; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
+
+.square::-webkit-scrollbar-track {
+border-radius: 0 !important; }
+
+.square::-webkit-scrollbar-thumb {
+border-radius: 0 !important; }
+
+.thin::-webkit-scrollbar {
+width: 6px; }
+
+.scroll {
+position: relative;
+overflow-y: scroll;
+height: 711px; }
+
+.card-body {
+  text-align: right;
+  padding-left: 125px;
+}
+
+
+
 /* speciic poems */
 
 #o001 {
@@ -1335,4 +1479,47 @@ body{
 
 #o146 {
   background: url("../img/beepboopfortsmall.jpg")
+}
+
+#o147 {
+  background: url("../img/universitiescoversmall.jpg")
+}
+
+#o148 {
+  background: url("../img/deadbirbsmall.jpg")
+}
+
+#o149 {
+  background: url("../img/homecollage1.3small.jpg")
+}
+
+#o150 {
+  background: url("../img/hotelessentialssmall.jpg")
+}
+
+#o151 {
+  background: url("../img/jadedpreysmall.jpg")
+}
+
+#o152{
+}
+
+#o153 {
+  background: url("../img/rainbowpastasmall.jpg")
+}
+
+#o154 {
+  background: url("../img/outhouseeyesmall.jpg")
+}
+
+#o155 {
+  background: url("../img/whiterosesmall.jpg")
+}
+
+#o156 {
+  background: url("../img/stonebalancesmall.jpg")
+}
+
+#o157 {
+  background: url("../img/universitiescoversmall.jpg")
 }
