@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/chapbooks.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/chapbooks.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">new chapbooks</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../activism.html">activism</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../poems.html">poems</a></div>
+          <div class="flex-item"><a href="../chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- page container -->
+    <div class="container-fluid chapbook-container">
+      <div class="row">
+        <div id="chapCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+          <!-- indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#chapCarousel" data-slide-to="0" class="active indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="1" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="2" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="3" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="4" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="5" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="6" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="7" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="8" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="9" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="10" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="11" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="12" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="13" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="14" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="15" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="16" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="17" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="18" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="19" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="20" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="21" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="22" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="23" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="24" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="25" class="indicatorColor"></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img class="mx-auto d-block" src="../../img/chapbooks/ptsd/ptsd_cover.jpeg"></img>
+              <h1 class="d-flex justify-content-center"> cover </h1>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <h3 class="d-flex justify-content-center">“To abandon facts is to abandon freedom. If nothing is true, then no one can criticize power, because there is no basis upon which to do so. If nothing is true, then all is spectacle. The biggest wallet pays for the most blinding lights.” - Timothy Snyder</h3>
+              <br></br>
+              <h3 class="d-flex justify-content-center">“The first mode is the open hostility to verifiable reality … it makes the correct assertions seem like unintended oversights on the path toward total fiction… as it begins the creation of a fictional counter world. The second mode is shamanistic incantation… the next mode is magical thinking.” - Timothy Snyder</h3>
+              <br></br>
+              <h3 class="d-flex justify-content-center">“if desire is the lack of the real object, its very nature as a real entity depends on an ‘essence of lack’ that produces the fantasized object.” - Gilles Deleuze and Felix Guattari</h3>
+              <br></br>
+              <h3 class="d-flex justify-content-center">“People who shut their eyes to reality simply invite their own destruction, and anyone who insists on remaining in a state of innocence long after that innocence is dead turns himself into a monster.” - James Baldwin</h3>
+              <br></br>
+              <h3 class="d-flex justify-content-center">“... the city was no longer the conscious production of humanity; it has become the arbitrary realm of dream.” - Angela Carter</h3>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <h1 class="d-flex justify-content-center"> a liar telling the truth by accident - schema-abreact </h1>
+              <br></br>
+              <p class="d-flex justify-content-center">fossilized verisimilitude drinks like black gold. children of bias and paramnesia, oily factoids are refined and run through digital panoptic pumps. from precision to recall, sensitivity to specificity, the desire machine is a confusion matrix, where the essence of lack is steeped in falsehoods. in order to execute integrity in the post truth society, there needs to be a reconstruction of identity. start with the redirection of adversity, adrenergic and primordial. then come the abbreviated semiotic chains, linguistic aerialism and label generation. possession follows, prescribing selfhood in grievous contrast to the assumptions of reality. then come the superposition optics, the reconciliation of proportionality and experience. by integrating the subjectification of truth with tyrannical institutions, enervated research, and imbued ritualism; the post-truth structuralist will desire all that counters modus operandi.</p>
+              <br></br>
+              <p class="d-flex justify-content-center">there is an operant model for the illusory mind folding that transpires over distrust. there is an anchor for relevance and that is asperity. the prodding of the physical world reinforces not only our mortal fate, it also corrals our intention. in post truth structuralism specifically, it is important to convince the reader that both they, character-leaders, and the author traverse portals where they readily accept the modal reactions against the newly perceived pain. particularly the modality of critical obligation. any provided information is filtered through this lens of relevance, specific and sensitive to the conditions the character-leaders endure.</p>
+              <br></br>
+              <p class="d-flex justify-content-center">as in Orwellian dystopians and Derrida’s discourse, aporia stretches the word. freshly tinkered tools make for incombatative subordinates, completely dislocated from anteriorially confirmed common tongue. the machine is all trustful, whereas the counter-machine is inherently disobedient. distrust paradoxically stems from compliance. this becomes evident in the case of the search engine. the results, summoned in microseconds, come trained from the obfuscated actions of counter-machines. in the ultimate relevance, pain is avoided or intentionally opposed, an intention mirrored in the search engine’s attempts to seduce the searcher. errors ensue when the machine inaccurately or ineffectively draws results nocuous to the reader’s contradictions. reproducing these errors in droves, however, does not illicit distrust. it’s the forgery of this classification system that causes distraction.</p>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <p class="d-flex justify-content-center">this model then perpetrates the individual, authoritatively demanding the release of any alternate loyalties. in absolutism, there is vigilant innocence, everything excuses. generally, thought patterns are products of large pockets. commandeered thought is achieved by spectacle, catastrophizing, and other cognitive distortions in tangent with institutional degradation. the methods of comparison and confirmation are complicated by resistance to opposition. nothing may be asked of future commutuality.</p>
+              <br></br>
+              <p class="d-flex justify-content-center">in disorder to understand, let us calculate. value is in the search for truth. for example, a beggar is attuned to true and false positives and negatives. the benevolence of a transient bears certain truths and falsehoods. the experience of this recipient sampled is purely positive and cumulative. precision in this case lies in actions, the true grace over the complete positive yield, positive as in experienced; it is  signaled to the beggar that there is a fragmented proportion of mercy. countered to this precision is the fraction of recall, ciphered by counting the true positives over the sum of true kindness, which cannot be counted without knowing the value of false negatives or the passerbys that never cross paths. notice now, where are the true negatives? they represent those that never cross paths, however, these are biased predictions. even in the 'weighted harmonic mean of both precision and recall,' the beggar institutes some biases to assume that those not meeting chance would find the beggar unworthy. this is obviously distressful. if one is conciliated to the true value of negatives, then an informedness may be deducted by summing recall, or sensitivity, with its inverse specificity, otherwise known as the now known true negatives over that value and the experienced false positives. this would be the feeling of proportional paltriness compared to all the spit and bile in the beggar’s face. finally, markedness or the phi coefficient is the closest value to assimilate the confusion matrix. is a specified distribution present in outcome frequencies in a sample? do we now know the 'goodness' of fit?</p>
+              <br></br>
+              <p class="d-flex justify-content-center">the despot would feed you with certaint sensitive information, knowingly false bits and bites fractioned by illusive true negatives. you can know intuitively what you have never seen, all limned in the desire object, an ambiguous and anachronistic reflection of designed lack.</p>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <p class="d-flex justify-content-center">[1. In a world where integrity seems to be gone, there are 4 steps to take in order to counter the lies built in one's culture. a) identify one's pain and the directions it sends oneself b) notice one's labels around pain and desire c) take note of how one takes possession of certain labels and d) see if one's possessions are proportional and considerable to the experience of others. </p>
+              <br></br>
+              <p class="d-flex justify-content-center">2. Pain is our anchor and attention grabber. "Shoulds" or critical obligations, only matter to oneself if relevant to their experience.</p>
+              <br></br>
+              <p class="d-flex justify-content-center">3. Labels allow for irresolvable contradictions to exist in one’s logic. Like looking for something in a search engine, one only knows what’s yielded. The search engine won’t give one the perfect information nor will it give one all the information. It classifies one’s search and pieces together what it’s been trained to reveal. This information could contradict itself, but one knows what one is looking for. One will do the work to couple or decouple this information based on the expectation of the search and the results.</p>
+              <br></br>
+              <p class="d-flex justify-content-center">4.Complete possession of these results creates a kind of loyalty that is instantly excused from any criticism. Large funding of broad-reaching misinformation campaigns can design a propaganda machine that uses cognitive distortions to compare and affirm the misinformation.</p>
+              <br></br>
+              <p class="d-flex justify-content-center">5.A confusion matrix includes true positives, true negatives, false positives, and false negatives. One cannot calculate them all without bias. The unhoused ask for money, and in this example, the true positives and negatives are whether or not someone gives money when they pass the human asking. False positives and negatives can’t be known, only assumed, since we do not know of how someone will react if they haven’t encountered this person. What becomes normalized in this person’s thinking is generally an assumption that if someone doesn’t pass them, they wouldn’t give anyway, as if they’re avoiding this person (whether from lack of funds or wanting to escape the unhoused). </p>
+              <br></br>
+              <p class="d-flex justify-content-center">6. The phi coefficient is the relationship between a table of data that shows for accuracy in a confusion matrix. Essentially, if all one finds to be true relies on assumptions of what hasn’t been experienced, then one’s predictive skills are poor and will yield more bias.</p>
+              <br></br>
+              <p class="d-flex justify-content-center">7. If the news seems false and one is basing this prediction on what hasn’t been experienced, then the predictive accuracy gets weaker. An authoritarian will make one practice this until one has redefined pain, adopted new labels, taken possession of certain labels, and compared their experience as true to the assumed falsification of others experiences. Lack is only an enemy when designed that way. The opportunity to be curious and add more to your true yield, no matter how painful, is worth the work.]</p>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <h1 class="d-flex justify-content-center"> the characters might be forced to lie. </h1>
+              <br></br>
+              <p class="d-flex justify-content-center">the characters are going to be a part of a collection written by the liar that tells the truth. the liar is telling the truth by accident, as the collection is full of improbable accidents written by an author familiar with failing and casualties. each character is a casualty of truth, living in a matrix of perspective and circumstance; all perpendicular tries are casual as parallel. the girl who speaks in overlap is nodding, but also shaking her head. she is painting a broken bottle over a filling glass over a shaking hand over a steady stream. she is asking the reader to not pick one of all time and to pick one of no moment. </p>
+              <br></br>
+              <p class="d-flex justify-content-center">art is the finality of impossible specificity and stalwart sensitivity. the step in moment where a liar's words are boots beneath the water line. the reader is probably riverside, splitting glass to curb the blood mania. this is woeLove, where the reader feels empty, static, useless, out of touch, crushed, like an argument that just ended, buried, muddled, collapsed, cosmically abandoned, missing from the ephemeraforming. blood looks like oil in red light, or in other words, keep digging. </p>
+              <br></br>
+              <p class="d-flex justify-content-center">the author is an artist that fails to finish, so the characters will be perma-steeped in a perjuror’s truth and schema-abreact to a wall posting in a dingy shoegaze dive. for the answers retained, they are here to populate.</p>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <h1 class="d-flex justify-content-center"> the reader is invited. </h1>
+              <br></br>
+              <p class="d-flex justify-content-center">the preacher of recall has found a redundancy in this collection and the author is confirming; the reader will have to trust their scioptics. consta-gnosis is how we confirm the human consciousness, and also how we ignore it. knowledge is a derivative of pain, so the preacher of recall has asked the author to provide it. the artist who fails to finish anything believes this is techne-pain, or specified agony, something beholden to the resistance of religion. the preacher will bypass specificty, channeling an amalgam of nervous breakdowns, cosmic miscommunication, and relatable rhetoric. nevertheless, spirituality is welcome in post truth structuralist desires. the difference is in the invitation. so for this collection, we give the reader ‘lack’, in hopes that they will find themselves welcomed uninvited. it is specific in that it refuses to exist. </p>
+              <br></br>
+              <p class="d-flex justify-content-center">in such case, the reader will have to negotiate with the liar writing this collection for the truth, and pray a car comes colliding into them.</p>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <h1 class="d-flex justify-content-center"> at the crescent table, deep pockets sits in the fattest portion. </h1>
+              <br></br>
+              <p class="d-flex justify-content-center">in a normal distribution, there exists a stronghold on the majority and a weakness in deviation. clearly this collection is written by deviants. in the binary confusion matrix between deviants and the majority, there must be fortification for truth to meet a measure of effectiveness in diagnostic odds. it’s up to the reprobate, deep pockets, to weigh heavily on the false omission and false discovery rates against predisposed and conditioned populants. the bed-making doxa listens attentively to deep pockets, and they rhetorize around campfires with cheap flashlights unfolding their features. the bed-making doxa has only heard the negative and rejects it as anything other than positive, a foreboding of asperity. the girl who speaks in overlaps has noticed no sweat in bed-making doxa’s berth, and offers a counter-terror in attempt to change that.</p>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> the author excuses themselves for the record player. </h1><br></br><p class="d-flex justify-content-center">while accuracy is kettled, a needle runs into sonic veins and leaves executed trace marks. this will be inspected by an investigator after the author passes. they will turn over the moldy discs, dust the prints, and jot down which rhythms were repeated, which were skipped. an agent will dial down the gasoline that is lighting the pot until burning blue fades into midnight hue. they will test the extension cord holding up the author’s neck. the preacher of recall will slip in behind them and recite the hymn of hyperspace.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> the reader becomes the conditioned negative. </h1><br></br><p class="d-flex justify-content-center">in the search for self, there are certain aspects that should not be revealed, such as seppuku or a forest of oversized bathtubs. these anti-revelations are yielded in the confused truth, yield as in dead crops that get blended in the batch. the reader may feel the dreadful graininess as one does at the dentist from sawed teeth. what the author is getting at, or toeing asymptotically, is that the conditioned negative is the only state in which the reader may passively cease to exist. an actualization of disappearance, the orgasm as a non-entity, the climax as a sunk cost. these investments into properly neglected trail-side trinkets, they are imbued with meaning, but what about the glanced over items? the author is a noticer of cachivaches never noticed. the reader will become junk at some point that is already decomposed at some points.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> commencement of the trail of gears. </h1><br></br><p class="d-flex justify-content-center">it is in the history of this collection that the reader must always be stepping from read to unread to read again to unread again. this is the trail of gears that will swallow you if you stand stagnant. the confusion matrix churns on a rotational axis, grinding into other maligned gears, teeth matched in irregular alien gears, gyroscopic gears, petal gears, crisis gears, gears in the shape of music, slipping suit shaped gears, falling tower gears, combustible blood gears, bridges of gears over rivers of gears, cannibal and photosynthetic gears, burial gears, gears to the rabbit hole, slinky virion stairway gears, gears that breach the liar's dimension and drag up pieces of yellow brick.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> why there are enemies. </h1><br></br><p class="d-flex justify-content-center">the elsoptrophobic prodder is a glass character, made from refractive, fearful huntresses. they cannot see themselves, but they see their role as the jabbing bully rather easily. the elsotrophobic prodder is a cynegeticist, but the dogs are pavlovianly gaslit and growl at strangers to save them. this is why the collection must be read on the trail of gears. the liar is often accused of omission and misleading discovery. what is sinister about these accusations is that they come from dislocated pain, meaning the pain is displaced onto the prodder’s huntress-guardians. they skinned the prodder’s dogs in front of them and they rewarded them for their bravery. the girl who speaks in overlap wants to add that there is power and powerlessness in recall. the glassy eyes of a dead dog are reflective, and the glassy eyes of a dead dog that you loved prod the soul. even though deep pockets is the enemy, the elsoptrophobic prodder is the demon.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> the preacher of recall is possessed, and offers a sermon. </h1><br></br><p class="d-flex justify-content-center">oh great reader, you must not poise yourself in the pathway of mirror halls or hunting lanes. pain will run its course through every recollection, so in your search please be mindful of fall out and false alarm. specifically what is falsely found over what is absolutely not to be found. evidence is not a word replacement serum. evidence goes beyond experience. evidence is not just an indication. evidence is detection that anticipates alarm. evidence is not sleuthing with your own perspective. evidence requires a collective ‘finding’, examined judicially.</p><br></br>
+            </div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/ptsd/deskinning-a-spider.jpg"></img>
+              <h1 class="d-flex justify-content-center"> well they don't like you either </h1>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> compass_stage </h1><br></br><p class="d-flex justify-content-center">there’s a forest known with a wicker scent</p><p class="d-flex justify-content-center">woven tree line where we caught the snake</p><p class="d-flex justify-content-center">pull a full bottle from behind your back</p><p class="d-flex justify-content-center">rinse a clean slate and lay it on the track</p><p class="d-flex justify-content-center">coal come stain</p><p class="d-flex justify-content-center">nickel abstain</p><p class="d-flex justify-content-center">there aint daggers at home when it means the same</p><p class="d-flex justify-content-center">when i lean in vain</p><p class="d-flex justify-content-center"></p><p class="d-flex justify-content-center">build a portal out of garden vines</p><p class="d-flex justify-content-center">taken on the precipice of hardened signs</p><p class="d-flex justify-content-center">stretched out over our memory seams   (seems at rest now)</p><p class="d-flex justify-content-center">full bent spine over backlit needs   (needs to rest now)</p><p class="d-flex justify-content-center">CUZ YOU KNOW i AINT LIVING i’LL BE WONDERING HOW</p><p class="d-flex justify-content-center">entering bow</p><p class="d-flex justify-content-center">it    leaves</p><p class="d-flex justify-content-center">a</p><p class="d-flex justify-content-center">compass stage</p><p class="d-flex justify-content-center"></p><p class="d-flex justify-content-center">you take me back into those dimed up days</p><p class="d-flex justify-content-center">long at lasst quartered in century delays</p><p class="d-flex justify-content-center">give it two best like the nightlight’s dead</p><p class="d-flex justify-content-center">lead me to the outlet where i lose my head</p><p class="d-flex justify-content-center">dollars and cents</p><p class="d-flex justify-content-center">it kinda makes sense</p><p class="d-flex justify-content-center"></p><p class="d-flex justify-content-center">LABOR FOR THAT FEAT WHICH ENDURETH UNTO</p><p class="d-flex justify-content-center">everlasting</p><p class="d-flex justify-content-center">it  leaves</p><p class="d-flex justify-content-center">a     compass   stage</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h2 class="d-flex justify-content-center"> mythunderfingernails </h2><br></br><p class="d-flex justify-content-center">diffeomorphic metal between bubble wrap and foil, acrylic olfaction in plastic ignitions, flat-iron physics in lice screams, integument with Guillain-Barré in extra steps; the annealed strands : immunity :: the follicles : nervous remains. cephalic solar panels and thermostat polymers protect against the misses and false alarms of signal recovery. there is time to think before the eggs hatch.</p><br></br><p class="d-flex justify-content-center"></p><p class="d-flex justify-content-center">it dawns on me that the</p><p class="d-flex justify-content-center">rug of spacetime is being</p><p class="d-flex justify-content-center">blanketed in black paint</p><p class="d-flex justify-content-center">as distant stars blink finally</p><br></br><p class="d-flex justify-content-center">and only with myth under fingernails</p><p class="d-flex justify-content-center">can i pick it clean</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> pepperSAUNA </h1><br></br><p class="d-flex justify-content-center">two habanero disections lounging on my sealed ocular portals, light cones like sliced fingers in a vat of sanitizer. a vinyl ball spins on time’s needle playing back the sounds of footsteps and gamma rays, echoing muted mutated childhoods in the ‘ceiling’ corners. the arachnid taps the beat, a bit behind. an android masseuse enters with a leashed electric creep, skipping when the car battery singed my nipple hairs and weilding a copy of The Ghost Pepper Speech. the creep waddles around to each of the technovorous plants and collects their drool. i cover up my gastric tube with a floral printed microfiber towelette, keeping my inflamed eyes at ease. when a tile is lifted somewhere to the anti-sunward south southeast (i was a roboscout), the brief dedpressurization causes my skin to shrink and the vinylsphere to skip. “Gilgameshuga,” i chitter with ice chafed toes. the android approaches with the terabyte drive retrieved from the ‘floor.’ “what have you selected today?” they ask. the creep sniffs so hard, the spider curls. as applied, technovore venom allows for Rapid Information Consumption or RICon (pronounded recon). “an amalgam,” i start, “of firefly anatomy, the life of Kehinde Wiley, the Great Ghastly Bake Off (seasons 2 and 3 please), buried goddesses and heresies, lingual hacking industries, and executive functioning comedies.” “excellent choices,” the android decides, “i’ll just read your GPS rights before my pet starts to eat off your muscle. regeneration takes about 40 minutes.”</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> coyote embouchure </h1><br></br><p class="d-flex justify-content-center">it was a kiss with coyote’s embouchure, with the river’s casket, with gelified venom, with the apron’s appetite, with compact distortion around portable lip cuffs, with trite lies liquified, with mud clumps in mercury clasps, with spit woven theses, with unwound ovoid wellsprings, with sun-hidden shadows, with the frayed nighttime squish, with closeted hand dice tossed, with chance in the fistfuls, with detuned static and bellyaching bramble, with losing yourself, with entropic dissociation, with fleeting tokens, with sayonara stamps, with honey pumping nozzles, with inside out stratus veins, with the pain of history tucked in the trail fringe, in the pebbles kicked outward, with fried abandon, with seatless balconies, with the touch of an insect unexpected while straddling a brick wall with electric grout, with eyelashes trimed by the wind, with patterns passed, with breathless shapes and shaping dimensions, without the taste of lavender or the mosquito’s lonely thirst, with time passing, with time passing, with time passing, without passing time, with the sky dumping elected dead bodies, with spoonfuls of miracles, with starvation kicking, with moon swells forgetting the fomite sea, with weather inside, with dry mouth drawer memories, with omens and herrings with teeth and tongue.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> cuckoos turn to clocks for winter (c.w. injections) </h1><br></br><p class="d-flex justify-content-center">gatekeeper to the creased crater, kirigami seer, naked to what the future folds. hair is not for gravity but for wind like fair is not depravity but forewarned.</p><br></br><p class="d-flex justify-content-center">under endocrine prosthesis, the internal village of chemicals imbricates around an obeliscal needle, a sword in stone artifact and wake up bouquet, pull lightly - push completely.</p><br></br><p class="d-flex justify-content-center">flax seeds, soy beans, sesame; phytoestrogens in the augur of growth. a crushed seed can still find what it needs.</p><br></br><p class="d-flex justify-content-center">skein, cut and collaged, is how they migrate across, the modulated albatross phasing trans dimensionality.</p><br></br><p class="d-flex justify-content-center">the threat of squeezing comes with manometrics, openly dislodge and ask yourself, from how high have i been falling? into what cavity do you invite yourself and through what tunnel does the membrane tangle?</p><br></br><p class="d-flex justify-content-center">where the outside decides to stop holding it in. where you are no longer a template cut around by a child with wacky scissors, but the crisp lines of a decisive tear, incisive fiber tickling your blended pieces.</p><br></br><p class="d-flex justify-content-center">when eyelids become eclipsed by falling water, if you hold one hand out, hairy knuckles high and plastic nails dancing with the weight of a molten core growing colder, and let the other hand, splayed with a palm that reads the sky, suspended beneath it, then you will find the presence of your self perched between, eyeing your annelid fingers with talons clutching your life line, exposing and picking at skin while bathing your blood in mist, all to let you know that there is no knotting in the falling of fluids, that there is time to collect yourself in descent, and that you are worthy of wings.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> deskinning a spider (for Violet) </h1><br></br><p class="d-flex justify-content-center">after an oil spill mowed the lawn</p><p class="d-flex justify-content-center">for eleven an hour,</p><p class="d-flex justify-content-center">tiny migrants crowded the greenhouse gate.</p><p class="d-flex justify-content-center">the bug pissed moonwater muddied</p><p class="d-flex justify-content-center">the steps of the tenderhearted</p><p class="d-flex justify-content-center">community (of seed undertakers),</p><p class="d-flex justify-content-center">and made its way by means of caked rubber</p><p class="d-flex justify-content-center">into the cytophotocycle,</p><p class="d-flex justify-content-center">where the moonwater volatilized.</p><p class="d-flex justify-content-center">liquid volery.</p><p class="d-flex justify-content-center">vivid luck.</p><p class="d-flex justify-content-center">awoken like post-dream nap perspirants -</p><p class="d-flex justify-content-center">oneiroceiving precipitate;</p><p class="d-flex justify-content-center">the greenhouse grew murals in condensation,</p><p class="d-flex justify-content-center">the accidents si quieros.</p><p class="d-flex justify-content-center">a misty opacity attrited</p><p class="d-flex justify-content-center">like deskinning a spider,</p><p class="d-flex justify-content-center">with a definitude of exo scaling tons;</p><p class="d-flex justify-content-center">memories shed,</p><p class="d-flex justify-content-center">shies misled.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><p class="d-flex justify-content-center">⌂ the greenhouse stands where a glacier once</p><p class="d-flex justify-content-center">slipped, clumsy as steadfast could be.</p><p class="d-flex justify-content-center">foreign fruit fits inside it.</p><p class="d-flex justify-content-center">it knows not what it grows.</p><br></br><p class="d-flex justify-content-center">🌢 the moonwater was salt-lipped for a while.</p><p class="d-flex justify-content-center">where it passed through, it was soiled.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><p class="d-flex justify-content-center">you’d be surprised how many things hit glass.</p><p class="d-flex justify-content-center">the moonwater didn’t realize what volume</p><p class="d-flex justify-content-center">seizes space</p><p class="d-flex justify-content-center">until it heard its kind on the outside. from the inside.</p><p class="d-flex justify-content-center">Venus has a reassuring kiss when a drone is dampened.</p><p class="d-flex justify-content-center">there were three rows for puddling;</p><p class="d-flex justify-content-center">one for naps,</p><p class="d-flex justify-content-center">one for not naps,</p><p class="d-flex justify-content-center">and one for knotted gnats laying hot eggs</p><p class="d-flex justify-content-center">in lustrated bloom.</p><p class="d-flex justify-content-center">flume frustrated.</p><p class="d-flex justify-content-center">somewhere far up the chain, a worn-out manager</p><p class="d-flex justify-content-center">ordered inventory off-brand,</p><p class="d-flex justify-content-center">and enchanted a horticultural hobbyist.</p><p class="d-flex justify-content-center">the devil is ennui and god is curiosity.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><p class="d-flex justify-content-center">⌂ there could be a greenhouse next door, but</p><p class="d-flex justify-content-center">it would be an accident, a leaky shed</p><p class="d-flex justify-content-center">with errant sprouts.</p><p class="d-flex justify-content-center">as it would seem to my lustrous heart.</p><p class="d-flex justify-content-center">lagging and callous.</p><br></br><p class="d-flex justify-content-center">🌢 the moon was uninterrupted that night.</p><p class="d-flex justify-content-center">mighty sky drifters never passed between them.</p><p class="d-flex justify-content-center">like a parent with patience or a friend with faith.</p><p class="d-flex justify-content-center">like a husk that stole your pose.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><p class="d-flex justify-content-center">the maceration was mutual with leaky infusions</p><p class="d-flex justify-content-center">of purpose and imagination</p><p class="d-flex justify-content-center">materializing into groundskeepers</p><p class="d-flex justify-content-center">that tamed the pressure of an ever encroaching periphery.</p><p class="d-flex justify-content-center">one time the moonwater nearly fumed its way dry</p><p class="d-flex justify-content-center">after a political candidate entered the greenhouse</p><p class="d-flex justify-content-center">with scissors promising bonsai.</p><p class="d-flex justify-content-center">but pesticides pass by.</p><p class="d-flex justify-content-center">and pictures of fabric mean less than bird song</p><p class="d-flex justify-content-center">or beetle guides.</p><p class="d-flex justify-content-center">for the frame never mattered to the moonwater.</p><p class="d-flex justify-content-center">no more than a furnace in winter,</p><p class="d-flex justify-content-center">than a flower in summer.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><p class="d-flex justify-content-center">⌂ when it comes time for the greenhouse to deracinate,</p><p class="d-flex justify-content-center">to throw her vines like limbs over garden walls</p><p class="d-flex justify-content-center">and access roads, eye to eye with cumulus</p><p class="d-flex justify-content-center">monoliths; her moonwater sweat will slip</p><p class="d-flex justify-content-center">through the glass glue and slide down to</p><p class="d-flex justify-content-center">her fingers . . . to feel what she feels</p><br></br><p class="d-flex justify-content-center">🌢 i love pooling here</p><p class="d-flex justify-content-center">🌢 i love steaming and raining here</p><p class="d-flex justify-content-center">🌢 i will love being the halo in your refraction</p><br></br>
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+
+          <a class="carousel-control-prev" href="#chapCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#chapCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/chapbooks.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/chapbooks.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">new chapbooks</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../activism.html">activism</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../poems.html">poems</a></div>
+          <div class="flex-item"><a href="../chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- page container -->
+    <div class="container-fluid chapbook-container">
+      <div class="row">
+        <div id="chapCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+          <!-- indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#chapCarousel" data-slide-to="0" class="active indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="1" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="2" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="3" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="4" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="5" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="6" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="7" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="8" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="9" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="10" class="indicatorColor"></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img class="mx-auto d-block" src="../../img/chapbooks/woodenleg/woodlegCOVER.jpg"></img>
+              <h1 class="d-flex justify-content-center"> cover </h1>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> Wooden Legs </h1><br></br><p class="d-flex justify-content-center">The county’s leading liquor clerk tapped gently on a pile of wooden legs - waiting</p><br></br><p class="d-flex justify-content-center">When the sails licked the cliffs, the clerk twisted the blinds and broke off the boards</p><br></br><p class="d-flex justify-content-center">He used the boards of the broken window and fashioned wooden legs</p><br></br><p class="d-flex justify-content-center">A tiny swan and a criminal, both ash and white striped and burdened by their own kind of shackle</p><br></br><p class="d-flex justify-content-center">Drank tequila sunrises and milky dusks</p><br></br><p class="d-flex justify-content-center">It was what they did before stealing wooden legs</p><br></br><p class="d-flex justify-content-center">The nightmare walked sideways on the walls, head backward, back backward, thinking backwardly towards the Chardonnay</p><br></br><p class="d-flex justify-content-center">The nightmare brushed past the tiny swan and crook with a stunning wooden leg and a sparkling red, the embodiment of death, love and armchair shenanigans.</p><br></br><p class="d-flex justify-content-center">Her ID was legit and tragic and growing inaccurate by the second. The clerk obliged out of the darkness he felt and the booming business of his carpentry project on the side.</p><br></br><p class="d-flex justify-content-center">He sells the nightmare a leg and she ties it tightly with hemp wire</p><br></br><p class="d-flex justify-content-center">And the next morning</p><br></br><p class="d-flex justify-content-center">Untied from the port, a rhythm creaks from the oars and ship pores and backward she rows</p><br></br><p class="d-flex justify-content-center">She left her sweater on the crook’s dresser</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> Welcome to Mania </h1><br></br><p class="d-flex justify-content-center">welcome to Mania</p><br></br><p class="d-flex justify-content-center">this is a carnival of self-righteousness</p><br></br><p class="d-flex justify-content-center">this is a circus of destruction</p><br></br><p class="d-flex justify-content-center">the carousel suspends above empty pits</p><br></br><p class="d-flex justify-content-center">and the world’s deadliest animals roam freely</p><br></br><p class="d-flex justify-content-center">find a seat on smallpox blankets</p><br></br><p class="d-flex justify-content-center">where we eat in the face of starving artists</p><br></br><p class="d-flex justify-content-center">and read Kafka to children</p><br></br><p class="d-flex justify-content-center">serving drinks to hell is a crime</p><br></br><p class="d-flex justify-content-center">welcome to Mania</p><br></br><p class="d-flex justify-content-center">come to me, and see how I’ve wrapped the empty holes in my soul with skins and how I beat on them until they reverberate through my body</p><br></br><p class="d-flex justify-content-center">come to me and watch how strings aren’t just pulled</p><br></br><p class="d-flex justify-content-center">they’re fucking yanked</p><br></br><p class="d-flex justify-content-center">we are Geppetto’s ancestors</p><br></br><p class="d-flex justify-content-center">come to me and fall in love with the way fire burns from a distance</p><br></br><p class="d-flex justify-content-center">wave your hand over matches and blush red</p><br></br><p class="d-flex justify-content-center">welcome to Mania</p><br></br><p class="d-flex justify-content-center">this is the only place where you can taste the ravaging of</p><br></br><p class="d-flex justify-content-center">a city in Mongolian stir fry</p><br></br><p class="d-flex justify-content-center">here, chernobyl residents get free healthcare</p><br></br><p class="d-flex justify-content-center">because radiation is a right of passage</p><br></br><p class="d-flex justify-content-center">this is the only place where sex is the source of all AC currents</p><br></br><p class="d-flex justify-content-center">we praise Tesla and fuck in his name</p><br></br><p class="d-flex justify-content-center">splitting atoms saved mankind, everyone here is comfortable</p><br></br><p class="d-flex justify-content-center">being torn to pieces</p><br></br><p class="d-flex justify-content-center">but settle me love</p><br></br><p class="d-flex justify-content-center">tell me when it’s over</p><br></br><p class="d-flex justify-content-center">Pull the master switch and let the facilities close shop</p><br></br><p class="d-flex justify-content-center">closing time is an abstraction</p><br></br><p class="d-flex justify-content-center">set by an imaginary hourglass made of orange bottles with</p><br></br><p class="d-flex justify-content-center">funny names on labels</p><br></br><p class="d-flex justify-content-center">some days I call in sick just to think of you</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> An Armchair from 1928 </h1><br></br><p class="d-flex justify-content-center">the clerk found a map in his grandfather’s armchair</p><br></br><p class="d-flex justify-content-center">buried savings from the great war</p><br></br><p class="d-flex justify-content-center">4 and a half feet under around the corner of a liquor store</p><br></br><p class="d-flex justify-content-center">lived a box of woodgrain and papyrus notes, all of</p><br></br><p class="d-flex justify-content-center">which read “for safe keeping”</p><br></br><p class="d-flex justify-content-center">the old parchment glued to the clerks legs and sawdust</p><br></br><p class="d-flex justify-content-center">mummified him</p><br></br><p class="d-flex justify-content-center">he sat numb behind the liquor store</p><br></br><p class="d-flex justify-content-center">waiting for the crooked log driver to bring cedar</p><br></br><p class="d-flex justify-content-center">and aspen and sometimes sandwiches</p><br></br><p class="d-flex justify-content-center">the laminate map on the counter</p><br></br><p class="d-flex justify-content-center">served a placemat for crumbs and cigarette ash</p><br></br><p class="d-flex justify-content-center">freckled and brown like the blinds with sunlight flakes</p><br></br><p class="d-flex justify-content-center">or riddled and old like the pile of porous wooden legs</p><br></br><p class="d-flex justify-content-center">a few minutes before close, the nightmare comes home</p><br></br><p class="d-flex justify-content-center">with a bottomless liver and leg she’ll soak in the tub</p><br></br><p class="d-flex justify-content-center">the tub leaks slightly over the whiskey</p><br></br><p class="d-flex justify-content-center">the tub is closing time, is bucket time</p><br></br><p class="d-flex justify-content-center">is the bucket out back near an armchair from 1928</p><br></br><p class="d-flex justify-content-center">grandfather’s are frugal men and men that say</p><br></br><p class="d-flex justify-content-center">“build it yourself”</p><br></br><p class="d-flex justify-content-center">save money, fix faulty machinery, i.e. an armchair</p><br></br><p class="d-flex justify-content-center">that takes the legs of nightmares when they sleep</p><br></br><p class="d-flex justify-content-center">kitten curled feet tucked</p><br></br><p class="d-flex justify-content-center">far from liable</p><br></br><p class="d-flex justify-content-center">obligingly, you put her together with a wooden leg</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> A Truth and a Lie walk into a bar </h1><br></br><p class="d-flex justify-content-center">I’ve seen the lies and the truths with their cocktails</p><br></br><p class="d-flex justify-content-center">keeping a cosmopolitan close in one hand and</p><br></br><p class="d-flex justify-content-center">a stranger captive in the other</p><br></br><p class="d-flex justify-content-center">scheming against eavesdropping bartenders</p><br></br><p class="d-flex justify-content-center">when alone, the lies and truths speak softly</p><br></br><p class="d-flex justify-content-center">stare at a drink menu together and whisper reserved thoughts</p><br></br><p class="d-flex justify-content-center">that brush by like a bundled up trench coat</p><br></br><p class="d-flex justify-content-center">touching my periphery and nothing else</p><br></br><p class="d-flex justify-content-center">the lies and truths will offer me chances</p><br></br><p class="d-flex justify-content-center">and free drinks</p><br></br><p class="d-flex justify-content-center">never changing</p><br></br><p class="d-flex justify-content-center">with the same drinks and the same performances</p><br></br><p class="d-flex justify-content-center">that fool everyone but the bartender</p><br></br><p class="d-flex justify-content-center">from the end of the counter, I watch them take shots</p><br></br><p class="d-flex justify-content-center">and lean in</p><br></br><p class="d-flex justify-content-center">more strangers pass by leaving gifts in their pockets</p><br></br><p class="d-flex justify-content-center">asking for a chance</p><br></br><p class="d-flex justify-content-center">between elbows and sleeves and collars</p><br></br><p class="d-flex justify-content-center">a flood of trenchcoats bury the two</p><br></br><p class="d-flex justify-content-center">behind a slurring radio, shots of voices</p><br></br><p class="d-flex justify-content-center">are tossed around the bar with closing tabs and credit cards</p><br></br><p class="d-flex justify-content-center">my eyes jump out at the last second and catch them hailing a cab</p><br></br><p class="d-flex justify-content-center">I can tell the two apart just fine, I say</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> Tiny Swan </h1><br></br><p class="d-flex justify-content-center">usually caught in a paper smoking jacket</p><br></br><p class="d-flex justify-content-center">with the demeanor of someone that has permanently forgotten something</p><br></br><p class="d-flex justify-content-center">of importance</p><br></br><p class="d-flex justify-content-center">a tiny swan with salty tuffs plays with</p><br></br><p class="d-flex justify-content-center">wiry feathers</p><br></br><p class="d-flex justify-content-center">and anachronistic Bukowski shorts stapled into cedar paneling</p><br></br><p class="d-flex justify-content-center">just beside the bed frame where weeks of crusty feathers have been</p><br></br><p class="d-flex justify-content-center">caught in the splinters</p><br></br><p class="d-flex justify-content-center">every ornery morning, the tiny swan</p><br></br><p class="d-flex justify-content-center">wakes to the lick of sails on the cliffs</p><br></br><p class="d-flex justify-content-center">he crawls into the ceramic tub outside -</p><br></br><p class="d-flex justify-content-center">an old bird that plots long cons</p><br></br><p class="d-flex justify-content-center">and watches shitty daytime melodramas at a local convenience store</p><br></br><p class="d-flex justify-content-center">sometimes he doesn’t get out</p><br></br><p class="d-flex justify-content-center">sometimes he just sits in his dirty tub or dirty truck</p><br></br><p class="d-flex justify-content-center">a picture of a lady swan hangs from the rear view mirror signed</p><br></br><p class="d-flex justify-content-center">by Burt Reynolds with notes from last Wednesday’s local labor meeting</p><br></br><p class="d-flex justify-content-center">a picture folded twice that no one talks about</p><br></br><p class="d-flex justify-content-center">even the pigeons on the corner don’t ask, don’t beg for crumbs,</p><br></br><p class="d-flex justify-content-center">don’t eat sawdust off the back of a log driver’s truck,</p><br></br><p class="d-flex justify-content-center">They taste the difference</p><br></br><p class="d-flex justify-content-center">the tiny swan drives with wooden blocks on the pedals</p><br></br><p class="d-flex justify-content-center">following a scar at the water’s hips made from the</p><br></br><p class="d-flex justify-content-center">daily commute of a secret lover</p><br></br><p class="d-flex justify-content-center">by the time the cliff has been climbed</p><br></br><p class="d-flex justify-content-center">the crooked log driver will tell the tiny swan about the next step</p><br></br><p class="d-flex justify-content-center">to ripping off island inhabitants</p><br></br><p class="d-flex justify-content-center">the secret, he says, is knowing when</p><br></br><p class="d-flex justify-content-center">the tiny swan dreams of big scores, big breasts, and redemption</p><br></br><p class="d-flex justify-content-center">all of which award him a routine trip to the liquor store</p><br></br><p class="d-flex justify-content-center">The only indoor plumbing contractor on this side of the ocean is a tiny swan</p><br></br><p class="d-flex justify-content-center">He sucks at his job and never fails to piss off the liquor store clerk</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> Raising a Kid </h1><br></br><p class="d-flex justify-content-center">the port authority raised an extra set of hands, that grew to be</p><br></br><p class="d-flex justify-content-center">a bigger set of hands</p><br></br><p class="d-flex justify-content-center">hands with sweaters stretched at the wrists, often splintered</p><br></br><p class="d-flex justify-content-center">panelling dock planks and planning revenge against rubber boots, the panelling of rubber faces that spit and grow hair and sink and look at a kid that is just a set of hands</p><br></br><p class="d-flex justify-content-center">the port authority thinks bribery substitutes apologies</p><br></br><p class="d-flex justify-content-center">they speak at supper time</p><br></br><p class="d-flex justify-content-center">take a sip son, everyone feels that way</p><br></br><p class="d-flex justify-content-center">how can they, says a pair of hands</p><br></br><p class="d-flex justify-content-center">if they aren’t hanging from the harbor and biting waves</p><br></br><p class="d-flex justify-content-center">while a shadow puppet flickers on the wall, say bite, say hands folding, say anxiety, say biting waves, say harbor, say harbor</p><br></br><p class="d-flex justify-content-center">the shadow puppet leaped into the sea and happened upon a log</p><br></br><p class="d-flex justify-content-center">out the window, balancing wakelessly, teeterless</p><br></br><p class="d-flex justify-content-center">trustworthy of an atom bomb, weighing just as much</p><br></br><p class="d-flex justify-content-center">with the control of an alcoholic tiny swan</p><br></br><p class="d-flex justify-content-center">the pair of hands followed the shadow</p><br></br><p class="d-flex justify-content-center">onto logs and quit being a pair of hands</p><br></br><p class="d-flex justify-content-center">he took log driving courses at the YMCA</p><br></br><p class="d-flex justify-content-center">and business classes at the community college</p><br></br><p class="d-flex justify-content-center">and business classes from the working classes</p><br></br><p class="d-flex justify-content-center">and gave business classes to the working classes</p><br></br><p class="d-flex justify-content-center">they nod at him from healthy pensions, wages, and bellies</p><br></br><p class="d-flex justify-content-center">the port authority got sick from swallowing waves and shadow puppets</p><br></br><p class="d-flex justify-content-center">a shipwreck and an orphan sign up for classes</p><br></br><p class="d-flex justify-content-center">to be something other than a pair of hands</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> A Bottle of Whiskey is $50 for You </h1><br></br><p class="d-flex justify-content-center">a son to the port authority worked</p><br></br><p class="d-flex justify-content-center">pulling planks from the harbor</p><br></br><p class="d-flex justify-content-center">feeling pruritus on skin that was bark</p><br></br><p class="d-flex justify-content-center">and accustomed to touching other bark</p><br></br><p class="d-flex justify-content-center">the envy of trees</p><br></br><p class="d-flex justify-content-center">he never shivered</p><br></br><p class="d-flex justify-content-center">at the vacant taste of weak coffee or sheerness</p><br></br><p class="d-flex justify-content-center">a quality most people don’t see as fair</p><br></br><p class="d-flex justify-content-center">they hid vacant glances over cardboard cup masks</p><br></br><p class="d-flex justify-content-center">orphaned sentiment, unorphaned quiet</p><br></br><p class="d-flex justify-content-center">lone log driving llc.</p><br></br><p class="d-flex justify-content-center">the only employee smoked cigarettes on a lucky strike</p><br></br><p class="d-flex justify-content-center">and refused opportunities that called</p><br></br><p class="d-flex justify-content-center">waiting for one ship in particular to fall apart</p><br></br><p class="d-flex justify-content-center">the ship that rides the hip in the water</p><br></br><p class="d-flex justify-content-center">and never wavers</p><br></br><p class="d-flex justify-content-center">she docks by herself</p><br></br><p class="d-flex justify-content-center">unloads barrels of empty thoughts and wrinkled sweaters</p><br></br><p class="d-flex justify-content-center">drops them off at an orphanage and takes a cab</p><br></br><p class="d-flex justify-content-center">to lone log driving llc</p><br></br><p class="d-flex justify-content-center">a lone log driving worker comes off strike to be a crook and ends up getting a call around noon</p><br></br><p class="d-flex justify-content-center">an order for carving wood</p><br></br><p class="d-flex justify-content-center">“I only deliver logs by the sea,</p><br></br><p class="d-flex justify-content-center">it won’t be worth carving when it gets there”</p><br></br><p class="d-flex justify-content-center">the liquor clerk says it’s fine</p><br></br><p class="d-flex justify-content-center">“I’ll board the windows first while they dry”</p><br></br><p class="d-flex justify-content-center">the clerk wonders if he’ll hear the nightmare at the other end</p><br></br><p class="d-flex justify-content-center">the telephone grows darker with chameleon shadows</p><br></br><p class="d-flex justify-content-center">“I won’t charge you,” the log driver says</p><br></br><p class="d-flex justify-content-center">“I still won’t give you a discount” the clerk says</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> Small town, big armchairs </h1><br></br><p class="d-flex justify-content-center">brothers split after a great depression</p><br></br><p class="d-flex justify-content-center">after starting a carpentry venture just before the market crashed</p><br></br><p class="d-flex justify-content-center">on a cliffside island town</p><br></br><p class="d-flex justify-content-center">three decades and a second or two</p><br></br><p class="d-flex justify-content-center">a nightmare was born as a granddaughter</p><br></br><p class="d-flex justify-content-center">spawned by sea fire</p><br></br><p class="d-flex justify-content-center">and a house full of uncomfortable seating, assets</p><br></br><p class="d-flex justify-content-center">spilling extendable iron leg rests</p><br></br><p class="d-flex justify-content-center">and scratched armrests</p><br></br><p class="d-flex justify-content-center">over rugs, quilts, and other carpet substitutes</p><br></br><p class="d-flex justify-content-center">a great thing for kids to jump over</p><br></br><p class="d-flex justify-content-center">as she got older, she kept her childhood</p><br></br><p class="d-flex justify-content-center">in a belief that leg rests were lava and books</p><br></br><p class="d-flex justify-content-center">read better with her feet warmed under cheeks</p><br></br><p class="d-flex justify-content-center">or tucked in chair folds</p><br></br><p class="d-flex justify-content-center">Papa believed in American manufacturing</p><br></br><p class="d-flex justify-content-center">shipments in storms, in shitstorms</p><br></br><p class="d-flex justify-content-center">believed in taking, being loud</p><br></br><p class="d-flex justify-content-center">while the softer brother</p><br></br><p class="d-flex justify-content-center">that gets sea sick</p><br></br><p class="d-flex justify-content-center">sticks to workbenches, whiskey brewings, and stomach ulcers</p><br></br><p class="d-flex justify-content-center">the nightmare stomachs and she stomachs well</p><br></br><p class="d-flex justify-content-center">stomachs small towns, shitstorms, whiskey and wine,</p><br></br><p class="d-flex justify-content-center">she stomachs tiny spaces, gory mystery novels, stomachs</p><br></br><p class="d-flex justify-content-center">the sight of blood, she stomachs the sight of blood so well,</p><br></br><p class="d-flex justify-content-center">stomaching iron on the back of her throat or iron through</p><br></br><p class="d-flex justify-content-center">her leg, stomach in a cliffside sawmill stomach in a</p><br></br><p class="d-flex justify-content-center">tub, stomach donated to an orphanage that’s too big for its</p><br></br><p class="d-flex justify-content-center">own good, stomach and sweet belly, translucent sheerness, stomachs</p><br></br><p class="d-flex justify-content-center">sold behind liquor store counters, stomachs beside bedsides and other stomach looking furniture, dead stomachs too many stomachs</p><br></br><p class="d-flex justify-content-center">in a small town of stomachs</p><br></br><p class="d-flex justify-content-center">and a few armchairs left after the great depression</p><br></br><p class="d-flex justify-content-center">I wouldn’t suggest buying one unless you have the stomach for it</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> Closing Time </h1><br></br><p class="d-flex justify-content-center">the clerk rides shotgun with the log driver toting a twisted armchair.</p><br></br><p class="d-flex justify-content-center">their socks holstered kerosene while the tiny swan flicked matches out the windows fecklessly from the back center - sans seat belt,</p><br></br><p class="d-flex justify-content-center">sea felt pride and vinegar</p><br></br><p class="d-flex justify-content-center">the humidity boiled the engine into each of their stomachs and the clerk bit his lip not to vomit</p><br></br><p class="d-flex justify-content-center">there was a sickness in their shoes as they rattled up the cliff</p><br></br><p class="d-flex justify-content-center">let’s do it here the clerk says</p><br></br><p class="d-flex justify-content-center">the armchair sprouts many legs and took their socks</p><br></br><p class="d-flex justify-content-center">which they prepared for</p><br></br><p class="d-flex justify-content-center">and the tiny swan set the spider armchair on fire</p><br></br><p class="d-flex justify-content-center">whisper blaze - “I ain’t got time to bleed”</p><br></br><p class="d-flex justify-content-center">they turn to anemics</p><br></br><p class="d-flex justify-content-center">disarmed by nightmares and fear</p><br></br><p class="d-flex justify-content-center">afraid to lose their legs</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> You Are Not An Imposter </h1><br></br><p class="d-flex justify-content-center">you are not an imposter</p><br></br><p class="d-flex justify-content-center">fuck those bastards you are not an imposter</p><br></br><p class="d-flex justify-content-center">I know that you curl your toes under your shoes</p><br></br><p class="d-flex justify-content-center">hold your breath before you speak</p><br></br><p class="d-flex justify-content-center">check your laces twice before you step</p><br></br><p class="d-flex justify-content-center">out on tightrope 8 miles above ground</p><br></br><p class="d-flex justify-content-center">when you swallow a sentence and chase it with whiskey</p><br></br><p class="d-flex justify-content-center">trying not to choke on the sharp edges of “not enough”</p><br></br><p class="d-flex justify-content-center">your stomach bile will vault through your esophagus</p><br></br><p class="d-flex justify-content-center">in perfect lingual trapeze</p><br></br><p class="d-flex justify-content-center">stick the landing with ease and say ta da</p><br></br><p class="d-flex justify-content-center">say everything except what you need</p><br></br><p class="d-flex justify-content-center">when you rise from your knees</p><br></br><p class="d-flex justify-content-center">those itchy words will drop</p><br></br><p class="d-flex justify-content-center">into the soul of your shoes</p><br></br><p class="d-flex justify-content-center">with which you curl your toes</p><br></br><p class="d-flex justify-content-center">hold your breath</p><br></br><p class="d-flex justify-content-center">and check your laces twice before you remember</p><br></br><p class="d-flex justify-content-center">that you are not an imposter</p><br></br><p class="d-flex justify-content-center">in front of you are jesters and clowns</p><br></br><p class="d-flex justify-content-center">and a circus of whistles, bells, and soulless sounds</p><br></br><p class="d-flex justify-content-center">your shoes will grow three fucking sizes</p><br></br><p class="d-flex justify-content-center">because a) the grinch ain’t got shit on you and</p><br></br><p class="d-flex justify-content-center">b) you can do the Charlie Brown to space funk and</p><br></br><p class="d-flex justify-content-center">see(c) that you have all the room in the world to move your feet</p><br></br><p class="d-flex justify-content-center">tumble from your tight rope</p><br></br><p class="d-flex justify-content-center">let the people around you string together bridges and safety nets</p><br></br><p class="d-flex justify-content-center">go out to the carnival and win some bottle caps</p><br></br><p class="d-flex justify-content-center">take the stuffed version of you from the prize rack</p><br></br><p class="d-flex justify-content-center">and sleep well with it at night</p><br></br>
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+
+          <a class="carousel-control-prev" href="#chapCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#chapCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/activism.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/activism.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">new design</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../activism.html">activism</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../poems.html">poems</a></div>
+          <div class="flex-item"><a href="../chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- page container -->
+    <div class="container-fluid">
+
+      <div class="row">
+          <div class="col-md-12 m4blPAD">
+            <h2> Dear [Representative], </h2>
+            <br></br>
+            <h3> My name is [name] and I am a constituent from the [District Name] District. What are you doing to protect black lives and BIPOC futures? How are you going to begin to dismantle the racism and white supremacy embedded in our institutions and police culture? We have much work to do as a state to combat systemic racism, and it is beyond time to make a strong start. </h3>
+            <br></br>
+            <h3> I am urging you to consider the following actions: </h3>
+            <h3><li>Listen to the experiences coming from communities of color and the policies from which they have been directly penalized (e.g.  <a href="https://www.newyorker.com/news/the-new-yorker-interview/ten-years-after-the-new-jim-crow">The New Jim Crow</a>)</li></h3>
+            <h3><li>Budget with different priorities - primarily divesting police militarization funds to interdisciplinary response teams and structural institutions in marginalized neighborhoods and counties that were victims to these racist structures</li></h3>
+            <h3><li>Fight for the removal of qualified immunity that makes police a protected class of citizen</li></h3>
+            <h3><li>Refuse to accept financial contributions from policing unions, i.e. sign No Cash From Cops</li></h3>
+            <h3><li>Push for oversight as elucidated by <a href="https://www.joincampaignzero.org/">Campaign Zero</a></li></h3>
+            <h3><li>Get procedural, independent investigations for prior and present cases of excessive force committed by the police, all of which logged in a secure, national database</li></h3>
+            <br></br>
+            <h3> Current Proposals to Support </h3>
+            <br></br>
+            <h3><li><a href="https://www.congress.gov/bill/116th-congress/house-bill/7120?q=%7B%22search%22%3A%5B%22Justice+in+Policing+Act+of+2020%22%5D%7D&s=3&r=1">H.R. 7120, The George Floyd Justice in Policing Act</a></li></h3>
+            <h3><li><a href="https://www.congress.gov/bill/116th-congress/senate-bill/3985?q=%7B%22search%22%3A%5B%22The+JUSTICE+Act%22%5D%7D&s=1&r=6">S. 3985, The JUSTICE Act</a></li></h3>
+            <br></br>
+            <br></br>
+            <h4> No Justice, No Peace, </h4>
+            <h4> [full name] </h4>
+            <h4> [address] </h4>
+          </div>
+        </div>
+
+
+
+
+
+    </div>
+  </body>
+</html>

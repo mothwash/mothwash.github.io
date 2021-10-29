@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/chapbooks.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/chapbooks.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">new chapbooks</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../activism.html">activism</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../poems.html">poems</a></div>
+          <div class="flex-item"><a href="../chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- page container -->
+    <div class="container-fluid chapbook-container">
+      <div class="row">
+        <div id="chapCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+          <!-- indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#chapCarousel" data-slide-to="0" class="active indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="1" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="2" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="3" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="4" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="5" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="6" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="7" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="8" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="9" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="10" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="11" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="12" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="13" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="14" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="15" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="16" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="17" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="18" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="19" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="20" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="21" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="22" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="23" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="24" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="25" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="26" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="27" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="28" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="29" class="indicatorColor"></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img class="mx-auto d-block" src="../../img/chapbooks/whenileftalive/whenileftalive_cover.jpeg"></img>
+              <h1 class="d-flex justify-content-center"> cover </h1>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/whenileftalive/whenileftalive2.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/whenileftalive/whenileftalive3.jpeg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/whenileftalive/whenileftalive4.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/whenileftalive/whenileftalive5.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/whenileftalive/whenileftalive6.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/whenileftalive/whenileftalive7.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> when i left alive (laced) </h1><br></br><p class="d-flex justify-content-center">when i left alive i buried your dog’s grave</p><p class="d-flex justify-content-center">gave the time a new mouth spore and drank for the slave</p><p class="d-flex justify-content-center">tied a knot in my table against the new sun</p><p class="d-flex justify-content-center">and destroyed all the sighs of the bastard undone</p><p class="d-flex justify-content-center">ate the leaves of the willow and passed them to friends</p><p class="d-flex justify-content-center">while they chirped in a meadow and choked where my neck ends</p><p class="d-flex justify-content-center">it’s the corner store’s owner still wasting away,</p><p class="d-flex justify-content-center">and the land that she owns collared drunk in the rain</p><p class="d-flex justify-content-center">can the life be a mystery of the poured out insane</p><p class="d-flex justify-content-center">or the last of the empire burned down to four legs</p><p class="d-flex justify-content-center">i’ve nothing to fear from you, no reason to glean</p><p class="d-flex justify-content-center">it’s way too late now what a terrifying thing</p><p class="d-flex justify-content-center">it’s enough not to hear you or the bark of your skin</p><p class="d-flex justify-content-center">causal of how the window says go back again</p><p class="d-flex justify-content-center">and you click on a stopwatch watching up from the roots</p><p class="d-flex justify-content-center">i’ll say something in memory given out of the boot</p><p class="d-flex justify-content-center">and swimmers all near me fall back to my side</p><p class="d-flex justify-content-center">and the river gets easier so i go back inside</p><p class="d-flex justify-content-center">and the callback keeps ringing while the dog pants a sigh</p><p class="d-flex justify-content-center">and i knew she was near me when i left alive</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> when i left alive (barefoot) </h1><br></br><p class="d-flex justify-content-center">when i left alive, i buried the dogs grave</p><p class="d-flex justify-content-center">kicked time in the stones and drank for my mother's state</p><p class="d-flex justify-content-center">sanded down the table against the new day</p><p class="d-flex justify-content-center">posted it online for the neighbor’s down the way</p><p class="d-flex justify-content-center">cracked a morning cold one and passed them to friends</p><p class="d-flex justify-content-center">while they teared up at dawn for a message that God sends</p><p class="d-flex justify-content-center">it’s the corner store’s owner still wasting away</p><p class="d-flex justify-content-center">and the land that she owns fresh with harvest and hay</p><p class="d-flex justify-content-center">can the life be as simple as a porch in the rain</p><p class="d-flex justify-content-center">or the last of the cedar fire that late warmly wanes</p><p class="d-flex justify-content-center">i’ve everything to fear from you the usual suspects</p><p class="d-flex justify-content-center">the mud breaking traction and the cataract specks</p><p class="d-flex justify-content-center">it’s not too late now never will be again</p><p class="d-flex justify-content-center">but enough not to hear you or the bark of your skin</p><p class="d-flex justify-content-center">causal of how the window says go back within</p><p class="d-flex justify-content-center">and you turn over timepieces piecing up all the fields</p><p class="d-flex justify-content-center">i’ll say something in memory on heritage shields</p><p class="d-flex justify-content-center">and the neighbors all near me fall back to my side</p><p class="d-flex justify-content-center">and the discussion gets harder so i go back inside</p><p class="d-flex justify-content-center">and the callback keeps ringing while the dog pants a sigh</p><p class="d-flex justify-content-center">and i knew she was near me when i left alive</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> dressed to kill (laced) </h1><br></br><p class="d-flex justify-content-center">between plastic slippers and the pecking order, there is a fitted sweater with threads loose at the fringe. on this sweater are the arm and hammer of vulcan. he is now forging for petroleum companies. this is the first of many loose ends. there is a machine spilling my guts for me in my sleep thanks to unduly catchflies. the undying abatement of life’s vigors. oil vomit. the magic lamp stays on all night, dusty and jinnful. there are loose stories of overfamiliarity. i’d change my hands to escape. shield me from the white paths before my flashlight, before it falls loose. ends to a means, the law of averages tells me direction is trailing and my pants fit relatively well. give it up for the lucid unduction. a detective here would forge a hearing that would fit teleologically. i am dressed to kill gods. you must understand that you are the same as them, however that flates you, nauseates you. thin contagion hanging from my sleeves. the end loosely aggrieves. intend on epistemics, psycho-mythics and mystique. the poor haunted fuck. hope is a dangerous thing to forge. drunk on catchfly fear. wish for the dog at home to greet you with your torn slippers at the basement floor.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> dressed to kill (barefoot) </h1><br></br><p class="d-flex justify-content-center">between well runs and the wild game, there is a pair of overalls with swiss army knives at the thigh. on the back are the arm and hammer of the military. they are now fighting for petroleum companies. this is first of many loose ends. there is a vulture spilling my guts for me in my sleep thanks to illegal moonshine. day in day out weakening. oil vomit. the bulb out front stays on all night, webbed up and beaconing. there are loose stories of knowing too much. i’d cut my hands out of cuffs, i’m sure. shield myself from the woods behind me, before they close in. ends to a mean, the law of jurisdiction tells me the seams don’t hold up and nothing fits well. give it up for the clear vision, not of self, but of the clothes i’ll wear at the gates. i am dressed to greet gods. you must understand that you’ll never be the same as them, however that feels to you, conceals you. thin colds hanging from plaid. the end loosely lags. intend on the wisdom of a fresh perspective, introspection and instinct. the poor haunted fuck. hope is a dangerous thing to harvest. drunk on moonshine fear. wish for the dog to greet you with your torn slippers at the basement floor.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> the people of this city make me sweat (laced) </h1><br></br><p class="d-flex justify-content-center">the syntheology of ninety degrees, the right angle or nearly boiling. celestial sweatneck, the numen making the ink run. the mosaicized galaxy crawls into bed. starts and stops down cobble abeyance. steel threads from an uncoiled bulb strung across the koi pond. the acoustics are yin, the cavernousness is yang. can’t you see there’s no angle here? too convinced watching sinusoidal perspirants tested on city fools. guess i just hold it in. let the saltiness culminate in my vessels. i’ll creak like an old ship run in circles. routine is the right angle, spiralizing isn’t. true randomness comes from the sound of a gathering, from a party of people fluidly prattling. or maybe if you look at the pattern it’s the same melody sung over and over that cracks on one note. the voice that breaks others, a hard right out of the diatonics. i am that note, cracking and trembling at the expectant faces turning towards me time and time again.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> the people of this town make me sweat (barefoot) </h1><br></br><p class="d-flex justify-content-center">coming together at the first right after Coevill st, the sharp corner or nearly missing your turn. God sweat, the holy spirit pulling the ink from tattoos. star photons crawl into bed with us. the light walks down our dirt-road dead-ends. string lights from the barn round the drinking puddle. the chatter is yin, the quiet is yang. can’t you see there’s no angle here? too convinced watching melanoma crawl over my poker friends. guess i just hold it in. let the carcinoma spread. i’ll lay in bed at the end, on peaceful fire. routine is the last stand, dying isn’t. true randomness comes from the sound of a gathering, from a party of people talking in circles. and maybe if you start to see the pattern, you get the same melody sung over and over that lulls to one note. the voice that notices others, a hard right after Coevill st. i hear that note, humming and wavering at the expectant faces turning towards me once again.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> bird watching (laced) </h1><br></br><p class="d-flex justify-content-center">passerine panopticism, my favorite myna calls for avian liberation. little bracelets fall off skinny wrists. stop the spotter from my waived jurisdictionary. little words fall off skinny tongues. punish mint condition, your ion collider hugs your dress pocket. little quarks fall off dusty coats. stockings and sawmills cut off the bird calls. plenty to see from the tree line. densing feelings and forgivenesses.</p><br></br><p class="d-flex justify-content-center">while low volatile. vinyl unravels off skinny gravity. work badges fall off hurried feet. moldered enough to pollinate, dust to stick to tongues, stomata to steeple, the sun pleads in tongues. choking on what melts, what gets caught on time, tripped up stomach bile, from tape in half-time. the film rolls off thin wall tacks. thin as in skinny.</p><br></br><p class="d-flex justify-content-center">when i left alive, winded stone tablets huffed under luminescence. hung by your looming essence. binning arcana, lift refuse quintessential, latent-use loon : earache canon tell. stories poison eulogizing, sellers’ noise in advertising. tweets and chirps fall off skinny wallets, winged pockets, leafy logs, and a scarecrow’s bones dancing to a skeletal rendition of step in time. the factory phonograph scratches. dense, the cane, dense, these bruises, dense, ions, dense.</p><br></br><p class="d-flex justify-content-center">why is it the wild birds are plantigrade flat-footers? feather dresses are in your favor. in the costume of flight</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> bird watching (barefoot) </h1><br></br><p class="d-flex justify-content-center">bird like supervision, my favorite winged friend calls for the chains to come off. little bracelets fall off skinny wrists. Give the watchers the mind-your-own-business speech. little words fall off skinny tongues. punish mint condition, your flower book hugs your dress pocket. little petals fall off dusty coats. stockings and sawmills cut off the bird calls. plenty to see from the tree line. densing feelings and forgivenesses.</p><br></br><p class="d-flex justify-content-center">while rhythmically calm, palm sweat returns to gravity. cig butts fall off windy banisters. powdered enough to cover the cake, sugar to stick to stubble, the sun cakes it on there, the white hairs in the stubble. choking on a dry heat, what gets caught on time, tripped up stomach bile, from baking in half time. the oven burns off thin wall paper. thin as in skinny.</p><br></br><p class="d-flex justify-content-center">when i left alive, the talker boxes stopped for a minute, hung by your words, aren’t they? buckets of thoughts, lift out the gunk disposal, dormant and crazed : hard-of-hearing soul. stories poison good deaths, the door-knocker’s falsehood-breaths. time and cobweb flakes fall off skinny bricks, winged cement mix, stone eyes, and a person’s straw abrogating the sinews of time steps. the waltz peters out and all that’s strung together flies. light, the dust, light, these bricks, light, petals, light.</p><br></br><p class="d-flex justify-content-center">why is it the chained birds grow armless? asking for a friend in your favor. in the costumes of flight.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> wardrobe malfunction (laced) </h1><br></br><p class="d-flex justify-content-center">gave up the closet, it was growing glaciers. it hijacked my jacket and tried to strike a deal. we exchanged hands a few minutes later. laid your costume furs facing up. the lapels shrugged. some gun strokes, guess i lost it. the nylon fabric makes out with pocket remnants. the trench coat gets jive on its own. wrists buttoned together, office bondage. the icy threats around everyone’s throats started to scratch like wool. we cut another deal, this time exposing our sleeves. a firmer shake, louder small talk. socks stuffing each other. hats on hats, scissoring ties. promotions for every glacier that falls, for raising the clothesline a few inches and rinsing away the continents of my toes. the stripes are all smiling, like clockwork. heavenmetal silk cages guard the house of cold closeted hearts.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> wardrobe malfunction (barefoot) </h1><br></br><p class="d-flex justify-content-center">gave up the closet, it was growing piles. it hijacked my jacket and tried to strike a deal. we exchanged lost looks a few minutes later. laid your costume rips facing up. the lapels shrugged. some sun strokes, guess i lost it. the cotton fabric makes out with other cotton fabric. the raincoat gets sad on its own. wrists unbuttoned, straw bed bonding. the warm drowse around everyone’s waist started to soften like leather. we cut another deal, this time exposing our sleeves. a firmer shake, smaller loud talk. socks stuffing each other. hats on hats, scissoring ties. pies for every pile that falls, for pinching the clothesline every few inches and rinsing away the continents of mud. the stripes are all smiling, like wrinkles. hellwrung plaid fields guard the house of warm and hearthy hearts.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> when i left alive (laced) </h1><br></br><p class="d-flex justify-content-center">it’s no home alone gene, delphic delve sickness omnigene, shots fired, stochastic, ain’t no cool breeze on a crisp cut, change my name change my hair cut, bunk wired, no plastic please. in a cage: helix wired shut:: take a page: my volition book; trust no one tellin you - that’s just nature in your nature.</p><p class="d-flex justify-content-center">you knew when i left alive.</p><p class="d-flex justify-content-center">coma city on a beauty kick, vainglory i’m a get a kick, place it down, skyscraper, diffidence in a paper cup, reach on over lift the waiver up, base letdown, high vapor. in a cage: stale blood drowns:: take a page: ink flees hounds; trust someone tellin you - that’s just libel liberated.</p><p class="d-flex justify-content-center">i wrote that down when i left alive.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> when i left alive (barefoot) </h1><br></br><p class="d-flex justify-content-center">it’s no lonely birth until the oracle’s words get sick, shots fired, not much in common, ain’t no cool breeze on a crisp cut, change my name change my hair cut, hunker down, no compost around. no way out: that’s what daddy says:: take a car: run a highway bust; trust no one tellin you - that’s just hustle in your hustle.</p><p class="d-flex justify-content-center">you knew when i left alive</p><br></br><br></br><br></br><br></br><p class="d-flex justify-content-center">you knew when i left alive.</p><p class="d-flex justify-content-center">coma city on a beauty kick, vainglory i’m a get a kick, place it down, skyscraper, diffidence in a paper cup, reach on over lift the waiver up, base letdown, high vapor. in a cage: stale blood drowns:: take a page: ink flees hounds; trust someone tellin you - that’s just libel liberated.</p><p class="d-flex justify-content-center">i wrote that down when i left alive.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> a hundred year snapshot of a millennia long patriarchy (cw. abortion) </h1><br></br><p class="d-flex justify-content-center">maybe the wax of a candle will fill its tiny mouth and it will asphyxiate. maybe the jostling of a carriage on unpaved roads or the rattling of a drunken man's hold will rid the thread-veined wax-skinned creature. that seems manageable. maybe it could be swapped with a melon, and give me rind kicks. maybe i shove up reef sponges with snake oil or sulfur solution soaking through. a poisonous porousness would seep through me, which may be mildly preferable to this itchiness. the broom end does not work and makes it uncomfortable to walk. perhaps i will hold it in for a hundred years or longer. or put wick to fire.</p><br></br><p class="d-flex justify-content-center">if only it could be wax-soft, could deprecate under the twist of a surly chandleress. undo what's been sealed inside, undo the fossilized devil.</p><br></br><p class="d-flex justify-content-center">i go to my mother and her friends while they smoke and sew. they wear faces i finally recognize. they share more tales. full moon sacrifices, exercises, and leeches; blood sucking - not letting. not letting. not letting.</p><br></br><p class="d-flex justify-content-center">may there be a voice of many tomorrows. this voice would be all of the unwoven souls that have known this not letting. when the wax of men is burned through, the support beams will light like torches, and the roof thatch pitchforks will fall and penetrate their progeny in flawless irony. and to those with a stiff fist in the air, i entreat you to aim low, to carve a hollow hole in below their naval while they bleed, to leave a melon rotting with worms. then free yourself. God knows where i will go.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><p class="d-flex justify-content-center">[a hundred years later: the wax hasn't melted. the fuckers are not letting as usual. the chandleress and i are wearing funny hats in local newspapers and shaking for a number of reasons. we eat melon outside the capitol and i see my younger self foaming with blood at the mouth. i welcome it unlike i've welcomed anything for a hundred years. iron on the tongue, i approach the largest gun. it may erase my face but it will become the one i recognize. they can try to control my corpse with its unyielding call-to-action stenches. come and get me. it'll be a hundred year snapshot of a millennia long patriarchy. my ghost is ready to go back in time and touch my stomach. no other force could have saved so wretched a heart and i see that now.]</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> small towns are not what they seem. </h1><br></br><p class="d-flex justify-content-center">coughed into the coffee beans from all the years. the cough deghosts itself from the parts of the whole. the diner lights play games like hide and seek. the birds are resurrected along the power lines. sedative fog drenches the engines; it drools from the front bumpers of soporific driveways. the driveways never lead right up to the doorstep, stopping somewhere between the shed and bell-less foyer. stars are parts of the whole in these places.</p><br></br><p class="d-flex justify-content-center">destiny limps on one nub, the crotchety war vet that stepped on a mine at the town limits. horror lounges in the woods, the inner workings of a recliner chair crinkling in the night. contentment canvases like a city council candidate, making it onto the interior doormat long enough to get offered a lasagna slice and a place at the table. the first senecents, the next circumvents, and the last represents.</p><br></br><p class="d-flex justify-content-center">heaven is a burden that can’t swim. everyone else learns naked in the lake.</p><br></br><p class="d-flex justify-content-center">the county jail is empty enough to read in and the most read sleep there frequently.</p><br></br><p class="d-flex justify-content-center">never take a seat next to the newspaper stand, especially when a pile of lies can catch on a spark.</p><br></br><p class="d-flex justify-content-center">neighborly samaritan. i once knew an empire so small, it collected its trash in the back of a cobble cabin. once a month, someone would come through and light the oven, like slaughtering the chickens for family dinners.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> when i left alive (laced) </h1><br></br><p class="d-flex justify-content-center">when i left alive, necessity was the moth of all inventions, the light junkies were blind, proverbs were propagandic tricks multiplied in the cities. a rolling soul gathers no moss, it is amoralist imperialism, they are saying it with a tinge of schizophrenia like a twisted ankle walks no more, they are saying it like a lidless vase makes no money, sententia games are played, it hung over me when i left alive.</p><br></br><p class="d-flex justify-content-center">when i left alive, i kicked a strand of quotations together, the pile was levitating, the pile gathered, bounced lightly with the heart of earth and remained. home was in every step i took, if not en route, somewhere i’d eventually look.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> grey collar </h1><br></br><p class="d-flex justify-content-center">grey collar ironing, irony</p><p class="d-flex justify-content-center">contortionism, prismic</p><p class="d-flex justify-content-center">deafening, feigning cheshire</p><p class="d-flex justify-content-center">shine, dire hindsight,</p><p class="d-flex justify-content-center">citations breeding dead</p><p class="d-flex justify-content-center">quotes, edits and notes taken</p><p class="d-flex justify-content-center">off the cereal shelf, imperial</p><p class="d-flex justify-content-center">wealth, healthy distance, iron</p><p class="d-flex justify-content-center">gates stand for the grey</p><p class="d-flex justify-content-center">collar, oligarchical popsicle,</p><p class="d-flex justify-content-center">necktie sick, lettered excuse,</p><p class="d-flex justify-content-center">abused fine print, and rinsed</p><p class="d-flex justify-content-center">in colonial bleach, hormonal</p><p class="d-flex justify-content-center">leeches propped up, creatures</p><p class="d-flex justify-content-center">breaching the legal code,</p><p class="d-flex justify-content-center">acreedal and codified.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> resistance taught by the death of a ran-over squirrel </h1><br></br><p class="d-flex justify-content-center">to be rolled over is to stop resisting, and that’s how it starts. then something starts bleeding, but unnoticeably. to stop resisting is a freeing movement, full of jostled bones and distended tendons, a little tear and a micro chunk that actually felt like dead weight. there’s a bounce, a recovery that makes us all smile. nothing scrambled it seems. but no. there are concerning spikes, wild head jerks, un-privy pounces, erratic illness. and then you see a trail of blood where the little love jumped. what looked like a stubbed toe is now something lethally grave. i have to step in as the bystander here and open my mouth, but that is all i will do. agony, your face is silent, but no face like that is silent in the mind of the viewer. jaw and teeth clashing against each other. did your larynx break? not this time. just seen in its final breaths. the skipping and hopping get weaker, blood spills painting crop signals on the concrete. the fractured furry creature rams its neck into a brick rampart and rolls over onto its back, but no there isn’t twitching like in the movies. i tried to imagine it twitching so i could champion my rodent friend from death a little longer. i couldn’t stop resisting. it would have been a swell time to dry heave. but no. there are replays to go through. all day at work. in slower motion. rolled over.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> when i left alive (breathing) </h1><br></br><p class="d-flex justify-content-center">as a kid, i couldn’t bear the thought of breathing air. i believed the apogee of human ingenuity would be returning to the sea. it was an innate grasp on germ theory and greenhouse emissions, erudition of oxygen preterition, a self apposition, me, the water breather, the gill grower. little did i know this means choking on mud. salamandered neighborhood. all slick like when they grab my wrist. grey sewage against the rich, dark muck of backroads.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> Miraculin </h1><br></br><p class="d-flex justify-content-center">forfeit tastes for the biggest appetite, corporality dismissed, sickest along the forest verdant. binded along the buds, bubils with a foreign epiphytic ontology. it is an elevation, where the cables of suspension are not beliefs but gut feelings. out of moth ichor, us. the rusted reelings of open lesions. forgive temporality in the blister popped moon, too soon. mawn, breath after sleep and the ghost that forages teeth. fuzz spread, rinded pithful into a clockwork peach. belief in a tourniqueted nightgown, all along the mile. reach the watchtower on stapled wings. then return to all the invalidated reasons. pride and plant life. i am the quiet prisoner, squeakless and wheeled into the open air.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> untitled </h1><br></br><p class="d-flex justify-content-center">gleeful Gahanna, useful to give through</p><p class="d-flex justify-content-center">trial null bulimia, your will soaked to sea through</p><p class="d-flex justify-content-center">trim down the sweater</p><p class="d-flex justify-content-center">roll up your weavers</p><p class="d-flex justify-content-center">it ain't hungry enough, for the jury to see her</p><br></br><p class="d-flex justify-content-center">youth lull anemia, eulogize the iron days</p><p class="d-flex justify-content-center">love doled cathedral, criticize the old ways</p><p class="d-flex justify-content-center">one for another</p><p class="d-flex justify-content-center">toll up my levers</p><p class="d-flex justify-content-center">pay for the switch, for night watch to hear her</p><br></br><p class="d-flex justify-content-center">that's it, that's plenty to drink</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> technogurgle </h1><br></br><p class="d-flex justify-content-center">we started</p><p class="d-flex justify-content-center">a new life</p><p class="d-flex justify-content-center">as gurgling</p><p class="d-flex justify-content-center">cod that swim</p><p class="d-flex justify-content-center">and smoke in</p><p class="d-flex justify-content-center">scripture - hello</p><p class="d-flex justify-content-center">incisive</p><p class="d-flex justify-content-center">technopriest,</p><p class="d-flex justify-content-center">blessed be</p><p class="d-flex justify-content-center">thy machine</p><p class="d-flex justify-content-center">in the name</p><p class="d-flex justify-content-center">of the holy</p><p class="d-flex justify-content-center">circuit, baptize</p><p class="d-flex justify-content-center">my head in</p><p class="d-flex justify-content-center">fish fry oil.</p><p class="d-flex justify-content-center">temple outlets</p><p class="d-flex justify-content-center">power the</p><p class="d-flex justify-content-center">mechanical</p><p class="d-flex justify-content-center">cross. there is</p><p class="d-flex justify-content-center">an electric</p><p class="d-flex justify-content-center">hymn we play</p><p class="d-flex justify-content-center">on the</p><p class="d-flex justify-content-center">theremin.</p><p class="d-flex justify-content-center">it sounds like</p><p class="d-flex justify-content-center">respirable</p><p class="d-flex justify-content-center">water.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> when i arrived </h1><br></br><p class="d-flex justify-content-center">when i arrived, i dropped by the dog’s grave,</p><p class="d-flex justify-content-center">tamed all the thoughts of the ones i could not save,</p><p class="d-flex justify-content-center">flipped the bird eastward and feasted on homegrown,</p><p class="d-flex justify-content-center">tucked in my tie and drove to the house that you own.</p><p class="d-flex justify-content-center">felt clean with my socks off on old lighthouse pieces</p><p class="d-flex justify-content-center">and the sky i imagined that the long stare increases.</p><p class="d-flex justify-content-center">give me the garden and a space that is hers,</p><p class="d-flex justify-content-center">for the nights where the drawback no longer occurs.</p><p class="d-flex justify-content-center">and the table top rested with the folds on the side,</p><p class="d-flex justify-content-center">while the glasses slept nicely and taught dew to abide.</p><p class="d-flex justify-content-center">there’s enough in the evidence of sunken withal</p><p class="d-flex justify-content-center">in the light of elastics creeping over death’s haul.</p><p class="d-flex justify-content-center">tossing the stuffed elephant to catch it again</p><p class="d-flex justify-content-center">and again i’m am fearful for the memory within.</p><br></br>
+            </div>
+
+
+
+          </div>
+
+          <!-- Left and right controls -->
+
+          <a class="carousel-control-prev" href="#chapCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#chapCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

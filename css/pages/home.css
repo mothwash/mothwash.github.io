@@ -1,0 +1,42 @@
+/* home page css */
+
+
+.home-parallax {
+  background: url("../../img/menu/collage-home1.png");
+  padding-top: 150px;
+  min-height: 950px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+.home-blockquote {
+  min-height: 80px;
+  font-weight: 600;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  text-align: center;
+  letter-spacing: 4px;
+  background-color: rgba(0,0,0,0.7);
+  color: #aa9cee;
+}
+
+@media screen and (min-width: 1440px) {
+  .home-blockquote {
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-blockquote {
+    font-size: 2.0rem;
+  }
+}
+
+.home-blockquote h1 {
+  opacity: 1!important;
+  margin-left: 5%;
+  margin-right: 5%;
+}

@@ -1,0 +1,279 @@
+
+/* Main Page */
+
+.pres45notification {
+  min-height: 96px;
+  background-color: black;
+  color: lightgrey;
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 225px;
+}
+
+
+.blm-col {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: url("../../img/activism/tealpot.jpg");
+  padding-top: 25px;
+}
+
+.bds-col {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: url("../../img/activism/spots.jpg");
+  padding-top: 25px;
+}
+
+.planet-col {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: url("../../img/activism/metalbouquet.jpg");
+  background-position: right;
+  padding-top: 25px;
+}
+
+
+
+
+/* MOVEMENT FOR BLACK LIVES */
+.m4blPAD {
+  padding-top: 215px;
+  background-color: #752515;
+}
+
+
+
+.floyd-home {
+  background-color: yellow;
+  color: black;
+  text-align: center;
+}
+
+.floyd-title {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.floyd-title:hover {
+  color: black;
+}
+
+.floyd-intro {
+  background: url("../img/stepless2.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: yellow;
+}
+
+.floyd-intro-link {
+  color: yellow;
+}
+
+.floyd-essay {
+  color: black;
+  background-color: yellow;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.floyd-essay h3:hover {
+  color: grey;
+}
+
+.linktree {
+  font-size: larger;
+}
+
+
+.m4blRESRC {
+  background-color: yellow;
+  padding-top: 30px;
+}
+
+.m4blRESRCicon {
+  border-radius: 90px;
+}
+
+.magpadding {
+  margin: 2.5% 5%;
+}
+
+.imposter-intro {
+  background: url("../../img/activism/pulmonology.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: yellow;
+}
+
+.imposter-into h3 {
+  padding-top: 35px
+}
+
+.imposter-into h4 {
+  padding-top: 35px
+}
+
+.imposterpoem {
+  background-color: grey;
+  padding: 35px 40px;
+  margin: 20 25;
+  text-align: center;
+}
+
+.impostertext {
+  font-size: 20px;
+}
+
+
+
+/* BDS Movement for Palestine */
+.bds-about1 {
+  background-color: green;
+  color: yellow;
+}
+
+.bds-about1 :hover {
+  color:white;
+}
+
+.bds-about2 {
+  background-color: red;
+  color: yellow;
+}
+
+.bds-about2 :hover {
+  color:white;
+}
+
+.bds-about3 {
+  background-color: black;
+  color: yellow;
+}
+
+.bds-about3 :hover {
+  color:white;
+}
+
+.bds-actioncall {
+  background: url("../../img/activism/technopriest.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: red;
+  text-align: center;
+}
+
+
+
+
+
+/* Pres45 Search*/
+#searchinput {
+  width: 70%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  margin-left: 30%;
+}
+
+#presset {
+  /* Remove default list styling */
+  /*text-align: right;*/
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px; /* Increase font-size */
+  text-align: right;
+
+}
+
+#presset li {
+  border: 1px solid #ddd; /* Add a border to all links */
+  width: 70%;
+  margin-left: 30%;
+  background-color: white;
+  margin-bottom: 12px;
+}
+
+#presset p {
+  width: 70%;
+  margin-left: 30%;
+  background-color: white;
+  opacity: 72%;
+  display: none; /*collapsed by default*/
+}
+
+#presset br {
+  display: none;
+}
+
+/* always hides keywords */
+.keywords {
+  display: none;
+}
+
+#presset li:hover {
+  color: black; /* Add a hover effect to all links, except for headers */
+}
+#presset p:hover {
+  color: black;
+}
+
+.poembanner {
+  height: 32px;
+}
+
+
+.journalisthonors45 {
+  text-align: center;
+  padding: 100px 50px 100px 50px;
+  background-color: orange;
+}
+/* End pres set */
+
+
+
+/* Climate Crisis */
+.climateintro {
+  padding-top: 200px;
+  background: url("../../img/activism/sidewalksludge.jpeg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: black;
+}
+
+.climateintro :hover{
+  color: white;
+}
+
+
+.repsletter {
+  background-color: darkgreen;
+  color: white;
+  padding-top: 35px;
+}
+
+
+.lobalmet {
+  padding-top: 40px;
+  background-color: Black;
+  color: white;
+}

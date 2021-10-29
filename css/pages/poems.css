@@ -1,0 +1,794 @@
+/*POEMS*/
+.poemhomePIC {
+  height: 70%;
+  width: auto;
+}
+
+/*Poems Search*/
+#myInput {
+  /*background-image: url('/css/searchicon.png');*/ /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 70%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  margin-left: 30%;
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a p {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  width: 70%;
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+  margin-left: 30%;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+
+/* Poems_3 Search*/
+#searchinput {
+  width: 70%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  margin-left: 30%;
+}
+
+#poemset {
+  /* Remove default list styling */
+  /*text-align: right;*/
+  list-style-type: none;
+  padding: 25px 0px 0px 0px;
+  margin: 25px 0px 0px 0px;
+  font-size: 14px; /* Increase font-size */
+  text-align: right;
+  background: url("../../img/poems/poemLANDING.jpeg");''
+  background-position: center;
+  background-size: cover;
+}
+
+#poemset li {
+  border: 1px solid #ddd; /* Add a border to all links */
+  width: 70%;
+  margin-left: 30%;
+  background-color: grey;
+  margin-bottom: 12px;
+  opacity: 90%;
+}
+
+#poemset p {
+  width: 70%;
+  margin-left: 30%;
+  background-color: grey;
+  opacity: 72%;
+  display: none; /*collapsed by default*/
+}
+
+#poemset br {
+  display: none;
+}
+
+/* always hides keywords */
+#poemset a {
+  display: none;
+}
+
+#poemset li:hover {
+  color: yellow; /* Add a hover effect to all links, except for headers */
+}
+#poemset p:hover {
+  color: black;
+}
+
+.poembanner {
+  height: 32px;
+}
+
+
+/* END Poems Search */
+
+
+/*Poems scroll*/
+.poemsBody {
+  background-color: #752515;
+  padding-top: 200px;
+}
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: grey;
+border-radius: 10px; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+width: 12px;
+background-color: grey; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
+
+.square::-webkit-scrollbar-track {
+border-radius: 0 !important; }
+
+.square::-webkit-scrollbar-thumb {
+border-radius: 0 !important; }
+
+.thin::-webkit-scrollbar {
+width: 6px; }
+
+.scroll {
+position: relative;
+overflow-y: scroll;
+height: 711px; }
+
+.card-body {
+  text-align: right;
+  padding-left: 125px;
+}
+
+/* always hides keywords */
+.item p {
+  display: none;
+}
+
+/* Collapsible Code */
+.poemcontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.2sease-out;
+}
+
+.collapsible {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  width: 70%;
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+  margin-left: 30%;
+}
+
+.active, .collapsible:hover {
+  background-color: #eee;
+}
+
+/* speciic poems */
+
+#o001 {
+  background: url("../../img/poems/fireplacesmall.jpg");
+}
+
+#o002 {
+  background: url("../img/delimbedhallwaysmall.jpg");
+}
+
+#o003 {
+  background: url("../img/technobabysmall.jpg");
+}
+
+#o004 {
+  background: url("../img/spotssmall.jpg");
+}
+
+#o005 {
+  background: url("../img/riverripplessmall.jpg");
+}
+
+#o006 {
+  background: url("../img/outhouseeyesmall.jpg")
+}
+
+#o007 {
+  background: url("../img/technopriestsmall.jpg");
+}
+
+#o008 {
+  background: url("../img/tubbitssmall.jpg");
+}
+
+#o009 {
+  background: url("../img/tealpotsmall.jpg");
+}
+
+#o010 {
+  background: url("../img/redbluesmall.jpg")
+}
+
+#o011 {
+  background: url("../img/hotelessentialssmall.jpg");
+}
+
+#o012 {
+  background: url("../img/windmillsmall.jpg");
+}
+
+#o013 {
+  background: url("../img/rockettrailsmall.jpg");
+}
+
+#o014 {
+  background: url("../img/eyecavesmall.jpg");
+}
+
+#o015 {
+  background: url("../img/darkgardensmall.jpg");
+}
+
+#o016 {
+  background: url("../img/shesmokesseashellssmall.jpg");
+}
+
+#o017 {
+  background: url("../img/bloodycandelabooksmall.jpg");
+}
+
+#o018 {
+  background: url("../img/hotelessentialssmallreversed.jpg");
+}
+
+#o019 {
+  background:url("../img/darksquirrelsmall.jpg");
+}
+
+#o020 {
+  background: url("../img/alienwallsmall.jpg");
+}
+
+#o021 {
+  background: url("../img/fireplacesmall.jpg");
+}
+
+#o022 {
+  background: url("../img/prayingmantissmall.jpg");
+}
+
+#o023 {
+  background: url("../img/pinkmothsmall.jpg");
+}
+
+#o025 {
+  background: url("../img/newtonproblemsmall.jpg");
+}
+
+#o026 {
+  background: url("../img/cupoftintsmall.jpg");
+}
+
+#o027 {
+  background: url("../img/poemsartworkLANDINGresized.jpg");
+}
+
+#o028 {
+  background: url("../img/riverripplessmall.jpg")
+}
+
+#o029 {
+  background: url("../img/deweybulbsmall.jpg");
+}
+
+#o030 {
+  background: url("../img/echoimagesmall.jpg");
+}
+
+#o031 {
+  background: url("../img/cavernetsmall.jpg");
+}
+
+#o032 {
+  background: url("../img/delimbedhallwaysmall.jpg");
+}
+
+#o033 {
+  background: url("../img/steplesssmall.jpg");
+}
+
+#o034 {
+  background: url("../img/sinkbitssmall.jpg");
+}
+
+#o035 {
+  background: url("../img/houseofleavessmall.jpg");
+}
+
+#o036 {
+  background: url("../img/deweybulbsmall.jpg");
+}
+
+#o037 {
+  background: url("../img/shellsmall.jpg");
+  background-position: bottom;
+}
+
+#o038 {
+  background: url("../img/pulmonologysmall.jpg");
+}
+
+#o039 {
+  background: url("../img/sickskysmall.jpg")
+}
+
+#o040 {
+  background: url("../img/hauntsmall.jpg");
+}
+
+#o041 {
+  background: url("../img/windmillsmall.jpg")
+}
+
+#o043 {
+  background: url("../img/creepyguardiansmall.jpg");
+}
+
+#o044 {
+  background: url("../img/delimbedhallwaysmall.jpg")
+}
+
+#o045 {
+  background: url("../img/greenchristmassmall.jpg")
+}
+
+#o046 {
+  background: url("../img/homecollage1.2small.jpg")
+}
+
+#o047 {
+  background: url("../img/hauntsmall.jpg")
+}
+
+#o048 {
+  background: url("../img/houseofleavessmall.jpg")
+}
+
+#o049 {
+  background: url("../img/alienwallsmall.jpg")
+}
+
+#o050 {
+  background: url("../img/metalbouquetsmall.jpg")
+}
+
+#o051 {
+  background: url("../img/soldiersmall.jpg")
+}
+
+#o052 {
+  background: url("../img/stonebalancesmall.jpg")
+}
+
+#o053 {
+  background: url("../img/whiterosesmall.jpg")
+}
+
+#o054 {
+  background: url("../img/cavernetsmall.jpg")
+}
+
+#o055 {
+  background: url("../img/echoimagesmall.jpg")
+}
+
+#o056 {
+  background: url("../img/aboutLANDINGsmall.jpg");
+  background-position: bottom;
+}
+
+#o057 {
+  background: url("../img/pinkmothsmall.jpg")
+}
+
+#o058 {
+  background: url("../img/crosstobearsmall.jpg")
+}
+
+#o059 {
+  background: url("../img/deweybulbsmall.jpg")
+}
+
+#o060 {
+  background: url("../img/autoCBTsmall.jpg")
+}
+
+#o062 {
+  background: url("../img/actatmadCOVER.jpg")
+}
+
+#o063 {
+  background: url("../img/mothersdaysmall.jpg");
+  background-position: bottom;
+}
+
+#o064 {
+  background: url("../img/sinkbitssmall.jpg")
+}
+
+#o065 {
+  background: url("../img/shellsmall.jpg");
+}
+
+#o066 {
+  background: url("../img/steplesssmall.jpg")
+}
+
+#o067 {
+  background: url("../img/shesmokesseashellssmall.jpg")
+}
+
+#o068 {
+  background: url("../img/technopriestsmall.jpg")
+}
+
+#o069 {
+  background: url("../img/fireplacesmall.jpg")
+}
+
+#o070 {
+  background: url("../img/sickskysmall.jpg")
+}
+
+#o071 {
+  background: url("../img/riverripplessmall.jpg")
+}
+
+#o072 {
+  background: url("../img/darkgardensmall.jpg")
+}
+
+#o073 {
+  background: url("../img/longcollage1small.jpg")
+}
+
+#o074 {
+  background: url("../img/whiterosesmall.jpg")
+}
+
+#o075 {
+  background: url("../img/cellarspiderssmall.jpg");
+  background-position: bottom;
+}
+
+#o076 {
+  background: url("../img/cavernetsmall.jpg")
+}
+
+#o077 {
+  background: url("../img/analoganalogsmall.jpg")
+}
+
+#o078 {
+  background: url("../img/outhouseeyesmall.jpg")
+}
+
+#o079 {
+  background: url("../img/eyeciclesmall.jpg")
+}
+
+#o080 {
+  background: url("../img/eyecavesmall.jpg")
+}
+
+#o081 {
+  background: url("../img/mothpaintsmall.jpg")
+}
+
+#o082 {
+  background: url("../img/technopriestsmall.jpg");
+  background-position: bottom;
+}
+
+#o083 {
+  background: url("../img/cavernetsmall.jpg")
+}
+
+#o084 {
+  background: url("../img/paisleysoldiersmall.jpg")
+}
+
+#o085 {
+  background: url("../img/riverripplessmall.jpg")
+}
+
+#o086 {
+  background: url("../img/longcollage1small.jpg")
+}
+
+#o087 {
+  background: url("../img/hotelessentialssmallreversed.jpg")
+}
+
+#o088 {
+}
+
+#o089 {
+  background: url("../img/hauntsmall.jpg")
+}
+
+#o090 {
+  background: url("../img/aboutLANDINGsmall.jpg")
+}
+
+#o091 {
+  background: url("../img/galaxyhandsmall.jpg")
+}
+
+#o092 {
+  background: url("../img/alpscornersmall.jpg")
+}
+
+#o093 {
+  background: url("../img/alienwallsmall.jpg")
+}
+
+#o094 {
+  background: url("../img/cupoftintsmall.jpg")
+}
+
+#o095 {
+  background: url("../img/collageness.jpg")
+}
+
+#o096 {
+  background: url("../img/creepyguardiansmall.jpg")
+}
+
+#o097 {
+  background: url("../img/simplehumansmall.jpg")
+}
+
+#o098 {
+  background: url("../img/stonebalancesmall.jpg")
+}
+
+#o099 {
+  background: url("../img/technobabysmall.jpg")
+}
+
+#o0100 {
+  background: url("../img/sickskysmall.jpg")
+}
+
+#o101 {
+  background: url("../img/poemsartworkLANDINGresized.jpg")
+}
+
+#o102 {
+  background: url("../img/rainbowpastasmall.jpg")
+}
+
+#o103 {
+  background: url("../img/quarryclinersmall.jpg")
+}
+
+#o104 {
+  background: url("../img/simplehumansmall.jpg")
+}
+
+#o105 {
+  background: url("../img/shadowselfsmall.jpg")
+}
+
+#o106 {
+  background: url("../img/shellsmall.jpg")
+}
+
+#o107 {
+  background: url("../img/grewsomesmall.jpg")
+}
+
+#o108 {
+  background: url("../img/greenchristmassmall.jpg")
+}
+
+#o109 {
+  background: url("../img/rockseasmall.jpg")
+}
+
+#o110 {
+  background: url("../img/thespiritgamesmall.jpg")
+}
+
+#o111 {
+  background: url("../img/pulmonologysmall.jpg")
+}
+
+#o112 {
+  background: url("../img/alpscornersmall.jpg")
+}
+
+#o113 {
+  background: url("../img/eyeciclesmall.jpg")
+}
+
+#o114 {
+  background: url("../img/windmillsmall.jpg")
+}
+
+#o115 {
+  background: url("../img/meettheforagerssmall.jpg")
+}
+
+#o116 {
+  background: url("../img/winemanosmall.jpg")
+}
+
+#o117 {
+  background: url("../img/ribbonssmall.jpg")
+}
+
+#o118 {
+  background: url("../img/sidewalksludgesmall.jpg")
+}
+
+#o120 {
+  background: url("../img/oilinensmall.jpg")
+}
+
+#o121 {
+  background: url("../img/flowerscribblesmall.jpg")
+}
+
+#o122 {
+  background: url("../img/deathdogsmall.jpg")
+}
+
+#o123 {
+  background: url("../img/jadedpreysmall.jpg")
+}
+
+#o124 {
+  background: url("../img/alienwallsmall.jpg")
+}
+
+#o125 {
+  background: url("../img/eyecavesmall.jpg")
+}
+
+#o126 {
+  background: url("../img/firescapesmall.jpg")
+}
+
+#o127 {
+  background: url("../img/happydragonsmall.jpg")
+}
+
+#o128{
+  background: url("../img/mangysmall.jpg")
+}
+
+#o129 {
+  background: url("../img/topiaryinicesmall.jpg")
+}
+
+#o130 {
+  background: url("../img/darkstarsmall.jpg")
+}
+
+#o131 {
+  background: url("../img/weedhacksmall.jpg")
+}
+
+#o132 {
+  background: url("../img/bloodycandelabooksmall.jpg")
+}
+
+#o133 {
+  background: url("../img/eggdancefloorsmall.jpg")
+}
+
+#o134 {
+  background: url("../img/greenchristmassmall.jpg")
+}
+
+#o135 {
+  background: url("../img/delimbedhallwaysmall.jpg")
+}
+
+#o136 {
+  background: url("../img/ekwussketchsmall.jpg")
+}
+
+#o137 {
+  background: url("../img/horizonsludgesmall.jpg")
+}
+
+#o138 {
+  background: url("../img/mothersdaysmall.jpg")
+}
+
+#o139 {
+  background: url("../img/newtonproblemsmall.jpg")
+}
+
+#o140 {
+  background: url("../img/metalbouquetsmall.jpg")
+}
+
+#o141 {
+  background: url("../img/rockseasmall.jpg")
+}
+
+#o142 {
+  background: url("../img/spotssmall.jpg")
+}
+
+#o143 {
+  background: url("../img/sickskysmall.jpg")
+}
+
+#o144 {
+  background: url("../img/tealpotsmall.jpg")
+}
+
+#o145 {
+  background: url("../img/ekwusCosmoCOVERsmall.jpg")
+}
+
+#o146 {
+  background: url("../img/beepboopfortsmall.jpg")
+}
+
+#o147 {
+  background: url("../img/universitiescoversmall.jpg")
+}
+
+#o148 {
+  background: url("../img/deadbirbsmall.jpg")
+}
+
+#o149 {
+  background: url("../img/homecollage1.3small.jpg")
+}
+
+#o150 {
+  background: url("../img/hotelessentialssmall.jpg")
+}
+
+#o151 {
+  background: url("../img/jadedpreysmall.jpg")
+}
+
+#o152{
+}
+
+#o153 {
+  background: url("../img/rainbowpastasmall.jpg")
+}
+
+#o154 {
+  background: url("../img/outhouseeyesmall.jpg")
+}
+
+#o155 {
+  background: url("../img/whiterosesmall.jpg")
+}
+
+#o156 {
+  background: url("../img/stonebalancesmall.jpg")
+}
+
+#o157 {
+  background: url("../img/universitiescoversmall.jpg")
+}

@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/pages/chapbooks.css">
+    <link rel="stylesheet" type="text/css" href="../css/flexbox.css">
+    <script src="../js/main.js"></script>
+    <script src="../js/pages/chapbooks.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">new design</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../index.html">
+            <img class="homelogo-logo flex-item" src="../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="activism.html">activism</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="poems.html">poems</a></div>
+          <div class="flex-item"><a href="chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- page container -->
+    <div class="container-fluid">
+      <div class="row quiz-head-background">
+        <div class="col-lg">
+          <div class="blockquote">
+            <h2>chapbook quiz</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div id="q01" class="row qcontainer">
+        <div class="col-md-12 question">
+            <h3> which of the following poem titles piques your interest? </h3>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>Ash the bonsai</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>SC456 [Science 456] asking for help directly</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>ekwus cosmology III</p>
+                </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>tree-venge (what the kid whimpers pt. 2)__</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>something else</p>
+        </div>
+      </div>
+
+      <div id="q02" class="row qcontainer">
+        <div class="col-md-12 question">
+          <h3> to which of the following lines do you feel connected? </h3>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>the flower buds caught in my periscope drink in the sunlight as it lays in a moonlit field.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>the swelling burden activates our adrenergic system, the anxiety bug that cranial crawls over our heads, stomping on neural reminders and chewing on the thoughts of rejection.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>Creation strung a bow from the king’s mane and played Anna Clyne’s prince of clouds on a double necked violin.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>dr quiet creeps over the laboratory leftovers and rung leaves bringing leechcraft.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>something else</p>
+        </div>
+      </div>
+
+      <div id="q03" class="row qcontainer">
+        <div class="col-md-12 question">
+          <h3> to which of the following lines do you feel connected? </h3>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>trying to strike your aura while the fizzle of pulp soda plays on the record player, another match shaves into ginger and a map of gesticulations.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>it broke a bit of me to tell her she looked like fine china at a news stand.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>the devil tucks a nightgown into his wife’s suitcase.  he is meeting the casual interference of touching an ancient surface.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>the tree in my throat started budding, i coughed up flowers shaped like nipples and my doctor called the government</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>something else</p>
+        </div>
+      </div>
+
+      <div id="q04" class="row qcontainer">
+        <div class="col-md-12 question">
+          <h3> to which of the following lines do you feel connected? </h3>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>vitruvian heron and a half buried wheelbarrow  giving me ideas about breaking kneecaps.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>beyond unsanitized hand shakes exists a repugnant adiposity born of woven bald spots and property line hostility.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>waking with drooling lateralism under a well of concussed songs and the headrest item cairn.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>as the acreage rattles against the truck’s side, a condition comes in like the cotton left on my old bed.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>something else</p>
+        </div>
+      </div>
+
+      <div id="q05" class="row qcontainer">
+        <div class="col-md-12 question">
+          <h3> what do you prefer to find on the cover of a chapbook? </h3>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>a museum bouquet over graffiti.</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>cherries on a fire hydrant</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>flowers imposed on spilled jello</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>teddy bears blindfolded by a bra in front of a bowl of lithium</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 answer" onclick="selectanswer(this)">
+          <p>something else</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container-fluid submit-background">
+      <div class="row">
+        <div class="col-lg">
+          <button id="submitbutton" onclick="submitquiz()">submit quiz</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

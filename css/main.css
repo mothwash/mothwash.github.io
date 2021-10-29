@@ -1,376 +1,197 @@
-/* This is my CSS */
-/* restore default */
+/* this is main.css */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Nova Mono', monospace;
+  /*background-color: #752515;
+  color: #aa9cee;*/
 }
+
 body {
   font-family: 'Nova Mono', monospace;
 }
-a {
-  color: #333333
-}
-a:hover {
-  color: hotpink;
-}
 
-
-/* all flex content */
-.container-fluid {
-  /*margin-top: 24px;
-  margin-right: 15px;
-  margin-left: 15px;*/
+/* top fixed contact info */
+.top-header-container {
+  z-index: 2;
+  position: fixed;
+  background-color: #752515;
 }
 
-
-/* navigation */
-
-.header-container {
-  height: 96px;
-  background-color: grey;
+.top-header {
+  color: #aa9cee;
+  height: 35px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  align-items: center;
+  vertical-align: middle;
 }
 
-.home-logo {
+@media screen and (max-width: 1180px) {
+  .top-header {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .top-header {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .top-header {
+    height: 70px;
+  }
+}
+
+.top-header a {
+  text-decoration: none;
+  color: #999999;
+  margin-left: 6px;
+}
+
+.top-header.col-xs-12 {
+  text-align: center;
+}
+
+.top-header-phone {
+
+}
+
+.top-header-social {
+  text-align: left;
+  align-content: space-between;
+}
+
+
+
+
+/* menu */
+.homelogo-logo {
   border-radius: 120px;
   margin-top: 12px;
   margin-bottom: 12px;
 }
 
-.home-menu {
-  margin-top: 40px;
-  text-align: center;
+.menu {
+  flex-wrap: nowrap!important;
+  vertical-align: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: padding 0.15s linear;
+  background-color: #752515;
+  color: #aa9cee;
 }
 
-@media (max-width: 768px) {
-  .home-menu {
-    display: none;
+.menu a{
+  text-decoration: none;
+}
+
+.menu.menupad {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  transition: padding 0.3s linear;
+}
+
+.homemenu {
+  margin-left: 3%;
+  margin-right: 9%;
+}
+
+.homemenu.row {
+  margin-left: 10px;
+}
+
+.homemenu-item {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 1700px) {
+  .homemenu-item {
+    font-size: 27px;
   }
 }
 
-.menuLinkText {
-  font-size: 24px;
-  font-family: inherit;
-  font-weight: 500;
+
+/* dropdown menus */
+.menu-dropdown-container {
+  position: relative;
+  display: flex;
+  background-color: rgba(117,37,21,1);
 }
 
-.social-icons {
-  margin-top: 40px;
-  margin-left:auto;
+.menu-dropdown-container a {
+  text-decoration: none!important;
 }
 
-/* home main page */
-.quiznotice {
-  min-height: 96px;
-  background-color: black;
-  color: lightgrey;
-  text-align: center;
-}
-
-.quizlink {
-  font-size: 18px;
+.menu-dropdown-container a:hover {
   color: lightgrey;
 }
 
-.mp-background-img {
-  background: url("../img/collage-home1.png");
-  min-height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#menu-dropdown1 {
+  display: none;
+  padding: 20px;
+  background-color: #aa9cee;
+  color: #752515;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
 }
 
+
+/* mobile menu */
+.mobile-menu-row {
+  padding-left: 30%;
+  padding-right: 30%;
+  transition: height 0.3s;
+  background-color: #752515;
+  color: #aa9cee;
+}
+
+.mobile-menu-items {
+  /* background-color */
+  padding: 5%;
+  border-top: 3px solid #aa9cee;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.mobilemenuitem {
+  text-decoration: none;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  transition: height 0.1s;
+  /* color */
+}
+
+.mobilemenuitem :hover {
+  color: black;
+}
+
+.mobiledrop {
+  padding-left:  10%!important;
+}
+
+
+
+
+
+
+
+/*basic classes */
 .blockquote {
   margin: 120px auto;
   text-align: center;
 }
 
-/* home about panel */
-
-.home-about-row {
-  min-heignt: 300px;
-  background-color: grey;
-}
-
-.home-about-column {
-  text-align: center;
-  padding-top: 25px;
-}
-
-.home-about-text {
-  margin: auto 90px;
-  padding-top: 10px;
-  padding-bottom: 35px;
-}
-
-/* CArousel */
-.caroselIMGcenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  background-color: grey;
-}
-
-/*POEMS*/
-.poemhomePIC {
-  height: 70%;
-  width: auto;
-}
-
-/*Poems Search*/
-#myInput {
-  /*background-image: url('/css/searchicon.png');*/ /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 70%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
-  margin-left: 30%;
-}
-
-#myUL {
-  /* Remove default list styling */
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#myUL li a p {
-  border: 1px solid #ddd; /* Add a border to all links */
-  margin-top: -1px; /* Prevent double borders */
-  width: 70%;
-  background-color: #f6f6f6; /* Grey background color */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove default text underline */
-  font-size: 18px; /* Increase the font-size */
-  color: black; /* Add a black text color */
-  display: block; /* Make it into a block element to fill the whole list */
-  margin-left: 30%;
-}
-
-#myUL li a:hover:not(.header) {
-  background-color: #eee; /* Add a hover effect to all links, except for headers */
-}
-
-
-/* Poems_3 Search*/
-#searchinput {
-  width: 70%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
-  margin-left: 30%;
-}
-
-#poemset {
-  /* Remove default list styling */
-  /*text-align: right;*/
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px; /* Increase font-size */
-  text-align: right;
-
-}
-
-#poemset li {
-  border: 1px solid #ddd; /* Add a border to all links */
-  width: 70%;
-  margin-left: 30%;
-  background-color: white;
-  margin-bottom: 12px;
-}
-
-#poemset p {
-  width: 70%;
-  margin-left: 30%;
-  background-color: white;
-  opacity: 72%;
-  display: none; /*collapsed by default*/
-}
-
-#poemset br {
-  display: none;
-}
-
-/* always hides keywords */
-#poemset a {
-  display: none;
-}
-
-#poemset li:hover {
-  color: hotpink; /* Add a hover effect to all links, except for headers */
-}
-#poemset p:hover {
-  color: black;
-}
-
-.poembanner {
-  height: 32px;
-}
-
-
-/* END Poems Search */
-
-/* Collapsible Code */
-.poemcontent {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  transition: max-height 0.2sease-out;
-}
-
-.collapsible {
-  border: 1px solid #ddd; /* Add a border to all links */
-  margin-top: -1px; /* Prevent double borders */
-  width: 70%;
-  background-color: #f6f6f6; /* Grey background color */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove default text underline */
-  font-size: 18px; /* Increase the font-size */
-  color: black; /* Add a black text color */
-  display: block; /* Make it into a block element to fill the whole list */
-  margin-left: 30%;
-}
-
-.active, .collapsible:hover {
-  background-color: #eee;
-}
-
-/*Poems scroll*/
-.poemsBody {
-  background-color: grey;
-}
-
-.scrollbar-ripe-malinka::-webkit-scrollbar-track {
--webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-background-color: grey;
-border-radius: 10px; }
-
-.scrollbar-ripe-malinka::-webkit-scrollbar {
-width: 12px;
-background-color: grey; }
-
-.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
-border-radius: 10px;
--webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
-background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
-
-.square::-webkit-scrollbar-track {
-border-radius: 0 !important; }
-
-.square::-webkit-scrollbar-thumb {
-border-radius: 0 !important; }
-
-.thin::-webkit-scrollbar {
-width: 6px; }
-
-.scroll {
-position: relative;
-overflow-y: scroll;
-height: 711px; }
-
-.card-body {
-  text-align: right;
-  padding-left: 125px;
-}
 
 
 
-/* Chapbooks */
-.chapbookicon {
-  padding: 12px 18px;
-}
-
-.rightsided {
-  text-align: right;
-}
-
-
-/* zine CSS */
-/*
-body{
-	overflow:hidden;
-	background-color:#fcfcfc;
-	margin:0;
-	padding:0;
-} */
-
-.flipbook-viewport{
-	overflow:hidden;
-	width:100%;
-	height:100%;
-}
-
-.flipbook-viewport .container{
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin:auto;
-}
-
-.flipbook-viewport .flipbook{
-	width:800px;
-	height:700px;
-	left:-400px;
-	top:-200px;
-}
-
-.flipbook-viewport .page{
-	width:400px;
-	height:700px;
-	background-color:white;
-	background-repeat:no-repeat;
-	background-size:100% 100%;
-}
-
-.flipbook .page{
-	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	box-shadow:0 0 20px rgba(0,0,0,0.2);
-}
-
-.flipbook-viewport .page img{
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	margin:0;
-}
-
-.flipbook-viewport .shadow{
-	-webkit-transition: -webkit-box-shadow 0.5s;
-	-moz-transition: -moz-box-shadow 0.5s;
-	-o-transition: -webkit-box-shadow 0.5s;
-	-ms-transition: -ms-box-shadow 0.5s;
-
-	-webkit-box-shadow:0 0 20px #ccc;
-	-moz-box-shadow:0 0 20px #ccc;
-	-o-box-shadow:0 0 20px #ccc;
-	-ms-box-shadow:0 0 20px #ccc;
-	box-shadow:0 0 20px #ccc;
-}
-
-.flipbook-viewport .double{
-	width:800px;
-	height:700px;
-	background-size:100% 100%;
-}
-
-.buffer {
-  margin: 600;
-  height: 200;
-}
 
 
 
@@ -408,1118 +229,4 @@ body{
   /*Set the size of the magnifier glass:*/
   width: 275px;
   height: 100px;
-}
-
-
-/* Music */
-/* Animation */
-.animationbox {
-  height: 1000px;
-  background-color: grey;
-}
-.content {
-	width: 960px;
-	height: 400px;
-	overflow: hidden;
-	padding: 1em;
-	box-sizing: border-box;
-}
-
-#error, #mobile {
-	width: 960px;
-	height: 400px;
-	display:none;
-	text-align: left;
-	padding: 1em;
-}
-
-.fragvalent-album-bg {
-  background: url("../img/chapbooksLANDING.jpg")
-}
-
-.fragvalent-album-bg :hover {
-  color: teal;
-}
-
-.havingless-album-bg {
-  background: url("../img/horizonsludge.jpeg")
-}
-
-.havingless-album-bg :hover {
-  color: teal;
-}
-
-.songrow :hover {
-  color: teal;
-}
-
-
-/* SHOP */
-.shopnotice {
-  background-color: hotpink;
-  min-height: 96px;
-  text-align: center;
-}
-
-.shopsidebar {
-  padding-top: 15px;
-}
-
-.item {
-  align-items: center;
-  align-content: center;
-}
-
-#checkoutbutton {
-  background-color: grey;
-  border: none;
-  color: white;
-  padding: 15px 60px;
-  text-align: center;
-  float: right;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-.removebutton {
-  background-color: grey;
-  border: none;
-  color: white;
-  padding: 8px 24px;
-  text-align: center;
-  float: right;
-}
-
-/* always hides keywords */
-.item p {
-  display: none;
-}
-
-
-
-/* chapquiz */
-.quiz-head-background {
-  background: url("../img/analoganalog.jpg");
-  min-height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.qcontainer {
-  background-color: grey;
-}
-
-.highlightAnswer {
-  background-color: lightgrey;
-}
-
-#submitbutton {
-  background-color: grey;
-  border: none;
-  color: white;
-  padding: 8px 24px;
-  text-align: center;
-}
-
-
-/*MOBILE*/
-.mobileicons {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.mobile-menu-items {
-  height: 66px;
-  background-color: grey;
-  margin-left:10px;
-}
-
-.mobile-menu-item {
-  font-size: 24px;
-  font-family: inherit;
-  font-weight: 500;
-}
-
-/* Mothers Day */
-.mothersdaybanner {
-  background-color: purple;
-  text-align: center;
-}
-
-.md-background-img {
-  background: url("../img/mothersday.jpg");
-  min-height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.mothersdayparallax {
-  color: purple;
-  background-color: white;
-  opacity: 50%;
-  padding: 10px 20px;
-}
-
-.mothersdayletter {
-  min-height: 325px;
-  background-color: grey;
-}
-
-/*Activism */
-.blm-col {
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  background: url("../img/tealpot.jpg")
-}
-
-.bds-col {
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  background: url("../img/spots.jpg")
-}
-
-.covid-col {
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  background: url("../img/metalbouquet.jpg");
-  background-position: right;
-}
-
-/* Covid unemployment crises */
-.covid-alert {
-  text-align: center;
-  background: url("../img/jadedprey.jpeg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: hotpink;
-}
-
-.covid-alert :hover {
-  color: red;
-}
-
-.covid-nelp {
-  text-align: center;
-  background-color: grey;
-}
-
-.covid-action {
-  text-align: center;
-  background-color: red;
-  color: grey;
-}
-
-.covid-donate {
-  text-align: center;
-  background-color: white;
-  color: grey;
-}
-
-/* BDS Movement for Palestine */
-.bds-about1 {
-  background-color: green;
-  color: grey;
-}
-
-.bds-about1 :hover {
-  color:white;
-}
-
-.bds-about2 {
-  background-color: red;
-  color: grey;
-}
-
-.bds-about2 :hover {
-  color:white;
-}
-
-.bds-about3 {
-  background-color: black;
-  color: grey;
-}
-
-.bds-about3 :hover {
-  color:white;
-}
-
-.bds-actioncall {
-  background: url("../img/technopriest.jpg");
-  min-height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: red;
-  text-align: center;
-}
-
-/* MOVEMENT FOR BLACK LIVES */
-.floyd-home {
-  background-color: yellow;
-  color: black;
-  text-align: center;
-}
-
-.floyd-title {
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
-.floyd-title:hover {
-  color: black;
-}
-
-.floyd-intro {
-  background: url("../img/stepless2.jpg");
-  min-height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: yellow;
-}
-
-.floyd-intro-link {
-  color: yellow;
-}
-
-.floyd-essay {
-  color: black;
-  background-color: yellow;
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
-.floyd-essay h3:hover {
-  color: grey;
-}
-
-.linktree {
-  font-size: larger;
-}
-
-
-.m4blRESRC {
-  background-color: yellow;
-
-}
-
-.m4blRESRCicon {
-  border-radius: 90px;
-}
-
-.magpadding {
-  margin: 2.5% 5%;
-}
-
-.imposter-intro {
-  background: url("../img/pulmonology.jpg");
-  min-height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: yellow;
-}
-
-.imposterpoem {
-  background-color: grey;
-  padding: 35px 40px;
-  margin: 20 25;
-  text-align: center;
-}
-
-.impostertext {
-  font-size: 20px;
-}
-
-/* BDS Movement */
-.bds-index {
-  background-color: grey;
-  text-align: center;
-}
-
-.bds-word1 {
-  color: green;
-}
-
-.bds-word2 {
-  color: red;
-}
-
-.bds-word3 {
-  color: black;
-}
-
-
-/* president 45 */
-.journalisthonors45 {
-  text-align: center;
-  padding: 100px 50px 100px 50px;
-  background-color: orange;
-}
-
-
-/* Pres45 Search*/
-#searchinput {
-  width: 70%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
-  margin-left: 30%;
-}
-
-#presset {
-  /* Remove default list styling */
-  /*text-align: right;*/
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px; /* Increase font-size */
-  text-align: right;
-
-}
-
-#presset li {
-  border: 1px solid #ddd; /* Add a border to all links */
-  width: 70%;
-  margin-left: 30%;
-  background-color: white;
-  margin-bottom: 12px;
-}
-
-#presset p {
-  width: 70%;
-  margin-left: 30%;
-  background-color: white;
-  opacity: 72%;
-  display: none; /*collapsed by default*/
-}
-
-#presset br {
-  display: none;
-}
-
-/* always hides keywords */
-.keywords {
-  display: none;
-}
-
-#presset li:hover {
-  color: hotpink; /* Add a hover effect to all links, except for headers */
-}
-#presset p:hover {
-  color: black;
-}
-
-.poembanner {
-  height: 32px;
-}
-/* End pres set */
-
-
-.pres45notification {
-  min-height: 96px;
-  background-color: black;
-  color: lightgrey;
-  text-align: center;
-}
-
-
-/* END Pres Search */
-
-/* Collapsible Code */
-.poemcontent {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  transition: max-height 0.2sease-out;
-}
-
-.collapsible {
-  border: 1px solid #ddd; /* Add a border to all links */
-  margin-top: -1px; /* Prevent double borders */
-  width: 70%;
-  background-color: #f6f6f6; /* Grey background color */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove default text underline */
-  font-size: 18px; /* Increase the font-size */
-  color: black; /* Add a black text color */
-  display: block; /* Make it into a block element to fill the whole list */
-  margin-left: 30%;
-}
-
-.active, .collapsible:hover {
-  background-color: #eee;
-}
-
-/*Poems scroll*/
-.poemsBody {
-  background-color: grey;
-}
-
-.scrollbar-ripe-malinka::-webkit-scrollbar-track {
--webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-background-color: grey;
-border-radius: 10px; }
-
-.scrollbar-ripe-malinka::-webkit-scrollbar {
-width: 12px;
-background-color: grey; }
-
-.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
-border-radius: 10px;
--webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
-background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
-
-.square::-webkit-scrollbar-track {
-border-radius: 0 !important; }
-
-.square::-webkit-scrollbar-thumb {
-border-radius: 0 !important; }
-
-.thin::-webkit-scrollbar {
-width: 6px; }
-
-.scroll {
-position: relative;
-overflow-y: scroll;
-height: 711px; }
-
-.card-body {
-  text-align: right;
-  padding-left: 125px;
-}
-
-
-
-/* speciic poems */
-
-#o001 {
-  background: url("../img/fireplacesmall.jpg");
-}
-
-#o002 {
-  background: url("../img/delimbedhallwaysmall.jpg");
-}
-
-#o003 {
-  background: url("../img/technobabysmall.jpg");
-}
-
-#o004 {
-  background: url("../img/spotssmall.jpg");
-}
-
-#o005 {
-  background: url("../img/riverripplessmall.jpg");
-}
-
-#o006 {
-  background: url("../img/outhouseeyesmall.jpg")
-}
-
-#o007 {
-  background: url("../img/technopriestsmall.jpg");
-}
-
-#o008 {
-  background: url("../img/tubbitssmall.jpg");
-}
-
-#o009 {
-  background: url("../img/tealpotsmall.jpg");
-}
-
-#o010 {
-  background: url("../img/redbluesmall.jpg")
-}
-
-#o011 {
-  background: url("../img/hotelessentialssmall.jpg");
-}
-
-#o012 {
-  background: url("../img/windmillsmall.jpg");
-}
-
-#o013 {
-  background: url("../img/rockettrailsmall.jpg");
-}
-
-#o014 {
-  background: url("../img/eyecavesmall.jpg");
-}
-
-#o015 {
-  background: url("../img/darkgardensmall.jpg");
-}
-
-#o016 {
-  background: url("../img/shesmokesseashellssmall.jpg");
-}
-
-#o017 {
-  background: url("../img/bloodycandelabooksmall.jpg");
-}
-
-#o018 {
-  background: url("../img/hotelessentialssmallreversed.jpg");
-}
-
-#o019 {
-  background:url("../img/darksquirrelsmall.jpg");
-}
-
-#o020 {
-  background: url("../img/alienwallsmall.jpg");
-}
-
-#o021 {
-  background: url("../img/fireplacesmall.jpg");
-}
-
-#o022 {
-  background: url("../img/prayingmantissmall.jpg");
-}
-
-#o023 {
-  background: url("../img/pinkmothsmall.jpg");
-}
-
-#o025 {
-  background: url("../img/newtonproblemsmall.jpg");
-}
-
-#o026 {
-  background: url("../img/cupoftintsmall.jpg");
-}
-
-#o027 {
-  background: url("../img/poemsartworkLANDINGresized.jpg");
-}
-
-#o028 {
-  background: url("../img/riverripplessmall.jpg")
-}
-
-#o029 {
-  background: url("../img/deweybulbsmall.jpg");
-}
-
-#o030 {
-  background: url("../img/echoimagesmall.jpg");
-}
-
-#o031 {
-  background: url("../img/cavernetsmall.jpg");
-}
-
-#o032 {
-  background: url("../img/delimbedhallwaysmall.jpg");
-}
-
-#o033 {
-  background: url("../img/steplesssmall.jpg");
-}
-
-#o034 {
-  background: url("../img/sinkbitssmall.jpg");
-}
-
-#o035 {
-  background: url("../img/houseofleavessmall.jpg");
-}
-
-#o036 {
-  background: url("../img/deweybulbsmall.jpg");
-}
-
-#o037 {
-  background: url("../img/shellsmall.jpg");
-  background-position: bottom;
-}
-
-#o038 {
-  background: url("../img/pulmonologysmall.jpg");
-}
-
-#o039 {
-  background: url("../img/sickskysmall.jpg")
-}
-
-#o040 {
-  background: url("../img/hauntsmall.jpg");
-}
-
-#o041 {
-  background: url("../img/windmillsmall.jpg")
-}
-
-#o043 {
-  background: url("../img/creepyguardiansmall.jpg");
-}
-
-#o044 {
-  background: url("../img/delimbedhallwaysmall.jpg")
-}
-
-#o045 {
-  background: url("../img/greenchristmassmall.jpg")
-}
-
-#o046 {
-  background: url("../img/homecollage1.2small.jpg")
-}
-
-#o047 {
-  background: url("../img/hauntsmall.jpg")
-}
-
-#o048 {
-  background: url("../img/houseofleavessmall.jpg")
-}
-
-#o049 {
-  background: url("../img/alienwallsmall.jpg")
-}
-
-#o050 {
-  background: url("../img/metalbouquetsmall.jpg")
-}
-
-#o051 {
-  background: url("../img/soldiersmall.jpg")
-}
-
-#o052 {
-  background: url("../img/stonebalancesmall.jpg")
-}
-
-#o053 {
-  background: url("../img/whiterosesmall.jpg")
-}
-
-#o054 {
-  background: url("../img/cavernetsmall.jpg")
-}
-
-#o055 {
-  background: url("../img/echoimagesmall.jpg")
-}
-
-#o056 {
-  background: url("../img/aboutLANDINGsmall.jpg");
-  background-position: bottom;
-}
-
-#o057 {
-  background: url("../img/pinkmothsmall.jpg")
-}
-
-#o058 {
-  background: url("../img/crosstobearsmall.jpg")
-}
-
-#o059 {
-  background: url("../img/deweybulbsmall.jpg")
-}
-
-#o060 {
-  background: url("../img/autoCBTsmall.jpg")
-}
-
-#o062 {
-  background: url("../img/actatmadCOVER.jpg")
-}
-
-#o063 {
-  background: url("../img/mothersdaysmall.jpg");
-  background-position: bottom;
-}
-
-#o064 {
-  background: url("../img/sinkbitssmall.jpg")
-}
-
-#o065 {
-  background: url("../img/shellsmall.jpg");
-}
-
-#o066 {
-  background: url("../img/steplesssmall.jpg")
-}
-
-#o067 {
-  background: url("../img/shesmokesseashellssmall.jpg")
-}
-
-#o068 {
-  background: url("../img/technopriestsmall.jpg")
-}
-
-#o069 {
-  background: url("../img/fireplacesmall.jpg")
-}
-
-#o070 {
-  background: url("../img/sickskysmall.jpg")
-}
-
-#o071 {
-  background: url("../img/riverripplessmall.jpg")
-}
-
-#o072 {
-  background: url("../img/darkgardensmall.jpg")
-}
-
-#o073 {
-  background: url("../img/longcollage1small.jpg")
-}
-
-#o074 {
-  background: url("../img/whiterosesmall.jpg")
-}
-
-#o075 {
-  background: url("../img/cellarspiderssmall.jpg");
-  background-position: bottom;
-}
-
-#o076 {
-  background: url("../img/cavernetsmall.jpg")
-}
-
-#o077 {
-  background: url("../img/analoganalogsmall.jpg")
-}
-
-#o078 {
-  background: url("../img/outhouseeyesmall.jpg")
-}
-
-#o079 {
-  background: url("../img/eyeciclesmall.jpg")
-}
-
-#o080 {
-  background: url("../img/eyecavesmall.jpg")
-}
-
-#o081 {
-  background: url("../img/mothpaintsmall.jpg")
-}
-
-#o082 {
-  background: url("../img/technopriestsmall.jpg");
-  background-position: bottom;
-}
-
-#o083 {
-  background: url("../img/cavernetsmall.jpg")
-}
-
-#o084 {
-  background: url("../img/paisleysoldiersmall.jpg")
-}
-
-#o085 {
-  background: url("../img/riverripplessmall.jpg")
-}
-
-#o086 {
-  background: url("../img/longcollage1small.jpg")
-}
-
-#o087 {
-  background: url("../img/hotelessentialssmallreversed.jpg")
-}
-
-#o088 {
-}
-
-#o089 {
-  background: url("../img/hauntsmall.jpg")
-}
-
-#o090 {
-  background: url("../img/aboutLANDINGsmall.jpg")
-}
-
-#o091 {
-  background: url("../img/galaxyhandsmall.jpg")
-}
-
-#o092 {
-  background: url("../img/alpscornersmall.jpg")
-}
-
-#o093 {
-  background: url("../img/alienwallsmall.jpg")
-}
-
-#o094 {
-  background: url("../img/cupoftintsmall.jpg")
-}
-
-#o095 {
-  background: url("../img/collageness.jpg")
-}
-
-#o096 {
-  background: url("../img/creepyguardiansmall.jpg")
-}
-
-#o097 {
-  background: url("../img/simplehumansmall.jpg")
-}
-
-#o098 {
-  background: url("../img/stonebalancesmall.jpg")
-}
-
-#o099 {
-  background: url("../img/technobabysmall.jpg")
-}
-
-#o0100 {
-  background: url("../img/sickskysmall.jpg")
-}
-
-#o101 {
-  background: url("../img/poemsartworkLANDINGresized.jpg")
-}
-
-#o102 {
-  background: url("../img/rainbowpastasmall.jpg")
-}
-
-#o103 {
-  background: url("../img/quarryclinersmall.jpg")
-}
-
-#o104 {
-  background: url("../img/simplehumansmall.jpg")
-}
-
-#o105 {
-  background: url("../img/shadowselfsmall.jpg")
-}
-
-#o106 {
-  background: url("../img/shellsmall.jpg")
-}
-
-#o107 {
-  background: url("../img/grewsomesmall.jpg")
-}
-
-#o108 {
-  background: url("../img/greenchristmassmall.jpg")
-}
-
-#o109 {
-  background: url("../img/rockseasmall.jpg")
-}
-
-#o110 {
-  background: url("../img/thespiritgamesmall.jpg")
-}
-
-#o111 {
-  background: url("../img/pulmonologysmall.jpg")
-}
-
-#o112 {
-  background: url("../img/alpscornersmall.jpg")
-}
-
-#o113 {
-  background: url("../img/eyeciclesmall.jpg")
-}
-
-#o114 {
-  background: url("../img/windmillsmall.jpg")
-}
-
-#o115 {
-  background: url("../img/meettheforagerssmall.jpg")
-}
-
-#o116 {
-  background: url("../img/winemanosmall.jpg")
-}
-
-#o117 {
-  background: url("../img/ribbonssmall.jpg")
-}
-
-#o118 {
-  background: url("../img/sidewalksludgesmall.jpg")
-}
-
-#o120 {
-  background: url("../img/oilinensmall.jpg")
-}
-
-#o121 {
-  background: url("../img/flowerscribblesmall.jpg")
-}
-
-#o122 {
-  background: url("../img/deathdogsmall.jpg")
-}
-
-#o123 {
-  background: url("../img/jadedpreysmall.jpg")
-}
-
-#o124 {
-  background: url("../img/alienwallsmall.jpg")
-}
-
-#o125 {
-  background: url("../img/eyecavesmall.jpg")
-}
-
-#o126 {
-  background: url("../img/firescapesmall.jpg")
-}
-
-#o127 {
-  background: url("../img/happydragonsmall.jpg")
-}
-
-#o128{
-  background: url("../img/mangysmall.jpg")
-}
-
-#o129 {
-  background: url("../img/topiaryinicesmall.jpg")
-}
-
-#o130 {
-  background: url("../img/darkstarsmall.jpg")
-}
-
-#o131 {
-  background: url("../img/weedhacksmall.jpg")
-}
-
-#o132 {
-  background: url("../img/bloodycandelabooksmall.jpg")
-}
-
-#o133 {
-  background: url("../img/eggdancefloorsmall.jpg")
-}
-
-#o134 {
-  background: url("../img/greenchristmassmall.jpg")
-}
-
-#o135 {
-  background: url("../img/delimbedhallwaysmall.jpg")
-}
-
-#o136 {
-  background: url("../img/ekwussketchsmall.jpg")
-}
-
-#o137 {
-  background: url("../img/horizonsludgesmall.jpg")
-}
-
-#o138 {
-  background: url("../img/mothersdaysmall.jpg")
-}
-
-#o139 {
-  background: url("../img/newtonproblemsmall.jpg")
-}
-
-#o140 {
-  background: url("../img/metalbouquetsmall.jpg")
-}
-
-#o141 {
-  background: url("../img/rockseasmall.jpg")
-}
-
-#o142 {
-  background: url("../img/spotssmall.jpg")
-}
-
-#o143 {
-  background: url("../img/sickskysmall.jpg")
-}
-
-#o144 {
-  background: url("../img/tealpotsmall.jpg")
-}
-
-#o145 {
-  background: url("../img/ekwusCosmoCOVERsmall.jpg")
-}
-
-#o146 {
-  background: url("../img/beepboopfortsmall.jpg")
-}
-
-#o147 {
-  background: url("../img/universitiescoversmall.jpg")
-}
-
-#o148 {
-  background: url("../img/deadbirbsmall.jpg")
-}
-
-#o149 {
-  background: url("../img/homecollage1.3small.jpg")
-}
-
-#o150 {
-  background: url("../img/hotelessentialssmall.jpg")
-}
-
-#o151 {
-  background: url("../img/jadedpreysmall.jpg")
-}
-
-#o152{
-}
-
-#o153 {
-  background: url("../img/rainbowpastasmall.jpg")
-}
-
-#o154 {
-  background: url("../img/outhouseeyesmall.jpg")
-}
-
-#o155 {
-  background: url("../img/whiterosesmall.jpg")
-}
-
-#o156 {
-  background: url("../img/stonebalancesmall.jpg")
-}
-
-#o157 {
-  background: url("../img/universitiescoversmall.jpg")
 }
