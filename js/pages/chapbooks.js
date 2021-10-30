@@ -61,7 +61,7 @@ function selectanswer(answer) {
   var qcontainer = answer.parentElement;
   var answers = qcontainer.getElementsByClassName("answer");
   // loop through and unhighlight
-  for (var i=0; i<5; i++) {
+  for (var i=0; i<8; i++) {
     answers[i].classList.remove("highlightAnswer");
   }
 
@@ -98,7 +98,7 @@ function submitquiz() {
 
   // create array scoreboard and chapbooklist
   var arrayscore = []
-  var chaparray = ["house plants", "universities", "ekwus cosmology", "ergot nothing", "not your cup of tea"]
+  var chaparray = ["post truth structuralism desires", "when i left alive", "house plants", "universities", "ekwus cosmology", "ergot nothing", "wooden leg", "not your cup of tea"]
 
 
   for (var i=0; i<qcontainers.length; i++) {
