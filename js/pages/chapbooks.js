@@ -149,3 +149,40 @@ $(document).ready(function() {
     $active[0].style.backgroundColor = "#752515";
   });
 });
+
+
+// scroll slowly to top if below top
+$(document).ready(function() {
+  $('#chapCarousel').on('slid.bs.carousel', function (event) {
+    var ycoor = window.pageYOffset
+    var xcoor = window.pageXOffset
+    //console.log("ycoor is: ",ycoor)
+    if (ycoor != 0) {
+      // insert pause icon
+      // scroll slowly
+      $('html, body').animate({
+        scrollTop: "0"
+      },1000);
+    }
+  });
+});
+
+
+// touch slide for mobile
+$('.carousel').on('touchstart', function(event){
+    const xClick = event.originalEvent.touches[0].pageX;
+    $(this).one('touchmove', function(event){
+        const xMove = event.originalEvent.touches[0].pageX;
+        const sensitivityInPx = 5;
+
+        if( Math.floor(xClick - xMove) > sensitivityInPx ){
+            $(this).carousel('next');
+        }
+        else if( Math.floor(xClick - xMove) < -sensitivityInPx ){
+            $(this).carousel('prev');
+        }
+    });
+    $(this).on('touchend', function(){
+        $(this).off('touchmove');
+    });
+});
