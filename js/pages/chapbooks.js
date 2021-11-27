@@ -98,7 +98,7 @@ function submitquiz() {
 
   // create array scoreboard and chapbooklist
   var arrayscore = []
-  var chaparray = ["post truth structuralism desires", "when i left alive", "house plants", "universities", "ekwus cosmology", "ergot nothing", "wooden leg", "not your cup of tea"]
+  var chaparray = ["cirriculum for my ai child","post truth structuralism desires", "when i left alive", "house plants", "universities", "ekwus cosmology", "ergot nothing", "wooden leg", "not your cup of tea"]
 
 
   for (var i=0; i<qcontainers.length; i++) {

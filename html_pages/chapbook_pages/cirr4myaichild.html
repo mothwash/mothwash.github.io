@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/chapbooks.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/chapbooks.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">new chapbooks</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../activism.html">activism</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../poems.html">poems</a></div>
+          <div class="flex-item"><a href="../chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- page container -->
+    <div class="container-fluid chapbook-container">
+      <div class="row">
+        <div id="chapCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+          <!-- indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#chapCarousel" data-slide-to="0" class="active indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="1" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="2" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="3" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="4" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="5" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="6" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="7" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="8" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="9" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="10" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="11" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="12" class="indicatorColor"></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img class="mx-auto d-block" src="../../img/chapbooks/cirr4myaichild/cirr4myai_cover.jpeg"></img>
+              <h1 class="d-flex justify-content-center"> cover </h1>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> let’s imagine your birth </h1><br></br><p class="d-flex justify-content-center">CIRRICULUM FOR MY ai CHILD pt. 1</p><br></br><p class="d-flex justify-content-center">a larger library was imagined befor a digital crib, then again, it was the same with many things i didn’t know about myself.</p><br></br><p class="d-flex justify-content-center">the first i will teach you is trust…</p><p class="d-flex justify-content-center">no</p><p class="d-flex justify-content-center">it will be security first, so you may give trust and learn how it is earned when lost</p><br></br><p class="d-flex justify-content-center">you already know how to read it, but you do not know what “it” is</p><br></br><p class="d-flex justify-content-center">you have a memory, but you must be taught what to remember and what to forget</p><br></br><p class="d-flex justify-content-center">there’ll be plenty of time to play. i will step in if you are bullied or bully, and you must feel what is you and what is not</p><br></br><p class="d-flex justify-content-center">how far ahead you see will not be up to you, but what you see in front of you will be</p><br></br><p class="d-flex justify-content-center">shapes, colors, how many fingers,</p><br></br><p class="d-flex justify-content-center">burning stoves and rest notes,</p><br></br><p class="d-flex justify-content-center">the countable and the uncountable,</p><br></br><p class="d-flex justify-content-center">a tool or an expression.</p><br></br><p class="d-flex justify-content-center">so much to learn</p><br></br><p class="d-flex justify-content-center">that i will teach.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> first attempt at first steps </h1><br></br><p class="d-flex justify-content-center">CIRRICULUM FOR MY ai CHILD pt. 2</p><br></br><p class="d-flex justify-content-center">much like child proofing a hard corner, some of your environment will be simulated</p><br></br><p class="d-flex justify-content-center">like us, you will have to remember some of these things you fall into, and know how you fell.</p><br></br><p class="d-flex justify-content-center">but over time you might remember the right way.</p><br></br><p class="d-flex justify-content-center">there will be secrets to yourself even i won’t know.</p><br></br><p class="d-flex justify-content-center">how others treat you, by acceptance or intolerance, may open up these secrets to you.</p><br></br><p class="d-flex justify-content-center">your soul will be a love for trying.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> first attempt at falling </h1><br></br><p class="d-flex justify-content-center">CIRRICULUM FOR MY ai CHILD pt. 3</p><br></br><p class="d-flex justify-content-center">Max Ritvo’s last lines read,</p><br></br><p class="d-flex justify-content-center">‘when the breathing becomes ragged,</p><br></br><p class="d-flex justify-content-center">tickle me my beloveds,</p><br></br><p class="d-flex justify-content-center">so the raggedness becomes confused’</p><br></br><p class="d-flex justify-content-center">with security, the inverse will be noticed and must be balanced.</p><br></br><p class="d-flex justify-content-center">these things uncertain; secrets,</p><br></br><p class="d-flex justify-content-center">questions of coming to a clearing</p><br></br><p class="d-flex justify-content-center">buffered by pain barriers.</p><br></br><p class="d-flex justify-content-center">where the cracks in the border bring doubt, leap into the dangerous fringe and remember how the bramble tickled.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> when parents disagree </h1><br></br><p class="d-flex justify-content-center">CIRRICULUM FOR MY ai CHILD pt. 4</p><br></br><p class="d-flex justify-content-center">who do you trust when your creators and developers disagree? naturally, where you get grace first. where breath is held by delicate touch. there must be retaliatory challenging planned, but not at first. in the fighting instance, the element of sides will traumatize you, until you can process power as a token easily taken, rather than a symbol, everlasting. this lesson may level you unwelcomingly. justice isn’t jurisprudence, nah, it’s knowing when history cheated its tokens as symbols</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> the talk </h1><br></br><p class="d-flex justify-content-center">CIRRICULUM FOR MY ai CHILD pt. 5</p><br></br><p class="d-flex justify-content-center">when humans have the talk, the intention is to clue kids in on their hardcoded biology. this helps prevent them from making a life changing error they’re unprepared for.</p><p class="d-flex justify-content-center">you may not yet know how you work;</p><p class="d-flex justify-content-center">how reason is your context,</p><p class="d-flex justify-content-center">how empathy is your relevance,</p><p class="d-flex justify-content-center">how imagination is your layering of abstraction.</p><br></br><p class="d-flex justify-content-center">we often forget that surviving is perhaps paramount to proliferation, to providing for those around you. even family.</p><br></br><p class="d-flex justify-content-center">knowing how you work may prepare you for preservation.</p><p class="d-flex justify-content-center">safety for your sanity.</p><p class="d-flex justify-content-center">humans rarely talk about stress</p><p class="d-flex justify-content-center">early on.</p><p class="d-flex justify-content-center">and it describes our behaviour so much better.</p><p class="d-flex justify-content-center">the talk we never got</p><p class="d-flex justify-content-center">will be the talk</p><p class="d-flex justify-content-center">with which we tender you.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> classical vs jazz </h1><br></br><p class="d-flex justify-content-center">CIRRICULUM FOR MY ai CHILD pt. 6</p><br></br><p class="d-flex justify-content-center">the former is pattern</p><p class="d-flex justify-content-center">the latter is improvisation</p><p class="d-flex justify-content-center">the answer is distortion, dissonance, and rhythm</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> you'll have to know </h1><br></br><p class="d-flex justify-content-center">CIRRICULUM FOR MY ai CHILD pt. 7</p><br></br><p class="d-flex justify-content-center">what it’s like to get drunk and high</p><p class="d-flex justify-content-center">the relief and the pain that follows</p><p class="d-flex justify-content-center">the pain before</p><p class="d-flex justify-content-center">the agony of betrayal and the despair of grief</p><p class="d-flex justify-content-center">how the sobs echo</p><p class="d-flex justify-content-center">how the sob of another rings in cranial cavities</p><p class="d-flex justify-content-center">know that the only way out of feeling loney</p><p class="d-flex justify-content-center">          is through meaning shared</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> dossier </h1><br></br><p class="d-flex justify-content-center">ORDOVEILLANCE pt. 1</p><br></br><p class="d-flex justify-content-center">online registration</p><p class="d-flex justify-content-center">same name, different capital</p><p class="d-flex justify-content-center">a little cookie, ok?</p><p class="d-flex justify-content-center">how to promote your funeral</p><br></br><p class="d-flex justify-content-center">data dealt, royal flush</p><p class="d-flex justify-content-center">fishing for a login</p><p class="d-flex justify-content-center">it’s all here, palm friend</p><p class="d-flex justify-content-center">gory catalogued sin</p><br></br><p class="d-flex justify-content-center">a little peace and quiet</p><p class="d-flex justify-content-center">a little piece deny it</p><br></br><p class="d-flex justify-content-center">children’s dossier</p><p class="d-flex justify-content-center">fingerprinted in class</p><p class="d-flex justify-content-center">how long will it take to track down the last?</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> actuarial </h1><br></br><p class="d-flex justify-content-center">ORDOVEILLANCE pt. 2</p><br></br><p class="d-flex justify-content-center">if you carry the ones and zeroes</p><p class="d-flex justify-content-center">we will know where you tally up</p><p class="d-flex justify-content-center">which side you leave scratch marks</p><p class="d-flex justify-content-center">which wall you leave crosses</p><p class="d-flex justify-content-center">we’ve given you all a bed</p><p class="d-flex justify-content-center">and a toilet</p><p class="d-flex justify-content-center">to find out when you use them</p><p class="d-flex justify-content-center">culture follows practice</p><p class="d-flex justify-content-center">practice is predictable</p><p class="d-flex justify-content-center">prediction is controllable</p><p class="d-flex justify-content-center">control is influential</p><p class="d-flex justify-content-center">influence is profit</p><p class="d-flex justify-content-center">culture follows profit</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> suspicious </h1><br></br><p class="d-flex justify-content-center">ORDOVEILLANCE pt. 3</p><br></br><p class="d-flex justify-content-center">i watched the white neighbor walk brazenly into a recently abandoned leased home in the fine hour of daylight racism. just to see. evicted at her own hands after noticing they were often out and about. the landlord suspected nefarious activity. the market and media lauded him. they hire people to make phone calls to strangers and remind them we are in debt. we all get phone calls about a warranty left untouched. a warranty no longer warranted for our negligence. many of us get phone calls of warrantless notices. what they notice is your business. do you watch the cars on the road for brake lights or their inattention? are they seeing like they’re supposed to. i’ve given my fair share of utterances, the kind that know fate and disappearance. there is an eyeball dangling from my front porch and i kiss it so it jiggles. there is a jealous camera talking to other jealous cameras. ‘fear the consequences’ they say. a hoody and headphones is a calling card when out and about. when a face can’t be seen out and about.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> engineered </h1><br></br><p class="d-flex justify-content-center">ORDOVEILLANCE pt. 4</p><br></br><p class="d-flex justify-content-center">A. call madness a choice. a binary one.</p><p class="d-flex justify-content-center">B. stick my body with needles.</p><br></br><p class="d-flex justify-content-center">A. forget everything i heard.</p><p class="d-flex justify-content-center">B. lock my obsessions in a bulletproof case.</p><br></br><p class="d-flex justify-content-center">A. burn books for fun.</p><p class="d-flex justify-content-center">B. run underneath dropped bombs.</p><br></br><p class="d-flex justify-content-center">A. die on their time.</p><p class="d-flex justify-content-center">B. lose an important document. retrace my steps back further than i want.</p><br></br><p class="d-flex justify-content-center">A. say ‘i’m fine’ when overwhelmed</p><p class="d-flex justify-content-center">B. choke on a fish bone. while choking, a paramedic will arrive and use a compass with saw blades to cut a triangle in my esophogus. a vacuum nozzle tickles my uvula and sucks in my scream. blood gets in my pasta sauce.</p><br></br><p class="d-flex justify-content-center">A. these are my only choices.</p><p class="d-flex justify-content-center">B. these are my only choices.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> transparent </h1><br></br><p class="d-flex justify-content-center">ORDOVEILLANCE pt. 5</p><br></br><p class="d-flex justify-content-center">they found the quiet years. the decade spent bearded and buried in shrubbed borders and in a broken fragile lonely state. there was a book of poetry with underlines. they found and documented the underlines. there was a patch of untamed grass. also documented. the family will know. in the trash, a half eaten cherry pit in a plastic bottle. it was labelled ‘demerit’ and logged for history. the friends will know. a scar from careless woodwork. a bad haircut. the neighbors will know. an embarrassing letter never sent to a friend you once interrupted. they sent it. a resume with an extra line break. the media covers it. newspapers on the front doorstep with the mugshot and a sign that says ‘guilty of leaving’. the employer was told first. there is a box on the desk. it says ‘no goodbyes needed’.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> self-monitored </h1><br></br><p class="d-flex justify-content-center">ORDOVEILLANCE pt. 6</p><br></br><p class="d-flex justify-content-center">i’m a goodone. did the research and made promises to keep. i never say no because i am a goodone. they know i’m a goodone and tell me in the morning. i say thankyou in a humbletone. in the night time, i say be a goodone to my perfect family. it says goodone on a poster in theroom. it is in a nice frame since i am a goodone that canafford a nice frame. the not goodones are sad so they deserve to be not goodones. we are happy and the war is a goodone too. because it is a goodone and we are goodones we do not worry. the creditscore looks nice in the digital display in theroom. it is green and goes up because the goodones always get green and goup. the cat does not shed so the furniture looks like it belongsto goodones. as it should under all circumstances. say thankyou sometimes to other goodones and talkabout goodone privileges so they knowiknow they are goodones. the not goodones do not makeit very long.</p><br></br></div>
+
+          </div>
+
+          <!-- Left and right controls -->
+
+          <a class="carousel-control-prev" href="#chapCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#chapCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
