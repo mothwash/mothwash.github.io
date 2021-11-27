@@ -1,9 +1,9 @@
 let songs = [
     {
-        name: 'compass stage (lo stresso padre celeste)',
-        path: '../img/music/compass_stage_draft03.wav',
+        name: 'when i arrived (demo)',
+        path: '../img/music/wheniarrived_draft02.wav',
         artist: 'mothwash',
-        cover: '../img/music/compassstage.jpeg'
+        cover: '../img/music/wheniarrived.JPG'
     },
     {
         name: 'cuckoos turn 2 clocks 4 winter',
@@ -17,4 +17,16 @@ let songs = [
         artist: 'mothwash',
         cover: '../img/music/shimmoresnowmigrant.jpeg'
     },
+    {
+        name: 'compass stage (lo stresso padre celeste)',
+        path: '../img/music/compass_stage_draft03.wav',
+        artist: 'mothwash',
+        cover: '../img/music/compassstage.jpeg'
+    },
+    {
+        name: 'coyote embouchure',
+        path: '../img/music/coyoteembouchureV01.wav',
+        artist: 'mothwash',
+        cover: '../img/music/coyoteembouchure.jpg'
+    }
 ]
