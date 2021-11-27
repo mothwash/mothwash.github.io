@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/chapbooks.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/chapbooks.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">new chapbooks</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../activism.html">activism</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../poems.html">poems</a></div>
+          <div class="flex-item"><a href="../chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- page container -->
+    <div class="container-fluid chapbook-container">
+      <div class="row">
+        <div id="chapCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+          <!-- indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#chapCarousel" data-slide-to="0" class="active indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="1" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="2" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="3" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="4" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="5" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="6" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="7" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="8" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="9" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="10" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="11" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="12" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="13" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="14" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="15" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="16" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="17" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="18" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="19" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="20" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="21" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="22" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="23" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="24" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="25" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="26" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="27" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="28" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="29" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="30" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="31" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="32" class="indicatorColor"></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img class="mx-auto d-block" src="../../img/chapbooks/embryoniclyrics/embLyrics-cover.jpeg"></img>
+              <h1 class="d-flex justify-content-center"> cover </h1>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 001 abandon them </h1><br></br><p class="d-flex justify-content-center">brain clatter come along</p><p class="d-flex justify-content-center">isolate like something's wrong</p><p class="d-flex justify-content-center">you’ll feel the horror of the dishes stacked high</p><br></br><p class="d-flex justify-content-center">a minute to be alone</p><p class="d-flex justify-content-center">a moment then the night tracks home</p><p class="d-flex justify-content-center">you’ll feel the missing from the house you just left</p><br></br><p class="d-flex justify-content-center">you might abandon all those that matter</p><p class="d-flex justify-content-center">words dive like vultures, oh god i’ll take the latter</p><p class="d-flex justify-content-center">your thoughts breed the swamp monsters always swimming faster</p><p class="d-flex justify-content-center">kick the sick dog, don’t bark back you bastard</p><br></br><p class="d-flex justify-content-center">one man’s forgiveness</p><p class="d-flex justify-content-center">can outweigh the next</p><p class="d-flex justify-content-center">the shorthanded fall to the pockets below</p><br></br><p class="d-flex justify-content-center">you shake your head</p><p class="d-flex justify-content-center">and draw what you hear</p><p class="d-flex justify-content-center">but you’ll never enter the closet you fear</p><br></br><p class="d-flex justify-content-center">you might abandon all those that matter</p><p class="d-flex justify-content-center">words dive like vultures, oh god i’ll take the latter</p><p class="d-flex justify-content-center">your thoughts breed the swamp monsters always swimming faster</p><p class="d-flex justify-content-center">kick the sick dog, don’t bark back you bastard</p><br></br></div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/embryoniclyrics/cavernet.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 002 never thought i’d make a mess here </h1><br></br><p class="d-flex justify-content-center">the kitchen oven doesn’t heat my food up. if it did i’d bake colors into cake. if it did i’d warm the house up a few degrees, and the mice behind the circuits - that chew on and on relieved.</p><br></br><p class="d-flex justify-content-center">i picked up meds and called the supermarket. down the aisle, raised up sales. the loaded strangers, they can’t stop regarding - in a sea of judgement that’s cracking underneath, that always sounds so sick.</p><br></br><p class="d-flex justify-content-center">never thought i’d make a mess here</p><p class="d-flex justify-content-center">at the worst i’d gather dust</p><p class="d-flex justify-content-center">there’s no way i end the cold war</p><p class="d-flex justify-content-center">but i’ll rag myself</p><p class="d-flex justify-content-center">and feel the lightness of damp towel made dry</p><br></br><p class="d-flex justify-content-center">i know a city bar that uses lanterns, to keep the moths out the door. the girl sells drinks - says she’s alive. she hands out bottles through the back, ‘cause there’s too much around, and just enough for the drainage we neglect.</p><br></br><p class="d-flex justify-content-center">never thought i’d make a mess here</p><p class="d-flex justify-content-center">at the worst they’d call the cops</p><p class="d-flex justify-content-center">they told me, go and study business</p><p class="d-flex justify-content-center">now the market takes the kids</p><p class="d-flex justify-content-center">while i couldn’t sell myself to make the grade</p><br></br><p class="d-flex justify-content-center">to fall asleep i need the tempo, of a slower speed than shame, of a slower kind of process, that makes the moment a teacher i can follow</p><br></br><p class="d-flex justify-content-center">never thought i’d make a mess here</p><p class="d-flex justify-content-center">at the worst i’d stare for hours</p><p class="d-flex justify-content-center">we get fired, forget intention</p><p class="d-flex justify-content-center">coma dollars</p><p class="d-flex justify-content-center">come out clean</p><br></br><p class="d-flex justify-content-center">guess i thought i’d make a mess here</p><p class="d-flex justify-content-center">at the worst they’d call the cops</p><p class="d-flex justify-content-center">they told me, go and study business</p><p class="d-flex justify-content-center">now the market takes the kids</p><p class="d-flex justify-content-center">while i couldn’t sell myself to make the grade</p><br></br></div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/embryoniclyrics/pulmonology.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 003 benefits </h1><br></br><p class="d-flex justify-content-center">i take a pill for half the day</p><p class="d-flex justify-content-center">gone by news cycle matine</p><p class="d-flex justify-content-center">never enough i'm never enough</p><p class="d-flex justify-content-center">say it loud like they're watching us</p><br></br><p class="d-flex justify-content-center">sick time awaits</p><p class="d-flex justify-content-center">benefit start date</p><p class="d-flex justify-content-center">quit for god’s sake</p><p class="d-flex justify-content-center">no don’t this is your fate</p><br></br><p class="d-flex justify-content-center">fish bowl faces passing by</p><p class="d-flex justify-content-center">Watching their feed drop from the sky</p><p class="d-flex justify-content-center">bloated out i am bloated out</p><p class="d-flex justify-content-center">inoculated with neurotic doubt</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 004 tallied cell walls </h1><br></br><p class="d-flex justify-content-center">exception override</p><p class="d-flex justify-content-center">critical mass</p><p class="d-flex justify-content-center">buried bonafide</p><p class="d-flex justify-content-center">huffing laughing gas</p><p class="d-flex justify-content-center">a meritocracy dies</p><p class="d-flex justify-content-center">middle lane pass</p><p class="d-flex justify-content-center">boiled by lies</p><p class="d-flex justify-content-center">frogs think jump last</p><br></br><p class="d-flex justify-content-center">tallied cell walls</p><br></br><p class="d-flex justify-content-center">moratorium calls</p><p class="d-flex justify-content-center">for ammo and tape</p><p class="d-flex justify-content-center">abducted camera logs</p><p class="d-flex justify-content-center">fashionable taste</p><p class="d-flex justify-content-center">enter epilogue</p><p class="d-flex justify-content-center">cold fascist state</p><p class="d-flex justify-content-center">stacking credit falls</p><p class="d-flex justify-content-center">burn all the banks</p><br></br></div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/embryoniclyrics/praydisengage.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 005 Berry’s Melody </h1><br></br><p class="d-flex justify-content-center">bake bread on wednesdays, ritual and rise - it kneads you</p><p class="d-flex justify-content-center">smoke hard on those days, spiritual highs - it saves you</p><p class="d-flex justify-content-center">berry soft on a toothache, drives me crazy to try</p><p class="d-flex justify-content-center">seeded song/season sweet delay, sun’s up this fruit won’t die</p><br></br><p class="d-flex justify-content-center">when i sink into my hands, your touch demolishes my wrists and quickly flowers to support me</p><p class="d-flex justify-content-center">when locked eyes up the wall, you pull a path out your pocket, filled with notes from the day</p><br></br></div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/embryoniclyrics/darkgarden.jpeg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 006 shoebox </h1><br></br><p class="d-flex justify-content-center">picking up the pods draw a diaphramic pentagram</p><p class="d-flex justify-content-center">soaking up the sponge while the dryness cracks off me</p><p class="d-flex justify-content-center">tailor in caveat it builds another lectern</p><p class="d-flex justify-content-center">color in the dots let the ink dry on option cons</p><br></br><p class="d-flex justify-content-center">panhandle darkness in a retrograde coke machine</p><p class="d-flex justify-content-center">tie a panorama to the steakhouse codeine</p><p class="d-flex justify-content-center">the people are drawn to the quarters in the fountain</p><p class="d-flex justify-content-center">plastic lawn chairs in the middle of the intersection</p><p class="d-flex justify-content-center">tone it down, foot down on the sidewalk crack</p><p class="d-flex justify-content-center">pick out the shoebox with monsters neath the coat rack</p><br></br><p class="d-flex justify-content-center">call a telephone box and tell 'em it's your nightmare</p><p class="d-flex justify-content-center">hack up a lung and let the blood fall anywhere</p><p class="d-flex justify-content-center">barricade the bombs from the idiotic bobbleheads</p><p class="d-flex justify-content-center">lick up the chemistry and snort the bottom fossil bed</p><p class="d-flex justify-content-center">tone it down, medication in a vinyl pack</p><p class="d-flex justify-content-center">pick out the shoebox with monsters neath the coat rack</p><br></br></div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/embryoniclyrics/tilespin.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 007 grid </h1><br></br><p class="d-flex justify-content-center">calendar gun - time’s lonely friend // home is at the end</p><p class="d-flex justify-content-center">crater wisdom - their names are shared // the way they fared</p><p class="d-flex justify-content-center">cheshire break me - the greedy flow // the odd follow</p><p class="d-flex justify-content-center">chase off dead leaks - no space for this // flood the palace</p><br></br><p class="d-flex justify-content-center">cut me out of gridlock</p><br></br><p class="d-flex justify-content-center">safely bronze league - the underdog // the callous fog</p><p class="d-flex justify-content-center">suits them keenly - the peace necktie // the warring lies</p><p class="d-flex justify-content-center">since it went off - the sirens sung // oracle fun</p><p class="d-flex justify-content-center">sub atom cough - the lines of red // the lines we dread</p><br></br><p class="d-flex justify-content-center">cut me out of gridlock</p><p class="d-flex justify-content-center">learn to let the ohm talk</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 008 youknowdamnwell </h1><br></br><p class="d-flex justify-content-center">i spent all day under those fashions</p><p class="d-flex justify-content-center">harmed to the teeth, grinding your rations</p><p class="d-flex justify-content-center">sovereigneering</p><br></br><p class="d-flex justify-content-center">what casts the shadow, doubted shade?</p><p class="d-flex justify-content-center">notion for the ocean to wake up made</p><p class="d-flex justify-content-center">era-sure faring (fearing)</p><br></br><p class="d-flex justify-content-center">you told me last, but you folded time</p><p class="d-flex justify-content-center">they called us fast, gravity’s hotline</p><p class="d-flex justify-content-center">cosmic curbstomp</p><br></br><p class="d-flex justify-content-center">stranded bike lane, this night knows it</p><p class="d-flex justify-content-center">calm this praising, raining fire’s pietistic</p><p class="d-flex justify-content-center">distich aesop</p><br></br><p class="d-flex justify-content-center">sank the next one, carmine watershed</p><p class="d-flex justify-content-center">they make no movements for the bankrupt lead</p><p class="d-flex justify-content-center">aggravating</p><br></br><p class="d-flex justify-content-center">fake news itch you shaking bug bytes</p><p class="d-flex justify-content-center">wake whose situation looks ripe</p><p class="d-flex justify-content-center">youknowdamnwell</p><p class="d-flex justify-content-center">naked comfort that we’ll burn alight (burn alight)</p><p class="d-flex justify-content-center">youknowdamnwell</p><br></br><p class="d-flex justify-content-center">i caught the neighbor posting lies</p><p class="d-flex justify-content-center">potholes and dentures, indentured ties,</p><p class="d-flex justify-content-center">mountains waiting</p><br></br><p class="d-flex justify-content-center">there came a grassness with my fever strain</p><p class="d-flex justify-content-center">touched on a runway through the shower drain</p><p class="d-flex justify-content-center">carefree could-ness</p><br></br><p class="d-flex justify-content-center">at last</p><p class="d-flex justify-content-center">it crashes</p><p class="d-flex justify-content-center">thank goodness</p><br></br><p class="d-flex justify-content-center">fake news itch you shaking bug bytes</p><p class="d-flex justify-content-center">wake whose situation looks ripe</p><p class="d-flex justify-content-center">youknowdamnwell</p><p class="d-flex justify-content-center">naked comfort that we’ll burn alight (burn alight)</p><p class="d-flex justify-content-center">youknowdamnwell</p><br></br></div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/embryoniclyrics/shell.jpeg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 009 clones </h1><br></br><p class="d-flex justify-content-center">if i could touch doubt, doubt it would feel as nice, as nice as it once was, when i was what i was blacked out, lashed out last night, lastly i remember you knew, knew i’d be fine, and i’m fine with it all.</p><br></br><p class="d-flex justify-content-center">line by line signs, signal wearing you out, wearing thin my disguise, spies in my head in my coat pocket, cut off coat tails, no more telling you about my day, days of our lives, living ain’t the same way out.</p><br></br><p class="d-flex justify-content-center">hello cyclone, you’re so familiar</p><p class="d-flex justify-content-center">hello my clone, you’re unfamiliar</p><br></br><p class="d-flex justify-content-center">over cold blood, scar tissue canopy, can you say that again, against this chest against all odds, oddly in your moonstruck gods, god the tides about to break, tired ties let me down, sink in under again.</p><br></br><p class="d-flex justify-content-center">hello cyclone, you’re so familiar</p><p class="d-flex justify-content-center">hello my clone, you’re unfamiliar</p><br></br></div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/embryoniclyrics/tubbits.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 010 sugar & sin </h1><br></br><p class="d-flex justify-content-center">oh the highest wire is a safety for birds</p><p class="d-flex justify-content-center">while the longest tight rope is where i hang my words</p><p class="d-flex justify-content-center">and the sunrise forgives me like the chaos unheard</p><p class="d-flex justify-content-center">so say what you will even if you don’t keep your word</p><br></br><p class="d-flex justify-content-center">oh mountains have whispered of heaven’s deserts</p><p class="d-flex justify-content-center">but sugar and sin don’t seem to make it work</p><p class="d-flex justify-content-center">you’ll tilt and you’ll know the weight that could hurt</p><p class="d-flex justify-content-center">when you fall again…</p><br></br><p class="d-flex justify-content-center">so it’s homecoming</p><p class="d-flex justify-content-center">so it’s the nightmares</p><p class="d-flex justify-content-center">so it’s withdrawal</p><p class="d-flex justify-content-center">so’s my minds prayer</p><br></br><p class="d-flex justify-content-center">so it’s becoming</p><p class="d-flex justify-content-center">so’s your angel hair</p><p class="d-flex justify-content-center">so’s the tight crawl</p><p class="d-flex justify-content-center">high in the air</p><br></br><p class="d-flex justify-content-center">and it comes in the waves so the body stays alert</p><p class="d-flex justify-content-center">afraid of the day that the faces come to dirt</p><p class="d-flex justify-content-center">you’ll call me a sick man from the rages i’ve blurred</p><p class="d-flex justify-content-center">numbed hard by the harsh tones of the damage incurred</p><br></br><p class="d-flex justify-content-center">yet weekly we meet here and discuss all the nerve</p><p class="d-flex justify-content-center">of what it took for us to forget what we deserve</p><p class="d-flex justify-content-center">sometimes i’ll reach back for the flower and swerve</p><p class="d-flex justify-content-center">pull off the path…</p><br></br><p class="d-flex justify-content-center">so it’s homecoming</p><p class="d-flex justify-content-center">so it’s the nightmares</p><p class="d-flex justify-content-center">so it’s withdrawal</p><p class="d-flex justify-content-center">so’s my minds prayer</p><br></br><p class="d-flex justify-content-center">so it’s becoming</p><p class="d-flex justify-content-center">so’s your angel hair</p><p class="d-flex justify-content-center">so’s the tight crawl</p><p class="d-flex justify-content-center">high in the air</p><br></br></div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/embryoniclyrics/riverstretch.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 011 lesson </h1><br></br><p class="d-flex justify-content-center">draw your maps in pencil</p><p class="d-flex justify-content-center">draw your lines to fade</p><p class="d-flex justify-content-center">draw a blank where you expect</p><p class="d-flex justify-content-center">a new world might be made</p><p class="d-flex justify-content-center">draw upon a desire path</p><p class="d-flex justify-content-center">and all the paths delayed</p><p class="d-flex justify-content-center">draw down a compass</p><p class="d-flex justify-content-center">and a north star you’ll never trade</p><br></br><p class="d-flex justify-content-center">take a trip you never meant</p><p class="d-flex justify-content-center">take along the pain</p><p class="d-flex justify-content-center">use a map you ain’t used to</p><p class="d-flex justify-content-center">stick to speeds you can contain</p><p class="d-flex justify-content-center">make yourself a legend</p><p class="d-flex justify-content-center">in the methods you maintain</p><p class="d-flex justify-content-center">there is no right side up</p><p class="d-flex justify-content-center">when your heart can't be tamed</p><br></br><p class="d-flex justify-content-center">cuz you can have your labels</p><p class="d-flex justify-content-center">you can call it some possession</p><p class="d-flex justify-content-center">but the road you’ll find ain’t a path defined</p><p class="d-flex justify-content-center">unless you map out your lesson</p><br></br><p class="d-flex justify-content-center">leave a hint beside me</p><p class="d-flex justify-content-center">leave a trail of crumbs</p><p class="d-flex justify-content-center">leave a lot to be desired</p><p class="d-flex justify-content-center">in time you’ll see the sums</p><p class="d-flex justify-content-center">when the traffic is heavy</p><p class="d-flex justify-content-center">carve out a different way</p><p class="d-flex justify-content-center">let the fire take over</p><p class="d-flex justify-content-center">as you burn brighter than the day</p><br></br><p class="d-flex justify-content-center">cuz you can have your labels</p><p class="d-flex justify-content-center">you can call it some possession</p><p class="d-flex justify-content-center">but the road you’ll find ain’t a path defined</p><p class="d-flex justify-content-center">unless you map out your lesson</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 012 classic come down </h1><br></br><p class="d-flex justify-content-center">ego pickled psychic barrack causes global leader collapse</p><p class="d-flex justify-content-center">in the righteous rain</p><p class="d-flex justify-content-center">need tos covet stiff worn adorned plastic paper waded relapse</p><p class="d-flex justify-content-center">in their needless pain</p><p class="d-flex justify-content-center">carbon footprint muddied shore bank in the green infested waters</p><p class="d-flex justify-content-center">in their riches gained</p><p class="d-flex justify-content-center">evil creeps in social boundaries building steam in fuckin cold wars</p><p class="d-flex justify-content-center">with no heat contained</p><br></br><p class="d-flex justify-content-center">gaslit kingdom</p><p class="d-flex justify-content-center">classic come down</p><p class="d-flex justify-content-center">moonlit and numb</p><p class="d-flex justify-content-center">classic come down</p><br></br><p class="d-flex justify-content-center">your electric train of thought</p><p class="d-flex justify-content-center">controls the instance</p><p class="d-flex justify-content-center">the expected cause of death</p><p class="d-flex justify-content-center">minds the distance</p><p class="d-flex justify-content-center">in times of chaos, call to arms</p><p class="d-flex justify-content-center">bare assistance</p><p class="d-flex justify-content-center">you might insist your views</p><br></br><p class="d-flex justify-content-center">gaslit kingdom</p><p class="d-flex justify-content-center">classic come down</p><p class="d-flex justify-content-center">moonlit and numb</p><p class="d-flex justify-content-center">classic come down</p><br></br><p class="d-flex justify-content-center">sick of their lies you make the cause</p><p class="d-flex justify-content-center">you turn up nothing</p><p class="d-flex justify-content-center">they enjoy burning pause</p><p class="d-flex justify-content-center">it’s aggravating</p><p class="d-flex justify-content-center">you might break the record</p><br></br><p class="d-flex justify-content-center">gaslit kingdom</p><p class="d-flex justify-content-center">classic come down</p><p class="d-flex justify-content-center">moonlit and numb</p><p class="d-flex justify-content-center">classic come down</p><br></br><p class="d-flex justify-content-center">crushed up windpipe in atomic winter</p><p class="d-flex justify-content-center">snuffed out voices in ballistic nightmare</p><p class="d-flex justify-content-center">forgiveness breaks under changes coming</p><p class="d-flex justify-content-center">called out death for ignoring my needs</p><br></br><p class="d-flex justify-content-center">gaslit kingdom</p><p class="d-flex justify-content-center">classic come down</p><p class="d-flex justify-content-center">moonlit and numb</p><p class="d-flex justify-content-center">classic come down</p><br></br><p class="d-flex justify-content-center">silenced shepherd in the mirror knows me</p><p class="d-flex justify-content-center">talked up demons know familiar dead weight</p><br></br></div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/embryoniclyrics/stepless.JPG"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 013 lucinerve </h1><br></br><p class="d-flex justify-content-center">the nerve, and the tick, sleep together</p><p class="d-flex justify-content-center">they feel, a pulse so rare</p><p class="d-flex justify-content-center">the blood, on a plate, in circles</p><p class="d-flex justify-content-center">it begs for garnish and pills</p><br></br><p class="d-flex justify-content-center">and the iron, is in, your coffee</p><p class="d-flex justify-content-center">we are steepled, steeping sheep</p><p class="d-flex justify-content-center">and the shepherd, is hard, of hearing</p><p class="d-flex justify-content-center">all the pain, the bugs sleep through</p><br></br><p class="d-flex justify-content-center">the nerve says why, am i still here, in an age, that can’t sense</p><p class="d-flex justify-content-center">the blanket doesn’t keep me warm</p><p class="d-flex justify-content-center">the tick says now, is the chance, is the sign, is the time</p><p class="d-flex justify-content-center">for kicking covers off each other</p><br></br><p class="d-flex justify-content-center">and i don’t think we’ll freeze</p><p class="d-flex justify-content-center">and i don’t think we’ll fight</p><p class="d-flex justify-content-center">and i don’t think we’ll flee</p><br></br><p class="d-flex justify-content-center">is it liminal? is it safe?</p><p class="d-flex justify-content-center">is it enough not to hear it plain</p><p class="d-flex justify-content-center">and the doctors, say ghosts, replace you</p><p class="d-flex justify-content-center">but when i look, i'll know the truth</p><br></br><p class="d-flex justify-content-center">the nerve says come, sit beside, tell a story, say goodbye</p><p class="d-flex justify-content-center">is it malignant i believe it so</p><p class="d-flex justify-content-center">the tick says don't, be afraid, beat yourself, treats withheld</p><p class="d-flex justify-content-center">you deserve what the future holds</p><br></br><p class="d-flex justify-content-center">and i don’t think we’ll freeze</p><p class="d-flex justify-content-center">and i don’t think we’ll fight</p><p class="d-flex justify-content-center">and i don’t think we’ll flee</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 014 when i eat the rich i taste dust </h1><br></br><p class="d-flex justify-content-center">checking over shoulders, anxious in my head</p><p class="d-flex justify-content-center">the broom of the flesh sweeps up stars</p><br></br><p class="d-flex justify-content-center">calibrating old fears, the people drop instead</p><p class="d-flex justify-content-center">it's all the same counting liars</p><br></br><p class="d-flex justify-content-center">when i eat the rich i taste dust</p><br></br><p class="d-flex justify-content-center">guillotine the guilty, call upon the gears</p><p class="d-flex justify-content-center">machines breed the demons we kill</p><br></br><p class="d-flex justify-content-center">give up feeling empty, the mission will take years</p><p class="d-flex justify-content-center">the land we stole in dirt landfills</p><br></br><p class="d-flex justify-content-center">when i eat their fish i taste rust</p><br></br><p class="d-flex justify-content-center">sick the children on them, we'll clean up all the bones</p><p class="d-flex justify-content-center">holy ivory empire</p><br></br><p class="d-flex justify-content-center">cash in all the blood gems, may jewelry be our stones,</p><p class="d-flex justify-content-center">novas don't start with slow fire</p><br></br></div>
+
+            <div class="carousel-item">
+              <img class="mx-auto d-block" src="../../img/chapbooks/embryoniclyrics/haunt.jpg"></img>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 015 wellness cig </h1><br></br><p class="d-flex justify-content-center">come down, the acid eats my friends</p><p class="d-flex justify-content-center">sickness comes instead</p><br></br><p class="d-flex justify-content-center">way out, the wellness cig is lit</p><p class="d-flex justify-content-center">the embers feel my skin</p><br></br><p class="d-flex justify-content-center">ashes remind</p><p class="d-flex justify-content-center">lashes so fine</p><p class="d-flex justify-content-center">infected past time</p><p class="d-flex justify-content-center">kindly denied</p><br></br><p class="d-flex justify-content-center">stay down, in devil poses</p><p class="d-flex justify-content-center">i think i impose</p><br></br><p class="d-flex justify-content-center">lay down, the laughing roses</p><p class="d-flex justify-content-center">feel thorns between toes</p><br></br><p class="d-flex justify-content-center">bury the line</p><p class="d-flex justify-content-center">come up with signs</p><p class="d-flex justify-content-center">dig into knives</p><p class="d-flex justify-content-center">stones in my mind</p><br></br><p class="d-flex justify-content-center">ashes remind</p><p class="d-flex justify-content-center">lashes so fine</p><p class="d-flex justify-content-center">infected past time</p><p class="d-flex justify-content-center">kindly denied</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 016 avalanche </h1><br></br><p class="d-flex justify-content-center">that day a whisper, that brought an avalanche</p><p class="d-flex justify-content-center">the slopes followed, hopes carved</p><p class="d-flex justify-content-center">i'll make sure I don't miss her, in growing our branches back</p><p class="d-flex justify-content-center">our kitchen noses know the path to follow</p><p class="d-flex justify-content-center">never mind the kilter of paths run over</p><p class="d-flex justify-content-center">i know it means something</p><p class="d-flex justify-content-center">please allow no filter for our snow rover</p><p class="d-flex justify-content-center">it chews up all the debris</p><br></br><p class="d-flex justify-content-center">and that's what you mean to me</p><p class="d-flex justify-content-center">at twenty below</p><p class="d-flex justify-content-center">the warmest hello</p><br></br><p class="d-flex justify-content-center">sometimes loud noises might shake down the mountain</p><p class="d-flex justify-content-center">our sturdy builds, our foundation stands</p><p class="d-flex justify-content-center">think back on last time the way that we won then</p><p class="d-flex justify-content-center">the landscape restart can't keep us apart</p><p class="d-flex justify-content-center">we'll let new steps lay the tracks for the creatures</p><p class="d-flex justify-content-center">they'll lay on our porch, wait for dessert</p><p class="d-flex justify-content-center">all through the night broken trees print their features</p><p class="d-flex justify-content-center">across our window, waiting for winter</p><p class="d-flex justify-content-center">to pass</p><br></br><p class="d-flex justify-content-center">and that's all we can see</p><p class="d-flex justify-content-center">let frozen time go</p><p class="d-flex justify-content-center">to spring days that glow</p><br></br><p class="d-flex justify-content-center">the light time, the long calls,</p><p class="d-flex justify-content-center">the late kind of windfalls,</p><p class="d-flex justify-content-center">remote work to hand saws,</p><p class="d-flex justify-content-center">dancing torque in forest sprawl,</p><p class="d-flex justify-content-center">another toke pass protocol,</p><p class="d-flex justify-content-center">and fire pits and shared shawls,</p><p class="d-flex justify-content-center">our gains found in glade walls,</p><br></br><p class="d-flex justify-content-center">and i'll wait for us to be</p><p class="d-flex justify-content-center">the trust that you know</p><p class="d-flex justify-content-center">bound through trials and woe</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 017 locusts </h1><br></br><p class="d-flex justify-content-center">graveyard shift does the palette bleed</p><p class="d-flex justify-content-center">from sharpened tongues choking on the feed</p><p class="d-flex justify-content-center">earlier came the nested needs</p><p class="d-flex justify-content-center">in time buried the likely weeds</p><br></br><p class="d-flex justify-content-center">if i make enough friends will i frenzy the locusts</p><p class="d-flex justify-content-center">if i hop all alone will i die in the grass</p><p class="d-flex justify-content-center">if work til i’m dead will i finally focus</p><p class="d-flex justify-content-center">if i stop in my trakcs will i know what will last</p><br></br><p class="d-flex justify-content-center">sink my teeth in the final hour</p><p class="d-flex justify-content-center">break my neck on time's roadside flower</p><p class="d-flex justify-content-center">lose my senses the notes devour</p><p class="d-flex justify-content-center">crinkle paper on rotting sour</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 018 event horizon </h1><br></br><p class="d-flex justify-content-center">some nights darker but I don't fold</p><p class="d-flex justify-content-center">the torch inside that she first told</p><br></br><p class="d-flex justify-content-center">No event horizon, can hold my light that finds her whole</p><br></br><p class="d-flex justify-content-center">She insights a graver toll</p><p class="d-flex justify-content-center">The one paid up for my control</p><br></br><p class="d-flex justify-content-center">No event horizon, can hold my light that finds her whole</p><br></br><p class="d-flex justify-content-center">I walk this space and time with her hand</p><p class="d-flex justify-content-center">Until I reach the last grain of sand</p><br></br><p class="d-flex justify-content-center">No event horizon, can hold my light that finds her whole</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> 019 thank god for cancer (miss me from heaven) </h1><br></br><p class="d-flex justify-content-center">talked about god being in your chest,</p><p class="d-flex justify-content-center">about the tissue kept from your heart.</p><p class="d-flex justify-content-center">can i bum a light you said</p><p class="d-flex justify-content-center">and at first a dime to get you fed.</p><br></br><p class="d-flex justify-content-center">came for the blue flame grill,</p><p class="d-flex justify-content-center">stayed for a roasted fissure.</p><p class="d-flex justify-content-center">peppers painted black,</p><p class="d-flex justify-content-center">say i’ve got your back.</p><br></br><p class="d-flex justify-content-center">that global knock out padded my pocket,</p><p class="d-flex justify-content-center">unemployment dollars a bit too much.</p><p class="d-flex justify-content-center">we split it even.</p><p class="d-flex justify-content-center">funny how family starts to believe in.</p><br></br><p class="d-flex justify-content-center">had to leave, but it’s not my choice.</p><p class="d-flex justify-content-center">saved enough to keep you going.</p><p class="d-flex justify-content-center">thousand mile delivery</p><p class="d-flex justify-content-center">with clouds lining silvery.</p><br></br><p class="d-flex justify-content-center">wasn’t there to see you get an apartment key,</p><p class="d-flex justify-content-center">but i felt what it meant.</p><p class="d-flex justify-content-center">not much savings but we’ll struggle the same.</p><p class="d-flex justify-content-center">i’ll never let you feel their blame.</p><br></br><p class="d-flex justify-content-center">the bills got to be a bit much,</p><p class="d-flex justify-content-center">it maimed to say that you can’t stay.</p><p class="d-flex justify-content-center">that cleaver taste</p><p class="d-flex justify-content-center">and the same old waste.</p><br></br><p class="d-flex justify-content-center">the legs gave out,</p><p class="d-flex justify-content-center">you couldn’t stand it.</p><p class="d-flex justify-content-center">time for the quacks,</p><p class="d-flex justify-content-center">the records on the fax.</p><br></br><p class="d-flex justify-content-center">while you can’t sleep my wallet rests easy.</p><p class="d-flex justify-content-center">i am cut down to a size that can’t be touched.</p><p class="d-flex justify-content-center">thank god for cancer,</p><p class="d-flex justify-content-center">death to old dancer.</p><br></br></div>
+
+          </div>
+
+          <!-- Left and right controls -->
+
+          <a class="carousel-control-prev" href="#chapCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#chapCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
