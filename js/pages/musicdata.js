@@ -49,7 +49,7 @@ let songs = [
     },
     {
         name: '__ilkicould__',
-        path: '../img/music/__ilkicould__.wav',
+        path: '../img/music/ilkicould.wav',
         artist: 'd.v. bones & balloons',
         cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
     },
