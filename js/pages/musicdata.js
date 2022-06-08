@@ -6,6 +6,12 @@ let songs = [
         cover: '../img/music/coyoteembouchure.jpg'
     },
     {
+        name: 'lean_in',
+        path: '../img/music/sciontific_method/lean_in.wav',
+        artist: 'sciontific method',
+        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+    },
+    {
         name: 'foster home foam',
         path: '../img/music/sciontific_method/fosterhomefoam.wav',
         artist: 'sciontific method',
