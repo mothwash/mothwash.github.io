@@ -122,4 +122,29 @@ $(document).ready(function() {
           forwardBtn.click();
       }
   }, 500)
+
+
+  // add songs
+  const songlist = document.querySelector('.song-list');
+  for (i=1; i<songs.length; i++) {
+    var songlisting = document.createElement('li');
+    songlisting.textContent = songs[i].name;
+    songlisting.classList.add('songlisting')
+    songlist.appendChild(songlisting);
+  }
+
+
+  // click on song
+  songlist.addEventListener('click', function(e) {
+    if (e.classList = "songlisting") {
+      for (i=0; i<songs.length; i++) {
+        if (songs[i].name == e.target.textContent) {
+          setMusic(i);
+        }
+      }
+    }
+  })
+
+
+
 });

@@ -209,3 +209,70 @@
 .disk.play{
     animation-play-state: running;
 }
+
+
+
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: grey;
+border-radius: 10px; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+width: 12px;
+background-color: grey; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
+
+.square::-webkit-scrollbar-track {
+border-radius: 0 !important; }
+
+.square::-webkit-scrollbar-thumb {
+border-radius: 0 !important; }
+
+.thin::-webkit-scrollbar {
+width: 6px; }
+
+.scroll {
+position: relative;
+overflow-y: scroll;
+height: 121px; }
+
+.card-body {
+  text-align: right;
+  padding-left: 125px;
+}
+
+
+
+
+
+
+
+.song-list {
+  /* Remove default list styling */
+  /*text-align: right;*/
+  list-style-type: none;
+  padding: 25px 0px 0px 0px;
+  margin: 25px 0px 0px 0px;
+  font-size: 14px; /* Increase font-size */
+  text-align: right;
+  background-image: url("../../img/music/collageness.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.song-list li {
+  border: 1px solid #ddd; /* Add a border to all links */
+  width: 70%;
+  margin-left: 30%;
+  background-color: grey;
+  margin-bottom: 12px;
+  opacity: 90%;
+  radius: 50%;
+}
