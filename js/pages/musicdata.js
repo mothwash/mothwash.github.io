@@ -6,14 +6,14 @@ let songs = [
         cover: '../img/music/coyoteembouchure.jpg'
     },
     {
-        name: 'lean_in',
-        path: '../img/music/sciontific_method/lean_in.wav',
+        name: 'foster home foam',
+        path: '../img/music/sciontific_method/fosterhomefoam.wav',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
-        name: 'foster home foam',
-        path: '../img/music/sciontific_method/fosterhomefoam.wav',
+        name: 'foucauldian nuf',
+        path: '../img/music/sciontific_method/foucauldian_nuf.wav',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
@@ -24,20 +24,20 @@ let songs = [
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
-        name: "rainbow's lullaby",
-        path: '../img/music/sciontific_method/rainbowslullaby.wav',
+        name: 'i know better',
+        path: '../img/music/sciontific_method/iknowbetter.wav',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
-        name: "spicy peach porpoise",
-        path: '../img/music/sciontific_method/spicypeachporpoise.wav',
+        name: "parking garage",
+        path: '../img/music/sciontific_method/parkinggarage_v01.mp3',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
-        name: "ekwus",
-        path: '../img/music/sciontific_method/ekwus.wav',
+        name: 'lean_in',
+        path: '../img/music/sciontific_method/lean_in.wav',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
@@ -48,8 +48,32 @@ let songs = [
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
-        name: "parking garage",
-        path: '../img/music/sciontific_method/parkinggarage_v01.mp3',
+        name: "ekwus",
+        path: '../img/music/sciontific_method/ekwus.wav',
+        artist: 'sciontific method',
+        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+    },
+    {
+        name: "avalanche",
+        path: '../img/music/sciontific_method/avalanche.wav',
+        artist: 'sciontific method',
+        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+    },
+    {
+        name: "spicy peach porpoise",
+        path: '../img/music/sciontific_method/spicypeachporpoise.wav',
+        artist: 'sciontific method',
+        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+    },
+    {
+        name: "a framed painting of violet's ass",
+        path: '../img/music/sciontific_method/a_framed_painting_of_violets_ass.mp3',
+        artist: 'sciontific method',
+        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+    },
+    {
+        name: "rainbow's lullaby",
+        path: '../img/music/sciontific_method/rainbowslullaby.wav',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
