@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/chapbooks.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/chapbooks.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">new chapbooks</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../activism.html">activism</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../poems.html">poems</a></div>
+          <div class="flex-item"><a href="../chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- page container -->
+    <div class="container-fluid chapbook-container">
+      <div class="row">
+        <div id="chapCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+          <!-- indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#chapCarousel" data-slide-to="0" class="active indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="1" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="2" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="3" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="4" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="5" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="6" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="7" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="8" class="indicatorColor"></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img class="mx-auto d-block" src="../../img/chapbooks/curriesirises/curriesirisescover.jpeg"></img>
+              <h1 class="d-flex justify-content-center"> cover </h1>
+              <br></br>
+            </div>
+
+            <div class="carousel-item">
+              <h1 class="d-flex justify-content-center"> curry and irises </h1>
+              <br></br><p class="d-flex justify-content-center">the curry and irises have a new mass. gravity ate their weight through the bowl and vase, through the sanded table top, and pulled up rug thread. the hardwood beneath splintered and the concrete rebelled neatly. shredded rice and exploded leaves are clinging to our shocked faces, their mass unchanged. the walls are also decorated with organic scraps. we check the news. a shocked flower farmer stands before empty stalks and tossed up dirt. chefs poke their heads through broken pots. at least, the ones who dodged shrapnel from collapsing stove tops. sections of hospitals cordoned off to protect the world from atrocities, but the media eats them like gravity eats curry and irises. we had just set the table. somehow packages in bodegas were unscathed. the little Pakistani shop on the corner lost their office, but kept their shelves, now mostly empty as federal agencies come to collect dehydrated spices. the same with iris seeds. birds have fought gravity since their infancy. a warehouse in Idaho is now permanently sealed. crates of rotting curry and boxes of frozen seeds. a testing facility nearby has a concrete kitchen. concrete pots and pans. concrete stirring spoons. heavy lifters recruited to experiment. cold or luke warm won't do it. only when hot and ready to eat do the molecules form super structures. it's so fast that the heat produced matches a small star for a nanosecond in a single millimeter radius. a top security garden times blooming speeds. slowmo footage analyzed with trained artificial intelligence. all that aside, we've mixed feelings as a planet. sadder without curry or irises, and also kinder with each other. falling is now both tasteful and beautiful.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> gravity orders galactic doordash </h1><br></br><p class="d-flex justify-content-center">astrophysicists picked it up first. an anomaly of an asteroid hurtling towards our world. given the recent curry and iris episode, we were suspicious. pundits of the current campaigning period offered mass speculation and incumbents used their position to leverage backdoor discussions with military leaders that cast other speculations. a race was deigned to speculators, a hysteric theorizing that met historic levels. car accidents increased as people couldn’t break away from notifications on their favorite forums. a new drama series was written and produced for nearly a hundred languages. water cooler discussions were suddenly riveting. city folk could find common ground with their elders in small towns. the finale was scheduled for the moments before impact. we curled up with our cat and a big bowl of popcorn. one of our favorite characters, a comic driven by innuendo and developed in melodrama, got to say goodbye to their best friend before the impact. the last five minutes made a montage of well lit faces turning towards a mass of computer generated imagery. meant to mirror our own faces here in a moment. as the show concluded and the last advertisement faded, the cast filled the screen for a countdown. even with the popcorn long gone, something strange started with the popcorn kernels, suddenly lifting into the air. our cat’s ears perked up and we felt lightness in ourselves. nothing changed in the skies, as the asteroid was scheduled for an oceanic landing. we grabbed the remote control out of the air and flipped to the NASA channel just as the camera in front of the show’s cast began to rise and rotate. we felt our bodies lift along with the bed beneath us. we watched the tv float along with boats on the other side. the tides stopped and coagulated. one camera man was left broadcasting as the control board slipped into the air away from the producer. clinging on to dear life, the cameraman caught an unfocused asteroid deccelerate and gently rest on the water’s surface. an opening under the asteroid spilled a hot mass that emanated blinding light. just as the structural integrity of the crust was compromised and the air began to thin from our throats, the asteroid slipped beneath the water and the ships slowly joined the tides beneath them. with retrieval impossible, the theorists and speculators went wild. my personal favorite, was that gravity ordered food. i only worry about a growing hunger beneath our feet. i’m also kind of curious as to what cosmic curry tastes like.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> the new sun has an awkward date </h1><br></br><p class="d-flex justify-content-center">humanity had questions for our ground. for falling apples. for relativity and its progeny. we wanted to know what was out or in there and who was pulling what levers. just like us to blame some kind of sentience. to point fingers like choices are just choices. while there was time to premeditate before the asteroid arrived, when the new sun arrived, it was night. the last night we would see for a while. i was having a late night cig when the space around me rapidly started glowing. when looking around didn’t clue me in to the new dawn, i looked up just as a growing orb outgrew it’s lunar eclipse. within half a minute, it was daylight just before midnight. the insects fled and the ground warmed. the wind picked back up and neighbors came outside to discover with terror how much more expensive black out curtains would become. people were reasonably upset, as the new second daytime interrupted old circadian rhythms, as the new heat devastated old climates, as nocturnalists in our old equilibrium were squeezed out of new perpetual exposure, as the shroud of shadows we had left to old activities abandoned us for new vulnerabilities. physics, now a popular field again, had undergraduates watching round the clock, with provided specialized sunglasses. they got discounts at the grocery store, because we had seen pictures in the media about the dark circles that plague their faces. they used a litany of equipment to estimate the permanence of this new look. it was discovered that solar flares were passing between the two stars, decorating each other with radiated isotopes. passing molecular notes. cryptographers, linguists, interpreters, sleuths and detectives, investigators, and other decipherers worked tirelessly to piece together a decoder. After the 51st detected flare, the machines were able to translate, but only to the apache language. in attempts to negotiate the chief’s recruitment, a land back bill was passed. by the hundredth flare, an agreement was settled and the interpretation was meant to be announced. at the press release, it was decided that the new sun was trying to court our sun, and that it wasn’t going very well. when the chief said the sun would likely depart soon, she was absolutely right.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> it's a bird, it's a plane </h1><br></br><p class="d-flex justify-content-center">on a building, a disheveled person made claims they could fly. they said they had entered a gas station alleyway where gravity had given them a pass to fly. they waived their arms vigorously and tried to pull in a crowd. the fire department showed up with one of those inflatable crash pads and negotiators dusted off their megaphones. the person on the roof kept saying that the pass said, ‘it’s all gravy with gravity,’ and asking us ‘is that alright? will it work?’ the negotiator asked, ‘why would gravity know english? how would it understand puns having never spoken to us? what gives you the idea that you’ll be able to fly?’ these were fair questions i thought, and the answer was disturbing. ‘gravity said so and said it’s all in the fine print but i can’t read that since i lost my prescription glasses.’ the negotiator, very tired and looking like an undergrad with darkened circles around their eyes said, ‘if we get you a prescription, will you come down?’ the person on the roof nodded. a half hour or so later, an ophthalmologist showed up with a few frames of varying intensity. there was a sweet scene where the disheveled person hugged the ophthalmologist with tears in their eyes. they then remembered why they were there and looked down at the pass. i later heard on the news that the pass was scribbled on the back of a Burger King coupon, and in very fine typewritten font, it said to ‘clap your hands and jump straight up.’ i wasn’t able to see it in person, because when the person on the roof leapt, they flew away at supersonic speeds. that alleyway was never found and that person, now most wanted, was never seen again. i hope they got some Burger King before going into hiding. i hope they didn’t use a coupon.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> we didn't even notice </h1><br></br><p class="d-flex justify-content-center">hiccups have been gone this whole time. while damn near impossible to confirm, something seems to be happening to us. not a spasming diaphragm to spare. it must have felt hallucinating to be the first to ask. 'hey, have you hiccuped in a while?' with a response of 'no why do you ask?' and by the third or fourth survey, starting to sense real disembodiment. it's wholly occupied my brain for a few days now. the initial shock has faded for most, now making jabs at drinking water upside down. the rapid normalization unsettled me too. i listen for breaths, for yawns, for sniffles, for popped knuckles, for snores, for sighs, for sobs, for laughs, for ticks, for sneezes, for snorts, for noises. not a hiccup to be found.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> a novel discovery </h1><br></br><p class="d-flex justify-content-center">it’s been a few years since the gravity feast. the Institute of Research into Irises and Spices (IRIS) has been working diligently to genetically engineer speices of irises and spices that can withstand the superstructuing now known as Cumulative Uniting of Reactive Radicals in Yield (CURRY). in this time, children have only seen pictures of petals and past dishes. certain cultures have lamented the loss of treasured delicacies with annual mourning. and that would change. an olympic champion working at IRIS is also a world class opera singer. while controlled trials in the early stages attempted to account for as many variables as possible, the policies around blooming flowers and cooking curries have loosened. the reaction is easy to anticipate and stay safe from. while performing the final act of the threepenny opera, the olympic champion took a step back before the curry entered it’s mass accumulating stage. eyes closed, unlocking the loveliest of melodies, the champion stretched before the hot dish. arms gripping the concrete pot, she braced for lift off, and flung hot curry all across the laboratory. stunned, she called over an assistant to analyze the landing spots of splattered curry. one spot in the grass rested nicely on the blades and a small ant touched its antennae to it before retreating to its nest.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> it's a goddamn musical </h1><br></br><p class="d-flex justify-content-center">vocal lessons accompany gardening and quantum physics cirriculae, as toddlers sing rhyming songs about spices and irises. world renowned chefs are adept at carrying a tune and music wafts with decorated scents. the coalition of gravitational constants, a religious faction, makes routine offerings. flower farmers worth their salt decorate each stalk with it’s own small speaker and explore with different voices. i’ve heard different seasons and weathers prefer different vocalists, but Billie Holiday is a safe bet. gravity listens, and if you think about it, there’s music in the things we see. harmonies of color, dissonance of shapes. we are semiotic smorgasbords. we were getting dinner and a show a few months later, a bollywood production with a meal and i heard someone hiccup. while it may have been a relief, something unnerving brought caution back full circle.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> hungy hippos </h1><br></br><p class="d-flex justify-content-center">it toppled. oppressive power structures and wealthy overlords. this is a crazy jump, but stick with me. you see, gravity was waiting in a gas station alleyway. a broken lanky figure that stayed wheelchair bound next to rusted soda fountain under the eaves out back. the person on the roof, that had been in hiding, got an education in the Tibetan mountains. turns out, gravity is a polyglot, and with some careful hardly detectable flying, the person on the roof found gravity again. while staying at a nearby motel, for three weeks gravity met with the person on the roof and they together drafted a manifesto that was quickly distributed. it helps that the person on the roof can fly. this would be the guide for an anarcho fluid-direct democracy. at first, the law tried to organize against it, in all branches of government, including propaganda. but gravity gave out different kinds of passes. they read, ‘it’s your grave with gravity’ and would often sink everything in a 20 meter radius. these little passes could be posted like C4 explosives and denotated with whatever lived in the fine print. the compromises that comrades endured, following the instructions on the fine print, often led to martyrdom. the unlucky early adopters gave way to less harsh compromises in the fine print. little things needed to be done, like giving a coat to someone who needed one or teaching a child something new. those little gestures of kindness became cultural foundations for our new society, one without disparate, inequitable, and prejudiced forces. the media was the last to cave, as news on the internet had made it difficult to disrupt with a single plot of space. they fought tirelessly to protect and rationalize the old structures. the new sun came back for a night and exposed them in the middle of a planning meeting, uncovered the last army assembling barriers around the new utopian epicenter, and gave the resistance time to build up a counter response. that was the finishing blow, and the new sun blew a kiss to our sun before departing. gravity, from what i heard, called a meeting, and expressed gratitude for our patience. at the end of the speech, gravity dropped to the center of the Earth. hiccups left for good and irises started to grow upside down from trees and curry tasted absolutely delicious and was available at every state fair.</p><br></br>
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+
+          <a class="carousel-control-prev" href="#chapCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#chapCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

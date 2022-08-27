@@ -78,6 +78,24 @@ let songs = [
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
+        name: "nick-knock",
+        path: '../img/music/nick-knock.mp3',
+        artist: 'sciontific method b-sides',
+        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+    },
+    {
+        name: "bad/rest",
+        path: '../img/music/Bad-Rest.mp3',
+        artist: 'sciontific method b-sides',
+        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+    },
+    {
+        name: "flow (queenman)",
+        path: '../img/music/queenman.mp3',
+        artist: 'sciontific method b-sides',
+        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+    },
+    {
         name: '__ilkicould__',
         path: '../img/music/ilkicould.wav',
         artist: 'd.v. bones & balloons',
