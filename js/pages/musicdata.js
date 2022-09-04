@@ -78,22 +78,34 @@ let songs = [
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
+        name: "flow",
+        path: '../img/music/runningnumbers/flow.mp3',
+        artist: 'running numbers in a mollusk shell',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
         name: "nick-knock",
-        path: '../img/music/nick-knock.mp3',
-        artist: 'sciontific method b-sides',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        path: '../img/music/runningnumbers/nick_knock.mp3',
+        artist: 'running numbers in a mollusk shell',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
+        name: "water-math",
+        path: '../img/music/runningnumbers/water-math.mp3',
+        artist: 'running numbers in a mollusk shell',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
     },
     {
         name: "bad/rest",
-        path: '../img/music/Bad-Rest.mp3',
-        artist: 'sciontific method b-sides',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        path: '../img/music/runningnumbers/Bad-Rest.mp3',
+        artist: 'running numbers in a mollusk shell',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
     },
     {
-        name: "flow (queenman)",
-        path: '../img/music/queenman.mp3',
-        artist: 'sciontific method b-sides',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        name: "drawing attention",
+        path: '../img/music/runningnumbers/drawingattention.mp3',
+        artist: 'running numbers in a mollusk shell',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
     },
     {
         name: '__ilkicould__',
