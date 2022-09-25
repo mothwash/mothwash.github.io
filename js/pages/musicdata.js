@@ -6,6 +6,12 @@ let songs = [
         cover: '../img/music/coyoteembouchure.jpg'
     },
     {
+        name: "fair",
+        path: '../img/music/runningnumbers/fair.mp3',
+        artist: 'running numbers in a mollusk shell (bonus)',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
         name: 'foster home foam',
         path: '../img/music/sciontific_method/fosterhomefoam.wav',
         artist: 'sciontific method',
