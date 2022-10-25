@@ -1,9 +1,15 @@
 let songs = [
     {
         name: 'coyote embouchure',
-        path: '../img/music/coyoteembouchureV01.wav',
+        path: '../img/music/coyoteembouchureV01.mp3',
         artist: 'mothwash',
         cover: '../img/music/coyoteembouchure.jpg'
+    },
+    {
+        name: "antecedent",
+        path: '../img/music/runningnumbers/antecedent.mp3',
+        artist: 'running numbers in a mollusk shell (bonus)',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
     },
     {
         name: "fair",
@@ -12,26 +18,44 @@ let songs = [
         cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
     },
     {
+        name: "coffee induced nightmares",
+        path: '../img/music/runningnumbers/coffee-induced-nightmares.mp3',
+        artist: 'running numbers in a mollusk shell (bonus)',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
+        name: "fey cave mouth",
+        path: '../img/music/runningnumbers/feycavemouth.mp3',
+        artist: 'running numbers in a mollusk shell (bonus)',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
+        name: "candle cell",
+        path: '../img/music/runningnumbers/candlecell.mp3',
+        artist: 'running numbers in a mollusk shell (bonus)',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
         name: 'foster home foam',
-        path: '../img/music/sciontific_method/fosterhomefoam.wav',
+        path: '../img/music/sciontific_method/fosterhomefoam.mp3',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
         name: 'foucauldian nuf',
-        path: '../img/music/sciontific_method/foucauldian_nuf.wav',
+        path: '../img/music/sciontific_method/foucauldian_nuf.mp3',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
         name: 'aphantasia',
-        path: '../img/music/sciontific_method/aphantasia.wav',
+        path: '../img/music/sciontific_method/aphantasia.mp3',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
         name: 'i know better',
-        path: '../img/music/sciontific_method/iknowbetter.wav',
+        path: '../img/music/sciontific_method/iknowbetter.mp3',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
@@ -43,31 +67,31 @@ let songs = [
     },
     {
         name: 'lean_in',
-        path: '../img/music/sciontific_method/lean_in.wav',
+        path: '../img/music/sciontific_method/lean_in.mp3',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
         name: "cavern ruffles",
-        path: '../img/music/sciontific_method/cavernruffles.wav',
+        path: '../img/music/sciontific_method/cavernruffles.mp3',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
         name: "ekwus",
-        path: '../img/music/sciontific_method/ekwus.wav',
+        path: '../img/music/sciontific_method/ekwus.mp3',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
         name: "avalanche",
-        path: '../img/music/sciontific_method/avalanche.wav',
+        path: '../img/music/sciontific_method/avalanche.mp3',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
         name: "spicy peach porpoise",
-        path: '../img/music/sciontific_method/spicypeachporpoise.wav',
+        path: '../img/music/sciontific_method/spicypeachporpoise.mp3',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
@@ -79,7 +103,7 @@ let songs = [
     },
     {
         name: "rainbow's lullaby",
-        path: '../img/music/sciontific_method/rainbowslullaby.wav',
+        path: '../img/music/sciontific_method/rainbowslullaby.mp3',
         artist: 'sciontific method',
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },

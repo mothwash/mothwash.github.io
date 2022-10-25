@@ -211,6 +211,18 @@
 }
 
 
+.shuffle{
+  width: 14%;
+  display: block;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  margin-top: 10%;
+}
+
+
+
+
 
 
 .scrollbar-ripe-malinka::-webkit-scrollbar-track {

@@ -145,6 +145,23 @@ $(document).ready(function() {
     }
   })
 
+  //shuffle
+  const shuffle_btn = document.querySelector(".shuffle-btn")
+  const songlistings = document.querySelector(".songlisting")
+  shuffle_btn.addEventListener('click', function(e) {
+    var m = songs.length, t, i;
+    // shuffle songs
+    while (m) {
 
+      i = Math.floor(Math.random() * m--);
+
+      t = songs[m]
+      songs[m] = songs[i]
+      songs[i] = t
+
+    }
+    setMusic(0)
+
+  })
 
 });
