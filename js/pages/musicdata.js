@@ -36,6 +36,24 @@ let songs = [
         cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
     },
     {
+        name: "stuck ouroboros",
+        path: '../img/music/runningnumbers/stuckouroboros.mp3',
+        artist: 'running numbers in a mollusk shell (bonus)',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
+        name: "pembroke, MA",
+        path: '../img/music/runningnumbers/pembrokeMA.mp3',
+        artist: 'running numbers in a mollusk shell (bonus)',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
+        name: "we are young huh",
+        path: '../img/music/runningnumbers/weareyounghuh.mp3',
+        artist: 'running numbers in a mollusk shell (bonus)',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
         name: 'foster home foam',
         path: '../img/music/sciontific_method/fosterhomefoam.mp3',
         artist: 'sciontific method',
