@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/chapbooks.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/chapbooks.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">new chapbooks</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../activism.html">activism</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../poems.html">poems</a></div>
+          <div class="flex-item"><a href="../chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- page container -->
+    <div class="container-fluid chapbook-container">
+      <div class="row">
+        <div id="chapCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+          <!-- indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#chapCarousel" data-slide-to="0" class="active indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="1" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="2" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="3" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="4" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="5" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="6" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="7" class="indicatorColor"></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+          <div class="carousel-inner" id="increase-text-size">
+
+            <div class="carousel-item active">
+              <img class="mx-auto d-block" src="../../img/chapbooks/vot/vot_img.jpeg"></img>
+              <h1 class="d-flex justify-content-center"> cover </h1>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> variations on theme [b] </h1><br></br><p class="d-flex justify-content-center">a rudimentary mic on apartment carpet at the young age of gibberish tracked over the power rangers theme song. lasers etching the two track classic into a reflective disk. the earliest themes of inheritance and genesis. it lasts as quickly as a breath, a quarter rest, before the curiosity kicks in. soaking in track seeking, requesting inspiration and infinity ad infinitum. to some extent, it is endless. learning in repetition, in the practice of listening for what’s different of the same. perhaps those differences come all to apparent in the act of creation. differences in expectation or progress. going from awestruck to struggling had me striking the wall more times than i’d prefer in hindsight. i had been a mimic since that floor sat recording, but the standards were different. there are several reasons to make copies, be it an exercise of skills, a reflection of the assembly process, or even to feel more connected to the meaning that came a first exposure. that meaning, the decorations of time parading into the context of our environment, has always been key, as instructed by you. if our emotions fill spaces, age is an expansive force against our hearts. across these themes, the instruction has been concrete. there is a process, there is a lesson, there is a muscle to stretch, there is a tug to respect, and there is worth.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> radio cookies [b] </h1><br></br><p class="d-flex justify-content-center">you had said, there are memories tied to music and the right sounds in the right place are ingredients to time travel. i know these are neurons now and that they are formed in proximity to other neurons and that the electrons and neurotransmitters firing off the ends of synapses are not good at staying perfectly on track. this is a worthwhile association because it can lead to astounding imagination. there’s something else special in this experience though, something beyond us as individuals. Brian Greene likens timespace to a loaf of bread (mostly for the purposes of special relativity). me, being who i am, would like to be a worm in this bread, moving through, taking as much as i can chew. in Vonnegut’s book, Timequake, time shakes and sends everyone back ten years to relive every action and event. back in this loaf of bread, instead of thinking of these songs as tethered internally, i’d like to think of them as cookies, pieces of the bread of spacetime flattened and condensed and sweetened. it’s easy to get lost in a loaf as big as the universe, but we generally know where these cookies are. we know where to find them and we never know when we’re going to take a bite so sweet and dense that we feel years before us and ahead of us baked into the taste. even better is we can share the location of these sweets with others. we can hand out directions to other cookies and share them.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> vitality [b] </h1><br></br><p class="d-flex justify-content-center">that album, mortality, taught me more about living than dying. we see the end as long as we look at it, and the same goes for the present moment. i remember the first time i listened to dark side of the moon in its entirety completely stoned. remember seeing the final The Canes show on my 18th birthday. how many times did we watch that live Porcupine Tree DVD? i also remember putting together the playlist for our trip from Boston back home, picking songs that would find a balance between homage and moving forward. death is pretty predictable. what comes at you in the present can keep you plenty on your toes.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> studio time [c] </h1><br></br><p class="d-flex justify-content-center">I can still remember all the times I would sit in the chair at the back of dad's office watching him in the studio. It was always so impressive watching him work. He would stare at the massive screen and listen to a song over and over again, taking it all in. Then, as if it just came to him, he knew how to make just the right changes to make the song even better.</p><br></br><p class="d-flex justify-content-center">I think he's got a similar talent with people. Taking them all in. Studying and listening until he knows all the in and outs of a person and what changes he can make to make their lives better.</p><br></br><p class="d-flex justify-content-center">I wonder if that's what made it so exciting when we started recording my album. This time he wasn't looking at the screen, he was looking at me. And sure enough, he knows exactly how to make the little changes to make my music, and my life, that much better.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> addictive drums [b] </h1><br></br><p class="d-flex justify-content-center">equipment and the tools we use for writing or producing are critical. aside from an instrument or cable here or there, you’ve been my number one supplier of the material components of music making, recording, processing, and storing. starting around sixth grade with an acoustic and have a decent enough studio by my sophomore year of high school. while i perhaps don’t resonate much with what was made, save a few tunes here and there, i had more to learn. there was a period of time, between my freshman year of university and a few months after coming back to Texas, where i had very limited tools. whatever response, whether picking up prose or exploring online options, came coupled with an improved appreciation for the genesis and development of the art and creative output of myself and others. now, having nearly a full studio assembled, i feel and see that prolific expression of myself flowing again. and i’m much kinder to the things i create in exploration.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> what if the music dies [b] </h1><br></br><p class="d-flex justify-content-center">it can’t. it won’t. it is a language that has been used by people without limbs, without voice, without thought, without senses, without a place in the world, without a way forward, by people without experience, without much time left, without knowing theory, without knowing freedom, without peace, without trust, without pain, without memory, without the care of a good teacher, without the love of a patient parent, without suffering in isolation. only in a vaccuum that has never been opened, a space that has no name nor history, a time that has no movement, can the music die. even as the last stars blink out of existance, the resonance of a long legacy of noise will spread, as if amplified by a cosmic Ampeg.</p><br></br></div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> a motif [b] </h1><br></br><p class="d-flex justify-content-center">we struggle to be secure, to be balanced and to learn, struggling to keep up with family and make sense of it all. we might succeed occasionally, and celebrate. and the melody repeats. there’s meaning in the minor and the major. meaning in the fight and the finish. as simple as it is, it’s a hard to follow melody. sometimes it wants to resolve itself long after we want it to. sometimes its resolution is missing something, or hits a note just slightly out of key. sometimes it takes a while for the melody to start itself back up again, and we float, a little bit lost, in dissonance. the melody will come, a train stretching beyond our horizons in both directions, never sure if we’re hopping back on closer to the beginning or the end.</p><br></br></div>
+
+
+          </div>
+
+          <!-- Left and right controls -->
+
+          <a class="carousel-control-prev" href="#chapCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#chapCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

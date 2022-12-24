@@ -89,3 +89,7 @@
   opacity: 75%;
   color: black
 }
+
+#increase-text-size p {
+  font-size: 28px;
+}
