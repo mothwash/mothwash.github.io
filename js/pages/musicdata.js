@@ -6,45 +6,117 @@ let songs = [
         cover: '../img/music/coyoteembouchure.jpg'
     },
     {
-        name: "antecedent",
-        path: '../img/music/runningnumbers/antecedent.mp3',
-        artist: 'running numbers in a mollusk shell (bonus)',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+        name: "pembroke, MA",
+        path: '../img/music/candylandbeaches/pembrokeMA.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "not got",
+        path: '../img/music/candylandbeaches/notgot.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
     },
     {
         name: "fair",
-        path: '../img/music/runningnumbers/fair.mp3',
-        artist: 'running numbers in a mollusk shell (bonus)',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
-    },
-    {
-        name: "coffee induced nightmares",
-        path: '../img/music/runningnumbers/coffee-induced-nightmares.mp3',
-        artist: 'running numbers in a mollusk shell (bonus)',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
-    },
-    {
-        name: "fey cave mouth",
-        path: '../img/music/runningnumbers/feycavemouth.mp3',
-        artist: 'running numbers in a mollusk shell (bonus)',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
-    },
-    {
-        name: "candle cell",
-        path: '../img/music/runningnumbers/candlecell.mp3',
-        artist: 'running numbers in a mollusk shell (bonus)',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+        path: '../img/music/candylandbeaches/fair.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
     },
     {
         name: "stuck ouroboros",
-        path: '../img/music/runningnumbers/stuckouroboros.mp3',
-        artist: 'running numbers in a mollusk shell (bonus)',
+        path: '../img/music/candylandbeaches/stuckouroboros.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "antecedent",
+        path: '../img/music/candylandbeaches/antecedent.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "molten iron",
+        path: '../img/music/candylandbeaches/molteniron.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "fey cave mouth",
+        path: '../img/music/candylandbeaches/feycavemouth.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "disco cinnamon",
+        path: '../img/music/candylandbeaches/discocinnamon.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "justascratch",
+        path: '../img/music/candylandbeaches/justascratch.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "passing itch",
+        path: '../img/music/candylandbeaches/passingitch0.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "winter flanking me in a smoke shop",
+        path: '../img/music/candylandbeaches/winterflank-smokeshop.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "coffee induced nightmares",
+        path: '../img/music/candylandbeaches/coffee-induced-nightmares.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "candle cell",
+        path: '../img/music/candylandbeaches/candlecell.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "a sailor's chokehold",
+        path: '../img/music/candylandbeaches/bustedbrim.mp3',
+        artist: 'candylandbeaches',
+        cover: '../img/music/candylandbeaches/candycover.jpeg'
+    },
+    {
+        name: "flow",
+        path: '../img/music/runningnumbers/flow.mp3',
+        artist: 'running numbers in a mollusk shell',
         cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
     },
     {
-        name: "pembroke, MA",
-        path: '../img/music/runningnumbers/pembrokeMA.mp3',
-        artist: 'running numbers in a mollusk shell (bonus)',
+        name: "nick-knock",
+        path: '../img/music/runningnumbers/nick_knock.mp3',
+        artist: 'running numbers in a mollusk shell',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
+        name: "water-math",
+        path: '../img/music/runningnumbers/water-math.mp3',
+        artist: 'running numbers in a mollusk shell',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
+        name: "bad/rest",
+        path: '../img/music/runningnumbers/Bad-Rest.mp3',
+        artist: 'running numbers in a mollusk shell',
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+    },
+    {
+        name: "drawing attention",
+        path: '../img/music/runningnumbers/drawingattention.mp3',
+        artist: 'running numbers in a mollusk shell',
         cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
     },
     {
@@ -120,36 +192,6 @@ let songs = [
         cover: '../img/music/sciontific_method/quarrycliner.jpg'
     },
     {
-        name: "flow",
-        path: '../img/music/runningnumbers/flow.mp3',
-        artist: 'running numbers in a mollusk shell',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
-    },
-    {
-        name: "nick-knock",
-        path: '../img/music/runningnumbers/nick_knock.mp3',
-        artist: 'running numbers in a mollusk shell',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
-    },
-    {
-        name: "water-math",
-        path: '../img/music/runningnumbers/water-math.mp3',
-        artist: 'running numbers in a mollusk shell',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
-    },
-    {
-        name: "bad/rest",
-        path: '../img/music/runningnumbers/Bad-Rest.mp3',
-        artist: 'running numbers in a mollusk shell',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
-    },
-    {
-        name: "drawing attention",
-        path: '../img/music/runningnumbers/drawingattention.mp3',
-        artist: 'running numbers in a mollusk shell',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
-    },
-    {
         name: '__ilkicould__',
         path: '../img/music/ilkicould.wav',
         artist: 'd.v. bones & balloons',
@@ -163,19 +205,13 @@ let songs = [
     },
     {
         name: 'todeathdoiowe',
-        path: '../img/music/todeathdoiowe.wav',
+        path: '../img/music/todeathdoiowe.mp3',
         artist: 'd.v. bones & balloons',
         cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
     },
     {
         name: 'cmyk',
         path: '../img/music/cmyk.wav',
-        artist: 'd.v. bones & balloons',
-        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
-    },
-    {
-        name: 'tidied overcast',
-        path: '../img/music/tidied_overcast.wav',
         artist: 'd.v. bones & balloons',
         cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
     },
@@ -211,14 +247,14 @@ let songs = [
     },
     {
         name: 'shimmore (snowmigrant)',
-        path: '../img/music/shimmore_snowmigrant.wav',
-        artist: 'mothwash',
+        path: '../img/music/shimmore_snowmigrant.mp3',
+        artist: 'cuckoo shimmore',
         cover: '../img/music/shimmoresnowmigrant.jpeg'
     },
     {
         name: 'cuckoos turn 2 clocks 4 winter',
-        path: '../img/music/cuckoosturn2clocks4winter_draft2.wav',
-        artist: 'mothwash',
+        path: '../img/music/cuckoosturn2clocks4winter_draft2.mp3',
+        artist: 'cuckoo shimmore',
         cover: '../img/music/cuckoos.JPG'
     }
 ]

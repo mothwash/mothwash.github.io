@@ -1,5 +1,60 @@
 let allpoems = [
 		{
+			title:"cometcoming03",
+			keywords:"poem emotional space ",
+			poem:"<p>an iceage-since green comet</p><br><p>all the creature it then saw</p><br><p>will never know what it’s now seen</p><br><p>if a tree grows in the forest. . .</p><br><p></p><br><p>the way light pinballs off celestial bodies</p><br><p>the way mirror images won’t turn back</p><br><p>the way a teacher leaves</p><br><p>before the student learns</p><br>"
+		},
+		{
+			title:"cometcoming02",
+			keywords:"poem emotional space ",
+			poem:"<p>evening textures and nightmare finishes</p><br><p>garnish the morning coffee</p><br><p>past lives mirror themselves, taking on</p><br><p>mirage dsitances, minor discipline</p><br>"
+		},
+		{
+			title:"cometcoming01",
+			keywords:"poem emotional space ",
+			poem:"<p>titanium shelled eden</p><br><p>on the eves on unlikely snow</p><br><p>fever dream centerpiece</p><br><p>doomsday dose</p><br><p>backsweat caught in ribbed linoleum</p><br><p>hydroplaning sideways</p><br><p>a warm cup in a warm bowl</p><br><p>the artist can’t be caught</p><br>"
+		},
+		{
+			title:"a ladder of worms for earbuds",
+			keywords:"prose freaky space ",
+			poem:"<p>‘here, listen to this playlist, it’s full of worms. you have no idea how fertile this harmony is. i sometimes dance with the hatchlings in my dream soup. they don’t leave the soup with air this cold, but i know where the towels are. have you ever been skinny dipping with antique furniture? it gets real sexy until the aggregate of which forms a lake bottom home. prime real estate if you ask me. i’d decorate in famous number sequences only, saving Fibbonacci for silverware. i’m really sorry your plate is soggy, i only know where the towels are in my sleep. you could try knocking me out, sometimes - ‘</p><br><p>zzzz</p><br>"
+		},
+		{
+			title:"'start the week right'",
+			keywords:"prose manic moral lesson ",
+			poem:"<p>when we passed the paint store named after senseless letters sandwhiching an acronym, the weight of a sigh punctured the cabin bottom. i’ve been working out, so i was able to drag it between the brake and accelerator. when we got home, i wedged the sigh in the frame and hurried inside to install a titanium shell in the tub. we wouldn’t wait to punch another hole in a utilitarian carcass. While running around welding equipment, i let some code run that told me where to run when on my there. it was a useful exercise. with a massive life change like yesterday’s, i could both assemble an aluminum empire and trick my mirror image into giving secrets. in all this running around, dropping runny sticky sighs, you had talked to friends and painted a picture.</p><br>"
+		},
+		{
+			title:"the modern date",
+			keywords:"prose art ",
+			poem:"<p>that elephant dung and glitter are equally inescapable, that organic shapes measure against geometry, that a projector at street speeds is two moments overlapping in one place only, that queer rage is poised and naturally overlapping the background, rhubarb made of metal covered in color organized vomit bile - this could be ridden, that cubist cuts introduce many instead of one, that a benign scene is gothic and surreal when eclipsed of shadow in shadow, that an identity while wrapped under trenchcoats is still bleeding with acid rain, and that deadplants scale walls of desctruction; in which, classic portraiture in color and permanence, keeps watch</p><br><p></p><br><p>ChrisOfili_strangeeyes;HayvKahraman_bunnies;MarkBedford_dancinginthestree;MatrineGuitierrez_queerrage;NancyGraves_wheelabout;CynthiaBrants_thecelebrity;KellyFearing_thekiteflyers;ChristopherBrown_November19;DonaldSultan_deadplantseries;KehindeWiley_najeehallII</p><br>"
+		},
+		{
+			title:"collage",
+			keywords:"poem prose struggle bipolar disorder moral lesson demons revolution rhymes ",
+			poem:"<p>an outweighed earnesty. of light chatting forcefully, a gummed up rendition of the pain and its transparency. i plucked a fish dry and paid it in surgery. in time i might die, so it felt right in its urgency. two coats share a pocket no throats lure a locket. please, it’s a closed case infinity, a born-again divinity, the plural in tasted lucidity. in the waiting room ivory, licked off salted security, the papers and pines of seamed breath caught internally. a tread gets a trail, an idea its reality. we had opened a space and made captive our eternity. one knock into socket, we talk towards the market.</p><br><p></p><br><p>a graphic print on paper</p><br><p>of an acid-tripping satyr</p><br><p>pasted on a pasture, glued on an empty void</p><br><p>another page of saviours</p><br><p>writing code to make them greater</p><br><p>the images feel safer, cut and made in my schizoid</p><br><p></p><br><p>the figures come with objects</p><br><p>a productive aesthetic perspective</p><br><p>and my fingers stick together</p><br><p>an attempted obstructing reflective (defective)</p><br><p></p><br><p>part of me, part empty, part of naked dreams and stupid fantasies,</p><br><p>i’ve outweighed my earnesty,</p><br><p>capital kept off of this scene,</p><br><p>oh how the hell do i get seen,</p><br><p>i get case-closed reality,</p><br><p>it tastes of plural lucidity,</p><br><p>a payment-made flat surgery,</p><br><p></p><br><p>i’ll catch eternity</p><br><p>attach security</p><br><p>i’ll catch eternity</p><br><p>attach security</p><br><p></p><br><p>the world may comment on the fractures</p><br><p>cock their heads at the rough tears</p><br><p>in it all i hear the guesswork</p><br><p>knowing hidden there’s a blatant aperture</p><br><p></p><br><p>it’s an egg cracked on the pavement</p><br><p>you all walk by while it cooks,</p><br><p>there’s a demon by the garbage,</p><br><p>waiting for an open gap,</p><br><p>well, i have reason to believe,</p><br><p>that it’s all a bait and trap,</p><br><p>i would give my coat and my dollars,</p><br><p>and a handful of my scraps</p><br><p>for the demon to ingest my hopes</p><br>"
+		},
+		{
+			title:"stethoscare",
+			keywords:"poem ableism ",
+			poem:"<p>a stethoscope with one</p><br><p>ear plug missing</p><br><p>surprisingly imbalanced</p><br><p>and when in use</p><br><p>wiggles off the head</p><br><p>as the heart rattles away</p><br><p>and the poor doctor</p><br><p>felt the phantom limb</p><br><p>when thunder rolled</p><br>"
+		},
+		{
+			title:"pagaentry somniferum",
+			keywords:"poem struggle bipolar disorder freaky ",
+			poem:"<p>this miss congeniality of my many dreams</p><br><p>runs a latex finger through my grape bursting sight</p><br><p>a hunger caused by appetite loss</p><br><p>the dread of counting, of chamber departures,</p><br><p>of a blade spun behind smoke</p><br><p></p><br><p>light cracked sky, lonely petrol pump</p><br><p>abject conjuration</p><br><p>one’s museum spilling sand and dimension</p><br><p></p><br><p>worth riots out of place</p><br><p>no bones in truth’s radiography</p><br><p></p><br><p>a rook turns slowly from the parade</p><br><p>that sense of sense of sense of sense</p><br><p>i cup my face around nostril tubes</p><br><p>chimeric desires dropping patchwork tolerance</p><br><p></p><br><p>prizes, a cold bunker full of them</p><br>"
+		},
+		{
+			title:"passing itch",
+			keywords:"poem addiction ",
+			poem:"<p>i’m coming out of it</p><br><p>an itch comes and passes</p><br><p></p><br><p>an itch comes and passes</p><br><p>wisened up enough</p><br><p>think i’d rather not</p><br><p>we lay down our toys</p><br><p></p><br><p>an itch comes and passes</p><br><p>lick the shells and count</p><br><p>headless chickens squaking</p><br><p>i adore their sound</p><br>"
+		},
+		{
+			title:"winter flanking me in the smokeshop",
+			keywords:"poem depressing sad emotional struggle manic bipolar disorder freaky drugs cigarettes sex hospitalized love growth growing ",
+			poem:"<p>get in my own</p><br><p>way, in the camera's long face</p><br><p>a picture comes to mind</p><br><p>come to find it's</p><br><p>dead, a future shutters on a doubt</p><br><p>with the blood on the mouth</p><br><p>with the tooth hanging out</p><br><p>I said, I can't be bullied in the end</p><br><p>you are the needle in the thread</p><br><p>I let the thoughts in my</p><br><p>head, fall out fall out</p><br><p></p><br><p>memories and head shops</p><br><p>opened up like letters</p><br><p>like the flytrap your mom bought</p><br><p></p><br><p>grim reapers and collars</p><br><p>with steel spikes between</p><br><p>with Lisa Frank stickers half scraped off</p><br><p></p><br><p>gave my tooth a snow grave</p><br><p>the river bed gave</p><br><p>a knock, a melody, a game save</p><br><p></p><br><p>tightened chest unscrewed</p><br><p>the fucks i give chewed</p><br><p>like rust or rot or aptitude</p><br><p></p><br><p>a broken vase and flower pot</p><br><p>drunken hands, the thorns got</p><br><p>the ichor taste, an idle waste</p><br><p></p><br><p>naked on the quarry side</p><br><p>a couch burns, upholstered sigh</p><br><p>the lake is an oil dump</p><br><p></p><br><p>pills glued down on mirror frames</p><br><p>they glow with manufactured names</p><br><p>the vanity the sanity</p><br><p></p><br><p>i can burn a million things</p><br><p>and plunge into a million more</p><br><p>fingers dug into the sore</p><br><p></p><br><p></p><br><p>i see it everywhere</p><br>"
+		},
+		{
 				title: "broad strokes stain teeth",
 				keywords: "poem sad emotional bipolar disorder trauma freaky patriarchy misogyny gore growth growing  ",
 				poem: "<p>let's stretch a canvas over my mouth</p><br></br><p>sacrificial knife for good measure</p><br></br><p>bifurcated tongue poised</p><br></br><p>waiting for the breath</p><br></br><p>to start the race</p><br></br><p></p><br></br><p>it was broad strokes</p><br></br><p>and the blood screaming for oxygen</p><br></br><p>as the thickness filled my stomach</p><br></br><p></p><br></br><p>you have a brush on the other side</p><br></br><p>reshaping the image</p><br></br><p>going where the split muscle couldn't</p><br></br><p></p><br></br><p>the staples get a little loose</p><br></br><p>pulling on my beard hairs</p><br></br><p>the sun screaming at the clouds</p><br></br><p>blushing them orange in the dusk</p><br></br><p></p><br></br><p>before i can fall down</p><br></br><p>you ease me onto an easel seat</p><br></br><p>the smell of dried paint</p><br></br><p>sits behind flushed bile</p><br></br><p></p><br></br><p>the details start to come through</p><br></br><p>scotomaphobia slipping against pigment</p><br></br><p>a double sided piece</p><br></br><p>traced against the inverted vacuum of my lungs</p><br></br><p></p><br></br><p>in the gallery, against the linoleum and air conditioned space</p><br></br><p>a Rorschach grows in the cavities of my decomposition</p><br></br><p>a wine glass swirling in Tribeca</p><br></br><p>rimmed with smelling salts</p><br></br><p></p><br></br><p>you talk of verifiable proof</p><br></br><p>a not known none</p><br></br><p>it's an amicable scene</p><br></br><p>still against my puss dusted teeth</p><br></br><p></p><br></br><p>the journalists come by</p><br></br><p>prepared with pads and gas masks</p><br></br><p>the people peek through</p><br></br><p>laughs and gags under their jackets</p><br></br><p></p><br></br><p>in the final performance</p><br></br><p>the canvas snaps and the once restrained paint grabs color from the air</p><br></br><p>a few mouth movements and then,</p><br></br><p>\"water\"</p><br></br>"
