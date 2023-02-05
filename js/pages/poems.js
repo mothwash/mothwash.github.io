@@ -69,6 +69,18 @@ function filterPoems5() {
       var id = count.toString();
       showthispoem(poemcontainer, id);
     }
+    // this is new
+    if (poemdict.date != undefined) {
+      if (poemdict.date.toUpperCase().indexOf(input) == -1 && poemdict.keywords.toUpperCase().indexOf(input) == -1 && poemdict.poem.toUpperCase().indexOf(input) == -1 && poemdict.title.toUpperCase().indexOf(input) == -1) {
+        var id = count.toString();
+        hidethispoem(poemcontainer, id)
+      } else {
+        var id = count.toString();
+        showthispoem(poemcontainer, id);
+      }
+    }
+    //console.log(poemdict.date)
+    // end this is new
   }
 }
 

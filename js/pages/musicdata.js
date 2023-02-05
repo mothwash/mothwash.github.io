@@ -6,6 +6,42 @@ let songs = [
         cover: '../img/music/coyoteembouchure.jpg'
     },
     {
+        name: "unknown olds",
+        path: '../img/music/unknownolds/avibe.mp3',
+        artist: 'unknown olds',
+        cover: '../img/music/unknownolds/uo_cover.jpeg'
+    },
+    {
+        name: "hairthin optics",
+        path: '../img/music/unknownolds/hairthin_optics.mp3',
+        artist: 'unknown olds',
+        cover: '../img/music/unknownolds/uo_cover.jpeg'
+    },
+    {
+        name: "rinse seas",
+        path: '../img/music/unknownolds/rinsesea.mp3',
+        artist: 'unknown olds',
+        cover: '../img/music/unknownolds/uo_cover.jpeg'
+    },
+    {
+        name: "acid sonatas and stringy toes",
+        path: '../img/music/unknownolds/acidsonatasandstringytoes.mp3',
+        artist: 'unknown olds',
+        cover: '../img/music/unknownolds/uo_cover.jpeg'
+    },
+    {
+        name: "a friendly beast is still a beast",
+        path: '../img/music/unknownolds/friendlybeastabeast.mp3',
+        artist: 'unknown olds',
+        cover: '../img/music/unknownolds/uo_cover.jpeg'
+    },
+    {
+        name: "withdraws from synthetic candlelight (Christophe Beck cover)",
+        path: '../img/music/unknownolds/afireneverseen.mp3',
+        artist: 'unknown olds',
+        cover: '../img/music/unknownolds/uo_cover.jpeg'
+    },
+    {
         name: "pembroke, MA",
         path: '../img/music/candylandbeaches/pembrokeMA.mp3',
         artist: 'candylandbeaches',

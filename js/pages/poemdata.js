@@ -1,5 +1,58 @@
 let allpoems = [
 		{
+			title:"the last of us: bill and frank",
+			date:"Monday January 30 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem apocalypse dystopian love LGBTQIA+ queer gay ",
+			poem:"<p>a story told</p><br><p>blindness is a two-way street</p><br><p>brightened by a thousand suns</p><br><p>and lighter still behind closed lids</p><br><p>a survivalist</p><br><p>blind to and blinded by truth</p><br><p>enigmatic pragmatism</p><br><p>catches charismatic meliorism</p><br><p>in a pit of mesmerism</p><br><p>in a fit of pascifism</p><br><p>in darkness, we are danger predicting</p><br><p>this story held tension, yet they survived</p><br><p>16 long years together</p><br><p>screen-lit all tears and tethered sight beyond the fear that blinds for we are what binds</p><br>"
+		},
+		{
+			title:"painted punchline",
+			date:"Friday January 27 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem comic comedy funny ",
+			poem:"<p>the painter goes big, real big</p><br><p>returning on day 2, bugs have made a mess of it</p><br><p>the painter gets a six pack</p><br><p>usual day, then sits and watches</p><br><p>hairdryer in one hand, beer in the other</p><br><p>blowing away bugs</p><br><p>watching paint dry</p><br><p>i’m sorry, did i say painter?</p><br><p>i meant mortician</p><br>"
+		},
+		{
+			title:"heroes have homes",
+			date:"Friday January 27 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem depressing sad struggle apocalypse dystopian class conflict hospitalized angry unhoused ",
+			poem:"<p>heroes have homes</p><br><p>weep for near failure</p><br><p>apathy against nearest failure</p><br><p>closer to no walls than crumbling ones</p><br><p>closer to a plea than mercy</p><br><p>must it always be someone else’s?</p><br><p>a gift to be given than granted</p><br><p>the hand of a million fingers with</p><br><p>a few pointed or touching</p><br><p>the rest curled inward</p><br><p>like storm exposed spines</p><br><p>like deflated stomachs</p><br><p>what’s a hero without a home?</p><br><p>a breath let go</p><br><p>a forgotten favor</p><br>"
+		},
+		{
+			title:"trade",
+			date:"Sunday January 22 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem dark freaky growth growing ",
+			poem:"<p>i put a lit cigarette in the dumbwaiter</p><br><p>they told me to expect chewing gum, not tea</p><br><p>the dumbwaiter scoffed and rustled leaves</p><br><p>it put me in the bag</p><br><p>i was expecting to breathe, not hold</p><br><p>the cigarette laughed and died</p><br><p>some tea put me in my place</p><br><p>a trade told me to expect ignorance, not so</p><br><p>so i traded and left smoke</p><br>"
+		},
+		{
+			title:"hairthin optics",
+			date:"Saturday January 21 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem depressing sad manic bipolar disorder frustration growth growing ",poem:"<p>muck it up immiscible</p><br><p>i’ll acquit your charges</p><br><p>come up star-cleaved</p><br><p>picking through time’s hair</p><br><p>air caught up in vaccuumed oil</p><br><p></p><br><p>tongue and cheek turn bleak</p><br><p>they’re interned to watch</p><br><p>in the hour we creak</p><br><p>it supposes to know</p><br><p></p><br><p>wouldn’t call it permissible</p><br><p>to let a blind eye float by</p><br><p>itches come with sky scenes</p><br><p>theatrics that mind</p><br><p>business as usual</p><br><p></p><br><p>at night i eat unnatural feelings raw</p><br><p>the light inside seems blocked by sliding doors</p><br><p>at which point halves bleed halfway</p><br><p>to the portals name</p><br><p></p><br><p>drains clogged after</p><br><p>oceans fit through</p><br><p>hairthin optics</p><br><p>i can force it</p><br>"
+		},
+		{
+			title:"the hallmark underworld",
+			date:"Friday January 20 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem depressing sad dark apocalypse dystopian environment climate revolution ",
+			poem:"<p>chewing through a hallmark plot</p><br><p>takes incisor</p><br><p>predictability is hollow and needs to</p><br><p>be punctured</p><br><p>is paid in flat future.</p><br><p>a deficit in time.</p><br><p>the toothbrushes get sticky</p><br><p>with the rot of empty scenes</p><br><p>with a plastic bottle in the bristle forest</p><br><p>with preservatives decomposing preservatives</p><br><p>with a crust of formulaic paste.</p><br><p>crusted clouds cracking in stillness.</p><br>"
+		},
+		{
+			title:"acid sonatas and stringy toes",
+			date:"Monday January 16 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem freaky beautiful ",
+			poem:"<p>the acid in the throat is on a string</p><br><p>the string hops with the conductor’s big toe</p><br><p>i pick shrieks from the closet and</p><br><p>lay them out for the morning</p><br><p>my woodwinds wear them best</p><br><p>pause for low bile</p><br><p>the moon is conducting a sonata</p><br><p>she whispers the movements where we can’t see</p><br><p>the white eggs hatch ramen in the fridge</p><br><p>the brown, reluctance</p><br><p>it’s a mess of limbs either way</p><br><p>so many things made in the dark,</p><br><p>out, performing in threaded squeals</p><br>"
+		},
+		{
+			title:"hidden in infinity (lessons from what is otherwise infinite)",
+			date:"Monday January 16 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem emotional manic bipolar disorder moral lesson DBT dialectical behavior therapy beautiful revolution growth growing ",
+			poem:"<p>in the case of scissors in plastic, a knife is needed</p><br><p>a dialectic model sealed by adhesive spit</p><br><p>a wrapped palm inevitable</p><br><p>i trusted some good nature</p><br><p>prepared an action in my jacket pocket</p><br><p>a room through many doorways</p><br><p>finds few angles</p><br><p>it was divine confidence wrought upon</p><br><p>here they continue out of sight</p><br><p>hear borders creak from pus pools</p><br><p>i have successfully hidden from myself</p><br><p>once again</p><br><p>where will the effort breach to access need?</p><br>"
+		},
+		{
+			title:"checkedout",
+			date:"Saturday January 14 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem emotional gnosis gross ",
+			poem:"<p>knowledge is scattered litter</p><br><p>no archive is more than a dust bin</p><br><p>the necrovours within us</p><br><p>boast of waistlines</p><br><p>of bottom fed swells</p><br><p>no pinky raising can kid</p><br><p>wormy bread and black apple cores</p><br><p>there are no good sides</p><br><p>nothing without something else’s teethmarks</p><br>"
+		},
+		{
 			title:"cometcoming03",
 			keywords:"poem emotional space ",
 			poem:"<p>an iceage-since green comet</p><br><p>all the creature it then saw</p><br><p>will never know what it’s now seen</p><br><p>if a tree grows in the forest. . .</p><br><p></p><br><p>the way light pinballs off celestial bodies</p><br><p>the way mirror images won’t turn back</p><br><p>the way a teacher leaves</p><br><p>before the student learns</p><br>"
