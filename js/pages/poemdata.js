@@ -1,5 +1,71 @@
 let allpoems = [
 		{
+			title:"the dying forest does a tight 5",
+			date:"Mon February 20 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem manic freaky ",
+			poem:"<p>animal coughs fill theatre seats</p><br><p>severd by tree rot</p><br><p>gathered to watch the birth</p><br><p>of the conveyor belt</p><br><p>it has the feeding muzzle’s eyes</p><br><p>it has the paroxysm of dim illumination</p><br><p>of a nocturne’s buried sunbath</p><br><p>the upholstery is getting virulent</p><br><p>how much more can the curtains take?</p><br><p>the dying forest does a tight five</p><br><p>a cage in the shape of time</p><br><p>laughs with its full belly</p><br><p>thick in oxyposit, a little candle wanders</p><br><p>steaming wax tears line the halls</p><br><p>lining the exit</p><br><p>of clapping coughs</p><br>"
+		},
+		{
+			title:"ingrown",
+			date:"Mon February 20 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem trauma ",
+			poem:"<p>one part of me grows under another</p><br><p>organic and tectonic</p><br><p></p><br><p>rest with the root up against my neck</p><br><p>the rings that i sing hide fungal homes</p><br><p>the parent of pressure</p><br><p>a night won’t remember</p><br><p>lighten the lisp of an even score</p><br><p>i come to the gate with a gardened sore</p><br><p>it leaves nude seeds</p><br><p>trusting me</p><br>"
+		},
+		{
+			title:"wetpaper",
+			date:"Sun February 19 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"love ",
+			poem:"<p>we get enough of what they say</p><br><p>talk about it on the way home</p><br><p>they’re smudgeless silver, they’re grease</p><br><p>but you and i, keep it seasoned with ease</p><br><p></p><br><p>it’s exhausting, it’s grey</p><br><p>at this age we know limits</p><br><p>some nights you push me against them</p><br><p>and i check my breath and bpm</p><br><p></p><br><p>don’t say goodbye, they know where to find us</p><br><p>don’t let it by in the time we create</p><br><p>like paper in the rain, we’re out on a limb</p><br><p>honey, there’s a box we gotta fill to the brim</p><br><p>we’ll fill it, sink or swim</p><br><p></p><br><p>we have some means, we have some ways</p><br><p>at signs of hunger, make new moves</p><br><p>in the fashion of the trees, we’ll shiver off our leaves</p><br><p>take cover in the blankets of misty sleeves</p><br><p></p><br><p>many signs of things to come</p><br><p>they want to fill the present’s pockets</p><br><p>instead, let’s pay the future a visit</p><br><p>so we might someday have a spot to sit</p><br>"
+		},
+		{
+			title:"nothingfits",
+			date:"Sat February 18 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem struggle manic bipolar disorder ",
+			poem:"<p>cut the space around my face it opens up in time</p><br><p>i step out of the case and measure out new volume prime</p><br><p>it itches in the moment, need new stitches, please scratch on perforated lines</p><br><p>i can’t fit my skin it peels at this present of mine</p><br><p></p><br><p>in moments clawing at the breath the glowing outline</p><br><p>traced on paper cuts and cutting into vapor fine</p><br><p>i won’t allow the future to get too tight, i invade the sign</p><br><p>it comes across as something wrong from the outside</p><br><p></p><br><p>in excess, clearance sinks into a void that i can’t seem to find</p><br><p>this is a symptom, incoherence coming from the mind</p><br><p>if i could see it i would pluck my eyes and move on blind</p><br><p>i know enough now i am planted next to a grey pine</p><br><p></p><br><p>nothing fits</p><br>"
+		},
+		{
+			title:"psychomotor agitation in the office",
+			date:"Fri February 17 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem manic bipolar disorder career ",
+			poem:"<p>i can still crawl out of my skin</p><br><p>stick myself to the wall</p><br><p>smile and clap my thighs</p><br><p>as corporate as i’ve been made</p><br><p>i can still do this</p><br>"
+		},
+		{
+			title:"'if you're looking to see who i am'",
+			date:"Sun February 12 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem trans growth growing ",
+			poem:"<p>that line in Pose</p><br><p>about pieces of us carried</p><br><p>telling the last of who we are</p><br><p>like the past of the forgiven</p><br><p>you know where to look last</p><br><p>giving us grace to lighten</p><br>"
+		},
+		{
+			title:"short film prestige",
+			date:"Thu February 09 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem love art ",
+			poem:"<p>there is carnage in colored pencil</p><br><p>tucking wind in the lines</p><br><p>tap dancing on pause, play, and replay</p><br><p>a duck hunt of ideas</p><br><p>you absolutely murder</p><br><p>for the bloodthirsty smudge</p><br><p>for the coldblooded shade</p><br><p>graphite hysterics</p><br><p>what you play in your head</p><br><p>rewinded over</p><br><p>i have awarded short film prestige</p><br><p>an imagination dancing with a stutter</p><br>"
+		},
+		{
+			title:"give the moon a piece of our mind",
+			date:"Thu February 09 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem love ",
+			poem:"<p>you dance, not wanting to,</p><br><p>and the moon sends fleets</p><br><p>stars have long been gleaming eyesights</p><br><p>waiting for a reason</p><br><p>we promise to have a stroke in the apocalypse</p><br><p>with each other</p><br><p>finding funny ways to butcher the word</p><br><p>apapocapoo</p><br><p>aplypscocapts</p><br><p>applypappacacooloops</p><br><p>apa-apa-apa-aaaa</p><br>"
+		},
+		{
+			title:"what is love",
+			date:"Thu February 09 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem love ",
+			poem:"<p>this is a very hard thing to do</p><br><p>they say it’s the puppy’s mustard</p><br><p>getting it right</p><br><p>the accents to the moments</p><br><p>the core of the earth is cramped muscle</p><br><p>age measured in elevator clicks</p><br><p>or the routing phone taps before leaving</p><br><p>i choose words as a measurement</p><br><p>and inflate the units</p><br><p>the accents</p><br><p>the milestones</p><br>"
+		},
+		{
+			title:"forecast",
+			date:"Wed February 08 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem love LGBTQIA+ queer gay ",
+			poem:"<p>weather today is: torrential downpour, absolute chance of rain</p><br><p>gender today is: the rarity of a shuffled deck of cards predicted, the strike of lightning twice</p><br><p>feeling today is: the ripping of tides against seaside cave ports, the long hollowed drumming of water masses breaching the portal. a yearning as long as oceanic currents.</p><br><p></p><br><p>weather today is: overcast with the occasional flurry</p><br><p>gender today is: the thought of a fire and a smile under a scarf</p><br><p>feeling today is: a blanket threading between thighs, a tight hold, a security against forces at the window, against thoughtless cold.</p><br><p></p><br><p>weather today is: sixty nine, clear skies with cumulus travelers</p><br><p>gender today is: the opening of forest into meadow</p><br><p>feeling today is: a nap while wearing a halter top of shade, falling asleep to the leaves and your whispers</p><br><p></p><br><p>weather today is: blistering heat and evaporated moisture</p><br><p>gender today is: a dirty library card bending at the edges in a crotcheted wallet</p><br><p>feeling today is: the line between body and air shredding, heat waves curved and smothering our faces, the clap of magnets and deep sea pressure</p><br><p></p><br><p>weather today is: rotation guaranteed, find shelter</p><br><p>gender today is: abstraction, the miasma of smelling nostalgia</p><br><p>feeling today is: the love of motionless parallel, of teenage touches as the world flies by, a sensory explosion from an inch of skin</p><br><p></p><br><p>weather today is: midnight thunderstorms capping the longest day</p><br><p>gender today is: the chlorine of a pool with a violin at the bottom</p><br><p>feeling today is: the give and take of mycelium connection, of fingers that find you at every reach, the aches and lurches of time as nerves at the furthest fringe find anchorage</p><br><p></p><br><p>weather today is: blizzards blanketing visibility</p><br><p>gender today is: the bubbles from an eel tail wiggling</p><br><p>feeling today is: the marvel of circumference, of space taken, of space made and then taken, opened and closed, rising and falling</p><br><p></p><br><p>weather today is: apocalyptic acid rain and soot fog</p><br><p>gender today is: a tree branch made into a cane</p><br><p>feeling today is: cared for as old leather, accepted and revered for enduring, knowing that my experience is respected and ready for another round.</p><br><p></p><br><p>weather today is: primordial and clear, somehow untouched</p><br><p>gender today is: a honey covered bear paw</p><br><p>feeling today is: a beet root tapping a reservoir, pulling deep from the wellspring before getting plucked and licked clean</p><br><p></p><br><p>weather today is: not yet decided, something on the wind promising something else with uncertainty</p><br><p>gender today is: a joint popping with relief</p><br><p>feeling today is: interdimensional fluidity, a river on hold, the revelation of something never before possible.</p><br>"
+		},
+		{
+			title:"cometleaving00",
+			date:"Tue January 31 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem manic ",
+			poem:"<p>an everything bagel under the couch</p><br><p>healed wounds under glass</p><br><p>the same letter on repeat</p><br><p>last night’s grease under the pillow</p><br><p>foot taps and sun naps</p><br><p>a can of stove toasted cans</p><br><p>there’s a social construct afoot</p><br><p>tear-filled dances, hopeful stances</p><br><p>sorry my voice cracked in the spire</p><br><p>it’s a v4 humming in the motel room</p><br><p>bending across nasal tones and latent phones</p><br><p>feet on a table on a lava pool</p><br><p>there is more than one ocean, one day</p><br><p>leathered confusion, tickling denim</p><br><p>the bathtub has severed from taco reality</p><br>"
+		},
+		{
 			title:"the last of us: bill and frank",
 			date:"Monday January 30 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
 			keywords:"poem apocalypse dystopian love LGBTQIA+ queer gay ",

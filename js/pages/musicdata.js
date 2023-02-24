@@ -6,6 +6,18 @@ let songs = [
         cover: '../img/music/coyoteembouchure.jpg'
     },
     {
+        name: "ingrown",
+        path: '../img/music/in3s/ingrown.mp3',
+        artist: 'in3s',
+        cover: '../img/music/in3s/in3scover.jpeg'
+    },
+    {
+        name: "nothingfits",
+        path: '../img/music/in3s/nothing-fits.mp3',
+        artist: 'in3s',
+        cover: '../img/music/in3s/in3scover.jpeg'
+    },
+    {
         name: "unknown olds",
         path: '../img/music/unknownolds/avibe.mp3',
         artist: 'unknown olds',
