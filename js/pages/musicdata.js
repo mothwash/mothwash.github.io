@@ -12,8 +12,32 @@ let songs = [
         cover: '../img/music/in3s/in3scover.jpeg'
     },
     {
+        name: "tinykitchen",
+        path: '../img/music/in3s/tinykitchen.mp3',
+        artist: 'in3s',
+        cover: '../img/music/in3s/in3scover.jpeg'
+    },
+    {
+        name: "the dying forest does a tight 5",
+        path: '../img/music/in3s/dyingforest_tight5.mp3',
+        artist: 'in3s',
+        cover: '../img/music/in3s/in3scover.jpeg'
+    },
+    {
         name: "nothingfits",
         path: '../img/music/in3s/nothing-fits.mp3',
+        artist: 'in3s',
+        cover: '../img/music/in3s/in3scover.jpeg'
+    },
+    {
+        name: "chokethemdown",
+        path: '../img/music/in3s/chokethemdown.mp3',
+        artist: 'in3s',
+        cover: '../img/music/in3s/in3scover.jpeg'
+    },
+    {
+        name: "grabbing stars though the light's delayed",
+        path: '../img/music/in3s/grabbingstars_lightdelayed.mp3',
         artist: 'in3s',
         cover: '../img/music/in3s/in3scover.jpeg'
     },
