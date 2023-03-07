@@ -36,8 +36,32 @@ let songs = [
         cover: '../img/music/in3s/in3scover.jpeg'
     },
     {
+        name: "flattire commitment",
+        path: '../img/music/in3s/flattirecommitment.mp3',
+        artist: 'in3s',
+        cover: '../img/music/in3s/in3scover.jpeg'
+    },
+    {
+        name: "human hydra",
+        path: '../img/music/in3s/humanhydra.mp3',
+        artist: 'in3s',
+        cover: '../img/music/in3s/in3scover.jpeg'
+    },
+    {
+        name: "iknowmylove",
+        path: '../img/music/in3s/iknowmylove.mp3',
+        artist: 'in3s',
+        cover: '../img/music/in3s/in3scover.jpeg'
+    },
+    {
         name: "grabbing stars though the light's delayed",
         path: '../img/music/in3s/grabbingstars_lightdelayed.mp3',
+        artist: 'in3s',
+        cover: '../img/music/in3s/in3scover.jpeg'
+    },
+    {
+        name: "teapot bargain",
+        path: '../img/music/in3s/teapotbargain.mp3',
         artist: 'in3s',
         cover: '../img/music/in3s/in3scover.jpeg'
     },
