@@ -37,7 +37,7 @@ let songs = [
     },
     {
         name: "flattire commitment",
-        path: '../img/music/in3s/flattirecommitment.mp3',
+        path: '../img/music/in3s/flattire_commitment.mp3',
         artist: 'in3s',
         cover: '../img/music/in3s/in3scover.jpeg'
     },
