@@ -230,3 +230,16 @@ body {
   width: 275px;
   height: 100px;
 }
+
+
+.roll-btn {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 32px;
+  background-color: #d19fe8;
+}
+
+.rollBody {
+  padding-top: 250px;
+}
