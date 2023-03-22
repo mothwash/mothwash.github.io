@@ -1,5 +1,71 @@
 let allpoems = [
 		{
+			title:"grimoire of grasses",
+			date:"Mon Mar 20 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem love ",
+			poem:"<p>a grimoire of grasses</p><br><p>a field between two hands</p><br><p>this power still passes</p><br><p>over our tongues</p><br><p></p><br><p>spine of lace and stitch of time</p><br><p>a dress entangles and later unwinds</p><br><p>wed on the nape of a lake still upright</p><br><p>the banks become pools of promises in tide</p><br><p></p><br><p>let’s have mobius races</p><br><p>across drawn finish lines</p><br><p>let’s fill up empty spaces</p><br><p>a gift wrapped home</p><br><p></p><br><p>night of youth and age of day</p><br><p>unravel the symbols of discordant fey</p><br><p>tied in the knots of Gordian bouquet</p><br><p>a flower for you and beautiful decay</p><br><p></p><br><p>beautiful decay in mindful disarray</p><br>"
+		},
+		{
+			title:"promises",
+			date:"Sat March 18 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"love ",
+			poem:"<p>the things we stand on today may not be the things we stand on tomorrow. the things that make us fall, the things that make us get back up, that’s what makes a vow to me.</p><br><p>all the promises i’ll make are the ones i’ll keep (with a caveat that there will likely be a few more). the promise that we will get tired and need rest, or get tired and grumpy until our bodies tell us they need rest,</p><br><p>the promise that time will not wait for us and we are destined for it to carry us forward, the promise that we will never find perfection and promise that we will likely forget how foolish it is to try for perfection, and that it will be perfect to forget and perfect to fail, perfectly promise that what’s small is actually big and what’s big is actually small, depending on how we look at it.</p><br><p>but these are promises that are untouchable. they are aphoristic truths, they exist beneath our foundations and by nature, will exist beyond us. what are the unbreakable promises that are touchable, pokable, bendable, proddable, twistable? The promises on which i am tested, on which i am pinned and examined?</p><br><p>i will be curious. i will inquire, i will seek to understand, that i will temper the steel of our bond with questions as customary as “how was your day” or “how did you sleep” or strike harder with “how will you know it’s enough?” “what will it take to heal?”</p><br><p>i will be exploratory. test the limits of our comfort and carve new paths. a promise to take trips and lose the trail.</p><br><p>this is also a promise to see where i’ve faltered, where comfort and habit have not kept up with change. you remind me to keep up with the times and let go of time.</p><br><p>i will keep sight of what’s right and true. these are not objective or simple guideposts. they’re more like anchorless buoys out at sea.</p><br><p>because i can only get close, i promise to ask for forgiveness. this will likely be over my poor choices behind the wheel, but i’ve seen your kind and patient heart. i know that we can be lost without losing direction.</p><br><p>finally, i keep, as a promise to you, security. always at my back will be a ground for us to stand on. if i take a leap, i promise to you there will be a rope on my belt. there was a time when i could be a little more reckless. you’ve helped me dream of a safe future and a cushioned recklessness.</p><br><p>For as long as i’m here, i will be the groundskeeper for the home you’ve made in me. we will build and grow gardens and tend to living things (even as demonic as our first) and draw out maps or get lost and promise never to map out what we found</p><br><p>and get caught in the rain and have totally different ideas of whether its cold or not outside and reorganize the furniture at least a couple hundred times and reorganize the art at least a couple hundred more and buy a couple dozen books (the lies) and give up only a handful a few years later</p><br><p>and learn something new or forget something we knew and probably eventually have to cut out carbs or caffeine and likely bitch about it because we lived beautiful human lives and got old and kept sight of what was important and somehow after all that we still have to eat less cholesterol or get to kiss each other around the grey hairs</p><br><p>because i love you and promise to love you until the doctors throw their hands up and cave to our demands that we get to eat carbs and even then i’ll probably promise again to love you until the next generation of doctors come</p><br><p>because it’s you and me to live this life. You, me, this wonderful family, the family of our future, and all the little cats we pick up off the street are gonna love the shit out of this life. for all its trials, for all the nonsense, we will know up from down even underwater</p><br><p>and i will love you the way i’ve set out to from the beginning: entirely.</p><br>"
+		},
+		{
+			title:"meadowspit",
+			date:"Tue March 14 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem environment climate love ",
+			poem:"<p>i am awake for this (with you)</p><br><p>there are too many risks (to choose)</p><br><p></p><br><p>frightening god, we are</p><br><p></p><br><p>i am awake for this (with you)</p><br><p>there are too many risks (to choose)</p><br><p>the lake is burning mess (it’s true)</p><br><p>let’s clean up meadow spit (this view)</p><br><p></p><br><p>frightening god, we are</p><br><p></p><br><p>i am awake for this (with you)</p><br><p>there are too many risks (to choose)</p><br><p>the night is a shallow pit (i knew)</p><br><p>you are the final wish (move through)</p><br><p></p><br><p>frightening god, we are</p><br>"
+		},
+		{
+			title:"linguist of the woods",
+			date:"Mon March 13 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem environment climate love language ",
+			poem:"<p>tap the fingers, a morose morse</p><br><p>spreads across spored flights</p><br><p>suddenly i abet and call it force</p><br><p>the mediums of eyeless sights</p><br><p>semiotics of lovely sprites</p><br>"
+		},
+		{
+			title:"the rinsing of bleeding gums",
+			date:"Mon March 13 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem sad manic bipolar disorder trauma growth growing ",
+			poem:"<p>dental dust to denizen</p><br><p>welcomed by mouth and tongue</p><br><p>by word and narrative</p><br><p>a chewing sound</p><br><p>across palatable loss</p><br>"
+		},
+		{
+			title:"dusty ass cereal",
+			date:"Wed March 08 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"prose joyful love ",
+			poem:"<p>i am made of lucky charms. yes, the dusty ass cereal if that’s what’s made my good fortune. if not that, i have two rabbits feet, because how else did i win the race to your side? i don’t have any horseshoes, but i have people shoes that are well worn from our time together. i don’t really get these lucky symbols and in good chicken or egg first philosophy, my luck is not a luck incompatible with the knowledge that comes with it, or in other words, as lucky as i am to have your trust, your patience, your lovely hold and held belief in love, the boldness of your outline and the kindness of your acceptance, to know or not know whatever degree of luck is attributed, is inconsequential.</p><br>"
+		},
+		{
+			title:"flattire commitment",
+			date:"Tue March 07 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem struggle class conflict moral lesson revolution political ",
+			poem:"<p>ate off the spare, and the risk of chopped squash</p><br><p>highway glass tears at the threads i have to spin</p><br><p>i can’t afford the pills anymore</p><br><p>there there my neighbor, go take the floor</p><br><p>the lure of worms or maybe not to be eaten</p><br><p>dollars and storms, it makes sense we don’t have much</p><br><p>i dream of taking a restful nap</p><br><p>that’s it</p><br><p>television watches and we barely see</p><br><p>emptied out pockets, a time biding bite</p><br><p>i dream of taking a restful nap</p><br>"
+		},
+		{
+			title:"human hydra",
+			date:"Mon March 06 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"prose moral lesson DBT dialectical behavior therapy beautiful water growth growing ",
+			poem:"<p>a person of many heads, many eyes, sits forward-facing on a boat, sewing links to the chain of hindsight. Consciousness has hidden the many hands on many chains, for the illusion of one. Time is stretching the links, taking photographs of itself to stretch the link indefinitely. Art is folding itself into an iron ring in the persons hands. Curiosity is at the helm, fishing for iron in an ocean of blood on a sunny day. Experience is wearing football padding, jumping in to sink, and landing from the sky. this is a cycle. occasionally, a pair of eyes on the person will go blind and Growth will display a fresh pair in a barnacle crusted cigar box. Inspiration comes via animatronic pelicans with compasses in their gullet. a jelly fish will occasionally mount the starboard-side, give them a kiss, and a reason to entreat Survival and Longevity. they are a cute couple and they know where your anchors are. all storm’s are mirages. all sharks are systemic. this ship is equipped with an engine, a handful of toilets, a library of wise napkins - used, a mop of tongues, treasure chests filled with compasses, a glass vase filled with their father’s voice, a flower too heavy to carry, a sink forever stained in shark juice, roadkill in a shadow box, a couple ICBMs, a map of islands shaped like rippling abs, clam eared headphones, dozens of survival books still cling-wrapped, four mistakes tucked in pots and pans, and the myth of the human hydra, but breathing.</p><br>"
+		},
+		{
+			title:"grabbing stars though the light's delayed",
+			date:"Wed March 01 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem happy joyful beautiful love LGBTQIA+ queer gay trans ",
+			poem:"<p>no mold, you’re a sculptress</p><br><p>pocket knife picnic, carve out time</p><br><p></p><br><p>in contest, tens across</p><br><p>in contest, tens across</p><br><p>you hold the real you out</p><br><p>in a kiss you caught</p><br><p></p><br><p>i wouldn’t let it go</p><br><p>it weighs less than naught</p><br><p></p><br><p>dare me to cross the stars for you</p><br><p>we’re just devils landing on our feet</p><br><p>some light’s too far to see</p><br><p>i’m near sighted so please come close</p><br><p></p><br><p>you dig your knuckles into art</p><br><p>imitate the means, imitate the ends</p><br><p>We’ll adjust for wasted time</p><br><p>retaliate all means, retaliate all ends</p><br><p></p><br><p>are me to cross the stars for you</p><br><p>we’re just devils landing on our feet</p><br><p>some light’s too far to see</p><br><p>i’m near sighted so please come close</p><br><p>i’m near sighted so please come close</p><br><p></p><br><p>we are the stars and devils</p><br><p>waiting to light</p><br>"
+		},
+		{
+			title:"chokethemdown",
+			date:"Sun February 26 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem dark apocalypse dystopian class conflict revolution political angry ",
+			poem:"<p>you’ll hate me by the end of this</p><br><p>a guilt admonished</p><br><p>your rot fills up the rancorous</p><br><p>i hate your guts, but i choke them down</p><br><p></p><br><p>you’ll hate me by the end of this</p><br><p>this we won’t discuss</p><br><p>lies can’t clot, still cancerous</p><br><p>i hate your guts, but i choke them down</p><br><p></p><br><p>you’ll hate me by the end of this</p><br><p>i trace your sawdust</p><br><p>we wait in what’s left of the forest</p><br><p>i hate your guts but i choke them down</p><br><p></p><br><p>you’ll hate me by the end of this</p><br><p>lost freedom what’s just</p><br><p>you’ll walk by shadows and lose all trust</p><br><p></p><br><p>i hate your guts but i choke them down</p><br>"
+		},
+		{
+			title:"tiny kitchen",
+			date:"Sat February 25 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
+			keywords:"poem class conflict beautiful love LGBTQIA+ queer gay migrant refugee trans revolution political ",
+			poem:"<p>it’s cold water, intermission</p><br><p>back again, leaves us wishing</p><br><p>i adore, our tiny kitchen</p><br><p>we try again</p><br><p></p><br><p>taking polls, latent dimension</p><br><p>the paper stacks, muddy conditions</p><br><p>i adore our tiny kitchen</p><br><p>we try again</p><br><p></p><br><p>in the blank white out omission</p><br><p>we take battle place positions</p><br><p>i adore our tiny kitchen</p><br><p>we try again</p><br>"
+		},
+		{
 			title:"the dying forest does a tight 5",
 			date:"Mon February 20 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
 			keywords:"poem manic freaky ",

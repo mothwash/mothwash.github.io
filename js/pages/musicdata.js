@@ -6,6 +6,36 @@ let songs = [
         cover: '../img/music/coyoteembouchure.jpg'
     },
     {
+        name: "meadowspit",
+        path: '../img/music/sirensofquietthings/meadowspit.mp3',
+        artist: 'sirens of quiet things',
+        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg'
+    },
+    {
+        name: "linguist of the woods",
+        path: '../img/music/sirensofquietthings/linguist_of_the_woods.mp3',
+        artist: 'sirens of quiet things',
+        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg'
+    },
+    {
+        name: "grimoire of grasses",
+        path: '../img/music/sirensofquietthings/grimoire_of_grasses.mp3',
+        artist: 'sirens of quiet things',
+        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg'
+    },
+    {
+        name: "esplanade goosebumps",
+        path: '../img/music/sirensofquietthings/esplanade_goosebumps.mp3',
+        artist: 'sirens of quiet things',
+        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg'
+    },
+    {
+        name: "the rinsing of bleeding gums",
+        path: '../img/music/sirensofquietthings/the_rinsing_of_bleeding_gums.mp3',
+        artist: 'sirens of quiet things',
+        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg'
+    },
+    {
         name: "ingrown",
         path: '../img/music/in3s/ingrown.mp3',
         artist: 'in3s',
@@ -289,13 +319,13 @@ let songs = [
     },
     {
         name: '__ilkicould__',
-        path: '../img/music/ilkicould.wav',
+        path: '../img/music/ilkicould.mp3',
         artist: 'd.v. bones & balloons',
         cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
     },
     {
         name: 'SUNdrythoughts',
-        path: '../img/music/sundrythoughts.wav',
+        path: '../img/music/sundrythoughts.mp3',
         artist: 'd.v. bones & balloons',
         cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
     },
@@ -307,37 +337,37 @@ let songs = [
     },
     {
         name: 'cmyk',
-        path: '../img/music/cmyk.wav',
+        path: '../img/music/cmyk.mp3',
         artist: 'd.v. bones & balloons',
         cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
     },
     {
         name: '2allwelost & willneverlose',
-        path: '../img/music/2allwelost&willneverlose.wav',
+        path: '../img/music/2allwelost.mp3',
         artist: 'd.v. bones & balloons',
         cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
     },
     {
         name: 'mars_drowns',
-        path: '../img/music/mars_drowns.wav',
+        path: '../img/music/mars_drowns.mp3',
         artist: 'd.v. bones & balloons',
         cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
     },
     {
         name: 'mythunder fingernails',
-        path: '../img/music/mythunderfingernails.wav',
+        path: '../img/music/mythunderfingernails.mp3',
         artist: 'd.v. bones & balloons',
         cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
     },
     {
         name: 'light rail through olddreams',
-        path: '../img/music/lightrailthrougholddreams.wav',
+        path: '../img/music/lightrailthrougholddreams.mp3',
         artist: 'd.v. bones & balloons',
         cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
     },
     {
         name: 'sunlit',
-        path: '../img/music/sunlit.wav',
+        path: '../img/music/sunlit.mp3',
         artist: 'd.v. bones & balloons',
         cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
     },
