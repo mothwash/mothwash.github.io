@@ -18,6 +18,12 @@ let allpoems = [
 			poem:"<p>i am awake for this (with you)</p><br><p>there are too many risks (to choose)</p><br><p></p><br><p>frightening god, we are</p><br><p></p><br><p>i am awake for this (with you)</p><br><p>there are too many risks (to choose)</p><br><p>the lake is burning mess (it’s true)</p><br><p>let’s clean up meadow spit (this view)</p><br><p></p><br><p>frightening god, we are</p><br><p></p><br><p>i am awake for this (with you)</p><br><p>there are too many risks (to choose)</p><br><p>the night is a shallow pit (i knew)</p><br><p>you are the final wish (move through)</p><br><p></p><br><p>frightening god, we are</p><br>"
 		},
 		{
+			title:"condradiction roll",
+			date:"Tue March 14 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poems dnd d&D d20 ",
+			poem:"<a href='condra-diction-roll.html'>condradiction roll</a>"
+		},
+		{
 			title:"linguist of the woods",
 			date:"Mon March 13 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
 			keywords:"poem environment climate love language ",
