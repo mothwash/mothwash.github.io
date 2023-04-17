@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/chapbooks.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/chapbooks.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">new chapbooks</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../activism.html">activism</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../poems.html">poems</a></div>
+          <div class="flex-item"><a href="../chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- page container -->
+    <div class="container-fluid chapbook-container">
+      <div class="row">
+        <div id="chapCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+          <!-- indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#chapCarousel" data-slide-to="0" class="active indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="1" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="2" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="3" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="4" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="5" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="6" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="7" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="8" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="9" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="10" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="11" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="12" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="13" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="14" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="15" class="indicatorColor"></li>
+            <li data-target="#chapCarousel" data-slide-to="16" class="indicatorColor"></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img class="mx-auto d-block" src="../../img/chapbooks/ofnostalgia/ofnostalgia-cover.jpeg"></img>
+              <h1 class="d-flex justify-content-center"> cover </h1>
+              <br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> ‘sting session’ is a funny way to call death by a thousand hornets </h1><br></br><p class="d-flex justify-content-center">i hear a voice and it speaks an apologetic tone in words far from sorry. the microphones buzzes from it trying and spits out a few tired hornets. they scratch their birthdays on the outside of the window. on the inside i connect the dots with red thumbtacks and red yarn. i make a map of immaculate births which is pretty small in these here southern states. if i close one eye, i see an invite to a funeral. my aunt, the one who never does anything, attends the funeral. when i asked her who died, she said ‘all the good births, the ones that lead to something.’ the map fell off the window and a window washer was begging for forgiveness. the hornets littered the window sill and my sloven aunt was giving them lessons on being bad births. when she finished her cirriculum, they all resurrected and got back to scratching up the window. they were considerate of the window washer and avoided his hard work. mixing up the birthdays for then and now, they wrote today’s date in overlap over their own birthday. this is a legislature of hornets, my aunt brought the microphone, and the window washer is a lot like us when worrying about anaphylaxis.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> pagination paranoia </h1><br></br><p class="d-flex justify-content-center">in early morning showers, i fear that my beloved Reader’s Digest copy will arrive with heinous pagination. it immediately escalates to the worst scenario, that some corrupt fucker will sneak in Lucas Numbers as the sequence of page numbers and so many unsuspecting readers will not notice until page 5 or 6 and then they’ll retrace their steps and lose precious time peregrinating over what erroneous list has hijacked their trusted integers. i imagine the tears and agony that will barge into my life, from which my friends will try to save me, as i thrash through booze and benzos to survive the torture of paging failure. drunkenly browsing through old copies, counting the numbers at the bottom as i’ve known since my earliest memory of counting. these kinds of stunts happen. disgruntled editors and a lack of oversight. displaced employees lashing out at harmless numbers. it takes a few days before they find the manifesto about how they’ve been aching to make others go through the typos they’ve struggled with. it makes no difference, the chief editors will continue to make their millions while the helpless editors-to-be try to keep track as page after page is thrown in their InDesign folders. and i, and so many others that love pagination, would be left to suffer endlessly, the pain of losing a precious continuity, the anger from a theft of what could have counted. the water continues to run off my fingernails and bounce of my toenails until it is time to start my day properly. continue as if i can count on the count of pages.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> did that fig seed just wave at me? </h1><br></br><p class="d-flex justify-content-center">all of our senses are wave aperati</p><p class="d-flex justify-content-center">the waves collide and</p><p class="d-flex justify-content-center">push is reflected. pull too.</p><p class="d-flex justify-content-center">it is no chance this is the gesture</p><p class="d-flex justify-content-center">of experience</p><p class="d-flex justify-content-center">a stern to my vessel</p><p class="d-flex justify-content-center">concern to my visage</p><p class="d-flex justify-content-center">a stress resistant hull still relies on rot patches</p><p class="d-flex justify-content-center">i have aches on aches</p><p class="d-flex justify-content-center">i dream until the water leaks</p><p class="d-flex justify-content-center">fermented pill bottle, bygone pump</p><p class="d-flex justify-content-center">some please ancient with pledgling peace</p><p class="d-flex justify-content-center">not here, puissant fig tree</p><p class="d-flex justify-content-center">fruit settled in current</p><p class="d-flex justify-content-center">a seed not benched</p><p class="d-flex justify-content-center">let’s sail a pleated paragon</p><p class="d-flex justify-content-center">if you dress the table, i’ll wield the torch</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> coated in table thoughts, varnished skin </h1><br></br><p class="d-flex justify-content-center">a coffee table in the dark, coatlessly beaten by a ceiling fan, surrounded by wall furniture. an isolation so bleak it burns, for the table is tinder with structure. do not be afraid to lose little coffee table. whether the tragedy of a broken plumbing pipe or death by a thousand stains, you hold your position. the leering bookcase can’t hold a candle to you. the crushing loveseat cannot hold the memory of gathering. these are your varnish.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> of nostalgia, crippling powerlessness </h1><br></br><p class="d-flex justify-content-center">the joy of forgotten sun</p><p class="d-flex justify-content-center">in the pain of remembered shadow</p><p class="d-flex justify-content-center">if we kiss away permission</p><p class="d-flex justify-content-center">may i call on my inner nymph</p><p class="d-flex justify-content-center">on the ‘years-old’ still dowsing for</p><p class="d-flex justify-content-center">imaginary alien tech</p><p class="d-flex justify-content-center">marveling at mayflies in drainage muck</p><p class="d-flex justify-content-center">making use of shade</p><p class="d-flex justify-content-center">begging to put off work</p><p class="d-flex justify-content-center">peeking at atrocities behind closed fingers</p><p class="d-flex justify-content-center">rather than scrolling past them</p><p class="d-flex justify-content-center">emailing past them</p><p class="d-flex justify-content-center">paying bills past them</p><p class="d-flex justify-content-center">missing the sun past them</p><p class="d-flex justify-content-center">a precautious oblivion, numbers flipping by</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> table of contents for insecurity </h1><br></br><p class="d-flex justify-content-center">it scares me to see a table of contents here. as unexpected as a shower head hornet’s nest. i am constantly impressed and in love and curious and insecure and dicking around. why does its absence taste like ambulance insides? i eat off a table and taste the bravo in the contents, the aftermath of ovation. there’s something getting clean and suspicious of the pressure. to breath fresh air mid sun salutation and getting shade with the electrical outlets.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> the rinsing of bleeding gums // linguist of the woods </h1><br></br><p class="d-flex justify-content-center">dental dust to denizen</p><p class="d-flex justify-content-center">welcomed by mouth and tongue</p><p class="d-flex justify-content-center">by word and narrative</p><p class="d-flex justify-content-center">a chewing sound</p><p class="d-flex justify-content-center">across palatable loss</p><p class="d-flex justify-content-center">//</p><p class="d-flex justify-content-center">tap the fingers, a morose morse</p><p class="d-flex justify-content-center">spreads across spored flights</p><p class="d-flex justify-content-center">suddenly i abet and call it force</p><p class="d-flex justify-content-center">the mediums of eyeless sights</p><p class="d-flex justify-content-center">semiotics of lovely sprites</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> mania is an old friend that wants a sleep over </h1><br></br><p class="d-flex justify-content-center">fugue states are a marketing attachment, like a ruberry pencil grip. the promise of effectiveness behind discomfort. i let the despot of discipline free in the trees, and discipline becomes a land of compromise, a gift economy. when mania gets here, i tap on her molars, we’ll get good and messed up before we start yanking. there’s a two liter in the fridge. she says she knows. my mom will order pizza if we ask. she knows that too. take off the marketing attachment and the familiarity comes back full force, with gratitude. we laugh and pick out boys in magazines. we being my inner nymph and mania, cackling while i read a copy of Reader’s digest short stories or some other book for which i’m falling madly. i am both the dad in the green thrifted armchair and the nymph living vicariously for the boy that was too serious. i am both pulling the door closed and running to the sounds of screams. i am both holding my breath and breathing heavy on the stairs. i am both pacing nervously for my punishment and applying gauze to the bloody molar hole. i am both asking for the tooth fairy to bring some sweet coin and dreaming of a gift economy.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> i've always lived by trains but wanted to live by water </h1><br></br><p class="d-flex justify-content-center">not long ago, life imitated art and a train derailed in Ohio and chemicals rinsed the earth and a time capsule got ruined and the aliens are going to be so confused and even without light a photograph can warp and the industry of selling innovation is tucking and rolling ahead of the collision and writers are rabid to the pen and a nightmare from a long time ago has asked me to play it back again and i obliged out of curiosity and at one point, a bird ate a rat ate a radioactive Cheeto and somehow this is real life and siamese beers are just as good as siamese twins and if i say i’m joined at your hip you best believe we’re going to be balanced and a little wild and someone has to be responsible is an easy thing to say when you have made the land of discipline a gift economy and it’s going to happen one day, we just have to trust in the process and there are states killing bills targeting trans people just trust in the and process and trust and i don’t think we’ll ever see the last of it, but maybe a little less?</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> cum </h1><br></br><p class="d-flex justify-content-center">if i’m lucky, with some thrusting and grinding, i’ll be covered in the whites of your eyes, in the thick salve of your care, drenched in the warm and chunky patience of your attention, face smeared and batted with soft smooches, moaning along to etta james, swallowing silky feedback on how to be a better man.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> hoisted pizza over fairy hands  </h1><br></br><p class="d-flex justify-content-center">in a dream, we were caught red handed, the laundered luck marred by marinara. a swarm of seelie licked our fingers and it was the most tactile forgiveness i’d ever been handed. later, with sandy toes, we were caught with peace. instead of running, the tide picked up our bones and absolved the sacks that remained. i’ve had similar baptism at the market in lemon sauce. i saw everything in multiples for six days. on the seventh, we tried a new recipe. the fairies licked their lips, ready to mop more food.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> cup a superbloom, cup of creature holes </h1><br></br><p class="d-flex justify-content-center">living frames take only a turned head</p><p class="d-flex justify-content-center">they gasp back</p><p class="d-flex justify-content-center">spring food bounces in slow motion</p><p class="d-flex justify-content-center">hornets dodge the wait staff</p><p class="d-flex justify-content-center">“if i did, why did i?” i said</p><p class="d-flex justify-content-center">alien fingers reach my neurons</p><p class="d-flex justify-content-center">we see clearly in the dark</p><p class="d-flex justify-content-center">“i did, that’s a pretty flower” they said</p><p class="d-flex justify-content-center">field cusps tickle my ankles</p><p class="d-flex justify-content-center">itches on itches</p><p class="d-flex justify-content-center">how we never forget the sting,</p><p class="d-flex justify-content-center">and never remember the passive petals</p><p class="d-flex justify-content-center">remember the darkness tunneling</p><p class="d-flex justify-content-center">forget the reason we walked</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> electrical humming is full of applause </h1><br></br><p class="d-flex justify-content-center">we drink among imitations for quiet retreat</p><p class="d-flex justify-content-center">wouldn’t want to startle the originals</p><p class="d-flex justify-content-center">they ask us to give up imagination</p><p class="d-flex justify-content-center">to numbers and borders</p><p class="d-flex justify-content-center">the social game of can you keep up</p><p class="d-flex justify-content-center">will we deem you real</p><p class="d-flex justify-content-center">crying in dreams is so realistic</p><p class="d-flex justify-content-center">i used to pay excruciating attention</p><p class="d-flex justify-content-center">to conversations</p><p class="d-flex justify-content-center">now i am equipped with outward judgement</p><p class="d-flex justify-content-center">and neglect</p><p class="d-flex justify-content-center">you can feast on fakes and never fill</p><p class="d-flex justify-content-center">electrical humming is full of applause</p><p class="d-flex justify-content-center">you won’t remember the words here</p><p class="d-flex justify-content-center">only the feeling at the end</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> hellish administration when administrating hell </h1><br></br><p class="d-flex justify-content-center">the parking garage doesn’t have what you want. neither does the ATM. above the urinal, a crudly painted mural of animated women mock the size of our dicks. you know, Darla and Harley Quinn. it’s the straightest gay bar i’ve ever seen. if the game was arousal, any hope of security would have done the trick. it’s true intention was probably to poke fun at fun pokings. we make these kinds of turn arounds all the time. sad nostalgia for nostalgic sads. misguided appreciation from appreciated misguidings. dislodged fury about furious dislodgings. hellish administration when administrating hell.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> i'm on to the fairies </h1><br></br><p class="d-flex justify-content-center">distortion rings in replica, ring finger busy now satisfying empty space, spaces against the words caught up in the association, caught myself racing the soundwaves of beach tides, beached lightly and caressed in the inner ear by little snail-riding aliens, inner sovereignty in balance with tidal moods, idle ossifications trading hands, i traded a nightsock for six beans and on the seventh, night erupted out of a god’s hands clapping, volcanos have a little space between their toes that’s too hot to get to, you can sell a toe online for a buck fitty or some other value in beans or a finger if it meets the ratio, the expensive paint the hornets took still stains my parking spot, look i’ll admit the flowers have impressive hues and if they’ll charge, administratively speaking, we can talk into a stained bargain, the deal i took to be here in this place making these calls and dealing with responses, comma placement spiteful and the plumbing to get them out is jammed, despite the groundwork that had been laid, hornets are making videos online that gather viral attention, heed my tension as they swarm and i am caught in the misunderstanding of their buzzes, there’s a mirror in my baldness and you could try it too, if the fairies don’t get to your reflection first, they pulled mine away and when they gave it back, i had already entered into an agreement that took my childhood and they sat with my reflection letting it know that when it came back to me it would have to let go of everything it remembered about being a kid and the reflection nodded somberly and gave away all the little trinkets it kept from being a developing human and it picked up a few bills and to-do lists and it picked up knowledge of how the world works in all its cruelties and it came back up to the mirror and waited for a moment while i had my back turned and it saw our beautiful wife and it saw on the other side of us infinite reflections as i looked forward and it knew it would not know what it lost but another reflection in the puddle below us was reflected in a dream and looked up at my past reflection and put its finger to its lips as to suggest it would hold on to what my past reflection let go of and it would sprinkle those trinkets in the illusions of slumber and the mind would become a house of mirrors with reality and fiction tossing and turning with the pull of the moon’s gravity and i would look up at that reflection of light and let it know that i’m on to the fairies.</p><br></br>
+            </div>
+
+            <div class="carousel-item"><h1 class="d-flex justify-content-center"> psychomotor agitation in the office // 'if you're looking to see who i am' </h1><br></br><p class="d-flex justify-content-center">i can still crawl out of my skin</p><p class="d-flex justify-content-center">stick myself to the wall</p><p class="d-flex justify-content-center">smile and clap my thighs</p><p class="d-flex justify-content-center">as corporate as i’ve been made</p><p class="d-flex justify-content-center">i can still do this</p><p class="d-flex justify-content-center">//</p><p class="d-flex justify-content-center">that line in Pose</p><p class="d-flex justify-content-center">about pieces of us carried</p><p class="d-flex justify-content-center">telling the last of who we are</p><p class="d-flex justify-content-center">like the past of the forgiven</p><p class="d-flex justify-content-center">you know where to look last</p><p class="d-flex justify-content-center">giving us grace to lighten</p><br></br></div>
+
+          </div>
+
+          <!-- Left and right controls -->
+
+          <a class="carousel-control-prev" href="#chapCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#chapCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

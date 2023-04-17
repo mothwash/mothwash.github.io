@@ -1,5 +1,95 @@
 let allpoems = [
 		{
+			title:"i'm on to the fairies",
+			date:"Sun Apr 16 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose ",
+			poem:"<p>distortion rings in replica, ring finger busy now satisfying empty space, spaces against the words caught up in the association, caught myself racing the soundwaves of beach tides, beached lightly and caressed in the inner ear by little snail-riding aliens, inner sovereignty in balance with tidal moods, idle ossifications trading hands, i traded a nightsock for six beans and on the seventh, night erupted out of a god’s hands clapping, volcanos have a little space between their toes that’s too hot to get to, you can sell a toe online for a buck fitty or some other value in beans or a finger if it meets the ratio, the expensive paint the hornets took still stains my parking spot, look i’ll admit the flowers have impressive hues and if they’ll charge, administratively speaking, we can talk into a stained bargain, the deal i took to be here in this place making these calls and dealing with responses, comma placement spiteful and the plumbing to get them out is jammed, despite the groundwork that had been laid, hornets are making videos online that gather viral attention, heed my tension as they swarm and i am caught in the misunderstanding of their buzzes, there’s a mirror in my baldness and you could try it too, if the fairies don’t get to your reflection first, they pulled mine away and when they gave it back, i had already entered into an agreement that took my childhood and they sat with my reflection letting it know that when it came back to me it would have to let go of everything it remembered about being a kid and the reflection nodded somberly and gave away all the little trinkets it kept from being a developing human and it picked up a few bills and to-do lists and it picked up knowledge of how the world works in all its cruelties and it came back up to the mirror and waited for a moment while i had my back turned and it saw our beautiful wife and it saw on the other side of us infinite reflections as i looked forward and it knew it would not know what it lost but another reflection in the puddle below us was reflected in a dream and looked up at my past reflection and put its finger to its lips as to suggest it would hold on to what my past reflection let go of and it would sprinkle those trinkets in the illusions of slumber and the mind would become a house of mirrors with reality and fiction tossing and turning with the pull of the moon’s gravity and i would look up at that reflection of light and let it know that i’m on to the fairies.</p><br>"
+		},
+		{
+			title:"hellish administration when administrating hell",
+			date:"Sun Apr 16 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose ",
+			poem:"<p>the parking garage doesn’t have what you want. neither does the ATM. above the urinal, a crudly painted mural of animated women mock the size of our dicks. you know, Darla and Harley Quinn. it’s the straightest gay bar i’ve ever seen. if the game was arousal, any hope of security would have done the trick. it’s true intention was probably to poke fun at fun pokings. we make these kinds of turn arounds all the time. sad nostalgia for nostalgic sads. misguided appreciation from appreciated misguidings. dislodged fury about furious dislodgings. hellish administration when administrating hell.</p><br>"
+		},
+		{
+			title:"electrical humming is full of applause",
+			date:"Sun Apr 16 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose ",
+			poem:"<p>we drink among imitations for quiet retreat</p><br><p>wouldn’t want to startle the originals</p><br><p>they ask us to give up imagination</p><br><p>to numbers and borders</p><br><p>the social game of can you keep up</p><br><p>will we deem you real</p><br><p>crying in dreams is so realistic</p><br><p>i used to pay excruciating attention</p><br><p>to conversations</p><br><p>now i am equipped with outward judgement</p><br><p>and neglect</p><br><p>you can feast on fakes and never fill</p><br><p>electrical humming is full of applause</p><br><p>you won’t remember the words here</p><br><p>only the feeling at the end</p><br>"
+		},
+		{
+			title:"cup a superbloom, cup of creature holes",
+			date:"Sat Apr 15 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose ",
+			poem:"<p>living frames take only a turned head</p><br><p>they gasp back</p><br><p>spring food bounces in slow motion</p><br><p>hornets dodge the wait staff</p><br><p>“if i did, why did i?” i said</p><br><p>alien fingers reach my neurons</p><br><p>we see clearly in the dark</p><br><p>“i did, that’s a pretty flower” they said</p><br><p>field cusps tickle my ankles</p><br><p>itches on itches</p><br><p>how we never forget the sting,</p><br><p>and never remember the passive petals</p><br><p>remember the darkness tunneling</p><br><p>forget the reason we walked</p><br>"
+		},
+		{
+			title:"hoisted pizza over fairy hands ",
+			date:"Sat Apr 15 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose ",
+			poem:"<p>in a dream, we were caught red handed, the laundered luck marred by marinara. a swarm of seelie licked our fingers and it was the most tactile forgiveness i’d ever been handed. later, with sandy toes, we were caught with peace. instead of running, the tide picked up our bones and absolved the sacks that remained. i’ve had similar baptism at the market in lemon sauce. i saw everything in multiples for six days. on the seventh, we tried a new recipe. the fairies licked their lips, ready to mop more food.</p><br>"
+		},
+		{
+			title:"cum",
+			date:"Fri Apr 14 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose ",
+			poem:"<p>if i’m lucky, with some thrusting and grinding, i’ll be covered in the whites of your eyes, in the thick salve of your care, drenched in the warm and chunky patience of your attention, face smeared and batted with soft smooches, moaning along to etta james, swallowing silky feedback on how to be a better man.</p><br>"
+		},
+		{
+			title:"i've always lived by trains but wanted to live by water",
+			date:"Fri Apr 14 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose ",
+			poem:"<p>not long ago, life imitated art and a train derailed in Ohio and chemicals rinsed the earth and a time capsule got ruined and the aliens are going to be so confused and even without light a photograph can warp and the industry of selling innovation is tucking and rolling ahead of the collision and writers are rabid to the pen and a nightmare from a long time ago has asked me to play it back again and i obliged out of curiosity and at one point, a bird ate a rat ate a radioactive Cheeto and somehow this is real life and siamese beers are just as good as siamese twins and if i say i’m joined at your hip you best believe we’re going to be balanced and a little wild and someone has to be responsible is an easy thing to say when you have made the land of discipline a gift economy and it’s going to happen one day, we just have to trust in the process and there are states killing bills targeting trans people just trust in the and process and trust and i don’t think we’ll ever see the last of it, but maybe a little less?</p><br>"
+		},
+		{
+			title:"mania is an old friend that wants a sleep over",
+			date:"Fri Apr 14 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose ",
+			poem:"<p>fugue states are a marketing attachment, like a ruberry pencil grip. the promise of effectiveness behind discomfort. i let the despot of discipline free in the trees, and discipline becomes a land of compromise, a gift economy. when mania gets here, i tap on her molars, we’ll get good and messed up before we start yanking. there’s a two liter in the fridge. she says she knows. my mom will order pizza if we ask. she knows that too. take off the marketing attachment and the familiarity comes back full force, with gratitude. we laugh and pick out boys in magazines. we being my inner nymph and mania, cackling while i read a copy of Reader’s digest short stories or some other book for which i’m falling madly. i am both the dad in the green thrifted armchair and the nymph living vicariously for the boy that was too serious. i am both pulling the door closed and running to the sounds of screams. i am both holding my breath and breathing heavy on the stairs. i am both pacing nervously for my punishment and applying gauze to the bloody molar hole. i am both asking for the tooth fairy to bring some sweet coin and dreaming of a gift economy.</p><br>"
+		},
+		{
+			title:"table of contents for insecurity",
+			date:"Thu Apr 13 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose ",
+			poem:"<p>it scares me to see a table of contents here. as unexpected as a shower head hornet’s nest. i am constantly impressed and in love and curious and insecure and dicking around. why does its absence taste like ambulance insides? i eat off a table and taste the bravo in the contents, the aftermath of ovation. there’s something getting clean and suspicious of the pressure. to breath fresh air mid sun salutation and getting shade with the electrical outlets.</p><br>"
+		},
+		{
+			title:"of nostalgia, crippling powerlessness",
+			date:"Thu Apr 13 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem emotional beautiful love growth growing childhood ",
+			poem:"<p>the joy of forgotten sun</p><br><p>in the pain of remembered shadow</p><br><p>if we kiss away permission</p><br><p>may i call on my inner nymph</p><br><p>on the ‘years-old’ still dowsing for</p><br><p>imaginary alien tech</p><br><p>marveling at mayflies in drainage muck</p><br><p>making use of shade</p><br><p>begging to put off work</p><br><p>peeking at atrocities behind closed fingers</p><br><p>rather than scrolling past them</p><br><p>emailing past them</p><br><p>paying bills past them</p><br><p>missing the sun past them</p><br><p>a precautious oblivion, numbers flipping by</p><br>"
+		},
+		{
+			title:"coated in table thoughts, varnished skin",
+			date:"Mon Apr 10 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose love space growth growing ",
+			poem:"<p>a coffee table in the dark, coatlessly beaten by a ceiling fan, surrounded by wall furniture. an isolation so bleak it burns, for the table is tinder with structure. do not be afraid to lose little coffee table. whether the tragedy of a broken plumbing pipe or death by a thousand stains, you hold your position. the leering bookcase can’t hold a candle to you. the crushing loveseat cannot hold the memory of gathering. these are your varnish.</p><br>"
+		},
+		{
+			title:"did that fig seed just wave at me?",
+			date:"Sun Apr 09 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem manic bipolar disorder water space ",
+			poem:"<p>all of our senses are wave aperati</p><br><p>the waves collide and</p><br><p>push is reflected. pull too.</p><br><p>it is no chance this is the gesture</p><br><p>of experience</p><br><p>a stern to my vessel</p><br><p>concern to my visage</p><br><p>a stress resistant hull still relies on rot patches</p><br><p>i have aches on aches</p><br><p>i dream until the water leaks</p><br><p>fermented pill bottle, bygone pump</p><br><p>some please ancient with pledgling peace</p><br><p>not here, puissant fig tree</p><br><p>fruit settled in current</p><br><p>a seed not benched</p><br><p>let’s sail a pleated paragon</p><br><p>if you dress the table, i’ll wield the torch</p><br>"
+		},
+		{
+			title:"forest throbs",
+			date:"Sat Apr 01 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose happy joyful love ",
+			poem:"<p>you told the waiter you wanted elephant and sent it back when they only brought a bite. you missed the dragon-slaying meeting, but stayed on the committee, no one would ever take your helmet. paparazzi forget to take your picture, caught up in the authenticity of you. butterflies lift voles out of rapids when you offer affirmations to those you love. you speak, the rot recedes, the forest throbs. your past and future selves are hinged on the present, stained glass folding light over all that could be.</p><br>"
+		},
+		{
+			title:"pagination paranoia",
+			date:"Thu Mar 30 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose dark freaky horror terror scary ",
+			poem:"<p>in early morning showers, i fear that my beloved Reader’s Digest copy will arrive with heinous pagination. it immediately escalates to the worst scenario, that some corrupt fucker will sneak in Lucas Numbers as the sequence of page numbers and so many unsuspecting readers will not notice until page 5 or 6 and then they’ll retrace their steps and lose precious time peregrinating over what erroneous list has hijacked their trusted integers. i imagine the tears and agony that will barge into my life, from which my friends will try to save me, as i thrash through booze and benzos to survive the torture of paging failure. drunkenly browsing through old copies, counting the numbers at the bottom as i’ve known since my earliest memory of counting. these kinds of stunts happen. disgruntled editors and a lack of oversight. displaced employees lashing out at harmless numbers. it takes a few days before they find the manifesto about how they’ve been aching to make others go through the typos they’ve struggled with. it makes no difference, the chief editors will continue to make their millions while the helpless editors-to-be try to keep track as page after page is thrown in their InDesign folders. and i, and so many others that love pagination, would be left to suffer endlessly, the pain of losing a precious continuity, the anger from a theft of what could have counted. the water continues to run off my fingernails and bounce of my toenails until it is time to start my day properly. continue as if i can count on the count of pages.</p><br>"
+		},
+		{
+			title:"‘sting session’ is a funny way to call death by a thousand hornets",
+			date:"Thu Mar 30 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose emotional freaky bugs ",
+			poem:"<p>i hear a voice and it speaks an apologetic tone in words far from sorry. the microphones buzzes from it trying and spits out a few tired hornets. they scratch their birthdays on the outside of the window. on the inside i connect the dots with red thumbtacks and red yarn. i make a map of immaculate births which is pretty small in these here southern states. if i close one eye, i see an invite to a funeral. my aunt, the one who never does anything, attends the funeral. when i asked her who died, she said ‘all the good births, the ones that lead to something.’ the map fell off the window and a window washer was begging for forgiveness. the hornets littered the window sill and my sloven aunt was giving them lessons on being bad births. when she finished her cirriculum, they all resurrected and got back to scratching up the window. they were considerate of the window washer and avoided his hard work. mixing up the birthdays for then and now, they wrote today’s date in overlap over their own birthday. this is a legislature of hornets, my aunt brought the microphone, and the window washer is a lot like us when worrying about anaphylaxis.</p><br>"
+		},
+		{
 			title:"grimoire of grasses",
 			date:"Mon Mar 20 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
 			keywords:"poem love ",
