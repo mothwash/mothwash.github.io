@@ -29,7 +29,7 @@ function onPageOpenResizeMenu() {
     // hide current home menu
     $(".homemenu-item").hide();
     // hide social icons
-    $(".top-header-social").hide();
+    //TESTING $(".top-header-social").hide();
     // declare variables
     var homemenu = document.getElementsByClassName("homemenu")[0];
     // create icon element
@@ -63,7 +63,7 @@ function onPageOpenResizeMenu() {
     }
   } else {
     $(".homemenu-item").show();
-    $(".top-header-social").show();
+    //TESTING $(".top-header-social").show();
     $(".mobilemenuicon").remove();
   }
 }
@@ -115,7 +115,7 @@ $(document).ready(function() {
       // hide current home menu
       $(".homemenu-item").hide();
       // hide social icons
-      $(".top-header-social").hide();
+      //TESTING $(".top-header-social").hide();
       // declare variables
       var homemenu = document.getElementsByClassName("homemenu")[0];
       // create icon element
@@ -162,7 +162,7 @@ $(document).ready(function() {
       }
     } else {
       $(".homemenu-item").show();
-      $(".top-header-social").show();
+      //TESTING $(".top-header-social").show();
       $(".mobilemenuicon").remove();
     }
 
@@ -183,7 +183,7 @@ $(document).ready(function() {
       // hide current home menu
       $(".homemenu-item").hide();
       // hide social icons
-      $(".top-header-social").hide();
+      //TESTING $(".top-header-social").hide();
       // declare variables
       var homemenu = document.getElementsByClassName("homemenu")[0];
       // create icon element
@@ -245,7 +245,7 @@ $(document).ready(function() {
       }
     } else {
       $(".homemenu-item").show();
-      $(".top-header-social").show();
+      //TESTING $(".top-header-social").show();
       $(".mobilemenuicon").remove();
     }
 
