@@ -6,6 +6,66 @@ let songs = [
         cover: '../img/music/coyoteembouchure.jpg'
     },
     {
+        name: "shedspring",
+        path: '../img/music/headscrewpostop/shedsprings.mp3',
+        artist: 'headscrew post-op',
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+    },
+    {
+        name: "trustpadding",
+        path: '../img/music/headscrewpostop/trustpadding.mp3',
+        artist: 'headscrew post-op',
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+    },
+    {
+        name: "the arbiter's bench, grave gavel",
+        path: '../img/music/headscrewpostop/thearbitersbenchV02.mp3',
+        artist: 'headscrew post-op',
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+    },
+    {
+        name: "recipe for a fugue state",
+        path: '../img/music/headscrewpostop/recipefuguestateV01.mp3',
+        artist: 'headscrew post-op',
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+    },
+    {
+        name: "can i keep living",
+        path: '../img/music/headscrewpostop/canikeepliving.mp3',
+        artist: 'headscrew post-op',
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+    },
+    {
+        name: "saint of takeitaway",
+        path: '../img/music/headscrewpostop/saintoftakeitawayV01.mp3',
+        artist: 'headscrew post-op',
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+    },
+    {
+        name: "devil of reciprocity",
+        path: '../img/music/headscrewpostop/devilofreciprocityV02.mp3',
+        artist: 'headscrew post-op',
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+    },
+    {
+        name: "stick 'em up, Tooh Fairy!",
+        path: '../img/music/headscrewpostop/toothfairyV01.mp3',
+        artist: 'headscrew post-op',
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+    },
+    {
+        name: "nightrush",
+        path: '../img/music/headscrewpostop/nightrush.mp3',
+        artist: 'headscrew post-op',
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+    },
+    {
+        name: "instant trenches",
+        path: '../img/music/headscrewpostop/instanttrenches.mp3',
+        artist: 'headscrew post-op',
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+    },
+    {
         name: "meadowspit",
         path: '../img/music/sirensofquietthings/meadowspit.mp3',
         artist: 'sirens of quiet things',
