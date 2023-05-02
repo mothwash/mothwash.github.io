@@ -25,7 +25,7 @@ let songs = [
     },
     {
         name: "recipe for a fugue state",
-        path: '../img/music/headscrewpostop/recipefuguestateV01.mp3',
+        path: '../img/music/headscrewpostop/recipefuguestatev01.mp3',
         artist: 'headscrew post-op',
         cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
     },
