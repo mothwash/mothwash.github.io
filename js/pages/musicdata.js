@@ -37,7 +37,7 @@ let songs = [
     },
     {
         name: "saint of takeitaway",
-        path: '../img/music/headscrewpostop/saintoftakeitawayV01.mp3',
+        path: '../img/music/headscrewpostop/saintoftakeitaway.mp3',
         artist: 'headscrew post-op',
         cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
     },
@@ -49,7 +49,7 @@ let songs = [
     },
     {
         name: "stick 'em up, Tooh Fairy!",
-        path: '../img/music/headscrewpostop/toothfairyV01.mp3',
+        path: '../img/music/headscrewpostop/toothfairy.mp3',
         artist: 'headscrew post-op',
         cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
     },
