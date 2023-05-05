@@ -7,7 +7,7 @@ let songs = [
     },
     {
         name: "shedspring",
-        path: '../img/music/headscrewpostop/shedsprings.mp3',
+        path: '../img/music/headscrewpostop/shedspring.mp3',
         artist: 'headscrew post-op',
         cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
     },
