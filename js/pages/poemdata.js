@@ -1,5 +1,89 @@
 let allpoems = [
 		{
+			title:"a bit leftover",
+			date:"Thu May 18 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem manic revolution political unhoused ",
+			poem:"<p>i bought a pornstar’s bathwater and i had a bit leftover to bribe the director of the bathhouse on wet for cheap Wednesday for a bit of polluting.</p><br><p></p><br><p>i commissioned the services of a mime to give handouts to the unhoused and i had a bit leftover to hire extras to clap.</p><br><p></p><br><p>i gave the bus driver backrubs and had a bit leftover to clog the roads with Ubers, but not enough to pay the Ubers as well as the bus driver.</p><br><p></p><br><p>i made a pot of coffee and had a bit leftover when bumping into a prosecutor that charged me with assault.</p><br><p></p><br><p>i had a job approving SNAP benefits and i had a bit leftover that got turned back in because beat-up buggies are all the rage.</p><br><p></p><br><p>i was mugged and had a bit leftover.</p><br><p></p><br><p>i shared a drink with a monk and she had enlightenment, atleast a bit leftover, so we got good and drunk on it until we forgot the wisdom.</p><br><p></p><br><p>i had most of a centaur cosplay, but it needed a bit leftover so i sat there staring at it as half something half something.</p><br><p></p><br><p>i tended to a garden of shadows until the light from the 24/7 display screens charred the fruit, even the leftover bit.</p><br><p></p><br><p>i got a new job with a clipboard and questions and one lonely old man said ‘i have a bit leftover’ after the last question and the policy says to ignore him.</p><br><p></p><br><p>i twisted my nipple in a laffy taffy machine and my skin had a bit leftover so i kept going.</p><br><p></p><br><p>people sick of people rounded up the answering machines and torched them in a pit and there’s not a bit leftover.</p><br><p></p><br><p>sometimes the cows chew my toes in my sleep and if i have a bit leftover, i’ll dream until my toes become brittle slender blades.</p><br><p></p><br><p>i took pictures of inside bones enough times to generate a mechanical implant and had a bit leftover and i think the machines treasure the pictures they don’t use.</p><br><p></p><br><p>i became the first person to successfully stack noise cancelling headphones and i had a bit leftover so i became determined to become the first again.</p><br><p></p><br><p>i saw them say congrats and thought of mimes.</p><br><p></p><br><p>when you add money to your bus card, you can tap it for people that don’t have one, if you have a bit leftover.</p><br><p>with a lot leftover, it probably renews automatically every thirty days.</p><br><p>you can’t tap it twice so soon after.</p><br><p>i learned that the hard way.</p><br><p></p><br><p>if you pay to get tickled by the times the fingers move, they usually don’t count and you can get a bit leftover.</p><br><p></p><br><p>i walked around a party with a clipboard and i felt the last laughs people had leftover from the week.</p><br><p>i tallied them on the clipboard while pretending to tally things on the clipboard.</p><br><p></p><br><p>nothing in my hole of commodities is leftover.</p><br><p>even things on the floor have a place.</p><br><p>even things on the floor have a place.</p><br><p>i hopped off the bus so fast one time, they waited.</p><br><p>i saw a mime and some people clapping.</p><br><p>i charge the people with my reserves.</p><br><p>screamed and scared them off.</p><br><p>one of them fell over and a bottle of water bounced around.</p><br><p>i was angry and thirsty.</p><br><p>he looked at me misty eyed, incredulous.</p><br><p>‘that was a pornstar’s bathwater’ he said</p><br><p>i walked back to the bus.</p><br><p>the card reader said i tapped it too soon.</p><br><p>the bus driver asked me to go with her eyes.</p><br>"
+		},
+		{
+			title:"i don’t often write haikus, but when i do, i go for the jugular",
+			date:"Sat May 13 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"haiku animals ",
+			poem:"<p>silent mouthmade breeze</p><br><p>rouses soft, excited mews</p><br><p>from a loved deaf cat</p><br>"
+		},
+		{
+			title:"puzzled",
+			date:"Mon May 08 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem happy joyful beautiful love political art ",
+			poem:"<p>grateful like that set of gift bags</p><br><p>it is certain, foil gifted</p><br><p></p><br><p>yet easily, of ghosts and games,</p><br><p>little evidence, litter thrifted</p><br><p></p><br><p>skip to the page, i have it bookmarked</p><br><p>it will rend your heart, your soul</p><br><p></p><br><p>thought breaks glass and trips over the sill</p><br><p>we all rush to catch a cloud</p><br><p></p><br><p>you’ve said nothing else before</p><br><p>kept claims, settled flames and more</p><br><p>gave life to me and made it so sure</p><br><p>your silly puzzles i adore</p><br><p></p><br><p>statues over tile patterns</p><br><p>the beauty of fluffy thought</p><br><p></p><br><p>tightknit words, cream of cogency</p><br><p>it’s forever soup, gift to pot</p><br><p></p><br><p>hardened tomes made deep in the trees</p><br><p>they are out there now, drawing names</p><br><p></p><br><p>some poke burning books through the sky</p><br><p>not my love down here, safe from flames</p><br><p></p><br><p>you’ve said nothing else before</p><br><p>kept claims, settled flames and more</p><br><p>gave life to me and made it so sure</p><br><p>your silly puzzles i adore</p><br><p></p><br><p>this is why i don’t do jigsaws</p><br><p>i’ve felt the cardboard crumble, many times</p><br><p></p><br><p>this is why i don’t do jigsaws</p><br><p>you have to count before you can solve it</p><br><p></p><br><p>there’s holes in shoes, memory’s missing pieces</p><br><p>i read the news, dialect for bigger picture</p><br><p></p><br><p>can’t make the horizon hourly</p><br><p>can’t make the wages lasting peace</p><br><p></p><br><p>on holiday, can’t wait to masticate the meaning</p><br><p>from far away, mean fate can cogitate the picture</p><br><p></p><br><p>from someone’s lens and gifted ridges,</p><br><p>laser rivers and puzzled canyons</p><br><p></p><br><p>natural terror is existential healing</p><br><p>this is why i don’t do jigsaws</p><br><p></p><br><p>put together to scrape off the printing</p><br><p>i paint it fine myself, scattered pieces</p><br><p></p><br><p></p><br><p>hardened tomes buried deep in the trees</p><br><p>i will form the pieces with letters</p><br><p></p><br><p>different times, i’ve carried the question</p><br><p>it is framework now, glued in place</p><br><p></p><br><p>can i ask why and break my focus?</p><br>"
+		},
+		{
+			title:"not even up close, i know who you are",
+			date:"Fri May 05 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose dark freaky ",
+			poem:"<p>people have little receipts spitting out their nape. they approach and ask for payment. i ask them for the items they rang up and i usually guess the prices and coupon code. savings here and savings there. mentally projecting inflation, spotting market trends, writing on the shelves. and i hate it, this curse of making the marks of hearts and souls legible. bathed in sunlight, i ask for forgiveness. blind in knife fight, i sin like business.</p><br>"
+		},
+		{
+			title:"stick 'em up, tooth fairy!",
+			date:"Sat Apr 29 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem love revolution ",
+			poem:"<p>i tapped on molars</p><br><p>fairies dent my sleep</p><br><p>i aim my tongue</p><br><p>you say hands free</p><br><p>i’ve found more dollars</p><br><p>optimistic feat</p><br><p>we’ll forget shoulders</p><br><p>carry it in our feet</p><br><p></p><br><p>egg of lights</p><br><p>a night hatches forgiven</p><br><p>we wear out right</p><br><p>we wear old live in</p><br><p></p><br><p>neon kite</p><br><p>wind kicks up dustmites</p><br><p>i make up sight</p><br><p>we age together</p><br>"
+		},
+		{
+			title:"appearances do not deceive ",
+			date:"Sat Apr 29 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose class conflict revolution ableism political ",
+			poem:"<p>stuck in the ER, waiting for the reflection of rays off lead to return, i notice a stock photo, some spindly prepubescent yellow flower bud against a blurred gold wash, double framed, one of cardstock in one of wood and glass, the latter of which is perceivably rinsed in streakmarks from a filthy rag raced across with the same clinical apathy the image attempts to assauge. the purpose of a place cannot be disguised. sanitation is filth.</p><br>"
+		},
+		{
+			title:"instant trenches",
+			date:"Fri Apr 28 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem depressing sad love growth growing loss grief healing ",
+			poem:"<p>ranging the depth of loss</p><br><p>ripped against the fury’s edges</p><br><p>(you can cover)</p><br><p>instant trenches instant trenches</p><br><p>instant trenches instant trenches</p><br><p>you’ve scanned the worn out creases</p><br><p>of a heart too used</p><br><p>of the time between</p><br><p>the stretched out words</p><br><p>your ship steers here</p><br><p>it answers me</p><br><p>it trusts in sound</p><br><p>i will catch what anchor drops</p><br><p>it inverts and</p><br><p>floats up to black</p><br>"
+		},
+		{
+			title:"can i keep living?",
+			date:"Fri Apr 28 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem class conflict revolution career angry ",
+			poem:"<p>job applications</p><br><p>background checks</p><br><p>are you hiring</p><br><p>can i keep living?</p><br><p></p><br><p>am i qualified?</p><br><p>credit score counts</p><br><p>are you deciding?</p><br><p>can i keep living?</p><br>"
+		},
+		{
+			title:"recipe for a fugue state",
+			date:"Fri Apr 28 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem sad emotional struggle manic bipolar disorder trauma dark DBT dialectical behavior therapy ",
+			poem:"<p>i got a good night’s rest</p><br><p>thank you for letting me get away</p><br><p>there are dollars i have</p><br><p>thank you for letting me get away</p><br><p>in fugue states</p><br><p>pinch of salt</p><br><p>in fugue states</p><br><p>dreams of fault</p><br><p>i ate all my meals</p><br><p>thank you for letting me get away</p><br><p>it has been so long since</p><br><p>thank you for letting me get away</p><br><p>sleepless, faithless, couldn’t believe less</p><br><p>knees dirty, breath rapid</p><br><p>a common thought unravels</p><br><p>touches everything</p><br><p>i go to touch sobbed tears and come back dry</p><br><p>aplomb erasure</p><br><p>some sorry sod, did i appease?</p><br><p>appeal naked, hatches screaming</p><br><p>open your eyes in the morning to a fair</p><br><p>the exhibits enclosing</p><br><p>echo apologizes with closed eyes</p><br><p>it’s a trails-off type situation, i’m afraid</p><br><p>it’s enough to eat three times</p><br><p>dining on my events, i pull away teeth</p><br><p>with the napkin</p><br>"
+		},
+		{
+			title:"devil of reciprocity",
+			date:"Sun Apr 23 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem trauma DBT dialectical behavior therapy ",
+			poem:"<p>the gift of gravity, a moment of thirst</p><br><p>to know all things and not use them first</p><br><p>tip the scales where it counts</p><br><p>tear the bag for more than a trickle</p><br><p>snow angel in white sand</p><br><p>ashfall in mudseason</p><br><p>blank on blank template balance</p><br><p>thirst obscurity</p><br><p>i finally countered the weight you gave me</p><br>"
+		},
+		{
+			title:"saint of take it away",
+			date:"Fri Apr 21 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem class conflict revolution ",
+			poem:"<p>take the mirror from the masses</p><br><p>the herd thins behind blinks</p><br><p>sober and seeing double</p><br><p>while i was asleep while i was asleep</p><br><p>break a nasty habit</p><br><p>leave your worries your troubles</p><br><p>we look alike now, we look alike now</p><br><p>administrative tasks and lovely meals</p><br><p>a key under the blank</p><br><p>a key under the blank</p><br>"
+		},
+		{
+			title:"shedspring",
+			date:"Fri Apr 21 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem manic bipolar disorder trauma DBT dialectical behavior therapy love growth growing ",
+			poem:"<p>set up on the shed</p><br><p>to whisper with the termites</p><br><p>thunder takes issue with rotten thought</p><br><p>abandon might save you, might leave salt</p><br><p>it is sugar it’s spice</p><br><p>a threat to the season that’s been my whole life</p><br><p>it is breeze it’s soon</p><br><p>a dawn comes near me even as we consume</p><br><p>the wood tickles sound</p><br><p>a roof is the ground and the earth is a home</p><br><p>the crash is of you and the spring we break new</p><br>"
+		},
+		{
+			title:"nightrush",
+			date:"Tue Apr 18 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem space ",
+			poem:"<p>ate the fruit of space</p><br><p>timely now, meteor pit</p><br><p>taken off the case</p><br><p>windshields wiping spit</p><br><p></p><br><p>how do i level off the pull?</p><br><p>there’s a echo from the hull</p><br><p>trust the captain, breath hangs still</p><br><p>i imagine, horizons will</p><br><p></p><br><p>we were born of stars</p><br><p>and start ecliptic light</p><br><p>passing sounds of passing cars</p><br><p>in the cabin where angels fight</p><br>"
+		},
+		{
+			title:"trust padding",
+			date:"Sat Apr 15 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem class conflict revolution political ",
+			poem:"<p>amber releases</p><br><p>ideas old and bloodless</p><br><p>neighbor teases</p><br><p>their jokes hatch in my skin</p><br><p>those children wait</p><br><p></p><br><p>can we rely on something else</p><br><p></p><br><p>in a dream we are one</p><br><p>i pinch the nerve i feel you on</p><br><p>we eat the hive within</p><br><p>it’s a violent vomit</p><br><p>autophage good clave could you try to behave?</p><br><p></p><br><p>i think you’ve been afraid fucker, i think you’ve been afraid you were hiding in plain sight you were hoping their eyes would glaze over and we’d instead take cover i think you’ve been afraid.</p><br><p></p><br><p>i think you’ve been afraid fucker, i think you’ve been afraid you were cashing in their trust you were letting the bedrock rust and handing off the dust i think you’ve been afraid.</p><br><p></p><br><p>i think you’ve been afraid fucker, i think you’ve been afraid you were hiding in plain sight you were hoping their eyes would glaze over and we’d instead take cover i think you’ve been afraid.</p><br><p></p><br><p>can we rely?</p><br><p></p><br><p>in a dream we are one</p><br><p>i pinch the nerve i feel you on</p><br><p>we are trust padding</p><br>"
+		},
+		{
 			title:"i'm on to the fairies",
 			date:"Sun Apr 16 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
 			keywords:"prose ",
