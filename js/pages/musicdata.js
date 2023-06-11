@@ -3,444 +3,588 @@ let songs = [
         name: 'coyote embouchure',
         path: '../img/music/coyoteembouchureV01.mp3',
         artist: 'mothwash',
-        cover: '../img/music/coyoteembouchure.jpg'
+        cover: '../img/music/coyoteembouchure.jpg',
+        vibin: 0,
+    },
+    {
+        name: 'platformer',
+        path: '../img/music/serialquilters/platformer.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/serialquilters/serialquilters.jpeg',
+        vibin: 1,
+    },
+    {
+        name: 'esplanade goosebumps feat. connor m',
+        path: '../img/music/serialquilters/esplanadegoosebumps.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/serialquilters/serialquilters.jpeg',
+        vibin: 0,
+    },
+    {
+        name: 'riddles and chills',
+        path: '../img/music/serialquilters/riddlesandchills.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/serialquilters/serialquilters.jpeg',
+        vibin: 0,
+    },
+    {
+        name: 'innate domain',
+        path: '../img/music/serialquilters/innatedomain.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/serialquilters/serialquilters.jpeg',
+        vibin: 0,
+    },
+    {
+        name: "you think i'm funny",
+        path: '../img/music/serialquilters/funny.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/serialquilters/serialquilters.jpeg',
+        vibin: 1,
+    },
+    {
+        name: "puzzled",
+        path: '../img/music/serialquilters/puzzled.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/serialquilters/serialquilters.jpeg',
+        vibin: 1,
+    },
+    {
+        name: "the tea leave ratio",
+        path: '../img/music/serialquilters/tealeave.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/serialquilters/serialquilters.jpeg',
+        vibin: 0,
+    },
+    {
+        name: "mouthmade breeze",
+        path: '../img/music/serialquilters/mouthmadebreeze.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/serialquilters/serialquilters.jpeg',
+        vibin: 0,
+    },
+    {
+        name: "trying",
+        path: '../img/music/serialquilters/trying.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/serialquilters/serialquilters.jpeg',
+        vibin: 0,
+    },
+    {
+        name: "anywhere",
+        path: '../img/music/serialquilters/anywhere.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/serialquilters/serialquilters.jpeg',
+        vibin: 0,
     },
     {
         name: "shedspring",
         path: '../img/music/headscrewpostop/shedspring.mp3',
         artist: 'headscrew post-op',
-        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg',
+        vibin: 0,
     },
     {
         name: "trustpadding",
         path: '../img/music/headscrewpostop/trustpadding.mp3',
         artist: 'headscrew post-op',
-        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg',
+        vibin: 0,
     },
     {
         name: "the arbiter's bench, grave gavel",
         path: '../img/music/headscrewpostop/thearbitersbenchV02.mp3',
         artist: 'headscrew post-op',
-        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg',
+        vibin: 0,
     },
     {
         name: "recipe for a fugue state",
         path: '../img/music/headscrewpostop/recipefuguestatev01.mp3',
         artist: 'headscrew post-op',
-        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg',
+        vibin: 0,
     },
     {
         name: "can i keep living",
         path: '../img/music/headscrewpostop/canikeepliving.mp3',
         artist: 'headscrew post-op',
-        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg',
+        vibin: 0,
     },
     {
         name: "saint of takeitaway",
         path: '../img/music/headscrewpostop/saintoftakeitaway.mp3',
         artist: 'headscrew post-op',
-        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg',
+        vibin: 0,
     },
     {
         name: "devil of reciprocity",
         path: '../img/music/headscrewpostop/devilofreciprocityV02.mp3',
         artist: 'headscrew post-op',
-        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg',
+        vibin: 0,
     },
     {
         name: "stick 'em up, Tooh Fairy!",
         path: '../img/music/headscrewpostop/toothfairy.mp3',
         artist: 'headscrew post-op',
-        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg',
+        vibin: 0,
     },
     {
         name: "nightrush",
         path: '../img/music/headscrewpostop/nightrush.mp3',
         artist: 'headscrew post-op',
-        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg',
+        vibin: 0,
     },
     {
         name: "instant trenches",
         path: '../img/music/headscrewpostop/instanttrenches.mp3',
         artist: 'headscrew post-op',
-        cover: '../img/music/headscrewpostop/headscrewcover.jpeg'
+        cover: '../img/music/headscrewpostop/headscrewcover.jpeg',
+        vibin: 1,
     },
     {
         name: "meadowspit",
         path: '../img/music/sirensofquietthings/meadowspit.mp3',
         artist: 'sirens of quiet things',
-        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg'
+        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg',
+        vibin: 1,
     },
     {
         name: "linguist of the woods",
         path: '../img/music/sirensofquietthings/linguist_of_the_woods.mp3',
         artist: 'sirens of quiet things',
-        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg'
+        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg',
+        vibin: 0,
     },
     {
         name: "grimoire of grasses",
         path: '../img/music/sirensofquietthings/grimoire_of_grasses.mp3',
         artist: 'sirens of quiet things',
-        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg'
+        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg',
+        vibin: 1,
     },
     {
         name: "esplanade goosebumps",
         path: '../img/music/sirensofquietthings/esplanade_goosebumps.mp3',
         artist: 'sirens of quiet things',
-        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg'
+        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg',
+        vibin: 0,
     },
     {
         name: "the rinsing of bleeding gums",
         path: '../img/music/sirensofquietthings/the_rinsing_of_bleeding_gums.mp3',
         artist: 'sirens of quiet things',
-        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg'
+        cover: '../img/music/sirensofquietthings/quietsirenscover.jpeg',
+        vibin: 0,
     },
     {
         name: "ingrown",
         path: '../img/music/in3s/ingrown.mp3',
         artist: 'in3s',
-        cover: '../img/music/in3s/in3scover.jpeg'
+        cover: '../img/music/in3s/in3scover.jpeg',
+        vibin: 0,
     },
     {
         name: "tinykitchen",
         path: '../img/music/in3s/tinykitchen.mp3',
         artist: 'in3s',
-        cover: '../img/music/in3s/in3scover.jpeg'
+        cover: '../img/music/in3s/in3scover.jpeg',
+        vibin: 1,
     },
     {
         name: "the dying forest does a tight 5",
         path: '../img/music/in3s/dyingforest_tight5.mp3',
         artist: 'in3s',
-        cover: '../img/music/in3s/in3scover.jpeg'
+        cover: '../img/music/in3s/in3scover.jpeg',
+        vibin: 0,
     },
     {
         name: "nothingfits",
         path: '../img/music/in3s/nothing-fits.mp3',
         artist: 'in3s',
-        cover: '../img/music/in3s/in3scover.jpeg'
+        cover: '../img/music/in3s/in3scover.jpeg',
+        vibin: 0,
     },
     {
         name: "chokethemdown",
         path: '../img/music/in3s/chokethemdown.mp3',
         artist: 'in3s',
-        cover: '../img/music/in3s/in3scover.jpeg'
+        cover: '../img/music/in3s/in3scover.jpeg',
+        vibin: 0,
     },
     {
         name: "flattire commitment",
         path: '../img/music/in3s/flattire_commitment.mp3',
         artist: 'in3s',
-        cover: '../img/music/in3s/in3scover.jpeg'
+        cover: '../img/music/in3s/in3scover.jpeg',
+        vibin: 0,
     },
     {
         name: "human hydra",
         path: '../img/music/in3s/humanhydra.mp3',
         artist: 'in3s',
-        cover: '../img/music/in3s/in3scover.jpeg'
+        cover: '../img/music/in3s/in3scover.jpeg',
+        vibin: 0,
     },
     {
         name: "iknowmylove",
         path: '../img/music/in3s/iknowmylove.mp3',
         artist: 'in3s',
-        cover: '../img/music/in3s/in3scover.jpeg'
+        cover: '../img/music/in3s/in3scover.jpeg',
+        vibin: 0,
     },
     {
         name: "grabbing stars though the light's delayed",
         path: '../img/music/in3s/grabbingstars_lightdelayed.mp3',
         artist: 'in3s',
-        cover: '../img/music/in3s/in3scover.jpeg'
+        cover: '../img/music/in3s/in3scover.jpeg',
+        vibin: 1,
     },
     {
         name: "teapot bargain",
         path: '../img/music/in3s/teapotbargain.mp3',
         artist: 'in3s',
-        cover: '../img/music/in3s/in3scover.jpeg'
+        cover: '../img/music/in3s/in3scover.jpeg',
+        vibin: 0,
     },
     {
         name: "unknown olds",
         path: '../img/music/unknownolds/avibe.mp3',
         artist: 'unknown olds',
-        cover: '../img/music/unknownolds/uo_cover.jpeg'
+        cover: '../img/music/unknownolds/uo_cover.jpeg',
+        vibin: 0,
     },
     {
         name: "hairthin optics",
         path: '../img/music/unknownolds/hairthin_optics.mp3',
         artist: 'unknown olds',
-        cover: '../img/music/unknownolds/uo_cover.jpeg'
+        cover: '../img/music/unknownolds/uo_cover.jpeg',
+        vibin: 0,
     },
     {
         name: "rinse seas",
         path: '../img/music/unknownolds/rinsesea.mp3',
         artist: 'unknown olds',
-        cover: '../img/music/unknownolds/uo_cover.jpeg'
+        cover: '../img/music/unknownolds/uo_cover.jpeg',
+        vibin: 0,
     },
     {
         name: "acid sonatas and stringy toes",
         path: '../img/music/unknownolds/acidsonatasandstringytoes.mp3',
         artist: 'unknown olds',
-        cover: '../img/music/unknownolds/uo_cover.jpeg'
+        cover: '../img/music/unknownolds/uo_cover.jpeg',
+        vibin: 0,
     },
     {
         name: "a friendly beast is still a beast",
         path: '../img/music/unknownolds/friendlybeastabeast.mp3',
         artist: 'unknown olds',
-        cover: '../img/music/unknownolds/uo_cover.jpeg'
+        cover: '../img/music/unknownolds/uo_cover.jpeg',
+        vibin: 0,
     },
     {
         name: "withdraws from synthetic candlelight (Christophe Beck cover)",
         path: '../img/music/unknownolds/afireneverseen.mp3',
         artist: 'unknown olds',
-        cover: '../img/music/unknownolds/uo_cover.jpeg'
+        cover: '../img/music/unknownolds/uo_cover.jpeg',
+        vibin: 0,
     },
     {
         name: "pembroke, MA",
         path: '../img/music/candylandbeaches/pembrokeMA.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "not got",
         path: '../img/music/candylandbeaches/notgot.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "fair",
         path: '../img/music/candylandbeaches/fair.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "stuck ouroboros",
         path: '../img/music/candylandbeaches/stuckouroboros.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "antecedent",
         path: '../img/music/candylandbeaches/antecedent.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "molten iron",
         path: '../img/music/candylandbeaches/molteniron.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "fey cave mouth",
         path: '../img/music/candylandbeaches/feycavemouth.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "disco cinnamon",
         path: '../img/music/candylandbeaches/discocinnamon.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "justascratch",
         path: '../img/music/candylandbeaches/justascratch.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "passing itch",
         path: '../img/music/candylandbeaches/passingitch0.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "winter flanking me in a smoke shop",
         path: '../img/music/candylandbeaches/winterflank-smokeshop.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "coffee induced nightmares",
         path: '../img/music/candylandbeaches/coffee-induced-nightmares.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "candle cell",
         path: '../img/music/candylandbeaches/candlecell.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "a sailor's chokehold",
         path: '../img/music/candylandbeaches/bustedbrim.mp3',
         artist: 'candylandbeaches',
-        cover: '../img/music/candylandbeaches/candycover.jpeg'
+        cover: '../img/music/candylandbeaches/candycover.jpeg',
+        vibin: 0,
     },
     {
         name: "flow",
         path: '../img/music/runningnumbers/flow.mp3',
         artist: 'running numbers in a mollusk shell',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg',
+        vibin: 0,
     },
     {
         name: "nick-knock",
         path: '../img/music/runningnumbers/nick_knock.mp3',
         artist: 'running numbers in a mollusk shell',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg',
+        vibin: 0,
     },
     {
         name: "water-math",
         path: '../img/music/runningnumbers/water-math.mp3',
         artist: 'running numbers in a mollusk shell',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg',
+        vibin: 0,
     },
     {
         name: "bad/rest",
         path: '../img/music/runningnumbers/Bad-Rest.mp3',
         artist: 'running numbers in a mollusk shell',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg',
+        vibin: 0,
     },
     {
         name: "drawing attention",
         path: '../img/music/runningnumbers/drawingattention.mp3',
         artist: 'running numbers in a mollusk shell',
-        cover: '../img/music/runningnumbers/runningnumberscover.jpeg'
+        cover: '../img/music/runningnumbers/runningnumberscover.jpeg',
+        vibin: 1,
     },
     {
         name: 'foster home foam',
         path: '../img/music/sciontific_method/fosterhomefoam.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 0,
     },
     {
         name: 'foucauldian nuf',
         path: '../img/music/sciontific_method/foucauldian_nuf.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 1,
     },
     {
         name: 'aphantasia',
         path: '../img/music/sciontific_method/aphantasia.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 0,
     },
     {
         name: 'i know better',
         path: '../img/music/sciontific_method/iknowbetter.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 0,
     },
     {
         name: "parking garage",
         path: '../img/music/sciontific_method/parkinggarage_v01.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 0,
     },
     {
         name: 'lean_in',
         path: '../img/music/sciontific_method/lean_in.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 0,
     },
     {
         name: "cavern ruffles",
         path: '../img/music/sciontific_method/cavernruffles.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 0,
     },
     {
         name: "ekwus",
         path: '../img/music/sciontific_method/ekwus.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 0,
     },
     {
         name: "avalanche",
         path: '../img/music/sciontific_method/avalanche.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 1,
     },
     {
         name: "spicy peach porpoise",
         path: '../img/music/sciontific_method/spicypeachporpoise.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 0,
     },
     {
         name: "a framed painting of violet's ass",
         path: '../img/music/sciontific_method/a_framed_painting_of_violets_ass.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 1,
     },
     {
         name: "rainbow's lullaby",
         path: '../img/music/sciontific_method/rainbowslullaby.mp3',
         artist: 'sciontific method',
-        cover: '../img/music/sciontific_method/quarrycliner.jpg'
+        cover: '../img/music/sciontific_method/quarrycliner.jpg',
+        vibin: 0,
     },
     {
         name: '__ilkicould__',
         path: '../img/music/ilkicould.mp3',
         artist: 'd.v. bones & balloons',
-        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
+        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg',
+        vibin: 0,
     },
     {
         name: 'SUNdrythoughts',
         path: '../img/music/sundrythoughts.mp3',
         artist: 'd.v. bones & balloons',
-        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
+        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg',
+        vibin: 0,
     },
     {
         name: 'todeathdoiowe',
         path: '../img/music/todeathdoiowe.mp3',
         artist: 'd.v. bones & balloons',
-        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
+        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg',
+        vibin: 0,
     },
     {
         name: 'cmyk',
         path: '../img/music/cmyk.mp3',
         artist: 'd.v. bones & balloons',
-        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
+        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg',
+        vibin: 1,
     },
     {
         name: '2allwelost & willneverlose',
         path: '../img/music/2allwelost.mp3',
         artist: 'd.v. bones & balloons',
-        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
+        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg',
+        vibin: 0,
     },
     {
         name: 'mars_drowns',
         path: '../img/music/mars_drowns.mp3',
         artist: 'd.v. bones & balloons',
-        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
+        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg',
+        vibin: 0,
     },
     {
         name: 'mythunder fingernails',
         path: '../img/music/mythunderfingernails.mp3',
         artist: 'd.v. bones & balloons',
-        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
+        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg',
+        vibin: 0,
     },
     {
         name: 'light rail through olddreams',
         path: '../img/music/lightrailthrougholddreams.mp3',
         artist: 'd.v. bones & balloons',
-        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
+        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg',
+        vibin: 0,
     },
     {
         name: 'sunlit',
         path: '../img/music/sunlit.mp3',
         artist: 'd.v. bones & balloons',
-        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg'
+        cover: '../img/music/dvbonesballoons_fairymafiaCOVER.jpeg',
+        vibin: 1,
     },
     {
         name: 'shimmore (snowmigrant)',
         path: '../img/music/shimmore_snowmigrant.mp3',
         artist: 'cuckoo shimmore',
-        cover: '../img/music/shimmoresnowmigrant.jpeg'
+        cover: '../img/music/shimmoresnowmigrant.jpeg',
+        vibin: 0,
     },
     {
         name: 'cuckoos turn 2 clocks 4 winter',
         path: '../img/music/cuckoosturn2clocks4winter_draft2.mp3',
         artist: 'cuckoo shimmore',
-        cover: '../img/music/cuckoos.JPG'
+        cover: '../img/music/cuckoos.JPG',
+        vibin: 0,
     }
 ]

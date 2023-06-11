@@ -78,25 +78,50 @@ $(document).ready(function() {
   })
 
 
+  function checkActive(activesongs, currentMusic, inlist) {
+    for (activecount=0; activecount<activesongs.length; activecount++) {
+      if (activesongs[activecount].style.display != 'none') {
+        if (songs[currentMusic].name == activesongs[activecount].textContent) {
+          inlist = true
+        }
+      }
+    }
+    return inlist
+  }
 
 
   // forward and backward button
   forwardBtn.addEventListener('click', function() {
-      if(currentMusic >= songs.length - 1){
-          currentMusic = 0;
-      } else{
-          currentMusic++;
+      var inlist = null
+      var activesongs = songlist.children
+
+      while (inlist == null) {
+        inlist = checkActive(activesongs, currentMusic+1, inlist)
+        if(currentMusic >= songs.length - 1){
+            currentMusic = 0;
+        } else{
+            currentMusic++;
+        }
       }
+
       setMusic(currentMusic);
       playMusic();
+
   })
 
   backwardBtn.addEventListener('click', function() {
-      if(currentMusic <= 0){
-          currentMusic = songs.length - 1;
-      } else{
-          currentMusic--;
+      var inlist = null
+      var activesongs = songlist.children
+
+      while (inlist == null) {
+        inlist = checkActive(activesongs, currentMusic-1, inlist)
+        if(currentMusic <= 0){
+            currentMusic = songs.length - 1;
+        } else{
+            currentMusic--;
+        }
       }
+
       setMusic(currentMusic);
       playMusic();
   })
@@ -118,8 +143,10 @@ $(document).ready(function() {
   setInterval(() => {
       seekBar.value = music.currentTime;
       currentTime.innerHTML = formatTime(music.currentTime);
-      if(Math.floor(music.currentTime) == Math.floor(seekBar.max)){
-          forwardBtn.click();
+      if (Math.floor(music.currentTime) != 0) {
+        if(Math.floor(music.currentTime) == Math.floor(seekBar.max)){
+            forwardBtn.click();
+        }
       }
   }, 500)
 
@@ -160,8 +187,83 @@ $(document).ready(function() {
       songs[i] = t
 
     }
-    setMusic(0)
+    setMusic(1)
 
   })
+
+  // vi's songs
+
+  function tellemitsV(heartBtn) {
+    if (heartBtn.className.includes('off')) {
+      var notice = document.createElement('h2')
+      var logo = document.querySelector('.logo')
+      var musicplayer = document.querySelector('.music-player')
+      var musicbody = document.querySelector('.musicbody')
+      notice.setAttribute('id','notice')
+      notice.textContent = "inspired by V, by love and meaning"
+      //menu.insertBefore(notice, homemenu)
+      musicplayer.style.paddingTop = "600px"
+      musicplayer.style.height = "1400px"
+      musicbody.style.height = "1600px"
+      logo.appendChild(notice)
+    } else {
+      var notice = document.querySelector('#notice')
+      var musicplayer = document.querySelector('.music-player')
+      var musicbody = document.querySelector('.musicbody')
+      musicplayer.style.paddingTop = "215px"
+      musicplayer.style.height = "1000px"
+      musicbody.style.height = "1200px"
+      notice.remove()
+    }
+  }
+
+
+  const heartBtn = document.querySelector('.heart-btn')
+  heartBtn.addEventListener('click', function() {
+    // need like an on/off class add
+    // fix the songlist too, i.e. deleting, adding elements
+    if (heartBtn.className.includes('off')){
+      tellemitsV(heartBtn)
+      heartBtn.classList.remove('off')
+      heartBtn.classList.add('on')
+      var firstsong = null
+      for (songnum=1; songnum<songs.length; songnum++) {
+        song = songs[songnum]
+        if (song.vibin == 0) {
+          for (elemnum=0; elemnum<songs.length-1; elemnum++) {
+            elem = songlist.children[elemnum]
+            if (elem.textContent == song.name) {
+              elem.style.display = 'none'
+            }
+          }
+          // elem = songlist.getElementsByTagName('li')[songnum-1]
+          // elem.style.display = 'none'
+        } else {
+          if (firstsong == null) {
+            firstsong = songnum
+          }
+        }
+      }
+      setMusic(firstsong)
+    } else {
+      tellemitsV(heartBtn)
+      heartBtn.classList.remove('on');
+      heartBtn.classList.add('off');
+      for (songnum=1; songnum<songs.length; songnum++){
+        song = songs[songnum]
+        if (song.vibin == 0) {
+          for (elemnum=0; elemnum<songs.length-1; elemnum++) {
+            elem = songlist.children[elemnum]
+            if (elem.textContent == song.name) {
+              elem.style.display = 'initial'
+            }
+          }
+        }
+      }
+      setMusic(1)
+    }
+
+  })
+
 
 });
