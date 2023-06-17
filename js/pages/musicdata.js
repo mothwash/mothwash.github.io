@@ -7,6 +7,13 @@ let songs = [
         vibin: 0,
     },
     {
+        name: 'lilac sulindac',
+        path: '../img/music/lilacsulindac/lilacsulindacV02.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/lilacsulindac/lilacsulindacCOVER.jpeg',
+        vibin: 1,
+    },
+    {
         name: 'platformer',
         path: '../img/music/serialquilters/platformer.mp3',
         artist: 'mothwash',
