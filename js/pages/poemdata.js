@@ -1,5 +1,51 @@
 let allpoems = [
 		{
+			title:"ate a cosmic event for breakfast",
+			date:"Monday July 03 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",keywords:"poem DBT dialectical behavior therapy breathing breathe ",poem:"<p>make your stage, your curtains too</p><br><p>inverted, frothy top to a bowl of sky</p><br><p>little cries like carbonation</p><br><p>so much thought between gasps and yawns</p><br><p>precipice breathes luctiferous</p><br><p>lumpy capsules filled with humid summaries</p><br><p>lick the husk line until it dissolves a bit</p><br><p>like a thumbprint on the rim of a dirty bowl</p><br><p>lot of ink for little composition</p><br><p>how tired are you, cosmic event?</p><br>"
+		},
+		{
+			title:"a point of honesty ommitted",
+			date:"Sunday June 25 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose moral lesson DBT dialectical behavior therapy family love friends childhood healing ",
+			poem:"<p>mom says i compartmentalize my feelings rather than feel them. we later talked about, or rather, danced around how my resource-contrained and structured life prohibits knowing how to celebrate. i dissociated through this conversation. i am content, making friends and meeting neighbors, cuddling through our favorite shows, and laughing at a well-written book. when the heavier feelings come, often compounded by trauma, i have to listen for the still heart and follow its thumping until i’m free. senses honed by tools into instinct. does giving someone a chance to belong mean accepting them as they are and asking them to change? is doing so granting them peace at the cost of their humanity? what if i just want to keep celebrating little tasks with big beers and little friends with big hearts? what if the surprises illicit passive feelings?</p><br>"
+		},
+		{
+			title:"steep goddamn",
+			date:"Wednesday June 21 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem manic bipolar disorder trauma moral lesson healing ",
+			poem:"<p>is the sun’s day that long?</p><br><p>mighty solstice’d seems tide-like</p><br><p>can you hug it out of me?</p><br><p>the water splits the heavy and light</p><br><p>(sincerely relieved)</p><br><p></p><br><p>that moon flipped behind us</p><br><p>itself alone knows belonging</p><br><p>fed-up credit</p><br><p>ankle in true debt, fear confides</p><br><p></p><br><p>a gullet for the breath and bev</p><br><p>i hold my elbows stifly bent</p><br><p>(in the shadow of a passenger)</p><br><p>steep god damnit steep!</p><br><p></p><br><p>you held the day on its back</p><br><p>heartbeat prayers cooked out (clean even)</p><br><p>wield a tune and a process</p><br><p>can’t stand the blood say goodbye (towel folded)</p><br><p></p><br><p>this gut is sinking, dances on the vinyl</p><br><p>suite of stop motion, hold it high!</p><br><p>i have lasted much too last (gun smoke fell)</p><br><p>ate it, the dirt (chalk primer)</p><br><p>[at track after track it’s over]</p><br><p></p><br><p>pillow face’d, i might give it</p><br><p>a temple of sheets, sweet gospel beach</p><br><p>you kick the sand but don’t look!</p><br><p>might it love but once around!</p><br><p>the page has no home!</p><br><p></p><br><p>i am taught, that i learn as i teach</p><br><p>(eye hues) (naval tickles)</p><br><p>i am taught, that i learn as i teach</p><br><p>(board meeting fuzz) (flying circus amnesia)</p><br><p>it exists it must! it must!</p><br><p></p><br><p>an episode, my fighting teeth</p><br><p>mother tongue afraid to force</p><br><p>disciples come to order</p><br><p>and wait to find their course</p><br><p></p><br><p>i have failed even at my best</p><br><p>it spits tickets i still pocket</p><br><p>you walk out freely in the sun</p><br><p>a pain we need to soak</p><br><p></p><br><p>we have crawled just to lay still</p><br><p>we have crawled just to lay still</p><br><p>[ached to ache softly]</p><br><p>we have crawled just to lay still</p><br><p>[ached to ache softly]</p><br><p>we have crawled just to lay still</p><br><p>[ached to ache softly]</p><br><p>we have crawled just to lay still</p><br><p>[ached to ache softly]</p><br><p>we have crawled just to lay still</p><br><p>[ached to ache softly]</p><br><p>[ached to ache softly]</p><br><p></p><br><p>clumsy giant hope to pick up river</p><br><p>hungry silence holds for heavy fill</p><br><p>it is in pieces, but trees kiss horizon</p><br><p>i give it i give it i give it i get will</p><br><p></p><br><p>‘squitos burning through the darkness</p><br><p>lightless life underneath our skin</p><br><p>it even hurts, it is itch and gift!</p><br><p>i give it i give it i give it i get well</p><br><p>(will it be so?)</p><br><p>(will it be so?)</p><br><p></p><br><p>and if ever in a wrong fit</p><br><p>eating held in fever kin</p><br><p>the sky eats my eyes sometimes</p><br><p>i give it i give it i give it i get it well</p><br><p></p><br><p>(well it be so)</p><br>"
+		},
+		{
+			title:"crucifixion of risk",
+			date:"Monday June 19 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem manic moral lesson ",
+			poem:"<p>do not take chances with boredom</p><br><p>even with walls warded in lottery tickets</p><br><p>and adorned with a thousand frames</p><br><p>the shutter of meaningful stimulation</p><br><p>will march the clocks</p><br><p>through their hands, nothing digs</p><br><p>hollowing moments and gutting things</p><br><p>emptying lives</p><br><p>so i gamble now with my perspective</p><br><p>all senses in</p><br><p>a table nonetheless</p><br><p>i stake the question mark out front</p><br><p>definitively</p><br><p>a sign of caution</p><br>"
+		},
+		{
+			title:"lilac sulindac",
+			date:"Friday June 16 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem happy beautiful love LGBTQIA+ queer gay ",
+			poem:"<p>Violet, your palette lives on my brush</p><br><p>Violet, pigment blends where i crush</p><br><p></p><br><p>and i invite your mixture, pastels in paisley swirls</p><br><p>and you break ground, with where you belong</p><br><p>you cut the fruit, cut the light, can’t dispute</p><br><p>it’ll always be you</p><br><p>it’ll always be you</p><br><p></p><br><p>it evolves, iris eyeshade</p><br><p>your art involves, it holds what it’s made</p><br><p></p><br><p>Violet…</p><br><p>Violet…</p><br><p>Violet…</p><br><p></p><br><p>orchid, lilac, it’s your field, it’s my sulindac</p><br>"
+		},
+		{
+			title:"the sleepy hills of flight paths",
+			date:"Wednesday June 14 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose emotional scifi science fiction horror terror scary ",
+			poem:"<p>a tick at the head of a tick army. the considerations of pleather. compatible outlets and expected sweat. spin yourself in a swivel chair, the feature. a nap bludgeoned by delays, turbulence beat by an escaped toddler with a wiffle ball bat. air conditioned yawns. the sleepy hills of flight paths. blood sucking tarmac ticks. a ukelele wedged in a lighting fixture. racks of puffy snacks. getting creative with pat downs, do you want it here? frayed upholstery getting a stern scolding. the sun doesn’t bleed through consistently. the tick has its tick hat in its hands. can’t even turn to face the whiffle ball and his comrades underneath it. he blames the puffy snacks.</p><br>"
+		},
+		{
+			title:"two necks sharing a tie",
+			date:"Tuesday June 13 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"poem bipolar disorder ",
+			poem:"<p>bifurcated bathtub for friends</p><br><p>split plane cabin for options</p><br><p>a tossed sandwich made salad by stomach</p><br><p>tug of war via mutli-channel TV</p><br><p>diverted politeness from the reserves</p><br><p>recycled anger</p><br><p>a diet of low carb loss</p><br><p>leverage on nothing levers most</p><br><p>a second of a song for all</p><br><p>a heart beat hummed by generations</p><br><p>a peck from time</p><br><p>atavistic and scarce</p><br>"
+		},
+		{
+			title:"big gay swim day",
+			date:"Sunday June 11 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"prose emotional struggle dark freaky apocalypse dystopian moral lesson family LGBTQIA+ queer gay ",
+			poem:"<p>i expected to define bravery differently. to find it against the grains of water cooler talk or within the heart of a lost kid. i didn’t know it would yield as full valor, that the front lines of trial and heroics would take shape in rainbow flags at the gates of a community pool center. coniptions look different when fully loaded. it is sacrifice even to give in to indifference, to be swivel-headed and poker-faced. was it pretty from Mont-Saint-Michel? no, it must have been goodbyes that felt longer than usual. an awareness of uncertainty, but knowing full well that some are certain in bravery. some find honor behind colorful umbrellas.</p><br>"
+		},
+		{
 			title:"anywhere",
 			date:"Wednesday June 07 2023 00:00:00 GMT-0400 (Eastern Daylight Time)",
 			keywords:"poem emotional struggle manic bipolar disorder trauma dark freaky apocalypse dystopian drugs cigarettes sex horror terror scary loss grief ",

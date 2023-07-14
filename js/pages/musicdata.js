@@ -14,6 +14,20 @@ let songs = [
         vibin: 1,
     },
     {
+        name: 'easiest things',
+        path: '../img/music/lilacsulindac/easiestthings.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/lilacsulindac/lilacsulindacCOVER.jpeg',
+        vibin: 0,
+    },
+    {
+        name: 'steep goddamn',
+        path: '../img/music/lilacsulindac/steepgoddamn.mp3',
+        artist: 'mothwash',
+        cover: '../img/music/lilacsulindac/lilacsulindacCOVER.jpeg',
+        vibin: 0,
+    },
+    {
         name: 'platformer',
         path: '../img/music/serialquilters/platformer.mp3',
         artist: 'mothwash',
