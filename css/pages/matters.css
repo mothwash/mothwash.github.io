@@ -30,6 +30,21 @@
   margin-right: 10%;
 }
 
+.blurred-back h1 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.blurred-back h2 {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.blurred-back h3 {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 
 @media screen and (min-width: 1440px) {
   .blurred-back {

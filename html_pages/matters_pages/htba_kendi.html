@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <!-- CMD + OPT + i to open inspection in chrome on Mac-->
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/matters.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/home.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">what matters...</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="https://dvbonesballoons.bandcamp.com/"><i class="fab fa-bandcamp"></i></a>
+              <a href="https://poetizer.com/book/997b1248-6f1a-4ca2-bee8-12fe6a7eccaa"><i class="fas fa-book"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../../html_pages/matters_pages/matters_home.html">matters</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../../html_pages/poems.html">poems</a></div>
+          <div class="flex-item"><a href="../../html_pages/chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../../html_pages/music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- home container -->
+    <div class="container-fluid">
+      <!-- home parallax -->
+      <div class="row home-parallax">
+        <div class="blurred-back">
+          <h1> How to be Antiracist by Dr. Ibram X. Kendi </h1>
+          <p> Dr. Kendi has very recently come into controversy. Director of the Antiracism Institute at Boston University, Dr. Kendi has recently laid off half the staff. </p>
+          <p> During 2020, Dr. Kendi released the text How to be Antiracist, a NYT bestseller that introduced an inversion to racism and framed that inversion as binary to racism. </p>
+          <p> Where I think this framework succeeded was in bringing greater attention to neutraility and its ineffectiveness. Within this framework, more actions/behaviors/thoughts/patterns are categorized as racist for not meeting the antiracist criteria. </p>
+          <p> This was a popular book, and critics online like blacademics say it appealed to the white liberal, satisfying the alleviation of guilt by being a self-help guide. </p>
+          <p> The perspective of self-help for antiracist activity as being a personal journey "negates the physical and material ways in which racism affects how we interact in society." </p>
+          <p> Both are fair points, and an inquiry is ongoing into Dr. Kendi's latest activity as the research from the institute, which was funded at $43 million, is being considered insubstantial. </p>
+          <p> Additionally, Kendi is quoted as being avoidant to criticism, since most criticism often calls into question the experiences of blackness, but obviously that doesn't help research flourish in the arena of ideas. </p>
+          <p> This story highlights several interesting facets. Who's considering the work insubstantial? Why were so many laid off? How were the resources used and what could have been done differently? </p>
+          <p> As presented, there was an idea here that had surface level merit on a broad scale. Ergo $43 million in funding. Yet something seems to be going awry. What matters to me is how this resolves and what we learn. </p>
+          <p> 2023-10-18 </p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </body>
+
+  <script>
+    var textbox = document.getElementsByClassName('blurred-back')
+    var pronouns_sing = ['he', 'they']
+    var pronouns_plur = ['his', 'their']
+    var pronouns_own = ['his', 'theirs']
+    var pronouns_is = ['he is', 'they are']
+    var pronouns_was = ['he was', 'they were']
+    var pronouns_has = ['he has', 'they have']
+    var substitute = ""
+
+    for (var elemcount=0; elemcount<textbox[0].children.length; elemcount++) {
+      elem = textbox[0].children[elemcount]
+
+      textarray = elem.innerText.split(" ")
+
+      for (var i = 0; i < textarray.length; i++) {
+        if (textarray[i] == "pronouns_sing") {
+          var substitute = pronouns_sing[Math.floor(Math.random() * pronouns_sing.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_plur") {
+          var substitute = pronouns_plur[Math.floor(Math.random() * pronouns_plur.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_own") {
+          var substitute = pronouns_own[Math.floor(Math.random() * pronouns_own.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_is") {
+          var substitute = pronouns_is[Math.floor(Math.random() * pronouns_is.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_was") {
+          var substitute = pronouns_was[Math.floor(Math.random() * pronouns_was.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_has") {
+          var substitute = pronouns_has[Math.floor(Math.random() * pronouns_has.length)]
+          textarray[i] = substitute
+        }
+      }
+      if (substitute != "") {
+        var newtext = " "
+        console.log("textarray is: ",textarray)
+        for (var i = 0; i < textarray.length; i++) {
+          newtext = newtext + textarray[i] + " "
+        }
+        elem.innerText = newtext
+      }
+    }
+
+  </script>
+
+
+</html>

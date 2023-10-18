@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <!-- CMD + OPT + i to open inspection in chrome on Mac-->
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/matters.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/home.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">what matters...</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="https://dvbonesballoons.bandcamp.com/"><i class="fab fa-bandcamp"></i></a>
+              <a href="https://poetizer.com/book/997b1248-6f1a-4ca2-bee8-12fe6a7eccaa"><i class="fas fa-book"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../../html_pages/matters_pages/matters_home.html">matters</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../../html_pages/poems.html">poems</a></div>
+          <div class="flex-item"><a href="../../html_pages/chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../../html_pages/music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- home container -->
+    <div class="container-fluid">
+      <!-- home parallax -->
+      <div class="row home-parallax">
+        <div class="blurred-back">
+          <h1> Black American Portraits - Exhibit at the Memphis Brooks Museum of Art </h1>
+          <p> In moving to Memphis, I feel immensely grateful to be in this city for Black American Portraits. Featuring Deborah Roberts, Kehinde Wiley, Titus Kaphar, Calida Rawles, Bisa Butler, Njidek Akunyili Crosby, Kenturah Davis, Lorna Simpson, and Jared Small. </p>
+          <p> I've visited several times, and I love starting with Otis Keane Kye Quoicoe. The stark colors and sparse tecture, Lady on Blue Couch is posture where posture hasn't existed. </p>
+          <p> I straighten my back and fall in love with Lezley Saar again. Scenes are woven in thick disposition and those hard lines make the feeling of crossing them heavier. </p>
+          <p> Bag man by Samella Lewis and Sharecropper by Kerry James Marshall show what exhausting and deserving look like and the caution that comes with it. The cautiousness of black people in America has always been deserved, but so deserved is also rest </p>
+          <p> Rest isn't found, not before passing Portrait of Nelly Moudime by Kehinde Wiley and Destiny Series: Sandra Bland Renisha McBride Tanisha Anderson by Titus Kaphar. There's almost an infinite unrest in the tension between these two pieces and the heartbreak of both resilience and mourning. </p>
+          <p> Thankfully the 'love' themed room is just beyond. There are two photographs of immense love. The Kitchen Table series from Carrie Mae Weems and Safe Space by Clifford Prince King. To be entangled, even without sexuality and with complete utility, one can find so much strength in the human connection. "'So tell me baby, what do you know about this great big world of our?' Smiling, she said, 'Not a damn thang sugar.'"</p>
+          <p> Junior's research by Troyin Ojih Odutola is honor bestowed, painted on what appears to be construction paper with the crudeness of a thick brush, but the confidence of complete faith. </p>
+          <p> I would be remiss to mention Swimming in Compton, Auntie B by Reggie Burrows Hodges. It reminds me of auntie, the dark oil of the background and the highlights of motion making a racket just for some rest. I miss Auntie dearly. </p>
+          <p> It was at this point in my first walk through, I gruffly asked a fellow patron to stop getting too close. She was not listening to the attendees that had to remind her three times. Her first defense was that she didn't hear (be more aware), her second defence was that she needed to see (they can meet your accessiblity upstairs), and her third defense was offense - that i was rude and she was leaving. fine by me, hopefully she will listen to black women going forward. </p>
+          <p> Since that had happened, I skipped Rawles the first time. Wanted to hide in the corner and I did so with Jared Small's Last Song. His little sister, receding into the couch lining, painted with the grace of a guardian angel. I've never felt safer near a painting. </p>
+          <p> Honor really is a kind of love. Maybe that's what love is in memory. And so Bisa Butler is up next, with her quilt honoring Chadiwch Boseman. Suffering behind the curtain is something many marginalized feel. It comes up time and time again, in art as it could ever be. Yet this is love and respect and honoring that memory with all the dignity of salute. </p>
+          <p> I come back out of the 'Love' room and walk by The Inversion of Racquel by Michalene Thomas and She is not a ho by Henry Taylor. Swallowtail by Tourmaline lounges between them and I think it is flat couch on that wall where these pieces smoke from thick bongs and read us for filth. It's humbling and amazing. </p>
+          <p> The joy room is around the corner, and it is joy with a pursed lip. It is joy with a held breath before the relief. Jerrel Gibbs said no culture vultures so I'll keep my nose out of this room. Let their be dancing, let their be a pulse. Let it live long in memory, in honor. </p>
+          <p> 2023-10-18 </p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </body>
+
+  <script>
+    var textbox = document.getElementsByClassName('blurred-back')
+    var pronouns_sing = ['he', 'they']
+    var pronouns_plur = ['his', 'their']
+    var pronouns_own = ['his', 'theirs']
+    var pronouns_is = ['he is', 'they are']
+    var pronouns_was = ['he was', 'they were']
+    var pronouns_has = ['he has', 'they have']
+    var substitute = ""
+
+    for (var elemcount=0; elemcount<textbox[0].children.length; elemcount++) {
+      elem = textbox[0].children[elemcount]
+
+      textarray = elem.innerText.split(" ")
+
+      for (var i = 0; i < textarray.length; i++) {
+        if (textarray[i] == "pronouns_sing") {
+          var substitute = pronouns_sing[Math.floor(Math.random() * pronouns_sing.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_plur") {
+          var substitute = pronouns_plur[Math.floor(Math.random() * pronouns_plur.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_own") {
+          var substitute = pronouns_own[Math.floor(Math.random() * pronouns_own.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_is") {
+          var substitute = pronouns_is[Math.floor(Math.random() * pronouns_is.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_was") {
+          var substitute = pronouns_was[Math.floor(Math.random() * pronouns_was.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_has") {
+          var substitute = pronouns_has[Math.floor(Math.random() * pronouns_has.length)]
+          textarray[i] = substitute
+        }
+      }
+      if (substitute != "") {
+        var newtext = " "
+        console.log("textarray is: ",textarray)
+        for (var i = 0; i < textarray.length; i++) {
+          newtext = newtext + textarray[i] + " "
+        }
+        elem.innerText = newtext
+      }
+    }
+
+  </script>
+
+
+</html>
