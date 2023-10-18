@@ -1,0 +1,39 @@
+/* matters page css */
+
+
+
+.home-parallax {
+  background: url("../../img/menu/collage-home1.png");
+  padding-top: 150px;
+  min-height: 950px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+.blurred-back {
+  min-height: 80px;
+  font-weight: 600;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(0,0,0,0.7);
+  color: #aa9cee;
+}
+
+.blurred-back p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+@media screen and (min-width: 1440px) {
+  .blurred-back {
+    margin-top: 400px;
+    margin-left: 50px;
+  }
+}

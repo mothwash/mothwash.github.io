@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <!-- CMD + OPT + i to open inspection in chrome on Mac-->
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/matters.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/home.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">what matters...</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="https://dvbonesballoons.bandcamp.com/"><i class="fab fa-bandcamp"></i></a>
+              <a href="https://poetizer.com/book/997b1248-6f1a-4ca2-bee8-12fe6a7eccaa"><i class="fas fa-book"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../../html_pages/matters_pages/matters_home.html">matters</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../../html_pages/poems.html">poems</a></div>
+          <div class="flex-item"><a href="../../html_pages/chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../../html_pages/music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- home container -->
+    <div class="container-fluid">
+      <!-- home parallax -->
+      <div class="row home-parallax">
+        <div class="blurred-back">
+        <h1> does it really matter? </h1>
+        <h1> should i really care? </h1>
+        <p> in playing the game, and showing my willingness to play, i have been let in on some secrets. </p>
+        <br></br>
+        <h3> resources are abundant </h3>
+        <p> and skittish. </p>
+        <p> think of the holders of them as county fair judges assessing pigs. they can evaluate the size, but they can't know if this is the pig that breaches evolutionary barriers for the speices </p>
+        <br></br>
+        <h3> knowledge is infinite </h3>
+        <p> and is constantly being pulled out of thin air </p>
+        <p> a pig can make an infinite number of thoughts and observations and snort them into the mud and if you'd like to dig for them, you are welcome to do so... </p>
+        <br></br>
+        <h3> not all patterns matter </h3>
+        <p> and some of them lie. </p>
+        <p> the intelligence of pigs has been disguised as greed. the violence of wolves have been mistaken for ambition. </p>
+        <br></br>
+        <br></br>
+        <h3> what i want is for what matters to me, to matter to those that can do something about it. </h3>
+        <p> pretty fucking boring, but fucking simple </p>
+        <p> i've spent a lot of time with logic and reason. spent a lot of time accumulating different marginalized voices and perspectives. </p>
+        <p> we didn't know we could accept queerness. we didn't know smoking would kill us. but we learned. </p>
+        <br></br>
+        <h2><a href="#notlearned"> click here if you haven't learned </a></h2>
+        <br></br>
+        <h2><a href="#learned"> click here if you know what i'm talking about </a></h2>
+
+        <br></br>
+        <br id="notlearned"></br>
+        <br></br>
+        <br></br>
+
+        <h1> stopping anyone from learning is one of two things </h1>
+        <h3> 1. the fear, the anxiety, and the thoughts from consequence long ago </h3>
+        <h3> 2. it doesn't matter to me </h3>
+        <br></br>
+        <p> if you fall under the former, your anxiety is buying you a one way ticket to a mind cave everytime you have a negative thought associated with what is giving you anxiety. </p>
+        <p> don't go to the cave. map out what sets you off and make decisions to act differently. it takes practice. commit to the practice. </p>
+        <h2> if you fall into the latter </h2>
+        <h1> you're on my fucking site! make it matter. </h1>
+        <p> life does not end at self actualization, it actually is meant to culminate in community actualization. </p>
+        <p> the indigenous could have taught us that if we didn't commit genocide and distort their ideas to fit the enslaving concept of individuality. </p>
+        <p> if you're actually curious, ask questions. learn what logic is. define your morality. seek out different perspectives. find the pattern that is human and caring. </p>
+        <h3> go to the next section </h3>
+
+        <br></br>
+        <br id="learned"></br>
+        <br></br>
+        <br></br>
+
+        <h1> hi thanks for coming </h1>
+        <h3> there's too much power consolidated right now. but there is hope. </h3>
+        <p> historically, we need to look at unions and revolutions and social movements. we need to seriously evaulate changes in beliefs and the entire histories of those changes. </p>
+        <p> if you've done the work, you have a great moral compass and a strong understanding of people. we need to take the next step. </p>
+        <p> i'm searching myself. these old systems and means of resistance won't work in the age of information. </p>
+        <p> not just history, but stories, the physics and life of these stories, the math and emotion of these stories, the context and spacetime of these stories </p>
+        <p> go forth. piece the puzzle together. we're running out of time. learn and create and share and talk and learn and create and share and talk... </p>
+        <p> eventually, we will need to wield both resources and powers of persuasion to take us to the next level. we will weild influence and our knowledge of how people work </p>
+
+        <h3> finally, if someone is succeeding - build them up </h3>
+        <p> and share their story. keep them balanced and let them lead us forward. we can't be fucking around with humanitarian crises anymore, it's embarassing. </p>
+        <p> i believe in you. i want us all to have a worthy life. to live in the joy of stories from each other. </p>
+        <p> the story of you is important too. and i want you to tell it in full, </p>
+        <p> so fight for freedom and future. </p>
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </body>
+
+</html>

@@ -51,7 +51,7 @@ function onPageOpenResizeMenu() {
       favicon.classList.add('fas');
       favicon.classList.add('fa-list');
       favicon.classList.add('mobilemenuicon')
-      if (onPage.includes('chapbook_pages') || onPage.includes('activism_pages') == true) {
+      if (onPage.includes('chapbook_pages') || onPage.includes('activism_pages') || onPage.includes('matters_pages') == true) {
         //console.log('chapbooks is true')
         favicon.setAttribute('onclick', 'openMobileNavLAYERUP2()')
       } else if (onPage.includes('html_pages') == true) {
@@ -130,7 +130,7 @@ $(document).ready(function() {
       if (typeof(mobilemenuicon) != 'undefined' && mobilemenuicon !=null) {
 
         //console.log(onPage.includes('testimonial-pages'));
-        if (onPage.includes('chapbook_pages') || onPage.includes('activism_pages') == true) {
+        if (onPage.includes('chapbook_pages') || onPage.includes('activism_pages') || onPage.includes('matters_pages') == true) {
           //console.log('chapbooks is true')
           favicon.setAttribute('onclick', 'openMobileNavLAYERUP2()')
         } else if (onPage.includes('html_pages') == true) {
@@ -149,7 +149,7 @@ $(document).ready(function() {
         favicon.classList.add('fas');
         favicon.classList.add('fa-list');
         favicon.classList.add('mobilemenuicon')
-        if (onPage.includes('chapbook_pages') || onPage.includes('activism_pages') == true) {
+        if (onPage.includes('chapbook_pages') || onPage.includes('activism_pages') || onPage.includes('matters_pages') == true) {
           //console.log('chapbooks is true')
           favicon.setAttribute('onclick', 'openMobileNavLAYERUP2()')
         } else if (onPage.includes('html_pages') == true) {
@@ -197,7 +197,7 @@ $(document).ready(function() {
       var mobilemenuicon = document.getElementsByClassName('mobilemenuicon')[0];
       if (typeof(mobilemenuicon) != 'undefined' && mobilemenuicon !=null) {
 
-        if (onPage.includes('chapbook_pages') || onPage.includes('activism_pages') == true) {
+        if (onPage.includes('chapbook_pages') || onPage.includes('activism_pages') || onPage.includes('matters_pages') == true) {
           //console.log('chapbooks is true')
           favicon.setAttribute('onclick', 'openMobileNavLAYERUP2()')
         } else if (onPage.includes('html_pages') == true) {
@@ -232,7 +232,7 @@ $(document).ready(function() {
         favicon.classList.add('mobilemenuicon')
         var onPageBIN = onPage.includes("html_pages");
         console.log(onPageBIN);
-        if (onPage.includes('chapbook_pages') || onPage.includes('activism_pages') == true) {
+        if (onPage.includes('chapbook_pages') || onPage.includes('activism_pages')|| onPage.includes('matters_pages') == true) {
           //console.log('chapbooks is true')
           favicon.setAttribute('onclick', 'openMobileNavLAYERUP2()')
         } else if (onPage.includes('html_pages') == true) {
@@ -316,8 +316,8 @@ function openMobileNav() {
     var breaktag = document.createElement('br');
     column.appendChild(breaktag);
 
-    activismLink.innerText = 'activism';
-    activismLink.setAttribute('href', 'html_pages/activism.html');
+    activismLink.innerText = 'matters';
+    activismLink.setAttribute('href', 'html_pages/matters_pages/matters_home.html');
     activismLink.classList.add('mobilemenuitem');
     column.appendChild(activismLink);
     var breaktag = document.createElement('br');
@@ -413,8 +413,8 @@ function openMobileNavLAYERUP() {
     var breaktag = document.createElement('br');
     column.appendChild(breaktag);
 
-    activismLink.innerText = 'activism';
-    activismLink.setAttribute('href', 'activism.html');
+    activismLink.innerText = 'matters';
+    activismLink.setAttribute('href', 'matters_pages/matters_home.html');
     activismLink.classList.add('mobilemenuitem');
     column.appendChild(activismLink);
     var breaktag = document.createElement('br');
@@ -511,8 +511,8 @@ function openMobileNavLAYERUP2() {
     var breaktag = document.createElement('br');
     column.appendChild(breaktag);
 
-    activismLink.innerText = 'activism';
-    activismLink.setAttribute('href', '../activism.html');
+    activismLink.innerText = 'matters';
+    activismLink.setAttribute('href', '../matters_pages/matters_home.html');
     activismLink.classList.add('mobilemenuitem');
     column.appendChild(activismLink);
     var breaktag = document.createElement('br');
