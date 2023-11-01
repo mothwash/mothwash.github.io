@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <!-- CMD + OPT + i to open inspection in chrome on Mac-->
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/matters.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/home.js"></script>
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">what matters...</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="https://dvbonesballoons.bandcamp.com/"><i class="fab fa-bandcamp"></i></a>
+              <a href="https://poetizer.com/book/997b1248-6f1a-4ca2-bee8-12fe6a7eccaa"><i class="fas fa-book"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../../html_pages/matters_pages/matters_home.html">matters</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../../html_pages/poems.html">poems</a></div>
+          <div class="flex-item"><a href="../../html_pages/chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../../html_pages/music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- home container -->
+    <div class="container-fluid">
+      <!-- home parallax -->
+      <div class="row home-parallax">
+        <div class="blurred-back">
+          <h1> Lorraine Motel visit 2023 </h1>
+          <p> Some context, the history in the city of Boston did not connect with me. There were locations beyond city limits where the history of indigenous people or isolated artists made an impact, but neither tea in the harbor nor molasses down the road really shook me. </p>
+          <p> Hot with the perspective of visiting Lorraine motel, it's finally evident where the investment in historical locations calls to people. </p>
+          <p> There are two things Memphis needs to be a place of great acceptance. The first is opportunities and the second is to have greater influence than it's radial neighbors. That latter distinction is exactly what made Lorraine motel a location of great import. </p>
+          <p> Indigeneity is something that only comes with colonial or oppressive influence against habitants. Memphis is at all times surrounded by forces that work against the city's nature. </p>
+          <p> In school, Dr. King's life is ended during a speech, and since the Black Panthers are mostly off limits, it wraps up the 'civil rights unit' of the cirriculum. I never knew he was there for a labor strike. There was a whole other movement for sanitation workers when two black men were killed in a trash compactor because segregation prevented them from taking refuge from a rainstorm inside. </p>
+          <p> Dr. King was not the center of this event. He believed in T.O. Jones and Jerry Wurf, the leaders of the strike. Not only did those men die in their truck, but 7 days before Dr. King's death, a 16 year old black boy, Larry Payne was murdered when a police officer fired a shotgun with the barrel against his stomach. </p>
+          <p> The final march was silent for those 3 tragedies, the Mayor surrendered, cut a large check and met their demands. What is so poignant about this experience is that we, as people, must endure so much loss before there is progress. It would be different if we could learn from this. But here we are, at a quiet museum in middle America, where the indigeneity of our humanity is consecrated by the destructive influence of power and hate </p>
+          <p> Why are we still learning? Is it because the lesson was not imparted on us, not articulated clearly enough in school? Being a black student in Memphis means being embedded in this history, and having to tolerate the ignorance and its influence from those around the city. </p>
+          <p> That's why queer spaces are mostly still secluded to the shadows of night. That's why the policies of Tennessee don't reflect the beliefs of Memphians. This is also why giving the land back to the people that have been its original tenders is so important. </p>
+          <p> How do we make students of these people? How do they learn from Memphis, rather than the other way around? How do we conclude this long era in humanity of colonial delusions. </p> 
+          <p> 2023-10-29 </p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </body>
+
+  <script>
+    var textbox = document.getElementsByClassName('blurred-back')
+    var pronouns_sing = ['he', 'they']
+    var pronouns_plur = ['his', 'their']
+    var pronouns_own = ['his', 'theirs']
+    var pronouns_is = ['he is', 'they are']
+    var pronouns_was = ['he was', 'they were']
+    var pronouns_has = ['he has', 'they have']
+    var substitute = ""
+
+    for (var elemcount=0; elemcount<textbox[0].children.length; elemcount++) {
+      elem = textbox[0].children[elemcount]
+
+      textarray = elem.innerText.split(" ")
+
+      for (var i = 0; i < textarray.length; i++) {
+        if (textarray[i] == "pronouns_sing") {
+          var substitute = pronouns_sing[Math.floor(Math.random() * pronouns_sing.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_plur") {
+          var substitute = pronouns_plur[Math.floor(Math.random() * pronouns_plur.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_own") {
+          var substitute = pronouns_own[Math.floor(Math.random() * pronouns_own.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_is") {
+          var substitute = pronouns_is[Math.floor(Math.random() * pronouns_is.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_was") {
+          var substitute = pronouns_was[Math.floor(Math.random() * pronouns_was.length)]
+          textarray[i] = substitute
+        }
+        if (textarray[i] == "pronouns_has") {
+          var substitute = pronouns_has[Math.floor(Math.random() * pronouns_has.length)]
+          textarray[i] = substitute
+        }
+      }
+      if (substitute != "") {
+        var newtext = " "
+        console.log("textarray is: ",textarray)
+        for (var i = 0; i < textarray.length; i++) {
+          newtext = newtext + textarray[i] + " "
+        }
+        elem.innerText = newtext
+      }
+    }
+
+  </script>
+
+
+</html>
