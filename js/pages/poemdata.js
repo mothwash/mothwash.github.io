@@ -1,5 +1,11 @@
 let allpoems = [
 		{
+			title:"valentine's for vi",
+			date:"Wednesday February 14 2024 00:00:00 GMT-0400 (Eastern Daylight Time)",
+			keywords:"love ",
+			poem:"<a href='vsvday.html'>link here</a>"
+		},
+		{
 			title:"tissue museum and the novelty snow globes",
 			date:"Saturday Nov 25 2023 00:00:00 GMT-0500 (Eastern Standard Time)",
 			keywords:"prose manic freaky happy joyful beautiful love LGBTQIA+ queer gay ",

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <!-- CMD + OPT + i to open inspection in chrome on Mac-->
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <!--<link rel="shortcut icon" href="img/menu/mothShortcutIcon.png">-->
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- NEW: V-DAY -->
+    <!--<script src="https://unpkg.com/@mojs/core"></script>-->
+    <script src="../js/pages/vdayJS.js"></script>
+    <script src="../js/pages/vdaychoices.js"></script>
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/flexbox.css">
+    <link rel="stylesheet" type="text/css" href="../css/pages/vdayCSS.css">
+    <script src="../js/main.js"></script>
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">new design</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="https://dvbonesballoons.bandcamp.com/"><i class="fab fa-bandcamp"></i></a>
+              <a href="https://poetizer.com/book/997b1248-6f1a-4ca2-bee8-12fe6a7eccaa"><i class="fas fa-book"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="index.html">
+            <!--<img class="homelogo-logo flex-item" src="img/menu/mothMenuLogo.jpg">-->
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../html_pages/matters_pages/matters_home.html">matters</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="poems.html">poems</a></div>
+          <div class="flex-item"><a href="chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- home container -->
+    <div id="backbone-holder" class="container-fluid backbone">
+      <div class="row vday-row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div id="buttons" class="vday-text">
+            <button class="vday-button choices">draw</button>
+            <button class="vday-button choices">drawn</button>
+          </div>
+          <div id="lines" class="vday-text">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
