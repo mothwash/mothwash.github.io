@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   addEventListenerByClass("choices", "click", addline);
   var backbone = document.querySelector("#backbone-holder");
   backbone.style.setProperty('--opacity', 0);
