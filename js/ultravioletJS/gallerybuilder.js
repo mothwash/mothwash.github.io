@@ -4,7 +4,7 @@ const gallerydiv = document.querySelector("#galleryboard");
 // return new gallery item with classes for size
 function process_size(gallery_pic, galleryitem) {
   var ratio = gallery_pic.width/gallery_pic.height;
-  if (ratio < 1 && ratio >= 0.5) {
+  if (ratio < 1 && ratio >= 0.25) {
     galleryitem.classList.add("col-lg-6");
     galleryitem.classList.add("col-md-4");
     galleryitem.classList.add("col-sm-6");
