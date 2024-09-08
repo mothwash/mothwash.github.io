@@ -273,6 +273,7 @@ function openMobileNav() {
   var poemsLink_drop = document.createElement('a');
   var chapbooksLink_drop = document.createElement('a');
   var musicLink_drop = document.createElement('a');
+  var visLink_drop = document.createElement('a');
 
   // check to see if mobile-menu-items exists
   var mobilemenu = document.getElementsByClassName('mobile-menu-row')[0];
@@ -354,6 +355,14 @@ function openMobileNav() {
     var breaktag = document.createElement('br');
     column.appendChild(breaktag);
 
+    visLink_drop.innerText = "vi's gallery";
+    visLink_drop.setAttribute('href', 'html_pages/ultravioletart.html');
+    visLink_drop.classList.add('mobilemenuitem');
+    visLink_drop.classList.add('mobiledrop');
+    column.appendChild(visLink_drop);
+    var breaktag = document.createElement('br');
+    column.appendChild(breaktag);
+
   }
 }
 
@@ -370,6 +379,7 @@ function openMobileNavLAYERUP() {
   var poemsLink_drop = document.createElement('a');
   var chapbooksLink_drop = document.createElement('a');
   var musicLink_drop = document.createElement('a');
+  var visLink_drop = document.createElement('a');
 
   // check to see if obile-menu-items exists
   var mobilemenu = document.getElementsByClassName('mobile-menu-row')[0];
@@ -451,6 +461,14 @@ function openMobileNavLAYERUP() {
     var breaktag = document.createElement('br');
     column.appendChild(breaktag);
 
+    visLink_drop.innerText = "vi's gallery";
+    visLink_drop.setAttribute('href', 'ultravioletart.html');
+    visLink_drop.classList.add('mobilemenuitem');
+    visLink_drop.classList.add('mobiledrop');
+    column.appendChild(visLink_drop);
+    var breaktag = document.createElement('br');
+    column.appendChild(breaktag);
+
   }
 }
 
@@ -468,6 +486,7 @@ function openMobileNavLAYERUP2() {
   var poemsLink_drop = document.createElement('a');
   var chapbooksLink_drop = document.createElement('a');
   var musicLink_drop = document.createElement('a');
+  var visLink_drop = document.createElement('a');
 
   // check to see if obile-menu-items exists
   var mobilemenu = document.getElementsByClassName('mobile-menu-row')[0];
@@ -546,6 +565,14 @@ function openMobileNavLAYERUP2() {
     musicLink_drop.classList.add('mobilemenuitem');
     musicLink_drop.classList.add('mobiledrop')
     column.appendChild(musicLink_drop);
+    var breaktag = document.createElement('br');
+    column.appendChild(breaktag);
+
+    visLink_drop.innerText = "vi's gallery";
+    visLink_drop.setAttribute('href', '../../html_pages/ultravioletart.html');
+    visLink_drop.classList.add('mobilemenuitem');
+    visLink_drop.classList.add('mobiledrop');
+    column.appendChild(visLink_drop);
     var breaktag = document.createElement('br');
     column.appendChild(breaktag);
 
