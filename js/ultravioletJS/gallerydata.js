@@ -24,8 +24,8 @@ let gallery = [
     path:"../img/ultraviolet/dyptych_lg_pour_black.jpg",
     title:"black ripple",
     keywords:"paint acryllic pour flow art flowart color",
-    width: 1152,
-    height: 1536,
+    width: 1037,
+    height: 1382,
   },
   {
     path:"../img/ultraviolet/dyptych_lg_pour_white.jpg",
