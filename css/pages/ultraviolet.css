@@ -1,0 +1,31 @@
+* {
+  background-color: #b6d0e2;
+}
+
+
+.caveat-font {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#galleryboard {
+  background-color: #b6d0e2;
+}
+
+.top-header {
+  background-color: #b6d0e2;
+}
+
+.galleryitem {
+  margin: 8px 12px;
+}
+
+
+.filterbutton {
+  margin: 10px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: #a8bcc9;
+}
