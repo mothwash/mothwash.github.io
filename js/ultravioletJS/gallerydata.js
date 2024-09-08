@@ -2,6 +2,13 @@ let gallery = [
   {
     path:"../img/ultraviolet/hidden_demon_02.jpg",
     title:"demon",
+    keywords:"drawing color pencil",
+    width: 1285,
+    height: 1714,
+  },
+  {
+    path:"../img/ultraviolet/biggest_sucker.jpg",
+    title:"world's biggest sucker",
     keywords:"drawing graphite black and white blackandwhite black&white black & white",
     width: 1290,
     height: 1720,
@@ -14,11 +21,25 @@ let gallery = [
     height: 1720,
   },
   {
+    path:"../img/ultraviolet/honey_eye_collection.jpg",
+    title:"eyes of honey",
+    keywords:"drawing color pencil",
+    width: 1440,
+    height: 1800,
+  },
+  {
     path:"../img/ultraviolet/underwater_scene.jpg",
     title:"underwater scene",
     keywords:"drawing color pencil",
     width: 1225,
     height: 1633,
+  },
+  {
+    path:"../img/ultraviolet/branches_and_glances.jpg",
+    title:"eyes in branches",
+    keywords:"drawing graphite black and white blackandwhite black&white black & white ink",
+    width: 1285,
+    height: 1714,
   },
   {
     path:"../img/ultraviolet/dyptych_lg_pour_black.jpg",
@@ -35,6 +56,20 @@ let gallery = [
     height: 1633,
   },
   {
+    path:"../img/ultraviolet/dyptych_blackripple.jpg",
+    title:"black ripple",
+    keywords:"paint acryllic pour flow art flowart color",
+    width: 1536,
+    height: 2048,
+  },
+  {
+    path:"../img/ultraviolet/dyptych_whiteripple.jpg",
+    title:"white ripple",
+    keywords:"paint acryllic pour flow art flowart color",
+    width: 1536,
+    height: 2048,
+  },
+  {
     path:"../img/ultraviolet/snakehead_greenbg.jpg",
     title:"snakehead with a green background",
     keywords:"drawing graphite black and white blackandwhite black&white black & white paint acryllic pour",
@@ -47,5 +82,26 @@ let gallery = [
     keywords:"drawing color pencil paint acryllic pour",
     width: 828,
     height: 1104,
+  },
+  {
+    path:"../img/ultraviolet/hummingbird_crisp.jpg",
+    title:"hummingbird",
+    keywords:"drawing color pencil",
+    width: 1536,
+    height: 2048,
+  },
+  {
+    path:"../img/ultraviolet/exalted_pose.jpg",
+    title:"arms lifted",
+    keywords:"drawing graphite black and white blackandwhite black&white black & white",
+    width: 1285,
+    height: 1715,
+  },
+  {
+    path:"../img/ultraviolet/framed_cheeks.jpg",
+    title:"framed cheek print",
+    keywords:"color paint acryllic",
+    width: 828,
+    height: 1792,
   }
 ]
