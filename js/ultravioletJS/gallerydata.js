@@ -1,5 +1,12 @@
 let gallery = [
   {
+    path:"../img/ultraviolet/forested_spines.jpg",
+    title:"forested spines",
+    keywords:"drawing color pencil",
+    width: 1543,
+    height: 1153,
+  },
+  {
     path:"../img/ultraviolet/hidden_demon_02.jpg",
     title:"demon",
     keywords:"drawing color pencil",
@@ -26,6 +33,13 @@ let gallery = [
     keywords:"drawing color pencil",
     width: 1440,
     height: 1800,
+  },
+  {
+    path:"../img/ultraviolet/heart_trap.jpg",
+    title:"heart trap",
+    keywords:"drawing color pencil",
+    width: 1923,
+    height: 1499,
   },
   {
     path:"../img/ultraviolet/underwater_scene.jpg",
