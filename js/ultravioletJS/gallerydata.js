@@ -7,11 +7,11 @@ let gallery = [
     height: 1153,
   },
   {
-    path:"../img/ultraviolet/hidden_demon_02.jpg",
+    path:"../img/ultraviolet/hidden_demon_03.jpg",
     title:"demon",
     keywords:"drawing color pencil",
-    width: 1285,
-    height: 1714,
+    width: 1071,
+    height: 1428,
   },
   {
     path:"../img/ultraviolet/biggest_sucker.jpg",
