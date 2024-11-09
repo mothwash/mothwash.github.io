@@ -1,5 +1,12 @@
 let gallery = [
   {
+    path:"../img/ultraviolet/cardinal.jpg",
+    title:"cardinal",
+    keywords:"drawing color pencil",
+    width: 1022,
+    height: 1365,
+  },
+  {
     path:"../img/ultraviolet/forested_spines.jpg",
     title:"forested spines",
     keywords:"drawing color pencil",
@@ -9,21 +16,21 @@ let gallery = [
   {
     path:"../img/ultraviolet/hidden_demon_03.jpg",
     title:"demon",
-    keywords:"drawing color pencil",
+    keywords:"drawing pencil graphite black and white blackandwhite black&white black & white",
     width: 1071,
     height: 1428,
   },
   {
     path:"../img/ultraviolet/biggest_sucker.jpg",
     title:"world's biggest sucker",
-    keywords:"drawing graphite black and white blackandwhite black&white black & white",
+    keywords:"drawing color pencil",
     width: 1290,
     height: 1720,
   },
   {
     path:"../img/ultraviolet/hornboy_wip.jpg",
     title:"horn boy",
-    keywords:"drawing graphite black and white blackandwhite black&white black & white",
+    keywords:"drawing pencil graphite black and white blackandwhite black&white black & white",
     width: 1290,
     height: 1720,
   },
@@ -40,6 +47,13 @@ let gallery = [
     keywords:"drawing color pencil",
     width: 1923,
     height: 1499,
+  },
+  {
+    path:"../img/ultraviolet/peach_marker_flower.jpg",
+    title:"cardinal",
+    keywords:"drawing color marker ink",
+    width: 1022,
+    height: 1365,
   },
   {
     path:"../img/ultraviolet/underwater_scene.jpg",
@@ -84,16 +98,23 @@ let gallery = [
     height: 2048,
   },
   {
+    path:"../img/ultraviolet/horizontal_drip.jpg",
+    title:"cardinal",
+    keywords:"paint acryllic pour flow art flowart color",
+    width: 1024,
+    height: 1365,
+  },
+  {
     path:"../img/ultraviolet/snakehead_greenbg.jpg",
     title:"snakehead with a green background",
-    keywords:"drawing graphite black and white blackandwhite black&white black & white paint acryllic pour",
+    keywords:"drawing pencil graphite black and white blackandwhite black&white black & white acryllic pour flow",
     width: 843,
     height: 1124,
   },
   {
     path:"../img/ultraviolet/hummingbird_purpleborder_2.jpg",
     title:"hummingbird with a purple border",
-    keywords:"drawing color pencil paint acryllic pour",
+    keywords:"drawing color pencil acryllic pour flow",
     width: 828,
     height: 1104,
   },
@@ -107,7 +128,7 @@ let gallery = [
   {
     path:"../img/ultraviolet/exalted_pose.jpg",
     title:"arms lifted",
-    keywords:"drawing graphite black and white blackandwhite black&white black & white",
+    keywords:"drawing pencil graphite black and white blackandwhite black&white black & white",
     width: 1285,
     height: 1715,
   },
