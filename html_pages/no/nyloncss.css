@@ -327,7 +327,10 @@ background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); } */
 /* mobile */
 @media screen and (max-width: 426px) {
   .poemblock {
-    margin: 50px;
+    margin: 30px;
+  }
+  .poemblock p {
+    font-size: 12px;
   }
 
   .button-49,
