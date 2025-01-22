@@ -21,6 +21,7 @@ body {
   line-height: 200%;
   margin: 25px;
   padding: 40px 20px;
+  background-color: #838689;
 }
 
 
@@ -31,10 +32,17 @@ body {
 
 .poemblock p {
   margin-top: 15px;
+  color: black;
+}
+.poemblock h1 {
+  margin-top: 25px;
+  color: #5D4157;
+  /* color: #5D4157; */
 }
 .poemblock h3 {
   margin-top: 25px;
-  color: #5D4157;
+  color: #A8CABA;
+  /* color: #5D4157; */
 }
 
 .btn-pad {
@@ -274,7 +282,7 @@ background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); } */
 
 .poem-li-item {
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #838689;
   /* border: 1px solid rgba(0, 0, 0, 0.1); */
   border-radius: .25rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
