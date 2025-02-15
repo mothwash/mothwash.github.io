@@ -58,7 +58,11 @@
   }
 }
 
-
+/* @media screen and (max-width: 426px) {
+  .blurred-back {
+    font-size: 16px;
+  }
+} */
 
 
 

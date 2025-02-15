@@ -356,7 +356,7 @@ $(document).ready(function() {
     var gift = things[currthing].gift
     if (gift != "") {
       var gift_elem = document.querySelector('#gifts');
-      var new_gift = document.createElement('h4');
+      var new_gift = document.createElement('p');
       new_gift.textContent = gift;
       new_gift.classList.add('gift-class');
 
