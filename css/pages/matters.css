@@ -21,7 +21,7 @@
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.8);
   color: #aa9cee;
 }
 
@@ -45,10 +45,77 @@
   margin-right: 15%;
 }
 
+.blurred-back h4 {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 
 @media screen and (min-width: 1440px) {
   .blurred-back {
     margin-top: 400px;
     margin-left: 50px;
+  }
+}
+
+
+
+
+
+.gift-class {
+  color: #CAD7B2;
+}
+
+
+
+
+
+/* CSS */
+.button-59 {
+  align-items: center;
+  background-color: #838689;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  /* font-family: Inter,sans-serif; */
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  color: #171e29;
+}
+
+.button-59:hover {
+  border-color: #aa9cee;
+  color: #aa9cee;
+  fill: #aa9cee;
+}
+
+.button-59:active {
+  border-color: #aa9cee;
+  color: #aa9cee;
+  fill: #aa9cee;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
   }
 }
