@@ -368,7 +368,7 @@ function share_results() {
   var min_score = Math.min(time_score, resource_score, skill_score * 3);
   // console.log('min_score is:', min_score);
   // standard improvement is skills if there is no minimum
-  var rec_improvement = 'Skills';
+  var rec_improvement = 'skills';
   if (min_score == resource_score) {
     var rec_improvement = 'resources';
   }
