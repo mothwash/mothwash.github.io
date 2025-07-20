@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="ways to find a better world" content="">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- jQuery lib -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>timeuse tool</title>
+
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" type="text/css" href="static/flexbox.css">
+    <script src="json/constraints.js"></script>
+    <script src="json/questions.js"></script>
+    <script src="json/skills.js"></script>
+    <script src="json/taskslvl1.js"></script>
+    <script src="json/taskslvl2.js"></script>
+    <script src="static/jvascripts.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container-fluid" id="content-container">
+      <div class="row intro">
+        <div id="introfield" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <h1>better world options <span class="rightside"><a href="about_folder/about.html">about</a></span></h1>
+          <p class="adjust-text">this tool is meant to offer a suggestion for whether and how to spend your time making the world a better place.</p>
+          <p class="adjust-text">please select begin to start answering questions. no data is saved or stored. if you're wanting to protect your information, it is recommended you clear all cache & cookies, then enable a VPN.</p>
+        </div>
+      </div>
+      <div class="row buttonfield">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <button id="beginbutton" class="button-30" role="button">begin</button>
+        </div>
+      </div>
+      <div class="row questions">
+        <div id="questionfield" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+        </div>
+        <div id="question_answers" class="hidden">
+          <p id="questions_answered">0</p>
+          <p id="current_category">Condition</p>
+          <p id="constraint_score">0</p>
+          <p id="time_score">5</p>
+          <p id="resource_score">0</p>
+          <p id="skill_score">-1</p>
+          <p id="skill_list"></p>
+          <p id="network_resource">0</p>
+          <p id="network_time">0</p>
+          <p id="network_skill">0</p>
+          <input id="lastqbin" value="false"></input>
+        </div>
+      </div>
+      <div class="row insights">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+        </div>
+      </div>
+      <div class="row lessons">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
