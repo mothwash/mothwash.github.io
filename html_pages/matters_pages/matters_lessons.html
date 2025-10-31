@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <!-- CMD + OPT + i to open inspection in chrome on Mac-->
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- google fonts -->
+    <!-- title font - Nova Mona -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet" type='text/css'>
+
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4b792aec89.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- icon and browser heading -->
+    <link rel="shortcut icon" href="../../img/menu/mothShortcutIcon.png">
+    <title>mothwash publishing</title>
+
+    <meta name="publisher of surrealist poetry and prose" content="absurd sincere and surreal poetry, prose art, music, activism and chapbooks published for readers of the dark and dystopian">
+
+    <!-- link CSS, flexbox, and Javascript -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pages/matters.css">
+    <link rel="stylesheet" type="text/css" href="../../css/flexbox.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/pages/home.js"></script>
+    <script src="../../js/pages/matters.js"></script>
+  </head>
+
+  <body>
+    <!-- contact info -->
+    <div class="container-fluid top-header-container">
+      <div class="row top-header max-content">
+        <div class="col-lg-6 col-md-2 col-sm-2 col-xs-2">
+          <div></div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-announcement">
+              <i class="fas fa-bullhorn"></i><a href="#">what matters...</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-header-email">
+              <i class="fas fa-envelope"></i><a href="mothwashpublishing@gmail.com">mothwashpublishing@gmail.com</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 top-header-social">
+              <a href="https://dvbonesballoons.bandcamp.com/"><i class="fab fa-bandcamp"></i></a>
+              <a href="https://poetizer.com/book/997b1248-6f1a-4ca2-bee8-12fe6a7eccaa"><i class="fas fa-book"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- home menu -->
+      <div class="row menu">
+        <div class="col-lg-6 col-md-4 col-sm-10 col-xs-10 logo">
+          <a href="../../index.html">
+            <img class="homelogo-logo flex-item" src="../../img/menu/mothMenuLogo.jpg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-8 homemenu">
+          <div class="row">
+            <div class="flex-item homemenu-item"><a href="../../index.html">home</a></div>
+            <div class="flex-item homemenu-item"><a href="../../html_pages/matters_pages/matters_home.html">matters</a></div>
+            <div class="flex-item homemenu-item" id="dropdown1" onclick="dropdownMenu(this.id)"><a href="#">art</a><i class="fas fa-caret-down"></i></div>
+            <i class="fas fa-search" id="search-trigger"></i>
+          </div>
+          <!-- on page open functions -->
+          <!-- menu functions -->
+          <script> highlightMenuOpt() </script>
+          <script> onPageOpenResizeMenu() </script>
+
+          <!-- menu padding transition -->
+          <script>
+          jQuery(document).ready(function() {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 0) {
+                    jQuery('.menu').addClass("menupad");
+                } else {
+                  jQuery('.menu').removeClass("menupad");
+                }
+            });
+          });
+          </script>
+
+        </div>
+      </div>
+
+      <!-- stored dropdown menus -->
+      <div class="row menu-dropdown-container">
+        <div id="menu-dropdown1">
+          <div class="flex-item"><a href="../../html_pages/poems.html">poems</a></div>
+          <div class="flex-item"><a href="../../html_pages/chapbooks.html">chapbooks</a></div>
+          <div class="flex-item"><a href="../../html_pages/music.html">music</a></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- home container -->
+    <div class="container-fluid">
+      <!-- home parallax -->
+      <div class="row home-parallax">
+        <div class="blurred-back">
+          <br></br>
+          <h4>this is what i think about or have thought about when i consider making the world a better place. these are lessons and thoughts over years of trial and error. i consider myself a hand-to-stove learner. i’ve touched many hot surfaces and i hope the history of healing and thickness of callouses shows through. i appreciate you all.</h4>
+          <br></br>
+          <h4>we are up against isolation, preoccupying administrative burden, exorbitant costs, severe distractions, misinformation, and immense power held by tyranny of greed. greed is at the source and our main enemy. our institutions that were once places for belonging and curiosity have rotted. </h4>
+          <br></br>
+          <h4>mantra: our enemies want all but our action.</h4>
+          <br></br>
+          <h4>utopia, the perfect society, is one where greed is defeated. where people can belong, have a place to call home, have a place that makes them feel valued, have safety and security, have ways to learn and be curious, and have support when they need it. this is the abundance that will conquer greed. this is the fulfillment that leaves nothing for want.</h4>
+          <br></br>
+          <h4>you are on our team if you believe one thing:</h4>
+          <h4>“once i am safe, i join in the responsibility to help care for others”</h4>
+          <br></br>
+          <h4>fighting for this utopia can happen in 4 phases:</h4>
+          <h3>meet the material needs of our neighbors</h3>
+          <h3>fight for collective ownership</h3>
+          <h3>organize divestment from greed</h3>
+          <h3>democratize the fruits of our labor</h3>
+          <h3>implement policies that prevent greed</h3>
+          <br></br>
+          <h4>meeting the material needs means earning back the time and resources that our neighbors deserve. collective ownership means all of us being part owners in our homes and places of work. organizing divestment means making sure the dollars we earn don’t get turned into weapons against us. democratizing the fruits of our labor means we get to decide where our hard work goes. our hard work would do the most good going back into the care and support of a better world around us. </h4>
+          <br></br>
+          <h4>here is a list of useful skills:</h4>
+          <ul>
+          <li>technical skills</li>
+          <li>keeping up with tasks and breaking tasks to smaller pieces</li>
+          <li>organizing new information</li>
+          <li>using vision and imagining a better future</li>
+          <li>conflict resolution and emotional health</li>
+          <li>logic, critical thinking, and street smarts</li>
+          <li>convincing others</li>
+          <li>connection, building networks, and campaigning</li>
+          <li>discovery, research, and finding knowledge</li>
+          <li>sense of self</li>
+          </ul>
+          <br></br>
+          <h4>use your skills to help people recover their time and money. use your skills to build networks and show you care. use your skills to include more people and make the fight easier to access. use your skills to help everyone on our team have a voice. use your tools to take power back from the greedy and pull our hard work from their hands. </h4>
+          <br></br>
+          <h4>collective power is built by forming connections and shaping opportunities for those connections to be made and sustained. a gift economy is made by meeting a need or want with a solution and entreating the natural reciprocity within us. </h4>
+          <br></br>
+          <h4>the benefits of collective power:</h4>
+          <p>bargaining - being able to present a case and earn favor</p>
+          <p>interruption - changing or disrupting the standard operations</p>
+          <p>institutionalizing - improving the systems to meet more or greater needs</p>
+          <br></br>
+          <h4>a problem is defined by the person facing the problem. check in with your neighbors for smaller challenges getting in the way of action. use these traits to prioritize problems:</h4>
+          <p>scale - how impactful is the problem?</p>
+          <p>solvability - how easy is the problem to solve?</p>
+          <p>neglect - how few people are working on the problem?</p>
+          <br></br>
+          <h4>solutions would be best posed as hypotheses. if we try this tactic, we will expect this result. use these questions to make sure the tactic is relevant to the main challenges:</h4>
+          <p>does this tactic help us reach our benchmarks?</p>
+          <p>what are the limits of this tactic?</p>
+          <p>do we have the capacity to test this tactic?</p>
+          <p>what roles are needed and who will take on those roles?</p>
+          <br></br>
+          <h4>there is evidence humanity may have come from gift economies (before markets were designed) in which someone’s excess would be shared without a promise of reciprocity. this system still exists in our neighborhoods, rural communities, and close networks. the larger we make this system, the more it competes with the market. a good gift is something that allows someone to:</h4>
+          <ul>
+            <li>save time or energy</li>
+            <li>have fun</li>
+            <li>feel nice</li>
+            <li>make a difference</li>
+          </ul>
+          <p>the humanity in us is not the ability to keep ledgers or tallies, but instead to forget them and let the use of resources be shared without sharing warranting gratitude.</p>
+          <br></br>
+          <h4>put on symbols that show you can be talked to and approached. wear your resistance and your belief in a better world proudly. do the same with your creations, make them available to you and others. be honest about what you’re afraid of and try to be brave.</h4>
+          <br></br>
+          <h4>internal motivation is made from these 6 things:</h4>
+          <ul>
+            <li>challenge</li>
+            <li>curiosity</li>
+            <li>cooperation</li>
+            <li>competition</li>
+            <li>control</li>
+            <li>recognition</li>
+          </ul>
+          <br></br>
+          <h4>something is engaging if it has any of these components:</h4>
+          <ul>
+            <li>freedom to make choices</li>
+            <li>clear expectations</li>
+            <li>variety</li>
+            <li>feedback</li>
+          </ul>
+          <p>something is fun to someone who can be internally motivated and engaged while projecting an identity they connect with.</p>
+          <br></br>
+          <h4>rationality happens after recency bias (what worked recently) and social proof bias (what everyone else is doing) have been resisted.</h4>
+          <br></br>
+          <h4>in-fighting happens as a result of ego. our identities are just the things we hold on to. we get to decide what we hold on to. anger (not from injustice) is an attempt to control a fear or sadness. trust is offering your vulnerabilities to be protected. we get to point at what makes us vulnerable.</h4>
+          <br></br>
+          <h4>rest requires one of the following three components:</h4>
+          <p>clearing clutter and waste (glymphatic system)</p>
+          <p>organizing information through strengthening synapses (dmn)</p>
+          <p>repairing damaged neurons (synaptic plasticity)</p>
+          <h4>the first could be done with meditation. the second happens in flow states or low-pressure creative experiences. the last can only happen with sleep. sleep also helps with the others.</h4>
+          <br></br>
+          <h4>you can accept yourself and your situation and you can change yourself and your situation at the same time. this is the great dialectic and it is full of liberty. instant forgiveness is destruction, but forgiveness that restores a commitment to what is right and wrong is also liberty. </h4>
+          <br></br>
+          <h4>life is no more sacred than death. they make each other sacred. our fragility is just as magical as our strength. vulnerability is a powerful propellant.</h4>
+          <br></br>
+          <h4>feelings either:</h4>
+          <ul>
+            <li>motivate and organize action</li>
+            <li>communicate to others (true or false)</li>
+            <li>raise alarms</li>
+            <li>justify thoughts and beliefs</li>
+          </ul>
+          <p>when feeling something, ask “am i feeling this feeling? or is there a believe that this feeling wants me to justify? if so, is this belief a cognitive distortion?”</p>
+          <br></br>
+          <h4>cognitive distortions:</h4>
+          <ul>
+            <li>Negative Filtering</li>
+            <li>All or Nothing</li>
+            <li>Overgeneralizations</li>
+            <li>Mind Reading</li>
+            <li>Fortune Telling</li>
+            <li>Catastrophizing</li>
+            <li>Magnify/Minimize</li>
+            <li>Personalization (Intrusion of the ego)</li>
+            <li>Comparisonz</li>
+            <li>Shoulds</li>
+            <li>Emotional Reasoning</li>
+            <li>Labeling</li>
+            <li>Blaming people when a system is at fault</li>
+          </ul>
+          <br></br>
+          <h4>identity is just an amalgam of possessions. if feeling lost in self, take inventory and be conscious of what you choose to possess and control. reject holding on to cognitive distortions.</h4>
+          <br></br>
+          <h4>anxiety becomes a problem when you run to safety from a small threat. know what your safety and comforts are. when you notice anxiety in your body, choose instead to sit still. anxiety will always go away with time. when you recover, affirm yourself. </h4>
+          <ul>
+            <li>i am safe i am healing</li>
+            <li>i am learning to let go</li>
+            <li>i’ll be kind i’ll be patient</li>
+            <li>i’ll keep learning to let go</li>
+          </ul>
+          <ul>
+            <li>we’ll explore we’ll decide</li>
+            <li>on the things to which we hold</li>
+            <li>we choose love we choose truth</li>
+            <li>for the hope to which we hold</li>
+          </ul>
+          <ul>
+            <li>my discomfort in your hands</li>
+            <li>all my trust is with you now</li>
+            <li>vulnerable for what we stand</li>
+            <li>all my trust is with me now</li>
+          </ul>
+          <br></br>
+          <h4>relationships work best with 5 qualities:</h4>
+          <p>mutual improvement</p>
+          <p>communication</p>
+          <p>external goals/relationships</p>
+          <p>self awareness/accountability</p>
+          <p>respect/boundaries</p>
+          <h5>a boundary describes what you do once someone has crossed the boundary</h5>
+          <br></br>
+          <h4>love is making a commitment over and over again.</h4>
+          <br></br>
+          <h4>what gets remembered is rituals, running jokes, and real vulnerabilities. </h4>
+          <br></br>
+          <h4>be sure to let faith and curiosity know rejuvenation.</h4>
+          <br></br>
+          <h4>it is usually more accurate to blame systems, rather than people. self-advocacy balances the needs and wants of both parties. assertive communication does not include debasement or blame. passive or aggressive communication are usually habits formed from survival. consensus is rarely instant.</h4>
+          <br></br>
+          <h4>there are four tenets to a good spirituality:</h4>
+          <p>belief in something bigger than yourself</p>
+          <p>gratitude</p>
+          <p>supporting your own wellness and health</p>
+          <p>helping others</p>
+          <br></br>
+          <h4>language or the ways we communicate are important and valuable. they are shaped by our environment and by our consciousness. our consciousness exists like a movie editing team. our brains take in information from our senses and our movie editing team cuts it together in the way that makes the most sense to our editing team. everyone is trying to piece together information based on what they already know.</h4>
+          <br></br>
+          <h4>‘should’ is a conditional operative, meaning it is telling you to do something on some condition. ‘should’ is the only conditional operative that doesn’t include the condition because ‘should’ only works in ideal conditions. using ‘would’ or ‘could’ gives you the chance to define the conditions. </h4>
+          <br></br>
+          <h4>‘but’ is a conjunction that disqualifies the first statement. using ‘and’ highlights the dialectic. </h4>
+          <br></br>
+          <h4>questions i ask to know if i’m living a life well-lived:</h4>
+          <p>did i give?</p>
+          <p>did i change when needed?</p>
+          <p>did i react confidently when fighting for justice and liberty?</p>
+          <p>did i lead by example?</p>
+          <p>did i believe in a better world?</p>
+          <p>did i maintain honesty?</p>
+          <p>did i hold curiosity and care for others?</p>
+          <p>did i learn and practice what i learned?</p>
+          <br></br>
+          <h4>there is no reason to fear mortality. grief is the task to honor life. it takes work and it is a privilege. fear of death shadows the honor of life.</h4>
+          <br></br>
+          <h4>there is no universal truth. we are not perfect, <s>but</s> and we are learning. if what you know is working, share it and let others test it. welcome uncertainty and curiosity like old friends. they hold keys to better worlds. </h4>
+
+
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </body>
+
+</html>

@@ -37,7 +37,7 @@ let questions = [
     {
         Order: NaN,
         Category: "Condition",
-        Question: "Does you health prevent you from making plans or taking part in group activities?",
+        Question: "Does your health prevent you from making plans or taking part in group activities?",
         Constraint: "Healthcare and Quality of Life",
         Skill: NaN,
     },
